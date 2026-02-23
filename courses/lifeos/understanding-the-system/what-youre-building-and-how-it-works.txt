@@ -1,0 +1,39 @@
+What You're Building and How It Works
+
+What is an Agentic Workspace?
+
+An agentic workspace is a folder of markdown files that gives your AI:
+
+- Memory - It remembers everything across sessions
+- Identity - It knows who you are and how you work
+- Schedule - It knows when things happen
+- Skills - It knows how to help with specific tasks
+- Autonomy - It knows what it can do without asking
+
+Result: Your AI drafts emails before you check your inbox, works on research while you sleep, and surfaces only what needs your attention.
+
+
+The Daily Cycle
+
+Your AI operates in four modes that flow naturally through the day:
+
+MORNING REVIEW (8:00-8:30 AM) - Weather, calendar, emails, messages. Tasks organized by time block. Drafts ready for approval.
+
+DAYTIME HEARTBEATS (Every 30 minutes) - Check inboxes, surface urgent items, stay quiet if nothing needs attention.
+
+EVENING REVIEW (Before bed) - Day summary, self-evaluation, overnight work proposals.
+
+NIGHTTIME MODE (While you sleep) - Autonomous research and prep. No external actions. Morning briefing ready when you wake.
+
+Clawdbot users: This happens automatically via cron jobs and heartbeats.
+
+Claude Code users: You trigger each mode manually using commands like "morning review", "heartbeat", "evening review". The system works identically - you just drive it instead of autopilot.
+
+
+Self-Improvement Loops
+
+The system gets better over time through built-in feedback mechanisms:
+
+Evening Self-Evaluation: Every night, the AI rates itself on Usefulness, Proactivity, Accuracy, Communication, and Learning (1-5 scale). This creates accountability and drives daily improvement.
+
+Memory Accumulation: Daily logs capture what happened, long-term memory extracts patterns. The more you use it, the better it knows you.

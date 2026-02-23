@@ -1,0 +1,13 @@
+Security and Compliance Commands
+
+Security commands help you identify vulnerabilities, audit dependencies, and ensure your applications meet compliance standards including accessibility requirements.
+
+Commands in this category:
+
+/scan-security - Perform comprehensive security audits covering OWASP Top 10, code vulnerabilities, and configuration issues. Get actionable remediation guidance and implement security best practices across your application.
+
+/audit-dependencies - Analyze project dependencies for security vulnerabilities, licensing issues, and maintenance risks. Includes vulnerability scanning, version analysis, license compliance checking, and supply chain security assessment.
+
+/audit-accessibility - Perform WCAG compliance assessments to ensure your application is usable for people with disabilities. Covers perceivability, operability, understandability, and robustness with detailed remediation guidance.
+
+Getting Started: Add the command files to your .claude/commands directory and restart Claude Code to start using them.

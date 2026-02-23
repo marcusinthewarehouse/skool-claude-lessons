@@ -1,0 +1,35 @@
+How to Use This PRD Generator
+
+
+Quick Setup
+
+This slash command generates comprehensive PRD documents for AI coding agents. Follow these 3 steps to get started:
+
+1. Download the generate-agent-prd.md file (attached below)
+2. Place it in your project's .claude/commands/ folder (create the folder if it doesn't exist)
+3. Restart Claude Code to load the new command
+
+
+How to Use
+
+Once installed, run the command in Claude Code:
+
+/generate-agent-prd A SaaS app for tracking fitness goals
+
+Replace the description after the command with your specific project idea. Claude will generate a complete, production-ready PRD document.
+
+
+What the PRD Includes
+
+The generated PRD contains everything an AI coding agent needs to build your project:
+
+- Project overview and tech stack recommendations
+- Architecture and setup tasks (done FIRST)
+- Testing infrastructure (set up BEFORE features)
+- Feature tasks with acceptance criteria and test requirements
+- Agent instructions for TDD workflow
+- External memory section for state tracking
+
+Download the file below to get started!
+
+Resource: https://gist.github.com/grandamenium/b26416a17a6824463061fe46ccf80a49

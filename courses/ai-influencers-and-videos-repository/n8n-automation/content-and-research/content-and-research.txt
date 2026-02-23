@@ -1,0 +1,39 @@
+Content & Research
+
+Automate web scraping, research workflows, and PDF report generation with n8n.
+
+
+This AI Agent Can Scrape and Screenshot the Web with No Code
+Nate Herk | AI Automation | 17:21
+Use Firecrawl's search endpoint to scrape web content, extract data, and capture screenshots.
+https://www.youtube.com/watch?v=3Pim6uCASSE
+
+Build Technical Analysis n8n AI Agent with Claude Vision and Perplexity Research
+Derek Cheung | AI Agents Automation | 12:59
+Analyze trading charts with Claude vision and supplement with Perplexity fundamental research.
+https://www.youtube.com/watch?v=D11S0s3PDNc
+
+How to Build Custom Deep Research Agents (Better than OpenAI)
+Arseny Shatokhin | 19:42
+Create specialized research agents using local data and multi-agent workflows for better insights.
+https://www.youtube.com/watch?v=dkQMchRJkBk
+
+Make Money with Vibe Marketing in 40 mins (n8n, MCP, Claude)
+Greg Isenberg | 40:05
+Automate keyword research, content creation, and multi-platform publishing with N8N and Claude.
+https://www.youtube.com/watch?v=f9Uk56LvBB0
+
+The Simplest Way to Automate Scraping Anything with No Code (Apify + n8n)
+Nate Herk | 7:54
+Use Apify with n8n to scrape virtually any website without writing code. This tutorial shows how to connect Apify actors to n8n workflows for automated data extraction at scale.
+https://youtube.com/watch?v=gZ_RLC2
+
+How to Actually Scrape Twitter/X Data with n8n
+Nate Herk | 19:40
+Learn reliable methods to extract Twitter/X data for automation workflows using n8n and third-party scrapers.
+https://youtube.com/watch?v=lEo7IAg
+
+Research ANYTHING and Get a PDF Report (free n8n template)
+Nate Herk | 28:32
+Build an automated research agent that generates comprehensive PDF reports on any topic using n8n workflow automation.
+https://youtube.com/watch?v=TeFCb5-4e5U

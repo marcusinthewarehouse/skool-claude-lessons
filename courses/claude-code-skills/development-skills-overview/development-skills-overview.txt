@@ -1,0 +1,22 @@
+Development Skills Overview
+
+Development Skills Category
+
+This category contains meta-skills and utilities for development workflows, skill creation, testing, and internal communications.
+
+
+Internal Communications
+Resources and templates for writing internal communications in company-preferred formats including status reports, leadership updates, and project communications.
+Use Cases: Writing 3P updates, company newsletters, FAQ responses, status reports, leadership updates, incident reports
+
+MCP Server Builder
+Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools.
+Use Cases: Building MCP server integrations, connecting external APIs to Claude, creating custom tool interfaces, evaluation-driven development
+
+Template Skill
+Basic template structure for creating new skills from scratch.
+Use Cases: Starting point for new skill development
+
+Web Testing
+Toolkit for interacting with and testing local web applications using Playwright, including server lifecycle management and browser automation.
+Use Cases: Frontend verification, UI debugging, automated testing, capturing screenshots, viewing browser console logs

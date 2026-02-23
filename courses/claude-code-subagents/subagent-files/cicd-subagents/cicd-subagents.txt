@@ -1,0 +1,8 @@
+CI/CD Subagents
+
+CI/CD stands for Continuous Integration and Continuous Deployment. These are automated systems that test and deploy your code.
+
+Agents in this folder:
+
+cicd optimizer
+Speeds up your automated testing and deployment pipelines when they start taking too long. Analyzes bottlenecks and implements optimizations like parallel execution and intelligent caching while keeping all your safety checks in place.

@@ -1,0 +1,44 @@
+Agent Fundamentals
+
+Master the fundamentals of building AI agents. From learning roadmaps to architectural blueprints, these videos cover everything you need to start creating powerful autonomous agents.
+
+
+How I'd Learn AI Agents FAST if I Had to Start Over (Full Roadmap)
+Cole Medin | 20:30
+Complete learning roadmap for AI agents - the fastest path from beginner to building production agents.
+https://www.youtube.com/watch?v=k-Cj6H6Zwos
+
+Build the next Billion $ Agent
+AI Jason | 22:02
+Framework for identifying high-value agent opportunities and building products with massive market potential.
+https://www.youtube.com/watch?v=iq97iSsBsR4
+
+26 Key Takeaways from Building 150+ Agents in 9 months
+Arseny Shatokhin | 30:08
+Real-world lessons and insights from building over 150 AI agents - what works and what to avoid.
+https://www.youtube.com/watch?v=jmeGqDu4tPU
+
+How to Build & Sell AI Agents: Ultimate Beginner's Guide
+Liam Ottley | 3:50:39
+Complete 4-hour masterclass covering agent development, pricing strategies, sales tactics, and client management.
+https://www.youtube.com/watch?v=w0H1-b044KY
+
+Introducing Archon - an AI Agent that BUILDS AI Agents
+Cole Medin | 21:54
+Use specialized agenteer to generate complete AI agents with pure code for any framework.
+https://www.youtube.com/watch?v=GjR5UsVGE60
+
+Claude 3.7 is pure insanity
+AI Search | 48:50
+Create interactive visualizations, games, and data tools with Claude 3.7's incredible coding capabilities.
+https://www.youtube.com/watch?v=afN8U7kAiLc
+
+Sonnet 4.5 Just Unlocked a New Breed of Agents
+AI LABS | 9:08
+Discover how Sonnet 4.5 enables a new generation of more capable AI agents.
+https://www.youtube.com/watch?v=t7VuWwukO3I
+
+Build ANY AI Agent with this Context Engineering Blueprint
+Cole Medin | 24:51
+Supply LLMs with structured facts, rules, and documentation instead of relying on vibe coding.
+https://www.youtube.com/watch?v=ni8Xl0ANx0E

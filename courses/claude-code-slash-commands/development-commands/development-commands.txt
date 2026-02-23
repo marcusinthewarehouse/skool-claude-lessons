@@ -1,0 +1,17 @@
+Development Commands
+
+Development commands assist with core coding tasks, from scaffolding new APIs to refactoring existing code and implementing new features with clean, maintainable code.
+
+Commands in this category:
+
+/scaffold-api - Generate production-ready APIs with proper architecture, security, testing, and documentation. Great for starting new API projects or creating endpoint templates that follow best practices.
+
+/refactor-code - Improve code quality, maintainability, and performance through systematic refactoring. Apply clean code principles, SOLID patterns, and identify code smells with practical improvement strategies.
+
+/migrate-code - Safely migrate code between technologies with migration strategies, pattern mappings, and rollback plans. Use for framework upgrades, language porting, or modernizing legacy systems.
+
+/write-tests - Generate comprehensive tests that define expected behavior and ensure code quality. Create well-structured test suites that cover edge cases and serve as living documentation.
+
+/implement-code - Implement requested features and functionality with clean, maintainable code. Build working solutions that meet requirements and follow best practices.
+
+Getting Started: Add the command files to your .claude/commands directory and restart Claude Code to start using them.

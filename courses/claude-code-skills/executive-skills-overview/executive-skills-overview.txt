@@ -1,0 +1,14 @@
+Executive Skills Overview
+
+Executive Skills Category
+
+This category contains executive leadership skills for C-level decision-making, strategic planning, organizational development, and leadership guidance.
+
+
+CTO Advisor
+Technical leadership guidance for CTOs covering engineering team management, technology strategy, tech debt analysis, team scaling, and engineering metrics.
+Use Cases: Assessing technical debt, scaling engineering teams, evaluating technologies, making architecture decisions, establishing DORA metrics, creating ADRs (Architecture Decision Records)
+
+CEO Advisor
+Executive leadership guidance for CEOs covering strategic decision-making, organizational development, financial planning, board governance, and investor relations.
+Use Cases: Strategic planning, board presentation preparation, investor management, organizational culture development, executive decisions, crisis management, succession planning

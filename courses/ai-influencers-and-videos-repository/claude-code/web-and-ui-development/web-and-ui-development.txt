@@ -1,0 +1,39 @@
+Web & UI Development
+
+Build stunning websites and UIs with Claude Code. Learn techniques for creating professional designs, leveraging UI kits, and using AI-powered design tools.
+
+
+3 Ways to Make GENUINELY Stunning Websites Using Claude Code
+AI LABS | 12:01
+Learn three powerful techniques for creating beautiful, professional websites using Claude Code. From design principles to implementation strategies.
+https://www.youtube.com/watch?v=McJluKfjVGk
+
+Build Sites That Sell 99% of Products with Claude AI
+AI LABS | 11:54
+Design high-converting sales pages and e-commerce sites using Claude AI's web development capabilities.
+https://www.youtube.com/watch?v=VtmBevBcDzI
+
+I Built 5 Websites Without Touching HTML: Here's How (Kibo UI)
+AI LABS | 10:08
+Build complete websites without writing HTML using Kibo UI and AI-powered development tools.
+https://www.youtube.com/watch?v=6odlDS7-G8k
+
+10X your Cursor designs with the WORLD'S LARGEST UI kit
+Buildcamp | 15:07
+Use Untitled UI kit with Cursor for production-ready React components and professional designs.
+https://www.youtube.com/watch?v=2EpTLxe3wqk
+
+Program Claude Code to be your new UI Designer (+ works with any IDE)
+AI LABS | 13:11
+Configure Claude Code as your dedicated UI designer that works with any IDE to create beautiful interfaces.
+https://www.youtube.com/watch?v=TyGx277x9hQ
+
+The BMAD Method: The Ultimate AI Coding System
+AI LABS | 13:09
+Follow spec-driven development process for building production apps with AI agents using the BMAD methodology.
+https://www.youtube.com/watch?v=fD8NLPU0WYU
+
+6 INSANE Repos I Wish I Knew Before...
+AI LABS | 12:30
+Discover 6 incredible repositories that will supercharge your development workflow and AI-powered coding.
+https://www.youtube.com/watch?v=tmj4_HhX7jI

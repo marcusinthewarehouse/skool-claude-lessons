@@ -1,0 +1,61 @@
+Automate with PM2 Scheduler
+
+PM2 is a process manager that keeps your pipeline running and executes it on a schedule. Let's set it up to run every day at 4 PM.
+
+
+Step 1: Install PM2
+
+If you don't have PM2 installed globally, install it:
+
+npm install -g pm2
+
+
+Step 2: Start the Scheduler
+
+pm2 start ecosystem.config.js
+
+
+Step 3: Save the Process List
+
+pm2 save
+
+
+Step 4: Setup Auto-Start on Reboot
+
+pm2 startup
+
+This will output a command - copy and run it. It will look like:
+
+sudo env PATH=$PATH:/path/to/node pm2 startup launchd -u yourusername --hp /Users/yourusername
+
+Enter your password when prompted. Then save again:
+
+pm2 save
+
+
+Change the Scheduled Time (Optional)
+
+The default schedule is 4 PM daily. To change it, edit ecosystem.config.js:
+
+cron_restart: '0 16 * * *',  // 4 PM daily
+
+Cron format: minute hour day month weekday
+
+Examples:
+- 0 9 * * * = 9 AM daily
+- 0 16 * * 1-5 = 4 PM weekdays only
+- 0 /6 * * * = Every 6 hours
+
+After changing, restart PM2:
+
+pm2 restart content-pipeline
+
+
+Useful PM2 Commands
+
+pm2 list                           # View running processes
+pm2 logs content-pipeline          # View logs
+pm2 trigger content-pipeline run   # Manually trigger a run
+pm2 restart content-pipeline       # Restart the pipeline
+pm2 stop content-pipeline          # Stop the pipeline
+pm2 describe content-pipeline      # Check scheduler status

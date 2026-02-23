@@ -1,0 +1,22 @@
+Documents Skills Overview
+
+Documents Skills Category
+
+This category contains skills for creating, editing, and manipulating various document formats including Word, PowerPoint, PDF, and Excel.
+
+
+PDF Tools
+Comprehensive PDF manipulation toolkit with validation, merging, splitting, rotation, and text extraction capabilities.
+Use Cases: PDF processing, document merging, page extraction, rotation, text analysis
+
+Presentations
+Create and edit professional PowerPoint presentations with rich formatting, images, charts, and custom templates.
+Use Cases: Slide decks, business presentations, formatted reports, visual storytelling
+
+Spreadsheets
+Excel manipulation skills for creating, reading, and processing spreadsheet data with formulas and formatting.
+Use Cases: Data analysis, financial modeling, reporting, data transformation
+
+Word Documents
+Create and edit Word documents with professional formatting, styles, tables, and rich content.
+Use Cases: Reports, documentation, formatted text documents, templates

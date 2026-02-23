@@ -1,0 +1,47 @@
+First Run & Testing
+
+You're almost there! Let's install dependencies, authorize Google, and run your first pipeline.
+
+
+Step 1: Install Dependencies
+
+Open Terminal, navigate to your project folder, and install dependencies:
+
+cd ~/Desktop/tweet-scraper
+npm install
+
+
+Step 2: Authorize Google Access
+
+This is a one-time process that authorizes the app to access your Google Drive.
+
+node scripts/authorize-google.js
+
+This will:
+- Open your browser to Google's login page
+- Ask you to sign in with your Google account
+- Show a consent screen - click Allow
+- Redirect you back with a success message
+
+After authorization, a new file config/oauth-token.json will be created. This stores your refresh token for automated access.
+
+Note: If you see "Access blocked" error, make sure you added your email as a test user in the OAuth consent screen (Step 4 of Google Cloud Setup).
+
+
+Step 3: Test the Pipeline
+
+Now run the full pipeline:
+
+npm start
+
+This will:
+- Scrape tweets from all influencers (takes 5-7 minutes)
+- Send tweets to Claude for script generation (about 30 seconds)
+- Upload a formatted Google Doc to your Drive folder
+
+
+Step 4: Check Your Results
+
+Open your Google Drive folder. You should see a new document with today's date containing your generated video scripts!
+
+Congratulations! Your AI content pipeline is working. The next lesson covers how to automate it to run daily.

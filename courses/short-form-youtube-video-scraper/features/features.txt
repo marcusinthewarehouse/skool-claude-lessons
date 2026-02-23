@@ -1,0 +1,31 @@
+Features
+
+Here is everything the Short Form Video Scraper can do, broken down by slash command.
+
+
+/start - Environment Setup
+Automates first-time setup: creates a virtual environment, installs all dependencies, checks for ffmpeg, and runs tests to verify everything works.
+
+/bulk - Full Profile Processing
+Processes all videos from a TikTok profile in one shot. Scrapes the profile, downloads audio, transcribes with Whisper, and generates topic-organized summaries. Tracks progress so you can resume if interrupted.
+
+/transcribe - Single Video Processing
+Paste one or more TikTok URLs and get transcripts plus summaries for just those videos. Perfect for processing specific content without scraping an entire profile.
+
+/accounts - Account Management
+Multi-Account Management
+Add, remove, switch between, and process multiple TikTok profiles. Keeps each account organized separately.
+
+/skillify - Knowledge Extraction
+Converts your transcript summaries into reusable Claude Code skill files. Enriches them with web research so the resulting skills contain actionable, verified knowledge you can use in future sessions.
+
+
+Notable Features
+
+- Idempotent processing - re-runs skip already-processed videos automatically
+- Configurable Whisper models - choose tiny (fast) to large (accurate)
+- Retry logic with exponential backoff on downloads
+- Topic-based file organization with YAML frontmatter
+- Master INDEX.md generated automatically
+- No API keys needed for core workflow
+- URL auto-detection - paste a TikTok link and Claude handles the rest

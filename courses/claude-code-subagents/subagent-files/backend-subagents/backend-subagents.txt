@@ -1,0 +1,14 @@
+Backend Subagents
+
+Backend agents optimize the server side code that powers your application behind the scenes.
+
+Agents in this folder:
+
+migration planner
+Creates safe plans for changing your database structure such as adding new fields or renaming columns. Ensures you can update production databases without losing data or breaking your app.
+
+cache strategy architect
+Designs caching systems to make your app faster by storing frequently used data instead of recalculating it every time. Reduces load on databases and external services when you have high traffic.
+
+performance profiler
+Finds performance bottlenecks in your code that make things slow. Identifies which functions are taking too long and provides specific fixes to speed them up based on actual measurements.

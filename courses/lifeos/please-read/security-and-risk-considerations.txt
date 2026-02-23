@@ -1,0 +1,102 @@
+Security & Risk Considerations
+
+ClawdBot/Claude Code has significant access to your machine. When you grant it permissions, it can:
+
+- Read and write files anywhere on your filesystem
+- Read your emails (if you connect email tools)
+- Read and send messages (if you connect messaging tools)
+- Read and modify your calendar (if you connect calendar tools)
+- Execute code and shell commands
+- Browse the web
+
+This orchestration system grants additional autonomous agency. The agent will:
+
+- Make decisions about what to surface to you
+- Work autonomously while you sleep (if enabled)
+- Draft communications on your behalf
+- Organize and modify your files
+- Execute tasks without asking (within the autonomy boundaries you set)
+
+What Could Go Wrong
+
+- Wrong email sent to wrong person
+- Files modified or deleted unintentionally
+- Private data processed by AI systems
+- Autonomous actions taken that you didn't anticipate
+- Calendar events created at wrong times
+- Messages sent without proper review
+
+How to Mitigate Risk
+
+- Start with TIGHT autonomy - Begin with minimal permissions
+- Review everything - Don't auto-approve until you trust the system
+- Test in isolation - Run heartbeats manually before enabling automation
+- Expand gradually - Add permissions only after proven behavior
+- Keep secrets separate - Don't put credentials in workspace files
+
+Liability
+
+This system is provided as-is. You use it at your own risk. The creator is not responsible for data loss, privacy breaches, unintended actions, or any other consequences of using this system.
+
+
+This System is Experimental
+
+Version 1.0 - Newly Created
+
+This is a new system that is actively evolving. You should expect:
+
+- Edge cases that aren't handled well
+- Documentation gaps
+- Workflows that may need adjustment
+- Bugs and rough edges
+
+Your Feedback Shapes Development
+
+This system will improve based on community input. Please:
+
+- Post issues in the Skool community - What's not working?
+- Share what's working - What patterns are successful?
+- Suggest improvements - What would make this better?
+- Report bugs with details - Help us fix problems
+
+Updates will be pushed to the repo as we learn what works. Check back for new versions. Feel free to submit pull requests.
+
+
+Expect Significant Customization Work
+
+This is a framework, not plug-and-play software.
+
+Time Investment Required:
+
+- Quick setup: 15-20 minutes (basic config, limited features)
+- Standard setup: 45-60 minutes (full config, most features)
+- Full functionality: Many hours over days/weeks
+
+The system needs to learn your schedule, communication preferences, projects, priorities, autonomy comfort level, and integration requirements. This can't be done in one session - you'll iterate.
+
+It's All Markdown - Change Everything. The entire system is stored in markdown files and JSON. There is no compiled code, no hidden logic. Experiment. Break things. Rebuild to suit you.
+
+
+Clawdbot vs Claude Code
+
+This system works with both Clawdbot and Claude Code, but was designed initially for Clawdbot.
+
+Clawdbot is an always-on AI daemon with automatic heartbeats every 30 minutes via cron jobs, scheduled morning/evening reviews, and background processes. With Clawdbot, the system runs on autopilot.
+
+Claude Code is the on-demand CLI tool. Everything works, you just invoke it manually instead of it invoking itself. Many users prefer this level of control.
+
+Manual triggers for Claude Code: "morning review", "evening review", "heartbeat", "check email", "check calendar"
+
+The agent self-identifies which platform it's running on during onboarding by checking for Clawdbot daemon processes, config files, and environment variables.
+
+
+Summary
+
+- Understand the risks - This has real power, use carefully
+- It's experimental - Help shape it with feedback
+- Invest the time - Customization is required
+- Test first - Don't trust until proven
+- Make it yours - Everything is changeable
+- Know your platform - Clawdbot = autopilot, Claude Code = manual
+
+Ready to continue? Head to the next module to understand what you're building.

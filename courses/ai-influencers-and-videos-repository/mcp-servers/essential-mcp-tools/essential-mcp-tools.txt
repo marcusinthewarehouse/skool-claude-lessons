@@ -1,0 +1,39 @@
+Essential MCP Tools
+
+Essential MCP servers and integrations to supercharge your AI coding workflow - from scraping to RAG to automation.
+
+
+8 MCP Servers That Make Claude Code 10x Better
+Robin Ebers | 14:25
+Integrate essential MCP tools like Apify, Browser, Sequential Thinking, GitHub, Stripe, and Supabase.
+https://www.youtube.com/watch?v=Gqh_KdHP1Xk
+
+The 3 MUST Have MCP Servers for Any AI Coding (and How to Use Them)
+Cole Medin | 19:55
+Essential MCP servers every AI developer should have in their toolkit.
+https://www.youtube.com/watch?v=MBaTuJfICP4
+
+The MCP Integration EVERYONE is Sleeping On (MCP + Custom AI Agents)
+Cole Medin | 21:27
+Discover underrated MCP integrations that supercharge AI agent capabilities.
+https://www.youtube.com/watch?v=soC4n-nKWF8
+
+I Built the Ultimate RAG MCP Server for AI Coding (Better than Context7)
+Cole Medin | 28:22
+Build intelligent RAG systems using MCP servers for context-aware AI.
+https://www.youtube.com/watch?v=ZoyPqXvnnZ8
+
+How to Scrape (almost) ANYTHING in Seconds | Apify's New MCP Server
+Mark Kashef | 12:59
+Integrate Apify web scraping with AI tools using MCP server connections.
+https://www.youtube.com/watch?v=OdJeXVrcpus
+
+n8n's Native MCP Integration (without the hype)
+Nate Herk | AI Automation | 15:29
+Use n8n's built-in MCP integration for seamless AI tool connections.
+https://www.youtube.com/watch?v=VTEg8uJ4yxo
+
+This n8n mcp is INSANE... Let AI Create your Entire Automation
+AI LABS | 9:27
+Connect MCP servers to n8n for enhanced AI agent capabilities.
+https://www.youtube.com/watch?v=xf2i6Acs1mI

@@ -1,0 +1,18 @@
+Marketing Skills Overview
+
+Marketing Skills Category
+
+This category contains marketing skills for Series A+ startups covering product marketing, content creation, and demand generation with focus on international expansion.
+
+
+Product Marketing Strategy
+Expert product marketing playbook for Series A+ startups with GTM strategy, April Dunford positioning methodology, competitive intelligence, and international market entry (US, EU, Canada).
+Use Cases: Product positioning, GTM strategy development, product launches, competitive analysis and battlecards, ICP definition, international market entry, sales enablement
+
+Content Creator
+Creates SEO-optimized marketing content with consistent brand voice including blog posts, social media content, and content calendar planning.
+Use Cases: Blog writing, social media content creation, brand voice analysis and establishment, SEO optimization, content calendar planning
+
+Demand Generation & Acquisition
+Multi-channel demand generation and paid media optimization with playbooks for LinkedIn Ads, Google Ads, Meta Ads, SEO, partnerships, and HubSpot integration.
+Use Cases: Demand generation campaigns, paid media optimization (LinkedIn, Google, Facebook), SEO strategy, partnership programs, CAC calculation, attribution modeling, MQL/SQL pipeline management

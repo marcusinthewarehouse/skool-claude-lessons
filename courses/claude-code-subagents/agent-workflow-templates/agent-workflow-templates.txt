@@ -1,0 +1,9 @@
+Agent Workflow Templates
+
+This document provides a complete overview of a modular agent system designed for Claude Code users who want to automate and streamline the entire software development process. It describes a collection of specialized subagents that act as focused teammates, each responsible for a specific part of development such as research, testing, backend optimization, documentation, or security.
+
+The workflows outlined here are suggested templates that you can customize to fit your own projects. They are not rigid rules but adaptable frameworks you can modify for your unique needs. You can embed them directly into your CLAUDE.md files (the "system prompt" for Claude Code), convert them into slash commands for fast access, or combine them into recursive chains that run through your entire development cycle automatically.
+
+Each section explains when to use a given subagent, what kind of output it produces, and how it fits into the broader orchestration of your work. The goal is to help you build an intelligent, self-documenting workflow where each agent contributes to faster iteration, higher code quality, and reduced mental overhead. Whether you are experimenting with small projects or running complex systems, this document gives you a flexible foundation for creating your own agentic development environment.
+
+For practical examples, see the attached file containing all template workflows that you can edit, remix, and integrate directly into your own Claude configuration.

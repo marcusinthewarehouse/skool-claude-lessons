@@ -1,0 +1,58 @@
+Customize & Fix Common Issues
+
+Your pipeline is running! Here's how to customize it and fix common problems.
+
+
+Configuration Options
+
+Edit config/config.js to change these settings:
+
+Change tweets per influencer:
+
+scraping: {
+  hoursAgo: 24,      // How far back to scrape
+  maxItems: 20,      // Max tweets per influencer
+}
+
+Change number of scripts generated:
+
+scriptGeneration: {
+  numberOfScripts: 5,   // Number of scripts to generate
+  scriptDuration: 60,   // Target duration in seconds
+}
+
+
+Troubleshooting
+
+"APIFY_API_TOKEN not set"
+- Check your .env file has the correct token
+- Make sure there are no spaces around the = sign
+
+"ANTHROPIC_API_KEY not set"
+- Verify your API key in the .env file
+- Ensure it starts with sk-ant-
+
+"Access blocked" during Google authorization
+- Go to Google Cloud Console, then OAuth consent screen
+- Add your email as a test user
+- Try authorization again
+
+"Failed to create document"
+- Check that Google Docs API is enabled
+- Check that Google Drive API is enabled
+- Verify your OAuth token is valid (re-run authorization)
+
+Pipeline doesn't run at scheduled time
+- Make sure your computer was awake at the scheduled time
+- Check PM2 is running with pm2 list
+- View logs with pm2 logs content-pipeline
+
+
+Getting Help
+
+If you run into issues not covered here:
+- Check the logs with pm2 logs content-pipeline
+- Make sure all your API keys are correct in .env
+- Ask in the community - include your error message!
+
+You did it! Your AI content pipeline is now fully automated. Every day you'll wake up to fresh video script ideas in your Google Drive. Happy creating!

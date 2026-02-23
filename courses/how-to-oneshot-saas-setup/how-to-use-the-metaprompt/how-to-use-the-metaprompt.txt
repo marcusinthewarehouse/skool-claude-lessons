@@ -1,0 +1,48 @@
+How to Use the Meta-Prompt
+
+Build production software in hours, not weeks.
+
+The simple process:
+
+1. Tell Claude Code your software idea
+Open Claude Code and describe what you want to build in plain English.
+
+2. Paste the meta-prompt
+Copy the meta-prompt file (attached in the next lesson) and paste it into Claude Code along with your idea.
+
+3. Get your roadmap
+Claude will generate a complete implementation roadmap document with every task detailed.
+
+4. Start a new Claude Code session
+Open a fresh Claude Code window (important: new session, not the same one).
+
+5. Paste the roadmap and let it run
+Copy the entire roadmap document and paste it into the new Claude Code session. It will start building your software automatically.
+
+6. Monitor the build
+Watch as Claude Code works through each task. Sometimes it will pause. Just tell it to continue when this happens.
+
+7. Validate and iterate
+When it's done, test the software. If something needs fixing, tell Claude what to change and it will update the code.
+
+
+That's it. No coding required.
+
+
+WHAT YOU GET
+
+- Complete, working software
+- All tests written and passing
+- Production-ready code
+- Database configured
+- Authentication set up
+- Deployment ready
+
+REQUIREMENTS
+
+- Claude Code installed (see Installation Configuration lesson)
+- The meta-prompt file (next lesson)
+- Three MCP servers configured: Supabase, Playwright, Context7 (see MCP Configuration lesson)
+- Your software idea
+
+Next: Download the meta-prompt and understand how it works.

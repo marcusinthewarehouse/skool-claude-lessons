@@ -1,0 +1,24 @@
+Skills & Customization
+
+Customize Claude Code to fit your workflow with Skills, output styles, and configurations. Build reusable agent workflows that are more powerful than MCP for specific tasks.
+
+
+Claude Skills - the SOP for your agent that is bigger than MCP
+AI Jason | 5:13
+Learn to create Claude Skills - powerful SOPs for your AI agent that go beyond MCP capabilities. Build reusable workflows that make Claude Code work exactly how you need.
+https://www.youtube.com/watch?v=1WImBwiA7RA
+
+The Only Claude Skills Guide You Need (Beginner to Expert)
+Kenny Liao | 36:10
+Comprehensive guide to Claude Skills from beginner to expert level. Learn everything about creating, configuring, and deploying Skills for maximum productivity.
+https://www.youtube.com/watch?v=421T2iWTQio
+
+Engineers... Claude Code Output Styles Are Here
+IndyDevDan | 31:49
+Deep dive into Claude Code output styles - customize how Claude formats and presents its responses. Perfect for developers who want fine-grained control over agent output.
+https://www.youtube.com/watch?v=mJhsWrEv-Go
+
+Claude Code is Now the EVERYTHING Agent
+Ray Amjad | 8:16
+Discover how Claude Code has evolved into a comprehensive agent that can handle virtually any task. See the full potential of customization and configuration options.
+https://www.youtube.com/watch?v=_OILd7UDZvI

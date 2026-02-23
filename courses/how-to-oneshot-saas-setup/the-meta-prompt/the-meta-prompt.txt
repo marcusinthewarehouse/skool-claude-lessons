@@ -1,0 +1,41 @@
+The Meta-Prompt (Download)
+
+What the Meta-Prompt Does
+
+The meta-prompt is a specialized instruction file that tells Claude Code how to generate complete implementation roadmaps from your software ideas.
+
+When you paste the meta-prompt along with your software idea, Claude will:
+
+1. Ask clarifying questions about your project
+2. Analyze the scope and complexity
+3. Break down the work into 40-150 atomic tasks
+4. Generate complete code snippets for each task
+5. Include all tests, validation, and quality checks
+6. Create a roadmap document ready for execution
+
+
+The Strategy
+
+The meta-prompt creates a three-tier orchestration system:
+
+TIER 1: Roadmap Generation
+Claude analyzes your idea and generates the complete plan
+
+TIER 2: Main Orchestrator
+A separate Claude instance manages task execution sequentially
+
+TIER 3: Task Agents
+Individual agents complete specific tasks with full testing
+
+This separation ensures each component focuses on its specialty, producing production-ready code.
+
+
+How to Use It
+
+1. Open Claude Code
+2. Type: "I want to build [your software idea]"
+3. Paste the entire meta-prompt file content after your software idea
+4. Answer Claude's clarifying questions
+5. Save the generated roadmap document
+
+Next: Learn how to configure the required MCP servers (Supabase, Playwright, Context7)

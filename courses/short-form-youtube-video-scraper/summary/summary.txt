@@ -1,0 +1,25 @@
+Summary
+
+The Short Form Video Scraper is a Python-based pipeline that turns TikTok videos into structured, searchable knowledge. It was built as a Claude Code project, meaning you interact with it entirely through claude code slash commands in your terminal.
+
+
+How It Works
+
+The tool runs a four-stage pipeline on each video:
+
+1. Scrape - Extracts video metadata (URLs, titles, view counts) from a TikTok profile using yt-dlp
+2. Download - Downloads the audio track as MP3 with retry logic and fallback formats
+3. Transcribe - Runs OpenAI Whisper locally to convert audio to text. No API calls needed
+4. Summarize - Claude Code reads transcripts and generates topic-classified summaries with key tips and details
+
+
+What You Get
+
+After processing, your output folder contains:
+
+- Raw transcripts in transcripts/ with metadata headers
+- Summaries organized by topic in summaries/ with YAML frontmatter
+- A master INDEX.md grouping everything by topic
+- State tracking in state/ so re-runs skip already-processed videos
+
+The tool is fully idempotent. Run it as many times as you want and it will only process new videos.

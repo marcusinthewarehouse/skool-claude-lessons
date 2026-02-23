@@ -1,0 +1,31 @@
+Daily Workflows
+
+Heartbeats, reviews, and time blocks - how your AI operates throughout the day.
+
+
+The Heartbeat
+
+The heartbeat is a scheduled check-in that runs throughout the day (every 30 minutes by default). Each heartbeat: commits any uncommitted changes, checks what mode to be in based on time, and routes to the appropriate action.
+
+Most heartbeats produce nothing - that's good. You only hear from your AI when there's actually something to tell you.
+
+
+Morning Review
+
+Your daily briefing when you wake up. Covers: weather, calendar for the day, emails processed with drafts ready, messages surfaced, tasks organized by time block, and summary of what AI did overnight.
+
+
+Evening Review
+
+Closes out the day before you sleep. Covers: day summary of what got done, memory updates, and overnight task proposals. You approve which tasks the agent can work on while you sleep.
+
+
+Autonomy Boundaries
+
+What your AI can do without asking:
+
+DO autonomously: Research, read, analyze, draft (not send), organize files, update tasks/memory, git commits to branches, create PRs
+
+ASK FIRST: Send emails/messages, add calendar events, delete files, merge PRs, push to main/production, any external action
+
+This is configurable. Start tight, expand as you trust the system.

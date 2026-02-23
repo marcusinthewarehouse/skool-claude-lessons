@@ -1,0 +1,26 @@
+Product Skills Overview
+
+Product Skills Category
+
+This category contains product management and design skills covering design systems, UX research, product strategy, PM toolkits, and agile methodologies.
+
+
+UI Design System
+Professional toolkit for creating and maintaining scalable design systems with design token generation, typography scales, and responsive design standards.
+Use Cases: Creating design systems, maintaining visual consistency, design-dev collaboration, generating design tokens (colors, typography, spacing)
+
+UX Researcher & Designer
+Comprehensive toolkit for user-centered research and experience design with data-driven persona generation, journey mapping, and usability testing frameworks.
+Use Cases: User research, persona creation from interview data, customer journey mapping, usability testing, design validation, behavior pattern analysis
+
+Product Strategist
+Strategic toolkit for Head of Product with OKR cascade generation, market analysis, vision setting, and team scaling frameworks.
+Use Cases: Strategic planning, goal alignment with OKR cascades, competitive analysis, organizational design, defining metrics and KPIs, product vision development
+
+Product Manager Toolkit
+Comprehensive PM toolkit with RICE prioritization, customer interview analysis, PRD templates, and go-to-market strategies.
+Use Cases: Feature prioritization, user research synthesis, writing PRDs and requirements, roadmap planning, customer interview analysis, capacity planning
+
+Agile Product Owner
+Complete toolkit for Product Owners in agile environments with INVEST-compliant user story generation, sprint planning, and backlog management.
+Use Cases: Writing user stories, sprint planning, backlog prioritization, stakeholder communication, agile ceremonies, velocity tracking, epic breakdown

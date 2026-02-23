@@ -1,0 +1,29 @@
+MCP Fundamentals
+
+Learn the fundamentals of Model Context Protocol (MCP) - setup, configuration, and connecting AI to external tools and data sources.
+
+
+MCP Crash Course: What Python Developers Need to Know
+Dave Ebbelaar | 57:46
+Connect Python applications to data sources using Model Context Protocol and local LLMs.
+https://www.youtube.com/watch?v=5xqFjh56AwM
+
+Claude MCP has Changed AI Forever - Here's What You NEED to Know
+Cole Medin | 24:25
+Extend AI capabilities with Model Context Protocol server integrations.
+https://www.youtube.com/watch?v=v_6EXt6T83I
+
+Ultimate No Code MCP Setup Guide (Self-Host, Installation, Common Issues)
+Nate Herk | AI Automation | 25:25
+Complete MCP setup guide covering installation, configuration, and troubleshooting.
+https://www.youtube.com/watch?v=OUPW4DJMAsA
+
+Docker Just Made Using MCP Servers 100x Easier (One Click Installs!)
+Cole Medin | 23:07
+Use Docker for one-click MCP server installation and management.
+https://www.youtube.com/watch?v=TxlVdB2gmGE
+
+Set up n8n locally with MCP Servers in 5 Minutes
+Eric Tech | 7:04
+Run n8n with MCP servers locally for private AI automation with full control.
+https://www.youtube.com/watch?v=NUb73ErUCsA

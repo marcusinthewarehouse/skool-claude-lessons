@@ -1,0 +1,13 @@
+Planning Commands
+
+Planning commands help you analyze codebases, understand technical debt, and create well-structured issues. These commands are essential during the early phases of development when you're assessing existing code or planning improvements.
+
+Commands in this category:
+
+/explain-code - Analyze and explain complex code through clear narratives, visual diagrams, and step-by-step breakdowns. Perfect for understanding legacy systems, onboarding developers, or creating learning materials.
+
+/assess-debt - Identify, quantify, and prioritize technical debt with actionable remediation plans and ROI projections. Use this when you need to understand development blockers or justify refactoring efforts to stakeholders.
+
+/create-issue - Create comprehensive, actionable issues with reproduction steps, impact assessment, and acceptance criteria. Ideal for bug reports, feature requests, and team communication.
+
+Getting Started: Add the command files to your .claude/commands directory and restart Claude Code to start using them.

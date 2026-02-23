@@ -1,0 +1,30 @@
+Design Skills Overview
+
+Design Skills Category
+
+This category contains skills for creating visual content, design systems, and artistic work using code and design principles.
+
+
+Generative Art
+Creates original algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Perfect for creating flow fields, particle systems, and computational art pieces.
+Use Cases: Generative art projects, algorithmic visualizations, interactive art installations, code-based artwork
+
+React Builder
+Suite of tools for creating elaborate, multi-component HTML artifacts using React, TypeScript, Tailwind CSS, and shadcn/ui. Bundles complex applications into single HTML files.
+Use Cases: Complex interactive web artifacts, multi-component applications, sophisticated web tools requiring state management and routing
+
+Branding
+Applies Anthropic's official brand colors, typography, and design standards to ensure visual consistency across all materials.
+Use Cases: Brand-compliant designs, official presentations, marketing materials, company documents requiring brand consistency
+
+Visual Art
+Creates museum-quality visual art in PNG and PDF formats using a design philosophy approach. Produces sophisticated, original artwork for posters, prints, and visual pieces.
+Use Cases: Poster design, art prints, visual branding materials, sophisticated graphic design, multi-page layouts
+
+GIF Maker
+Comprehensive toolkit for creating animated GIFs optimized for Slack, with validators for size constraints and composable animation primitives.
+Use Cases: Slack message GIFs, custom emoji animations, reaction GIFs, animated visual content for team communication
+
+Theme Factory
+Styling toolkit with 10 pre-set professional themes and the ability to generate custom themes on-the-fly for consistent visual identity across artifacts.
+Use Cases: Theming presentations, styling documents and reports, creating cohesive visual identity for HTML artifacts and landing pages

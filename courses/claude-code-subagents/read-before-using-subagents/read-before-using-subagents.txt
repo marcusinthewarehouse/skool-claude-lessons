@@ -1,0 +1,3 @@
+Read Before Using Subagents!!!
+
+Download all subagents below, but make sure you understand how each subagent should be used before importing them into your codebase. Subagents consume agent context and should only be used when necessary and intentional in your coding workflow. Learn how each subagent functions before activating it, since agentic coding still often requires human guidance and decision-making to produce high quality results.

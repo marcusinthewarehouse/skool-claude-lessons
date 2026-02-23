@@ -1,0 +1,43 @@
+Configure Any MCP Server
+
+There are many MCP servers you can connect to: databases, apps, browsers, APIs, and more.
+
+If you want Claude Code to connect to an external app or tool, just paste the prompt below into Claude Code, making sure to replace {SERVICE_NAME} with the name of the MCP server or service you want to connect (for example: Notion, Postgres, Slack, S3, Airtable, etc.).
+
+Claude Code will:
+
+- Find the official or most reliable MCP server for that service
+- Configure it at the project level
+- Tell you which environment variables or tokens you need
+
+Once you've set them, just restart Claude Code to start using the new MCP server
+
+
+Copy-Paste Prompt for Claude Code:
+
+You are my MCP setup assistant for Claude Code.
+
+Goal: Configure an MCP server for {SERVICE_NAME} at the PROJECT scope in this repository, following official installation instructions exactly.
+
+Reference links:
+- Anthropic documentation for Claude Code MCP configuration:
+  https://docs.claude.ai/claude-code/mcp
+- Official community MCP server list:
+  https://github.com/modelcontextprotocol/servers
+
+Instructions:
+1. Search the GitHub MCP server directory and, if needed, GitHub at large to locate an official or well-maintained MCP server for {SERVICE_NAME}.
+2. Open its README and identify the correct installation command, transport type (stdio or http), and required setup.
+3. Create the correct Claude Code configuration command PRIORITIZING the configuration listed in the documentation that you find, or if none listed, this structure:
+   `claude mcp add --scope project --transport stdio {SERVER_NAME} -- npx -y {PACKAGE_NAME}@latest`
+   Include any required environment variables using `--env KEY=VALUE`. Then, run the command.
+4. Reply with:
+   - All required **environment variables** and step by step instructions of where to find them (find this via websearch) I must create or set (with short descriptions of what each does)
+5. End by reminding me to restart Claude Code so it loads the new server.
+
+Constraints:
+- Always use official or trusted sources.
+- Keep your instructions clear and beginner-friendly.
+
+Once Claude Code gives you the commands, run them in your project terminal, set any required environment variables, and restart Claude Code.
+Your new MCP server will now be connected and ready to use.

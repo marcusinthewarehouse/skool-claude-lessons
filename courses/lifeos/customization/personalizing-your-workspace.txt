@@ -1,0 +1,23 @@
+Customization
+
+How to personalize your workspace to match your workflow.
+
+
+Adding New Skills
+
+Skills are reusable protocols stored in the skills/ folder. Each skill has a SKILL.md file that defines when to use it, the steps to follow, and the expected output format. To add a new skill, create a folder under skills/ with a SKILL.md that describes the trigger conditions, entry checklist, tools needed, and output format.
+
+
+Modifying Your Schedule
+
+Your SCHEDULE.md file defines time blocks throughout the day. Edit it to match your actual routine. Mark blocks as protected (gym, meals, family time), recurring (daily activities), or schedulable (available for work). Your AI will respect these boundaries and assign tasks to appropriate blocks.
+
+
+Adjusting Autonomy Levels
+
+The autonomy boundaries are configurable. Start tight and expand as you trust the system. By default, your AI can research, draft, and organize autonomously. Sending emails, adding calendar events, or any external actions require your approval. Adjust these boundaries in your workspace configuration as you become comfortable.
+
+
+Creating Tasks
+
+Tasks are markdown files in the tasks/ folder. Create new tasks by adding files with frontmatter that includes priority (high/medium/low), status (todo/in-progress/blocked/done), domain (work/personal), and assignment (human/agent). Quick captures go to tasks/_inbox/ for later triage. Completed tasks move to the archive subfolder in each domain.

@@ -1,0 +1,79 @@
+N8n Agents
+
+Learn how to build powerful AI agents using n8n, the popular no-code automation platform. These tutorials cover everything from beginner basics to advanced multi-agent systems.
+
+
+Build Your First AI Agent with n8n (beginner MASTERCLASS)
+Jack Roberts | 40:01
+Hands-on guide to building functional solutions with modern tools and proven workflows.
+https://www.youtube.com/watch?v=HmOAzfwDp50
+
+The only video you need to Master N8N + AI agents (For complete beginners)
+Simon Scrapes | AI Automation | 4:04:46
+Comprehensive n8n masterclass covering everything from basics to advanced agents.
+https://www.youtube.com/watch?v=uScURRX-Knc
+
+How to Use Claude & MCPs to INSTANTLY Build n8n AI Agents (MASTERCLASS)
+Mark Kashef | 41:29
+Integrate Claude AI with n8n to build powerful multi-agent automation systems.
+https://www.youtube.com/watch?v=yfpVU_uEpy4
+
+How to INSTANTLY Build An AI Agent Army in n8n with Claude
+Mark Kashef | 24:08
+Deploy multiple coordinated AI agents in n8n for complex automated workflows.
+https://www.youtube.com/watch?v=u2NluvotA80
+
+How to Generate Ready-to-Use n8n Agents INSTANTLY with Manus AI
+Mark Kashef | 22:13
+Use Manus AI to instantly generate production-ready n8n agent workflows.
+https://www.youtube.com/watch?v=h2Az_4T1JSg
+
+I Built a Marketing Team with 1 AI Agent and No Code (free n8n template)
+Nate Herk | AI Automation | 33:55
+Create an AI-powered marketing team using n8n agents to automate campaigns and content.
+https://www.youtube.com/watch?v=ldETapkr8Hg
+
+I Built a YT Strategist AI Agent That Makes Me $6k/mo (free template n8n)
+Nate Herk | AI Automation | 26:13
+Build YouTube strategy agents with n8n for content planning and channel growth.
+https://www.youtube.com/watch?v=Ch-AWxvX2Jc
+
+This RAG AI Agent with n8n + Supabase is the Real Deal
+Cole Medin | 16:26
+Combine RAG retrieval with n8n agents for intelligent document-aware automation.
+https://www.youtube.com/watch?v=PEI_ePNNfJQ
+
+Build Technical Analysis n8n AI Agent with Claude 3.7 Sonnet Vision
+Derek Cheung | AI Agents Automation | 12:59
+Analyze trading charts with Claude vision and supplement with Perplexity fundamental research.
+https://www.youtube.com/watch?v=D11S0s3PDNc
+
+n8n Just Leveled Up AI Agents (Anthropic's Think Method)
+Nate Herk | AI Automation | 19:54
+Implement Anthropic's thinking method in n8n agents for better reasoning.
+https://www.youtube.com/watch?v=WqyLxyALTt0
+
+I Built An AI Agents Team That Make Viral POV Videos - Full n8n Tutorial
+Calvin Hia | dainami ai | 1:19:35
+Create AI agent teams that automatically generate and post viral video content.
+https://www.youtube.com/watch?v=WjD5lbugq8k
+
+Store All Data Types with Agentic RAG in n8n
+Nate Herk | AI Automation | 19:16
+Store multiple data types with reasoning-based retrieval for smarter AI agent responses.
+https://www.youtube.com/watch?v=BhGaGFH0jR4
+
+APIs for AI Agents: The Only Beginner's Guide You'll Ever Need (n8n)
+Nate Herk | AI Automation | 24:42
+Master API integrations in n8n to connect AI agents with external services.
+https://www.youtube.com/watch?v=qZkX_gIlwsY
+
+n8n + MCP: Build and Automate Anything! Run ALL Your AI Locally
+WorldofAI | 12:09
+Run AI agents locally using n8n, Docker, and MCP with full privacy and customization.
+https://www.youtube.com/watch?v=DUE56G0fF5s
+
+I've Been Using the n8n MCP WRONG - The Correct Workflow
+AI LABS | 12:46
+Learn the correct approach to integrating MCP servers with n8n workflows.
+https://www.youtube.com/watch?v=jUfpYmN9q6Y

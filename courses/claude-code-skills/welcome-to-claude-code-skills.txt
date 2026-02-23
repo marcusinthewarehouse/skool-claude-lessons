@@ -1,0 +1,58 @@
+Welcome to Claude Code Skills
+
+What are Claude Code Skills?
+Claude Code Skills are modular packages that extend Claude's capabilities with specialized knowledge, workflows, and tool integrations. Each skill transforms Claude into a domain expert for specific tasks.
+
+Think of skills as "superpowers" you can give Claude. Want Claude to create professional designs? Load the Design skills. Need help with backend architecture? Activate the Engineering skills.
+
+
+How Skills Work
+Each skill is a self-contained package that includes:
+
+- SKILL.md - The core skill instructions and knowledge.
+- Scripts - Executable code for automation and processing
+- References - Documentation and domain knowledge
+- Assets - Templates, fonts, and resources
+
+When you load a skill into Claude Code, Claude gains access to all this specialized knowledge and can use it to help you accomplish tasks in that domain.
+
+
+Course Structure
+This course is organized into 7 categories, each containing multiple skills:
+
+1. Design Skills - Visual content, branding, generative art, GIFs, React components, and themes
+2. Development Skills - MCP servers, templates, web testing, and communications tools
+3. Documents Skills - Spreadsheets, presentations, Word documents, and PDF tools
+4. Engineering Skills - Backend, frontend, DevOps, data science, security, and more
+5. Executive Skills - CEO and CTO domain expertise
+6. Marketing Skills - Content, demand generation, and product marketing
+7. Product Skills - Agile, PM toolkit, UX research, design systems, and strategy
+
+Each category has an overview page followed by individual skill pages.
+
+
+How to Use This Course
+
+1. Browse by Category - Navigate to the category that matches your needs
+2. Read the Overview - Each category starts with an overview of all skills in that area
+3. Choose a Skill - Click on individual skills to learn what they do
+4. Download - Each skill page has a download link to get the skill package
+5. Install - Extract the .zip file and place it in your Claude Code skills directory
+6. Activate - Load the skill in /skills directory in your .claude folder of your project to use it
+
+
+Download and Installation
+Each skill page includes a direct download link to a .zip file hosted on GitHub.
+
+To install a skill:
+
+1. Click the download link on any skill page
+2. Extract the .zip file
+3. Move the skill folder to your Claude Code skills directory
+4. Reference the skill in your Claude Code prompts or configuration
+
+
+Ready to Get Started?
+Navigate through the category folders on the left to explore available skills. Each skill includes detailed documentation about what it does, who should use it, and how to activate it.
+
+Skills website: https://agentskills.io/home

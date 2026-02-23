@@ -1,0 +1,41 @@
+App Development
+
+Bolt tutorial for beginners with the Bolt CEO Eric Simons
+Greg Isenberg | 52:36
+Build and deploy full-stack apps in minutes using natural language prompts with Bolt.new.
+https://www.youtube.com/watch?v=1SfUMQ1yTY8
+
+The Fastest Way to Build a Mobile App (AI + Expo = Magic)
+Simon Grimm | 9:50
+Generate Expo apps from prompts using Bolt.new and preview instantly on devices.
+https://www.youtube.com/watch?v=fJb6f2Sw4Ek
+
+Build an app and deploy it with Bolt.new and Expo | AI Coder
+Expo | 25:54
+Build cross-platform mobile apps with Expo and React Native.
+https://www.youtube.com/watch?v=iCwxkm2PkQE
+
+Every Way to Build your React Native App with Expo
+Simon Grimm | 36:44
+Build cross-platform mobile apps with Expo and React Native.
+https://www.youtube.com/watch?v=cs-zgHjt5RQ
+
+Introducing Expo MCP Server: for accurate, context-aware AI responses
+Expo | 15:24
+Connect AI assistants to Expo projects for context-aware responses during mobile development.
+https://www.youtube.com/watch?v=dp9dpIgDxZQ
+
+How I Code Profitable Apps SOLO (no wasted time / beginner friendly / with AI)
+Dennis Babych | 21:10
+Validate ideas, choose the right tech stack, and market apps without a team.
+https://www.youtube.com/watch?v=4SFXi11qIto
+
+How to DEVELOP a Viral App in 2025 (3/5)
+Blake Anderson | 10:51
+Build mobile apps with growth mindset, deep work principles, and modern tech stack.
+https://www.youtube.com/watch?v=_Kk5pQdbKuI
+
+Expo SDK 54: Liquid Glass, Expo UI, Expo Router v6, React 19, Link Previews
+Expo | 20:26
+Explore new Expo SDK features including UI components and routing updates.
+https://www.youtube.com/watch?v=iYh-7WfJTR0

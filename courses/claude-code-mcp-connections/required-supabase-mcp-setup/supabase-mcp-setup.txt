@@ -1,0 +1,49 @@
+REQUIRED: Supabase MCP Setup
+
+Follow these steps to get a Supabase Personal Access Token (PAT) and wire it into your project's MCP config.
+
+
+1) Create a Supabase Personal Access Token
+
+Open the Supabase Dashboard and go to Account > Access Tokens.
+
+Click Generate new token, give it a name, set expiration (optional), and Create.
+
+Copy the token (it usually starts with spb...). Keep it secret.
+
+Find the .mcp.json file in your project root that was created after executing the commands from the previous pages' instructions.
+
+Your earlier claude mcp add --scope project ... commands created/updated a .mcp.json file in your project root. This file is what Claude Code reads to start project-scoped servers.
+
+
+3) Replace the placeholder with your real token
+
+Open ./.mcp.json, find the Supabase server entry, and replace the placeholder token with your real one.
+
+Example (your file may include extra fields, just update the token value):
+
+{
+  "mcpServers": {
+    "supabase": {
+      "command": "npx",
+      "args": ["-y", "@supabase/mcp-server-supabase@latest", "--access-token", "sbp_your_real_token_here"],
+      "env": {
+        "SUPABASE_ACCESS_TOKEN": "sbp_your_real_token_here"
+      },
+      "transport": "stdio",
+      "scope": "project"
+    }
+  }
+}
+
+
+4) Restart Claude Code
+
+You have to restart Claude Code for any configuration changes to take effect. Type "/exit" to Claude Code. Then, start up Claude Code again, and type "mcp", and you should see green check marks next to the Supabase MCP server.
+
+
+5) Quick test
+
+Ask Claude Code:
+"Use the Supabase MCP to list my projects or run a read-only SQL to test the MCP's functionality"
+If it responds with data (or a permission prompt), your setup is working.

@@ -1,0 +1,100 @@
+AI Influencer List
+
+Meet the 78 creators behind this video library! These AI developers, automation experts, and content creators are shaping how we build with AI.
+
+
+Top Contributors (10+ videos)
+
+- AI LABS (23) - AI coding, MCP servers, Cursor, browser automation
+- Nate Herk (18) - n8n automation, AI agents, workflow building
+- Cole Medin (16) - Claude Code, context engineering, sub-agents
+- Greg Isenberg (11) - AI business, marketing, startup building
+
+
+Regular Contributors (5-9 videos)
+
+- Adam Lyttle (9) - App development, ASO strategies
+- Mark Kashef (7) - AI tools, vibe coding, automation
+- App Masters (7) - App marketing, Apple Search Ads
+- AI Jason (7) - AI agents, RAG, local LLMs
+- Julian Goldie SEO (6) - SEO, AI content automation
+
+
+Notable Contributors (2-4 videos)
+
+- Steven Cravotta (4) - SaaS apps, app monetization
+- IndyDevDan (4) - Claude Code, elite context engineering
+- Expo (4) - React Native, mobile development
+- WorldofAI (3) - Local AI, n8n, open source tools
+- Sean Kochel (3) - Claude Code, SaaS development
+- Jack Roberts (3) - n8n agents, automation
+- Darius Mora (3) - ASO, app growth
+- Chris Raroque (3) - Claude Code, coding workflows
+- AI Search (3) - AI video generation, tutorials
+- Nick Saraev (2) - n8n automation, social media growth
+- Liam Ottley (2) - AI agent business, production systems
+- Robin Ebers (2) - MCP servers, Claude Code tools
+- Simon Grimm (2) - Expo, mobile apps
+- Calvin Hia (2) - TikTok automation, AI video
+- Y Combinator (2) - Startup advice, AI trends
+- Ray Amjad (3) - AI development, automation
+- Arseny Shatokhin (3) - AI tools, development
+- Zubair Trabzada (2) - AI Workshop, tutorials
+- Stephen G. Pope (2) - AI automation
+- Eric Tech (2) - AI development
+- Creator Magic (2) - AI content creation
+- Blake Anderson (2) - AI development
+- Andrew Yu (2) - AI development
+
+
+Featured Guests (1 video each)
+
+- Anthropic - Official Claude tutorials
+- Alex Hormozi - Marketing strategies
+- Theo (t3.gg) - Web development
+- Matt Pocock - TypeScript expert
+- Kenny Liao - Claude Skills guide
+- Sabrina Ramonov - AI avatars, automation
+- Dave Ebbelaar - MCP, Python
+- Aitrepreneur - Local AI, TTS
+- YC Root Access - Context engineering
+- Curious Refuge - AI filmmaking
+- Clay - Sales automation
+- Superwall - App paywalls
+- iOS Academy - Swift development
+- CodeWithChris - iOS tutorials
+- Hunter Hammonds - AI workflows
+- Ethan Nelson - AI marketing
+- Zoaib Khan - AI automation
+- Zen van Riel - AI workflows
+- Sirio - n8n automation
+- Simon Scrapes - AI automation
+- Sebastian Stef - AI development
+- Roboverse - AI tutorials
+- Mykola Harmash - React Native
+- Mikey No Code - No-code solutions
+- MagicOps AI - AI operations
+- Kevin Kern - AI tools
+- Ken Kai does AI - AI tutorials
+- Jono Catliff - AI automation
+- Jockerai - AI development
+- Jason Cooperson - AI tools
+- Hamzz AI - AI tutorials
+- Eduards Ruzga - AI development
+- Derek Cheung - AI agents automation
+- Dennis Babych - AI development
+- David Ondrej - AI research
+- Chase AI - AI tutorials
+- Buildcamp - App development
+- Brock Mesarich - AI for non-techies
+- Brain Project - AI development
+- BMad Code - AI coding
+- Augment Code - AI coding tools
+- Astro K Joseph - AI development
+- AppTweak - App store marketing
+- Andy Stauring - AI automation
+- All About AI - AI tutorials
+- Alim Charaniya - Apps and startups
+- Alec Wilcock - AI development
+- AI Agents A-Z - AI agents
+- Adrian Ching - AI development

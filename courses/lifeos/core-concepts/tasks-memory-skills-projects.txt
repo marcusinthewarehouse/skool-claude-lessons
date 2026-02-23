@@ -1,0 +1,35 @@
+Core Concepts
+
+Tasks, Memory, Skills, and Projects - the four building blocks of your workspace.
+
+
+Tasks
+
+Tasks are your operational queue - everything that needs to get done. Each task file has metadata: priority (high/medium/low), status (todo/in-progress/blocked/done), domain (work/personal), and assignment (human or agent).
+
+The key field is assignment:
+
+- assigned: agent - AI can work on this autonomously (research, drafting, organizing)
+- assigned: human - AI can prep, but human executes (calls, meetings, decisions, sending)
+
+
+Memory
+
+Memory gives your AI continuity across sessions. It has two layers:
+
+- Long-term (MEMORY.md) - Curated important stuff: key decisions, recurring patterns, things that don't change often
+- Daily logs (memory/YYYY-MM-DD.md) - What happened today: conversations, decisions, learnings. Gets pruned over time.
+
+
+Skills
+
+Skills are reusable protocols for specific capabilities. Each skill folder has a SKILL.md with: trigger conditions, step-by-step instructions, tools/commands to use, and output format.
+
+Common skills: Email (inbox processing, drafting), Calendar (checking schedule, creating events), Research (web search, document analysis), Morning/Evening reviews.
+
+
+Projects
+
+Projects provide deep context for related work. Each project folder has a CONTEXT.md that describes what the project is, current status and goals, key people involved, important decisions, and links to code/docs/resources.
+
+Tasks reference projects so your AI reads project context before working on related tasks.

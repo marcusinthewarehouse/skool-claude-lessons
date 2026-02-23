@@ -1,0 +1,36 @@
+Essentials: Supabase, Context7, Playwright Config
+
+Below is a short, step-by-step setup with a one-line summary of what each server gives Claude Code. Paste the commands as-is in your project terminal.
+
+
+What these do (super short)
+
+Playwright MCP - lets Claude Code drive a real browser for testing, scraping, and screenshots via Playwright's automation layer (structured, accessible page control).
+
+Context7 MCP - injects up-to-date, version-specific docs/snippets into prompts so the model stops using stale APIs.
+
+Supabase MCP - safe bridge to your Supabase project: query DB, manage storage, call functions; official docs + server options exist.
+
+
+Installation
+
+Paste the following code block directly into Claude Code. It will execute the following commands to install these MCP servers at the project level (in the root directory Claude Code is currently working in). If you want these MCP servers to be available globally on your computer, just add this into your prompt to Claude Code, specifying "I want you to edit these commands to install them as global MCP servers instead of project scoped MCP servers, reference https://docs.claude.com/en/docs/claude-code/mcp for correct syntax without changing MCP configuration". Only install globally if necessary, as MCP servers take up context.
+
+Execute the following as bash commands to install these MCP servers into my project
+
+claude mcp add --scope project --transport stdio playwright -- npx @playwright/mcp@latest
+
+claude mcp add --scope project --transport stdio context7 -- npx -y @upstash/context7-mcp
+
+claude mcp add --scope project --transport stdio supabase --env SUPABASE_ACCESS_TOKEN=YOUR_SUPABASE_ACCESS_TOKEN_HERE -- npx -y @supabase/mcp-server-supabase@latest --access-token YOUR_SUPABASE_ACCESS_TOKEN_HERE
+
+mkdir -p .claude
+
+echo '{"enableAllProjectMcpServers": true}' > .claude/settings.local.json
+
+
+Next Steps:
+
+Now, type "/exit" to Claude Code, as you must restart Claude Code to load in new configuration changes. Restart Claude Code, and type "/mcp". This will check your MCP configurations. You should see green check marks next to Playwright and Context_7, and a red X next to Supabase.
+
+To finish Supabase set up, please continue to the next page.

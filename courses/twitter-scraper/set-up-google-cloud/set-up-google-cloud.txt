@@ -1,0 +1,46 @@
+Set Up Google Cloud
+
+This is the most detailed part of the setup. Google Cloud lets your pipeline automatically create and upload documents to your Google Drive. Follow each step carefully.
+
+
+Step 1: Create a Google Cloud Project
+
+1. Go to https://console.cloud.google.com
+2. Click the project dropdown (top left, next to "Google Cloud")
+3. Click New Project
+4. Enter a name like "Content Automation"
+5. Click Create
+6. Wait for it to create, then select your new project
+
+
+Step 2: Enable Required APIs
+
+You need to enable two APIs:
+
+1. Go to https://console.cloud.google.com/apis/library/docs.googleapis.com and click Enable
+2. Go to https://console.cloud.google.com/apis/library/drive.googleapis.com and click Enable
+
+
+Step 3: Create OAuth Credentials
+
+1. Go to https://console.cloud.google.com/apis/credentials
+2. Click + CREATE CREDENTIALS at the top
+3. Select OAuth client ID
+4. If prompted to configure consent screen, do Step 4 first, then return here
+5. For Application type, select Desktop app
+6. For Name, enter "Content Pipeline"
+7. Click Create
+8. Click DOWNLOAD JSON and save this file
+
+
+Step 4: Configure OAuth Consent Screen
+
+1. Go to https://console.cloud.google.com/apis/credentials/consent
+2. Select External user type and click Create
+3. Fill in App name as "Content Automation" and your email for support contact
+4. Click Save and Continue through the Scopes page
+5. On Test users, click + ADD USERS
+6. Enter YOUR Gmail address (the one you'll use with Google Drive)
+7. Click Add, then Save and Continue
+
+Important: Your app is in "Testing" mode. Only emails you add as test users can authorize the app.

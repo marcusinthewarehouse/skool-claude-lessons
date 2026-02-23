@@ -1,0 +1,39 @@
+Business Automation
+
+Automate lead generation, email marketing, and business workflows with n8n.
+
+
+I Built a Marketing Team with 1 AI Agent and No Code (free n8n template)
+Nate Herk | AI Automation | 33:55
+Build a complete AI marketing team that handles content creation, scheduling, and analytics automatically with n8n workflows.
+https://youtube.com/watch?v=ldETapk
+
+I Built a YT Strategist AI Agent That Makes Me $6k/mo (free template n8n)
+Nate Herk | AI Automation | 26:13
+Create an AI agent that analyzes YouTube trends, generates content strategies, and helps grow your channel profitably.
+https://youtube.com/watch?v=Ch-AWxv
+
+16 Insane AI Lead Generation Systems for 2025 (with PROOF!)
+Liam Ottley | 26:16
+Proven lead gen systems with revenue proof across multiple industries and use cases for AI automation agencies.
+https://youtube.com/watch?v=HBmBmnm
+
+I sent 10,000,000 cold emails and learned this
+Clay | 21:53
+Master deliverability, personalization, and follow-up sequences from real cold email campaigns at scale.
+https://youtube.com/watch?v=CMndL5h
+
+My Voice AI Agent Negotiated 800+ Business Deals in 1 Day (FULL Tutorial)
+Greg Isenberg | 23:02
+Step-by-step walkthrough for building voice AI agents that can handle negotiations and business communications at scale.
+https://youtube.com/watch?v=MAFHmyU
+
+How I Auto Track AI Agent Actions and Token Usage (n8n tutorial)
+Nate Herk | AI Automation | 9:54
+Monitor and log all AI agent activities and token consumption for better cost management and debugging.
+https://youtube.com/watch?v=vVdS-ZE
+
+How to Automate ANY Content with Poppy and n8n (no code)
+Nate Herk | AI Automation | 20:39
+Train specialized AI assistants on any media and automate content workflows with n8n for hands-free publishing.
+https://youtube.com/watch?v=FgP_AEfnfok

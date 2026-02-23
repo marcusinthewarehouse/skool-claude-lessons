@@ -1,0 +1,11 @@
+Security Subagents
+
+Security agents scan your code for vulnerabilities and prevent sensitive information from being exposed.
+
+Agents in this folder:
+
+secrets env auditor
+Scans your code for accidentally exposed passwords, API keys, and credentials before you commit or deploy. Validates that sensitive configuration is properly documented and not hardcoded in your codebase.
+
+security scanner
+Performs comprehensive security assessments including vulnerability scanning, dependency checking, and configuration validation. Identifies security issues and provides specific steps to fix them before they become problems.

@@ -1,0 +1,44 @@
+Research Agents
+
+Build AI agents that can research, scrape, and gather information from the web. Learn about RAG systems, web scraping, and deep research automation.
+
+
+How to Build Custom Deep Research Agents (Better than OpenAI)
+Arseny Shatokhin | 19:42
+Create specialized research agents using local data and multi-agent workflows for better insights.
+https://www.youtube.com/watch?v=dkQMchRJkBk
+
+Research ANYTHING and Get a PDF Report (free n8n template)
+Nate Herk | AI Automation | 28:32
+Build research automation that generates comprehensive PDF reports from any topic using n8n workflows.
+https://www.youtube.com/watch?v=TeFCb5-4e5U
+
+This AI Agent Can Scrape and Screenshot the Web with No Code (n8n tutorial)
+Nate Herk | AI Automation | 17:21
+Use Firecrawl's search endpoint to scrape web content, extract data, and capture screenshots.
+https://www.youtube.com/watch?v=3Pim6uCASSE
+
+How to Scrape (almost) ANYTHING in Seconds | Apify's New MCP Server
+Mark Kashef | 12:59
+Integrate Apify web scraping with AI tools using MCP server connections for instant data extraction.
+https://www.youtube.com/watch?v=OdJeXVrcpus
+
+Turn ANY Website into LLM Knowledge in SECONDS
+Cole Medin | 18:44
+Convert any website into structured knowledge that LLMs can use for context-aware responses.
+https://www.youtube.com/watch?v=JWfNLF_g_V0
+
+I Built the Ultimate RAG MCP Server for AI Coding (Better than Context7)
+Cole Medin | 28:22
+Build intelligent RAG systems using MCP servers for context-aware AI coding assistance.
+https://www.youtube.com/watch?v=ZoyPqXvnnZ8
+
+You HAVE to Try Agentic RAG with DeepSeek R1 (Insane Results)
+Cole Medin | 22:19
+Combine DeepSeek R1's reasoning capabilities with agentic RAG for powerful research automation.
+https://www.youtube.com/watch?v=uWDocIoiaXE
+
+RAG Just Got Updated...
+AI LABS | 12:52
+Combine context management with RAG for AI coding with task tracking and memory.
+https://www.youtube.com/watch?v=EgXOaH-ZqfU

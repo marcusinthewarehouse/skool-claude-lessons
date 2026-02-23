@@ -1,0 +1,54 @@
+START HERE: Subagent Library Onboarding
+
+This workflow library introduces you to Claude Code subagents and how they work together across every phase of software development. Each subagent acts like a focused teammate that handles one domain: research, coding, testing, documentation, or optimization. Whether you are new to AI-assisted workflows or an experienced developer, you can think of these subagents as a modular team that keeps your projects organized, efficient, and scalable.
+
+
+Systematic Workflow: Agent Orchestration by Phase
+
+
+Research and Initialization
+
+- project architect: Used when starting a new project to scaffold proper directories and configuration files. Establishes the foundation before any feature work.
+
+- external context researcher: Deployed when integrating external APIs, libraries, or frameworks to gather full documentation and guides. Produces research briefs to replace manual searching.
+
+- codebase explorer: Invoked for complex tasks requiring knowledge of existing code, patterns, or recent commits. Generates focused code snippets and architectural summaries.
+
+
+Feature Development
+
+- migration planner: Engaged when modifying database schemas, ORM models, or planning data migrations. Designs zero downtime strategies with validation and rollback steps.
+
+- cache strategy architect: Engaged when profiling reveals repeated expensive operations or when designing high-traffic features. Creates multi-layered caching systems with time-to-live rules, invalidation patterns, and observability metrics.
+
+- browser navigator: Used for automated end-to-end UI testing of web applications. Validates layouts, checks interactive behavior, and fixes simple runtime bugs using Playwright MCP.
+
+
+Quality Assurance and Testing
+
+- backend test guardian: Triggered after backend updates to create or repair integration and unit tests. Maintains the testing framework and stabilizes failing tests.
+
+- performance profiler: Deployed when systems exceed latency budgets or consume too many resources. Identifies bottlenecks and delivers small, high-value performance fixes.
+
+- pre push validator: Run before committing code to verify style, linting, types, tests, and builds. Produces a clear pass or fail report with automatic fixes where safe.
+
+
+Security and Compliance
+
+- secrets env auditor: Invoked before commits, pushes, or deployments to check for exposed credentials and confirm complete environment templates. Creates masked audit logs and rotation guidance.
+
+- security scanner: Used after authentication or dependency changes, or for regular audits. Performs source analysis, vulnerability scanning, and configuration validation with severity-tagged reports.
+
+
+Documentation and Communication
+
+- docs weaver: Deployed after shipping features or updating APIs to generate or refresh documentation with tested code examples. Keeps docs synchronized with code.
+
+- ux copy brainstormer: Engaged when writing or refining interface text such as error messages or onboarding screens. Produces clear, consistent alternatives aligned with brand tone.
+
+- project historian: Invoked after large code changes or refactors to log what changed, why, and with what risks. Builds a readable change history and project memory.
+
+
+Pipeline and Infrastructure
+
+- cicd optimizer: Triggered when CI or CD pipelines slow down or degrade. Detects bottlenecks and recommends optimization steps such as caching and parallel execution.

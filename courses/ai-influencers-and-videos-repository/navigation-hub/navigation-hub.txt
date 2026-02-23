@@ -1,0 +1,59 @@
+Navigation Hub
+
+This is a personal curated collection of 214 videos that have shaped the creator's journey into AI development and automation. Every single video here is one personally watched, learned from, and applied. These creators are incredible and have generously shared their knowledge to make it possible for people to level up their skills.
+
+Please show them some love, like their videos, subscribe to their channels, and drop comments. They deserve all the credit for the value you'll get from this library. Check out the AI Influencer List to see all 78 creators behind these videos and what they focus on.
+
+Use the folders below to navigate to your topic of interest.
+
+
+1. Claude Code (29 videos)
+Master Anthropic's AI coding assistant with workflows, sub-agents, and customization.
+- Getting Started - Intro workflows, basic usage, complete walkthroughs
+- Sub-Agents - Building and using sub-agents, meta-agents, multi-agent systems
+- Context Engineering - Context management, RAG, memory systems
+- Skills & Customization - Custom skills, output styles, configurations
+- Web & UI Development - Building websites and UIs with Claude Code
+
+2. AI Agents (53 videos)
+Build intelligent AI agents for research, voice, chat, and production use cases.
+- Agent Fundamentals - Learning path, concepts, roadmaps
+- N8n Agents - Building agents with n8n automation
+- Research Agents - Deep research, RAG, knowledge agents
+- Voice & Chat Agents - Conversational AI, chatbots, voice agents
+- Production Agents - Scaling, deployment, business agents
+
+3. MCP Servers (12 videos)
+Model Context Protocol servers that extend AI capabilities.
+- MCP Fundamentals - Setup, basics, crash course
+- Essential MCP Tools - Must-have servers and integrations
+
+4. IDE & Coding Tools (22 videos)
+Master Cursor, Windsurf, and other AI-powered coding environments.
+- Cursor Mastery - Advanced Cursor usage, tips, workflows
+- IDE Alternatives - Windsurf, Augment, RooCode, Bolt.new
+- UI/UX Design - Vibe coding, design tools, component libraries
+
+5. N8n Automation (30 videos)
+Automate workflows for social media, content, and business processes.
+- N8n Basics - Getting started, fundamentals, setup
+- Social Media Automation - TikTok, Instagram, YouTube automation
+- Content & Research - Scraping, research workflows, PDF reports
+- Business Automation - Lead gen, email, marketing workflows
+
+6. Mobile Apps (40 videos)
+Build, optimize, and monetize mobile applications.
+- App Development - Building apps, tech stacks, frameworks
+- App Store Optimization - ASO strategies, keywords, metadata
+- App Marketing & Monetization - Growth, paywalls, revenue
+
+7. AI Content Creation (25 videos)
+Create videos, marketing content, and audio with AI tools.
+- AI Video Production - Video generation, lip sync, avatars
+- AI Marketing & Ads - UGC ads, marketing content
+- AI Audio & Voice - TTS, voice cloning, audio tools
+
+8. Fundamentals (6 videos)
+Core concepts including local LLMs and prompt engineering.
+- Local LLMs - Running models locally, Ollama, open-source
+- Prompt Engineering - Techniques, best practices

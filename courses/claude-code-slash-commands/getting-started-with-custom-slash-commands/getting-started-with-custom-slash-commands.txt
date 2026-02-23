@@ -1,0 +1,50 @@
+Getting Started with Custom Slash Commands
+
+Slash commands are reusable prompts that streamline your workflow in Claude Code. Think of them as shortcuts for common development tasks. Instead of typing out detailed instructions every time, you can invoke a command like /debug or /refactor-code and Claude will execute a prewritten prompt.
+
+
+Setting Up Your Commands Folder
+
+Create the directory structure (if it doesn't already exist):
+
+1. Navigate to the root directory of your project
+2. Create a .claude folder
+3. Inside .claude, create a commands folder
+
+Your structure should look like:
+your-project/.claude/commands/
+
+Add command files:
+
+- Each slash command is a .md file placed in the commands folder
+- The filename determines the command name (for example, debug.md becomes /debug)
+- You can organize commands in subdirectories (for example, testing/analyze-bug.md becomes /testing/analyze-bug)
+
+Activate your commands:
+
+- Restart Claude Code after adding new command files
+- Make sure Claude Code is running from your project's root directory
+- Verify your location with the /dir command if needed
+
+
+Testing Your Setup
+
+Before diving into the full command collection, it is best to verify that your slash commands are working correctly.
+
+/test-args
+This is a simple test command that echoes back whatever you type after it. It demonstrates how the $ARGUMENTS variable works. File attached below: download it and follow these instructions, using it to test if you're configuring your slash commands correctly.
+
+The $ARGUMENTS variable automatically captures any text you type after the command name and passes it into the prompt before execution. This allows you to dynamically inject context into your commands at runtime.
+
+For example, if you type:
+/test-args Hello World
+Claude will repeat your message back, confirming that your setup is functional.
+
+This mechanism is what makes slash commands powerful. It allows you to give Claude specific context before the prompt loads. For instance, when using:
+/write-tests test my newly added weather API
+Claude will interpret that extra text ("test my newly added weather API") as input to the /write-tests command, letting it tailor its behavior to your exact situation.
+
+Ready to use your commands? Simply type / followed by the command name in Claude Code, and the associated prompt will execute automatically.
+
+Learn more: Claude Code Slash Commands Docs
+https://code.claude.com/docs/en/slash-commands

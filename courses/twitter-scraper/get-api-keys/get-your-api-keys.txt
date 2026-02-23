@@ -1,0 +1,29 @@
+Get Your API Keys
+
+You'll need two API keys to power your pipeline: one from Apify (for scraping tweets) and one from Anthropic (for Claude AI script generation).
+
+
+Step 1: Get Your Apify API Token
+
+1. Go to https://apify.com and create a free account
+2. After signing in, click on Settings in the left sidebar
+3. Click on Integrations
+4. Copy your Personal API Token (starts with apify_api_)
+5. Save this token - you'll need it later
+
+
+Step 2: Get Your Anthropic API Key
+
+1. Go to https://console.anthropic.com
+2. Create an account or sign in
+3. Navigate to API Keys in your account settings
+4. Click Create Key and give it a name like "Content Pipeline"
+5. Copy the key (starts with sk-ant-api03-)
+6. Save this key securely - you won't be able to see it again
+
+
+Important Notes
+
+- Both services have free tiers that are more than enough to get started
+- Keep your API keys private - never share them or commit them to public repositories
+- You can set spending limits in both dashboards to avoid unexpected charges

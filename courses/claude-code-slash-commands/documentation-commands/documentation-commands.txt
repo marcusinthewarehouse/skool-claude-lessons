@@ -1,0 +1,11 @@
+Documentation Commands
+
+Documentation commands help you create comprehensive documentation and enhance your collaboration workflows with better pull requests.
+
+Commands in this category:
+
+/generate-docs - Generate comprehensive documentation including API docs, user guides, developer documentation, and reference materials. Creates accurate, well-structured documentation for multiple audiences and documentation types.
+
+/enhance-pr - Create or improve pull requests with comprehensive descriptions, visual evidence, testing documentation, and review checklists. Facilitates effective code reviews through clear communication and structured information.
+
+Getting Started: Add the command files to your .claude/commands directory and restart Claude Code to start using them.

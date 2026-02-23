@@ -1,0 +1,26 @@
+General Coding & Context Engineering
+
+Context Engineering is the New Vibe Coding (Learn this Now)
+Cole Medin | 22:56
+Supply LLMs with structured facts, rules, and documentation instead of relying on vibe coding.
+https://www.youtube.com/watch?v=Egeuql3Lrzg
+
+How to Master the Art of Vibe Coding
+Mark Kashef | 1:57:16
+Master vibe coding techniques for intuitive AI-assisted development.
+https://www.youtube.com/watch?v=OSHJFuoJJdA
+
+How the 1% ACTUALLY Build Apps with Cursor's Context Engineering
+AI LABS | 13:29
+Supply LLMs with structured facts, rules, and documentation instead of relying on vibe coding.
+https://www.youtube.com/watch?v=QgA55EnmUp4
+
+Build ANY AI Agent with this Context Engineering Blueprint
+Cole Medin | 24:51
+Supply LLMs with structured facts, rules, and documentation instead of relying on vibe coding.
+https://www.youtube.com/watch?v=ni8Xl0ANx0E
+
+Context Engineering for Agents
+YC Root Access | 14:38
+Supply LLMs with structured facts, rules, and documentation instead of relying on vibe coding.
+https://www.youtube.com/watch?v=IS_y40zY-hc

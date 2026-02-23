@@ -1,0 +1,48 @@
+MCP Server Configuration
+
+You need three MCP servers for this to work:
+1. Supabase - Database and authentication
+2. Playwright - UI testing
+3. Context7 - Library documentation
+
+
+INSTALLATION INSTRUCTIONS
+
+Tell Claude Code to install these by pasting this prompt:
+
+Execute the following as bash commands to install these MCP servers into my project
+
+claude mcp add --scope project --transport stdio playwright -- npx @playwright/mcp@latest
+
+claude mcp add --scope project --transport stdio context7 -- npx -y @upstash/context7-mcp
+
+claude mcp add --scope project --transport stdio supabase --env SUPABASE_ACCESS_TOKEN=YOUR_SUPABASE_ACCESS_TOKEN_HERE -- npx -y @supabase/mcp-server-supabase@latest --access-token YOUR_SUPABASE_ACCESS_TOKEN_HERE
+
+mkdir -p .claude
+
+echo '{"enableAllProjectMcpServers": true}' > .claude/settings.local.json
+
+
+Replace YOUR_SUPABASE_ACCESS_TOKEN_HERE with your Supabase personal access token from https://supabase.com/dashboard/account/tokens
+
+
+GETTING YOUR SUPABASE TOKEN
+
+1. Go to https://supabase.com/dashboard/account/tokens
+2. Click "Generate new token"
+3. Give it a name like "Claude Code MCP"
+4. Copy the token
+5. Replace YOUR_SUPABASE_ACCESS_TOKEN_HERE in the configuration above
+
+
+VERIFICATION
+
+After Claude Code installs the servers, restart Claude Code. Then type in "/mcp". You should see:
+
+- supabase - connected
+- playwright - connected
+- context7 - connected
+
+If any fail to connect, ask Claude Code to troubleshoot the specific server.
+
+That's it! You're now ready to use the meta-prompt to build software.

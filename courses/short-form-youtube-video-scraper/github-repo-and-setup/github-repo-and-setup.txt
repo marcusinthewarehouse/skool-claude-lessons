@@ -1,0 +1,30 @@
+GitHub Repo & Setup
+
+The Short Form Video Scraper is fully open-source. Everything you need is in the GitHub repo.
+
+
+Repository
+https://github.com/grandamenium/short-form-video-transcriber
+
+
+Start with Claude Code
+
+The easiest way to get started is to tell Claude Code to clone the repo and run the setup command. Open Claude Code in your terminal and type:
+
+Clone https://github.com/grandamenium/short-form-video-transcriber and run /start
+
+Claude will clone the repository, set up the virtual environment, install dependencies, and verify everything works. Once setup is complete, you can use any of the slash commands listed in the Features page.
+
+
+Manual Setup
+
+If you prefer to set things up yourself:
+
+git clone https://github.com/grandamenium/short-form-video-transcriber.git
+cd short-form-video-transcriber
+python -m venv .venv
+source .venv/bin/activate
+pip install -e ".[dev]"
+brew install ffmpeg  # macOS
+
+No API keys are needed for the core workflow. Whisper runs locally and Claude Code handles summarization. If you want to use the optional API-based summarizer, set ANTHROPIC_API_KEY in your .env file.

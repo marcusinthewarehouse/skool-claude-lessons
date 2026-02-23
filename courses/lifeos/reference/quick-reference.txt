@@ -1,0 +1,33 @@
+Reference
+
+Quick reference for file formats, folder structure, and key concepts.
+
+
+Folder Structure
+
+- tasks/ - Your task queue with _inbox/, work/, personal/ subfolders.
+- skills/ - Reusable protocols with SKILL.md files.
+- memory/ - Daily logs (YYYY-MM-DD.md).
+- projects/ - Project context files (CONTEXT.md per project).
+- Root files: SOUL.md, USER.md, SCHEDULE.md, MEMORY.md, HEARTBEAT.md.
+
+
+Core Files
+
+- SOUL.md - AI personality, principles, and behavioral guidelines.
+- USER.md - Your background, goals, preferences, and context.
+- SCHEDULE.md - Daily time blocks (protected, recurring, schedulable).
+- MEMORY.md - Long-term curated knowledge.
+- HEARTBEAT.md - What to check during automated heartbeats.
+
+
+Task Metadata
+
+Each task file has YAML frontmatter: priority (high/medium/low), status (todo/in-progress/blocked/done), domain (work/personal), assigned (human/agent), due (optional deadline), project (optional link to project context).
+
+
+Autonomy Boundaries
+
+AI can do autonomously: research, draft, organize, update tasks/memory, git commits to branches, create PRs.
+
+AI asks first: send emails/messages, add calendar events, delete files, merge PRs, push to main, any external action.

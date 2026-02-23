@@ -1,0 +1,9 @@
+Testing Subagents
+
+Agents in this folder:
+
+backend test guardian
+Creates automated tests for your backend code and fixes broken tests when they fail. Maintains your testing infrastructure so you can be confident new features do not break existing functionality.
+
+pre push validator
+Runs comprehensive quality checks before you push code to version control. Validates code style, linting, type safety, tests, and builds to catch problems early before they reach production.

@@ -1,0 +1,21 @@
+Welcome & What You'll Build
+
+Welcome to the AI Content Pipeline Setup course! In about an hour, you'll have a fully automated system that creates video script ideas for you every single day.
+
+
+What You'll Learn
+
+- How to scrape tweets from top AI influencers using Apify
+- Generate video scripts automatically using Claude AI
+- Upload formatted documents directly to your Google Drive
+- Schedule everything to run daily with PM2
+
+
+Prerequisites
+
+- A Mac or Windows computer
+- Node.js installed (version 18 or higher)
+- A Google account
+- Credit cards for Apify and Anthropic (free tier available)
+
+Let's get started!

@@ -1,0 +1,34 @@
+N8n Basics
+
+Get started with n8n automation fundamentals, from complete beginner masterclasses to building monetized web apps.
+
+
+The only video you need to Master N8N + AI agents
+Simon Scrapes | AI Automation | 4:04:46
+Complete beginner's guide to building your first functional AI agent with n8n.
+https://www.youtube.com/watch?v=uScURRX-Knc
+
+Build Your First AI Agent with n8n (beginner MASTERCLASS)
+Jack Roberts | 40:01
+Complete beginner's guide to building your first functional AI agent with n8n.
+https://www.youtube.com/watch?v=HmOAzfwDp50
+
+Only 0.001% know about this n8n AI Tool
+Ken Kai does AI | 8:44
+Speed up n8n workflow development with AI-powered workflow generation and optimization tools.
+https://www.youtube.com/watch?v=HpkZU34fqUM
+
+The Easiest Way to Use Community Nodes in n8n
+Nate Herk | AI Automation | 8:55
+Extend n8n with community nodes for additional integrations and capabilities.
+https://www.youtube.com/watch?v=WI8ikp5YyRw
+
+How to Build a $1m AI Web app (Loveable + Stripe)
+Jack Roberts | 46:21
+Build monetized web apps connecting Loveable frontend to Stripe payments via n8n automation.
+https://www.youtube.com/watch?v=9xBqYjBsG2s
+
+How to QUICKLY Add Stripe Payments to Your Apps
+Brock Mesarich | AI for Non Techies | 8:26
+Integrate Stripe payments into your apps for seamless monetization.
+https://www.youtube.com/watch?v=jWPxl_XLDK8

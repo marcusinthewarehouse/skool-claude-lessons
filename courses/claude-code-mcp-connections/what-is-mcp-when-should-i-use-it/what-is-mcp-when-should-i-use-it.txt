@@ -1,0 +1,55 @@
+What is MCP? When should I use it?
+
+MCP (Model Context Protocol) is how Claude Code connects safely to outside tools and services like databases, browsers, or context libraries, without needing special plugins or risky API calls.
+
+Think of MCP as a "universal adapter" that lets your AI work with any external system through small add-on servers called MCP servers.
+
+Browse available servers here to connect with any of your apps:
+MCP server list: https://github.com/modelcontextprotocol/servers
+
+
+When to use MCP
+
+Use MCP whenever you want Claude Code to do something beyond reading or writing code:
+
+- Access other websites and apps, data or APIs
+- Automate testing or browser actions
+- Work with large external context (PDFs, notes, docs)
+
+You don't need it for simple coding tasks, but once your agent needs real-world access, MCP is the bridge.
+
+
+Why MCP matters
+
+Normally, Claude Code can only see your text files, chat and search the web.
+With MCP, it can:
+
+- Query a real database (like Supabase)
+- Search stored library documentation or research (using Context 7)
+- Open a browser to test or scrape a site or automate testing (using Playwright)
+
+Each of these abilities comes from an MCP server you install and connect once.
+
+
+Next steps in this course
+
+The following pages include ready-to-copy setup commands to link three essential MCP servers for this workflow:
+
+1. Supabase Server
+Lets Claude Code read and write to your Supabase database and storage.
+Used for: queries, schema checks, migrations.
+
+2. Context_7 Server
+Lets Claude Code find the most recent library documentation so it doesn't hallucinate code.
+Used for: context search and retrieval.
+
+3. Playwright Server
+Gives Claude Code the ability to use a browser for testing or collecting data.
+Used for: running web tests, screenshots, scraping.
+
+Each setup page will show:
+- How to add the server to your .mcp.json
+- The basic environment variables to set
+- A quick test command to confirm it works
+
+After completing them, Claude Code will be connected to your database, context sources, and your browser, forming the foundation of your full AI workflow.

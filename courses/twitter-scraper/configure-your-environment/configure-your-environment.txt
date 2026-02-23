@@ -1,0 +1,40 @@
+Configure Your Environment
+
+Now let's set up your local environment. This involves downloading the project, creating your configuration file, and organizing your credentials.
+
+For this and all of the following pages, have Claude Code execute the commands!
+
+
+Step 1: Create Your Google Drive Folder
+
+1. Go to https://drive.google.com
+2. Create a new folder (e.g., "AI Video Scripts")
+3. Open the folder and look at the URL
+4. Copy the folder ID (the long string after /folders/)
+
+
+Step 2: Download the Project Files
+
+Click the "Download Project Files" link at the bottom of this page to get the project. Extract it to a folder on your computer.
+
+
+Step 3: Save Your OAuth Credentials
+
+Find the JSON file you downloaded from Google Cloud, rename it to oauth-credentials.json, and move it to the config/ folder in your project.
+
+
+Step 4: Create Your .env File
+
+In the project folder, copy .env.example to .env and fill in your values:
+
+APIFY_API_TOKEN=apify_api_YOUR_TOKEN_HERE
+ANTHROPIC_API_KEY=sk-ant-api03-YOUR_KEY_HERE
+GOOGLE_DRIVE_FOLDER_ID=YOUR_FOLDER_ID_HERE
+GOOGLE_CREDENTIALS_PATH=./config/oauth-credentials.json
+
+Your folder structure should now have the .env file at the root and oauth-credentials.json in the config folder.
+
+
+Resources
+
+Download Project Files: https://github.com/grandamenium/ai-content-pipeline

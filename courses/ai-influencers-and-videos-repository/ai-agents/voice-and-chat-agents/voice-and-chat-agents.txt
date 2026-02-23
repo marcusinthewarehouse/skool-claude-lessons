@@ -1,0 +1,34 @@
+Voice & Chat Agents
+
+Build conversational AI systems including voice agents, chatbots, and personal AI assistants. Learn to create agents that can communicate naturally with users.
+
+
+Add ChatGPT To Your Website In Minutes (n8n AI Chatbot)
+Jono Catliff | 17:31
+Build AI chatbots trained on your content and embed them on websites.
+https://www.youtube.com/watch?v=4VD-6dFQJsk
+
+My Voice AI Agent Negotiated 800+ Business Deals in 1 Day (FULL Tutorial)
+Greg Isenberg | 23:02
+Build voice AI agents that handle business negotiations and customer calls at scale.
+https://www.youtube.com/watch?v=MAFHmyURRXo
+
+The ONLY Personal AI Assistant You'll Ever Need (NO CODE!)
+Zubair Trabzada | AI Workshop | 30:01
+Build a comprehensive personal AI assistant using no-code tools for daily task automation.
+https://www.youtube.com/watch?v=UPCul37e-M0
+
+NEW Claude MCP AI Super Agents (FREE!)
+Julian Goldie SEO | 14:29
+Control Mac with voice commands using Claude Desktop and AppleScript MCP integration.
+https://www.youtube.com/watch?v=GFg_5RjG3sw
+
+NEW 1-Click Claude AI Agents are INSANE!
+Julian Goldie SEO | 21:03
+Deploy Claude-powered AI agents instantly with one-click setup and configuration.
+https://www.youtube.com/watch?v=MmbEEs7nTkY
+
+Google MCP Agents: Build ANYTHING!
+Julian Goldie SEO | 19:27
+Integrate Google services with AI agents using MCP server connections for powerful automation.
+https://www.youtube.com/watch?v=jEfwzp6v9Wg

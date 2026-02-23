@@ -1,0 +1,45 @@
+Engineering Skills Overview
+
+Engineering Skills Category
+
+This category contains comprehensive technical skills for software engineering across all disciplines.
+
+
+Architecture
+System design and software architecture patterns for building scalable, maintainable applications.
+
+Backend Development
+Server-side development with APIs, databases, authentication, and business logic.
+
+Code Review
+Best practices and systematic approach to conducting effective code reviews.
+
+Computer Vision
+Image processing, object detection, and computer vision applications.
+
+Data Engineering
+Data pipeline design, ETL processes, and data infrastructure management.
+
+Data Science
+Statistical analysis, machine learning, and data visualization.
+
+DevOps
+CI/CD, infrastructure as code, containerization, and deployment automation.
+
+Frontend Development
+Modern frontend development with React, TypeScript, and component-based architecture.
+
+Fullstack Development
+End-to-end application development combining frontend and backend expertise.
+
+Prompt Engineering
+Crafting effective prompts and designing LLM-powered applications.
+
+QA Testing
+Test strategy, automation, and quality assurance methodologies.
+
+Security Operations
+Security monitoring, incident response, and operational security practices.
+
+Security
+Application security, threat modeling, and security best practices.

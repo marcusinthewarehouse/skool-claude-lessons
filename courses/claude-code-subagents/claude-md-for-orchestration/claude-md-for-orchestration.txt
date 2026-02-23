@@ -1,0 +1,15 @@
+CLAUDE.md For Orchestration
+
+This CLAUDE.md file defines how the main Claude Code agent should interact with your subagents during development. It acts as the system's built-in guide for when and how to deploy each specialized agent. While Claude can often infer which subagent to use based on context, explicitly listing triggers and conditions here improves accuracy, consistency, and overall workflow reliability.
+
+Each subagent entry provides a short instruction describing when that agent should be invoked. This helps Claude route complex tasks like research, performance optimization, or documentation to the right specialist automatically.
+
+Because this file is injected into every message Claude receives, it consumes context tokens with each interaction. To minimize context usage and maintain efficiency, you should:
+
+- Remove any agents you are not actively using in your current project or codebase.
+- Edit or condense descriptions to reflect your real workflow and tools.
+- Keep only relevant subagents for your current stack or development phase.
+
+This system is fully modular, meaning you can include only the subagents that matter to your setup, such as research, testing, UI, backend, or CI/CD. The cleaner and more focused your CLAUDE.md file, the more efficient your agentic workflow will be.
+
+In short, this file is your main agent's operational map. It teaches Claude when to act independently, when to delegate, and how to optimize collaboration across your subagent ecosystem.

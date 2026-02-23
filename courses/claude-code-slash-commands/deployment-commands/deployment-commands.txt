@@ -1,0 +1,13 @@
+Deployment Commands
+
+Deployment commands ensure your applications are production ready, with optimized containers, comprehensive deployment checklists, and robust monitoring infrastructure.
+
+Commands in this category:
+
+/optimize-docker - Optimize Docker containers for production by reducing image size, improving build times, and enhancing security. Covers multi-stage builds, layer optimization, security hardening, and runtime configuration.
+
+/check-deployment - Create comprehensive pre-deployment checklists ensuring production readiness. Covers code quality, infrastructure setup, security verification, performance validation, backup procedures, and communication plans.
+
+/setup-monitoring - Implement production-ready monitoring, logging, and observability infrastructure. Includes metrics collection, log aggregation, distributed tracing, alerting, dashboards, and incident management.
+
+Getting Started: Add the command files to your .claude/commands directory and restart Claude Code to start using them.

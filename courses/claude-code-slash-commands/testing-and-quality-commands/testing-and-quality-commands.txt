@@ -1,0 +1,15 @@
+Testing and Quality Commands
+
+Testing commands provide comprehensive tools for creating test suites, setting up debugging environments, analyzing bugs, and troubleshooting production errors.
+
+Commands in this category:
+
+/generate-tests - Create comprehensive test suites covering unit, integration, end-to-end, performance, and security testing. Implement the testing pyramid with appropriate tools, patterns, and automation for complete code quality assurance.
+
+/debug-issue - Set up comprehensive debugging environments, distributed tracing, and diagnostic tools. Configure debugging workflows for both development and production with proper logging and monitoring.
+
+/analyze-bug - Systematically analyze bugs to identify root causes using structured debugging approaches and hypothesis testing. Perfect for deep analysis when you need to find root causes, not just symptoms.
+
+/trace-error - Analyze production errors, identify patterns, and implement fixes for live system issues. Focuses on rapid diagnosis, error pattern recognition, and safe remediation of production problems.
+
+Getting Started: Add the command files to your .claude/commands directory and restart Claude Code to start using them.

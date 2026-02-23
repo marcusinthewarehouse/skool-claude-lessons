@@ -1,0 +1,25 @@
+START
+
+Welcome to the Short Form Video Scraper course. This tool lets you scrape, download, transcribe, and summarize TikTok videos into organized markdown files using Claude Code.
+
+No API keys required for the core workflow. It uses local Whisper for transcription and Claude Code handles summarization.
+
+
+What You Will Learn
+
+- How to clone and set up the project
+- Scraping entire TikTok profiles with /bulk
+- Transcribing individual videos with /transcribe
+- Managing multiple accounts with /accounts
+- Converting transcripts into Claude Code skills with /skillify
+- Understanding the four-stage pipeline: scrape, download, transcribe, summarize
+
+
+Prerequisites (Claude Code will install these for you)
+
+- Claude Code installed and working
+- Python 3.10 or higher
+- ffmpeg installed (brew install ffmpeg on Mac)
+- Git installed
+
+Head to the next page for a full summary of the tool, then check out the Features page and the GitHub Repo page for setup instructions.

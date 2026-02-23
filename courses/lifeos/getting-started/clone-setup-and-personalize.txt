@@ -1,0 +1,33 @@
+Getting Started
+
+Clone the repo, run the setup prompt, and let Claude Code personalize your workspace.
+
+
+Step 1: Clone the Repository
+
+Clone the agentic workspace template to your local machine (just ask your agent to clone it from the URL). Place it somewhere accessible like ~/agentic-workspace or ~/Documents/agentic-workspace. This will be your workspace root folder.
+
+
+Step 2: Open with Claude Code (or Clawdbot)
+
+Navigate to your workspace folder and start Claude Code (run "claude" in terminal, or use the Claude Code extension in VS Code). Claude will automatically read the CLAUDE.md file in the workspace root, which contains instructions for getting started.
+
+
+Step 3: Run the START Prompt
+
+Copy the setup prompt from START.md and paste it into Claude. This prompt walks Claude through personalizing your workspace - it will ask you questions about your schedule, work style, and goals, then populate USER.md, SCHEDULE.md, and other files based on your answers.
+
+
+Step 4: Complete the Onboarding
+
+The onboarding conversation can take anywhere from 10 minutes to 2 hours depending on your answers. Claude will ask about your wake/sleep times, work schedule, protected blocks (gym, meals), communication preferences, and current projects. Answer conversationally and with MAXIMAL CONTEXT. Claude adapts to your responses and creates a personalized configuration.
+
+
+Optional: Set Up Clawdbot for Automation
+
+For automated heartbeats and scheduled reviews, install Clawdbot. It runs your AI Agent on a schedule, triggering morning reviews, evening summaries, and regular check-ins based on your HEARTBEAT.md configuration. This is optional and poses severe security risks - you can use the workspace manually with Claude Code alone.
+
+
+Resources
+
+life-os github repository: https://github.com/grandamenium/life-os
