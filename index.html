@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI Resource Library</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -360,6 +362,20 @@
     .subfolder-list { grid-template-columns: 1fr; }
     .content-body { padding: 24px 20px; }
     .container { padding: 0 16px; }
+  }
+
+  /* PDF viewer */
+  .pdf-container { display: flex; flex-direction: column; align-items: center; gap: 16px; }
+  .pdf-container canvas {
+    max-width: 100%;
+    height: auto !important;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+  }
+  .pdf-page-label {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    margin-top: 8px;
   }
 
   /* Scrollbar */
@@ -11199,6 +11215,123 @@ const COURSES = [
         files: [{ name: 'how-to-use-it.txt', type: 'txt' }]
       }
     ]
+  },
+  {
+    id: 'community-notes',
+    title: 'Community Notes & Resources',
+    description: 'Organized notes from community discussions - skills, OpenClaw config, memory systems, security, automation, and more.',
+    icon: '\u{1F4DD}',
+    iconBg: 'var(--green-dim)',
+    iconColor: 'var(--green)',
+    path: 'resources/community-notes',
+    subfolders: [
+      {
+        id: 'claude-code-notes',
+        title: 'Claude Code',
+        path: 'resources/community-notes',
+        files: [
+          { name: 'claude-code-skills-scoping.md', type: 'md' },
+          { name: 'm2c1-skill-overview.md', type: 'md' }
+        ]
+      },
+      {
+        id: 'openclaw-setup-notes',
+        title: 'OpenClaw Setup & Config',
+        path: 'resources/community-notes',
+        files: [
+          { name: 'openclaw-project-structure.md', type: 'md' },
+          { name: 'openclaw-token-optimization.md', type: 'md' },
+          { name: 'openclaw-credentials-auth.md', type: 'md' }
+        ]
+      },
+      {
+        id: 'openclaw-advanced-notes',
+        title: 'OpenClaw Advanced',
+        path: 'resources/community-notes',
+        files: [
+          { name: 'openclaw-security-guardrails.md', type: 'md' },
+          { name: 'openclaw-memory-systems.md', type: 'md' }
+        ]
+      },
+      {
+        id: 'automation-notes',
+        title: 'Automation & Outreach',
+        path: 'resources/community-notes',
+        files: [
+          { name: 'social-media-auto-posting.md', type: 'md' },
+          { name: 'email-warmup-diy.md', type: 'md' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'openclaw-setup-docs',
+    title: 'OpenClaw Setup Docs',
+    description: 'Complete PDF guides for OpenClaw installation, security hardening, token management, cron jobs, training, and Mission Control.',
+    icon: '\u{1F4DA}',
+    iconBg: 'var(--orange-dim)',
+    iconColor: 'var(--orange)',
+    path: 'resources/openclaw-docs',
+    subfolders: [
+      {
+        id: 'mission-control',
+        title: 'Mission Control',
+        path: 'resources/openclaw-docs',
+        files: [
+          { name: 'Mission Control Center.pdf', type: 'pdf' },
+          { name: 'Mission Control Center (1).pdf', type: 'pdf' },
+          { name: 'Mission Control Center (2).pdf', type: 'pdf' }
+        ]
+      },
+      {
+        id: 'installation-setup',
+        title: 'Installation & Setup',
+        path: 'resources/openclaw-docs',
+        files: [
+          { name: 'OpenClaw_Installation_Guide.docx.pdf', type: 'pdf' },
+          { name: 'OpenClaw_Update_Guide.docx.pdf', type: 'pdf' },
+          { name: 'openclaw-platform-guide.docx.pdf', type: 'pdf' },
+          { name: 'sprint_setup_guide.docx.pdf', type: 'pdf' }
+        ]
+      },
+      {
+        id: 'config-operations',
+        title: 'Configuration & Operations',
+        path: 'resources/openclaw-docs',
+        files: [
+          { name: 'OpenClaw_Token_Calibration_Guide.docx.pdf', type: 'pdf' },
+          { name: 'openclaw_token_guide.docx.pdf', type: 'pdf' },
+          { name: 'OpenClaw_Cron_Jobs_Guide.pptx.pdf', type: 'pdf' }
+        ]
+      },
+      {
+        id: 'security-docs',
+        title: 'Security',
+        path: 'resources/openclaw-docs',
+        files: [
+          { name: 'OpenClaw-Security-Hardening-Guide-With-Agent-Prompts.docx.pdf', type: 'pdf' },
+          { name: 'openclaw-skills-security-guide.docx.pdf', type: 'pdf' }
+        ]
+      },
+      {
+        id: 'learning-training',
+        title: 'Learning & Training',
+        path: 'resources/openclaw-docs',
+        files: [
+          { name: 'openclaw_training_guide.docx.pdf', type: 'pdf' },
+          { name: 'OpenClaw_UGC_Automation_Guide.docx.pdf', type: 'pdf' }
+        ]
+      },
+      {
+        id: 'business-guides',
+        title: 'Business & SEO',
+        path: 'resources/openclaw-docs',
+        files: [
+          { name: 'Autonomous SaaS.docx.pdf', type: 'pdf' },
+          { name: 'OpenClaw_SEO_Guide_Professional.docx.pdf', type: 'pdf' }
+        ]
+      }
+    ]
   }
 ];
 
@@ -11210,7 +11343,7 @@ function getFileExtension(filename) {
   return parts[parts.length - 1].toLowerCase();
 }
 
-function isReadable(type) { return type === 'txt' || type === 'md'; }
+function isReadable(type) { return ['txt', 'md', 'pdf', 'docx'].includes(type); }
 function isDownloadable(type) { return ['md', 'zip', 'docx', 'pdf', 'pages'].includes(type); }
 
 function getFileLabel(type) {
@@ -11544,14 +11677,17 @@ function renderContent() {
   app.innerHTML = html;
 
   const contentEl = document.getElementById('content-body');
-  if (embedded) {
+  if (ext === 'pdf') {
+    renderPDF(filePath);
+  } else if (ext === 'docx') {
+    renderDOCX(filePath);
+  } else if (embedded) {
     if (ext === 'md') {
       contentEl.innerHTML = formatMarkdownContent(embedded);
     } else {
       contentEl.innerHTML = formatTextContent(embedded);
     }
   } else {
-    // Fallback to fetch for non-embedded files
     fetch(filePath)
       .then(r => { if (!r.ok) throw new Error('Not found'); return r.text(); })
       .then(text => {
@@ -11559,7 +11695,7 @@ function renderContent() {
         else contentEl.innerHTML = formatTextContent(text);
       })
       .catch(() => {
-        contentEl.innerHTML = `<div class="error-msg"><h3>Binary File</h3><p>This file type (${ext.toUpperCase()}) cannot be displayed inline. Use the download button above.</p></div>`;
+        contentEl.innerHTML = `<div class="error-msg"><h3>Unable to Load Content</h3><p>This file could not be loaded. Try downloading it instead.</p></div>`;
       });
   }
 }
@@ -11572,6 +11708,65 @@ function renderBreadcrumb(items, current) {
   });
   html += `<span class="breadcrumb-current">${current}</span></div>`;
   return html;
+}
+
+// ============================================================
+// PDF AND DOCX RENDERERS
+// ============================================================
+function renderPDF(filePath) {
+  const contentEl = document.getElementById('content-body');
+  pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+  const loadingTask = pdfjsLib.getDocument(filePath);
+  loadingTask.promise.then(function(pdf) {
+    contentEl.innerHTML = '<div class="pdf-container" id="pdf-pages"></div>';
+    const container = document.getElementById('pdf-pages');
+    const containerWidth = container.clientWidth || 800;
+    for (let i = 1; i <= pdf.numPages; i++) {
+      (function(pageNum) {
+        pdf.getPage(pageNum).then(function(page) {
+          const desiredWidth = containerWidth - 32;
+          const unscaledViewport = page.getViewport({ scale: 1 });
+          const scale = desiredWidth / unscaledViewport.width;
+          const viewport = page.getViewport({ scale: scale });
+          const canvas = document.createElement('canvas');
+          canvas.width = viewport.width;
+          canvas.height = viewport.height;
+          canvas.style.width = '100%';
+          canvas.style.height = 'auto';
+          const wrapper = document.createElement('div');
+          wrapper.style.width = '100%';
+          wrapper.appendChild(canvas);
+          const label = document.createElement('div');
+          label.className = 'pdf-page-label';
+          label.textContent = 'Page ' + pageNum + ' of ' + pdf.numPages;
+          wrapper.appendChild(label);
+          const existingPages = container.children;
+          let inserted = false;
+          for (let j = 0; j < existingPages.length; j++) {
+            const existingNum = parseInt(existingPages[j].dataset.page || '0');
+            if (pageNum < existingNum) { container.insertBefore(wrapper, existingPages[j]); inserted = true; break; }
+          }
+          if (!inserted) container.appendChild(wrapper);
+          wrapper.dataset.page = pageNum;
+          const ctx = canvas.getContext('2d');
+          page.render({ canvasContext: ctx, viewport: viewport });
+        });
+      })(i);
+    }
+  }).catch(function(err) {
+    contentEl.innerHTML = '<div class="error-msg"><h3>Unable to Load PDF</h3><p>The PDF could not be rendered. Try downloading it instead.</p><p style="margin-top:8px;font-size:0.8rem;color:var(--text-dim);">' + err.message + '</p></div>';
+  });
+}
+
+function renderDOCX(filePath) {
+  const contentEl = document.getElementById('content-body');
+  fetch(filePath)
+    .then(function(response) { if (!response.ok) throw new Error('File not found'); return response.arrayBuffer(); })
+    .then(function(arrayBuffer) { return mammoth.convertToHtml({ arrayBuffer: arrayBuffer }); })
+    .then(function(result) { contentEl.innerHTML = result.value; })
+    .catch(function(err) {
+      contentEl.innerHTML = '<div class="error-msg"><h3>Unable to Load Document</h3><p>The document could not be rendered. Try downloading it instead.</p><p style="margin-top:8px;font-size:0.8rem;color:var(--text-dim);">' + err.message + '</p></div>';
+    });
 }
 
 // ============================================================
