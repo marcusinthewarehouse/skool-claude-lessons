@@ -10757,7 +10757,124 @@ Step 4: Configure OAuth Consent Screen
 6. Enter YOUR Gmail address (the one you'll use with Google Drive)
 7. Click Add, then Save and Continue
 
-Important: Your app is in "Testing" mode. Only emails you add as test users can authorize the app.`
+Important: Your app is in "Testing" mode. Only emails you add as test users can authorize the app.`,
+'courses/m2c1-autonomous-development/how-to-use-it/how-to-use-it.txt': `How to Use M2C1
+
+M2C1 (measure twice, cut once) is inspired heavily by GSD and PRP frameworks, but with added steps that push the process to produce software that is actually ready to receive, monitor, and support paying users off rip. Below are the three key differentiators and tips for getting the most out of each phase.
+
+ONE: AUTONOMOUS TOOL SETUP
+
+Before creating the PLANNING.md document, there is a step that instructs your agent to read all of the research and Q&As you've accumulated, and search for any MCPs, Skills, CLI tools, or other "Human Required" tasks that it can complete through browser automation with your credentials - like getting API keys, configuring dashboards, creating testing artifacts, etc.
+
+No specific tools are mentioned in the skill - it's designed to morph to your goals. If you want the most production ready software out the end, here are some suggestions to recommend to your agent during the ideation process:
+
+Deployment
+
+Give your agent access to your GitHub and deployment platform (Vercel, Railway, etc) via MCP, AND through the browser with your login credentials via Playwright MCP. This is obviously a bit risky, but I've had no issues. Using these services through the browser gives your agent FULL access to configure them as you would, which is not always available through MCP tools or CLI. This MCP + Browser access to the same tools applies to all of the following.
+
+Tip: During the discovery phase, explicitly tell your agent which deployment platform you prefer. If you say "deploy to Vercel", the agent will research Vercel-specific MCP servers, CLI tools, and browser-based configuration steps during the second research wave.
+
+Payments
+
+Give your agent access to the payment platform you will use (Stripe is easiest usually) via MCP and dashboard in browser.
+
+User Action Monitoring
+
+Give your agent access to your PostHog account via CLI and browser. This lets the agent set up event tracking, funnels, and dashboards as part of the build process - so your software ships with analytics baked in from day one.
+
+Database
+
+Give your agent access to Supabase via MCP and browser. The agent can create tables, set up RLS policies, configure auth, and wire up edge functions - all autonomously.
+
+Pro tip: To skip even creating accounts for these platforms, you can give your agent your Google login (or its OWN Google login) and have it create accounts and configure them fully autonomously. I recommend creating a dedicated Google account for your agent to use - this isolates permissions and keeps your personal accounts clean.
+
+TWO: COMPREHENSIVE USER-CENTERED TESTING
+
+Oftentimes, testing frameworks for agents involve creating unit and integration tests for the backend, and maybe using Playwright to test that the UI looks correct by taking screenshots and clicking around on some buttons. This still misses the core user interactions in all of the potential branching user flow edge cases that your software will have when used by many users.
+
+This skill emphasizes that the agent, after every atomic task, should test many different user flow branches using the Playwright MCP, truly exhausting all the potential options that the user would actually take when using your app, including submitting assets or inputs into your app if that's something involved in the user flow.
+
+In the tool setup step, your agent will evaluate any user assets that need to be created to allow agents to use those assets during automated testing. If you have enabled your agent to have access to deployable software live, it will also do full regression testing on the live site using the Playwright MCP server after every phase is completed. This comprehensive testing loop ensures that what you get out the end of your orchestrated implementation is an actually fully functioning product ready for users.
+
+Tips for getting the most out of testing:
+
+- During discovery, describe your target users and the kinds of inputs they would provide. The agent uses this to create realistic test fixtures - sample files, form data, edge case inputs.
+- If your app accepts file uploads (images, PDFs, CSVs), tell the agent during discovery. It will create test assets and use them in Playwright testing flows.
+- For apps with auth, the agent creates test accounts and tests every role/permission combination.
+- Mention any third-party webhooks or callbacks your app receives. The agent will simulate these during testing.
+- The regression test at the end of each phase catches integration issues early. If a Phase 2 task breaks something from Phase 1, you catch it before building Phase 3 on top of it.
+
+THREE: PLAN REVIEW AND SYNTHESIS
+
+In a lot of other frameworks like GSD, because many people try to use them to create really complicated software which involves a lot of research and the agent ingesting a lot of documents, the agent defaults to using sub-agents to synthesize research into phase documents or to split phase documents down into task documents. This logic is split into different agents' context windows, so sometimes they will output task files that actually contradict other task files within the workflow.
+
+There is an explicit step that analyzes all of the atomic task files to make sure that they all have contracts with each other, all have blocking and blocked-by flags, and that none of the actual implementation steps or methodology disagree with each other between steps within a phase and between steps between phases. This ensures that even though you put so much effort into planning, because you split your task creation into multiple sub-agent context windows, the overarching goal and synthesis of the different task files doesn't get confused before you start implementing.
+
+Tips for the planning phases:
+
+- The more detailed your answers during discovery, the better. Vague answers lead to vague task files. If the agent asks "what auth method?", don't say "whatever works" - say "email + password with magic link fallback, using Supabase Auth."
+- When the agent presents synergy review issues, actually read them. These are contradictions between tasks that would cause bugs later. Approving all fixes blindly defeats the purpose.
+- If your project is large (20+ tasks), consider asking the agent to split the synergy review into domain-specific reviews. One reviewer checks all API contract alignment, another checks all UI flow consistency.
+- The context compact step (Phase 8) is not optional. By this point the conversation is massive. Compact, let the agent re-orient from the files, and continue. Everything important is persisted to disk.
+- After the master plan is created, skim PHASES.md before letting task sharding begin. This is your last chance to catch major architectural decisions you disagree with before they get baked into 30+ task files.
+
+GENERAL TIPS
+
+The skill is designed for the agent to push you forward throughout the phases of creating the orchestration system. There might be some choppy moments where you have to ask Claude Code to go reread the skill and the workflow to understand what step you are at in the orchestration system. This is normal - just say "reread the M2C1 skill and pick up where we left off" and it will re-orient.
+
+- Start with a smaller project to get a feel for the workflow before throwing a massive SaaS at it.
+- Your brain dump does not need to be clean. Voice-to-text, bullet points, stream of consciousness - the PRD phase will synthesize it.
+- Don't skip discovery questions to save time. The 10 minutes you spend answering questions saves hours of rework later when the agent builds something you didn't want.
+- If execution stalls on a task, check PROGRESS.md - the agent updates it after every task. You can see exactly where it stopped and why.
+- The /start command can be run in a fresh session. All state is in files, so you never lose progress between sessions.
+
+Let me know any issues you have in using this skill or anything that you might find useful to add. Feel free to make pull requests to the repository if you have interesting additions to this skill folder.`,
+'courses/m2c1-autonomous-development/overview/overview.txt': `M2C1 - Fully Autonomous Development Framework
+
+M2C1 (measure twice cut once) is a Claude Code skill that turns your brain dump into fully built, tested, and deployed software. You describe your idea, and it handles everything else through coordinated AI subagents.
+
+WHAT IT DOES
+
+The framework runs a 12-phase orchestration workflow. It converts your idea into a structured PRD, deploys parallel research subagents, asks you detailed discovery questions, configures all tools and MCP servers, creates a master implementation plan, shards it into individual task files, reviews them for coherence, then autonomously executes every task with comprehensive testing at every level.
+
+THE 12 PHASES
+
+1. Setup - Creates orchestration folder structure
+2. Brain Dump to PRD - Synthesizes your idea into a structured spec
+3. First Research Wave - Parallel subagents research every domain
+4. Discovery Questions - Detailed Q&A to clarify all decisions
+5. Second Research Wave - Implementation-focused research
+6. Tool Setup - Configures MCP servers, API keys, services
+7. Tool Verification - Tests every tool and integration
+8. Skill Creation - Creates project-level skills for each domain
+9. Context Compact - Refresh context (all state is in files)
+10. Master Plan - Implementation plan with tasks and dependencies
+11. Task Sharding - Expands each task into a self-contained agent prompt
+12. Final Artifacts - Creates progress tracker, orchestrator, and project config
+
+After setup completes, run /start and the orchestrator autonomously executes every task with full testing.
+
+KEY PRINCIPLES
+
+- Every artifact has a template
+- Parallel by default - subagents run in background wherever independent
+- Multi-angle testing at every level
+- Human-emulating testing via Playwright
+- Tool-aware - researches and configures MCP servers and CLIs
+- Generalizable - works for SaaS, API, CLI, mobile, and more
+
+INSTALLATION
+
+Clone the repo and copy into your Claude Code skills directory:
+
+\`\`\`
+git clone https://github.com/grandamenium/m2c1.git
+cp -r m2c1/ ~/.claude/skills/m2c1/
+\`\`\`
+
+Claude Code will auto-discover the skill. Just describe your project idea and the 12-phase workflow kicks off automatically.
+
+GitHub Repository: https://github.com/grandamenium/m2c1`
 };
 
 
@@ -11058,6 +11175,29 @@ const COURSES = [
       { id: 'twitter-first-run', title: 'First Run and Testing', path: 'courses/twitter-scraper/first-run-and-testing', files: [{ name: 'first-run-and-testing.txt', type: 'txt' }] },
       { id: 'twitter-automate', title: 'Automate with PM2 Scheduler', path: 'courses/twitter-scraper/automate-with-pm2-scheduler', files: [{ name: 'automate-with-pm2-scheduler.txt', type: 'txt' }] },
       { id: 'twitter-customize', title: 'Customize and Fix Common Issues', path: 'courses/twitter-scraper/customize-and-fix-common-issues', files: [{ name: 'customize-and-fix-common-issues.txt', type: 'txt' }] }
+    ]
+  },
+  {
+    id: 'm2c1-autonomous-development',
+    title: 'M2C1 - Autonomous Development Framework',
+    description: 'A 12-phase orchestration skill that turns your brain dump into fully built, tested, and deployed software through coordinated AI subagents.',
+    icon: '\u2699',
+    iconBg: 'var(--orange-dim)',
+    iconColor: 'var(--orange)',
+    path: 'courses/m2c1-autonomous-development',
+    subfolders: [
+      {
+        id: 'm2c1-overview',
+        title: 'Overview and Installation',
+        path: 'courses/m2c1-autonomous-development/overview',
+        files: [{ name: 'overview.txt', type: 'txt' }]
+      },
+      {
+        id: 'm2c1-how-to-use',
+        title: 'How to Use It',
+        path: 'courses/m2c1-autonomous-development/how-to-use-it',
+        files: [{ name: 'how-to-use-it.txt', type: 'txt' }]
+      }
     ]
   }
 ];
