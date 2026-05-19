@@ -1,0 +1,133 @@
+Skills
+What This Lesson Covers
+How to create reusable capabilities that Claude can use automatically or that you invoke with /skill-name.
+The Key Insight
+Skills are markdown files with instructions that become part of Claude's toolkit. You write a SKILL.md file, and it becomes available as /skill-name. Claude can also load it automatically when relevant to what you're working on.
+Slash commands and skills are the same thing now. A file at .claude/commands/review.md and one at .claude/skills/review/SKILL.md both create /review. Skills just support extra features like folders for supporting files.
+Anatomy of a Skill
+my-skill/
+├── SKILL.md           # Required - instructions for Claude
+├── scripts/           # Optional - helper scripts
+├── examples/          # Optional - example outputs
+└── references/        # Optional - detailed docs
+
+SKILL.md Structure
+---
+name: skill-name
+description: What it does. Use when <trigger conditions>.
+---
+
+# Instructions
+
+Your markdown instructions here...
+The description is critical. Include words users would naturally say. Claude reads descriptions to decide which skills apply.
+Passing Arguments
+Use $ARGUMENTS to capture what follows the skill name:
+---
+name: fix-issue
+description: Fix a GitHub issue by number
+---
+
+Fix GitHub issue #$ARGUMENTS:
+
+1. Read the issue
+2. Implement the fix
+3. Create a commit
+/fix-issue 142 → Claude receives "Fix GitHub issue #142..."
+
+For multiple arguments, use $0, $1, $2:
+---
+name: migrate
+description: Migrate a component between frameworks
+---
+
+Migrate $0 from $1 to $2.
+/migrate Button React Vue → "Migrate Button from React to Vue."
+Creating Your First Skill
+Example: YouTube Transcription
+This skill transcribes YouTube videos to text files:
+1. Create the folder:
+mkdir -p ~/.claude/skills/youtube-transcription
+
+2. Create SKILL.md:
+---
+name: youtube-transcription
+description: Transcribe YouTube videos to text files. Use when user
+  provides a YouTube URL and wants a transcript or text version.
+---
+
+# YouTube Transcription
+
+When user provides a YouTube URL:
+
+1. Run the transcription script:
+   python3 ~/.claude/skills/youtube-transcription/transcribe.py "$ARGUMENTS"
+
+2. Report the results:
+   - Method used (captions or whisper)
+   - File path: ~/transcripts/<video-id>.txt
+
+3. Test it:
+You can invoke it directly:
+/youtube-transcription https://youtube.com/watch?v=abc123
+Or just ask naturally - Claude sees "YouTube URL" + "transcript" in your message and loads the skill automatically:
+Can you transcribe this video? https://youtube.com/watch?v=abc123
+Where Skills Live
+
+Location
+Scope
+~/.claude/skills/
+Personal - available in all your projects
+.claude/skills/
+Project - commit to git for team
+
+Personal skills travel with you. Project skills can be committed to git for your team.
+Controlling Who Invokes
+By default, both you AND Claude can invoke any skill. You can restrict this:
+
+disable-model-invocation: true - Only you can invoke it
+Use for skills with side effects you want to control:
+---
+name: deploy
+description: Deploy to production
+disable-model-invocation: true
+---
+Claude won't auto-trigger this even if you say "deploy". You must type /deploy.
+
+user-invocable: false - Only Claude can invoke it
+Use for background knowledge that isn't a command:
+---
+name: legacy-api-context
+description: Context about our legacy API. Use when working with /api/v1 endpoints.
+user-invocable: false
+---
+This won't show in the / menu, but Claude loads it when relevant.
+Injecting Dynamic Context
+Use !`command` to run a shell command and inject its output:
+---
+name: pr-review
+description: Review the current pull request
+---
+
+## PR Context
+!`gh pr diff`
+
+## Your task
+Review this PR for issues...
+The gh pr diff runs BEFORE Claude sees the skill. Claude receives the actual diff, not the command.
+Quick Reference
+
+Pattern
+Usage
+$ARGUMENTS
+Everything after the skill name
+$0, $1, $2
+Positional arguments
+!`command`
+Inject shell output
+disable-model-invocation
+User-only invocation
+user-invocable: false
+Claude-only (background knowledge)
+What's Next
+You've created portable skills. Next lesson: using subagents to preserve context by offloading heavy exploration work.

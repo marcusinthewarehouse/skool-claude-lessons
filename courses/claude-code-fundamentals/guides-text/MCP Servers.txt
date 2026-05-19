@@ -1,0 +1,85 @@
+MCP Servers
+What This Lesson Covers
+How to connect Claude Code to external services using MCP servers - giving Claude access to browser automation, live documentation, databases, and more.
+The Key Insight
+Claude Code can read files, run commands, and search the web. But what if you need it to control a browser, pull up-to-date library docs, or query your database? MCP servers extend Claude's reach to any external service.
+What Are MCP Servers?
+Model Context Protocol (MCP) is an open standard for connecting AI to external tools.
+	•	Each server runs as a separate process
+	•	Exposes tools that Claude discovers automatically
+	•	Works like plugins for Claude Code
+Adding Your First MCP Server
+Example 1: Playwright (Browser Automation)
+Playwright lets Claude control a real browser - click buttons, fill forms, take screenshots.
+claude mcp add playwright -- npx @playwright/mcp@latest
+Verify it's working:
+claude mcp list
+# playwright: healthy
+Using it:
+Use playwright mcp to open a browser to stripe.com and screenshot the pricing page
+A visible Chrome window opens. Claude controls it using the accessibility tree (not pixels), making it fast and reliable.
+Pro tip: For login-protected sites, have Claude open the login page, log in yourself, then tell Claude to continue. Cookies persist for the session.
+Example 2: Context7 (Live Documentation)
+Context7 pulls current, version-specific documentation directly into your prompt - no more outdated training data.
+claude mcp add context7 -- npx -y @upstash/context7-mcp@latest
+Using it:
+How do I set up authentication in Next.js 15? Use context7 for current docs.
+Context7 fetches the actual Next.js 15 documentation instead of Claude relying on potentially outdated training data.
+Pro tip: If you know the exact library, include it: "Use context7 to get React Query v5 docs for mutations"
+Scopes: Where Configs Live
+When adding an MCP server, you choose where the config is stored:
+# Add for just this project (team can use)
+claude mcp add --scope project playwright -- npx @playwright/mcp@latest
+
+# Add for all your projects
+claude mcp add --scope user context7 -- npx -y @upstash/context7-mcp@latest
+Managing Servers with /mcp
+Type /mcp inside Claude Code to:
+	•	See all connected servers and their status
+	•	Reconnect failed servers
+	•	Disable/enable servers temporarily
+	•	View available tools for each server
+You can also toggle servers inline with @servername - type @playwright and press Enter to enable/disable.
+Automatic Tool Search (Context Optimization)
+You don't need to configure this - it's automatic.
+When your MCP tool descriptions exceed 10% of the context window, Claude Code automatically:
+	•	Defers loading tool definitions
+	•	Gives Claude a search tool instead
+	•	Loads only the tools Claude needs, when it needs them
+Why this matters: 10 MCP servers with 20 tools each = 200 tool definitions eating your context before you even start working. With automatic tool search, Claude starts lean and loads tools on-demand.
+Result: 85% reduction in token overhead for users with many MCP servers.
+If you ever need to disable this (rare), add MCPSearch to disallowedTools in settings.
+Popular MCP Servers
+
+Server
+What It Does
+playwright
+Browser automation - testing, screenshots, web scraping
+context7
+Live documentation for any library/framework
+filesystem
+Sandboxed file access outside project
+postgres / sqlite
+Database querying and schema inspection
+slack
+Read/send messages, manage channels
+
+Browse more at mcp.run or search GitHub for "mcp server".
+Quick Reference
+
+Command
+What It Does
+claude mcp add
+Add a new MCP server
+claude mcp list
+Show all servers and status
+claude mcp remove
+Remove a server
+/mcp
+Interactive management inside session
+--scope project
+Store config in project (shareable)
+--scope user
+Store config globally (personal)
+What's Next
+You've connected external tools via MCP. Next lesson: building portable knowledge skills that Claude triggers automatically.

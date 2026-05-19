@@ -1,0 +1,87 @@
+Your First CLAUDE.md
+What This Lesson Covers
+How to write a CLAUDE.md file that Claude actually follows — not one it ignores.
+The Key Insight
+You wrote 47 rules and Claude ignores most of them. Someone else wrote 8 rules and Claude follows them religiously. The difference isn't magic — it's understanding how Claude reads these files.
+Where CLAUDE.md Lives
+
+Location
+Scope
+Use Case
+~/.claude/CLAUDE.md
+Global
+Personal preferences, all projects
+./CLAUDE.md
+Project root
+Project conventions, team norms
+./CLAUDE.local.md
+Personal
+Your overrides (gitignored)
+./subfolder/CLAUDE.md
+Folder
+Loaded when accessing that folder
+
+Most common: Project root CLAUDE.md.
+The Hidden Truth
+Claude's system prompt says:
+"This context may or may not be relevant to your tasks. You should not respond to this context unless it is highly relevant."
+
+Claude actively filters out rules that seem situational. Universal, direct rules win.
+Using /init
+Run /init in any project to auto-generate a CLAUDE.md.
+
+	•	Analyzes: package files, config, directory structure
+	•	Produces: build commands, test instructions, detected patterns
+	•	Warning: Output is mostly WHAT/WHY documentation — trim aggressively before adding rules
+Rules That Work vs Rules That Fail
+
+Bad (gets ignored)
+If possible, consider writing tests when adding new functions, unless the change is minor or time-sensitive.
+
+Good (gets followed)
+All new functions MUST have unit tests. Run `npm test` before completing any task.
+
+Why? Commands work. Preferences get ignored.
+Avoid These Words
+	•	"please try to"
+	•	"if possible"
+	•	"consider"
+	•	"unless"
+
+Use These Instead
+	•	MUST
+	•	ALWAYS
+	•	NEVER
+	•	Backtick commands: `npm test`
+The Anatomy of a Good CLAUDE.md
+## Development
+- Run `npm run lint:fix` before committing
+- Run `npm test` after any code change
+- All new functions MUST have unit tests
+
+## Code Style
+- Use TypeScript strict mode
+- Prefer named exports over default exports
+- Error messages MUST include context
+
+## Git
+- Commit messages: `type(scope): description`
+- NEVER commit directly to main
+
+Notice: One line, one action. Direct commands. ~10 core rules max.
+Quick Reference
+
+Pattern
+Example
+Build command
+npm run build — Compiles TypeScript
+Test command
+npm test — Runs Jest suite
+Lint command
+npm run lint:fix — Auto-fix issues
+Absolute rule
+All API endpoints MUST return JSON
+Workflow
+After changes: lint → test → commit
+What's Next
+You've set up your project's CLAUDE.md. Next lesson: building custom slash commands to turn repeated prompts into reusable tools.

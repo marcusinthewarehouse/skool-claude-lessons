@@ -1,0 +1,645 @@
+Agent Architects - Live Call Recording Transcript
+Date: 2/23/26
+
+---
+
+Yeah, it's going to be an interesting shift for me.
+I lived in the Northeast my entire life and it's very different, very different down there in Miami.
+So I'm excited.
+It's going to be, it's going to be cool.
+But a lot of cool people in the AI space down there and just obviously a lot of really cool startups and tech companies and cool stuff going on down there.
+So I'm excited, excited to get exposed to that.
+Yeah, you'll have a lot of fun and you'll meet a ton of people that are getting after it.
+Yeah, that's what, that's what I've heard for sure.
+So anyway, Roberto, what have you been up to?
+I don't think I got a chance to chat with you on the last call.
+I saw you joined though.
+So what have you been up to the past few weeks?
+How's your experience with Cloud Code been going?
+Not as, not as great as I would like.
+I haven't been able to make much progress actually using the tool, but I have made it through more of the lecture topics and understanding how to equip Cloud Code with different capabilities.
+So skills and MCPs, which got my gears turning really fast and got me a little bit more excited but I'm still having trouble at like step number one with like getting it to remember that I'm in there.
+I'm not sure if like every time that I close it out, I have to reset the parameters.
+Yeah.
+So, so what, could you repeat again what you're, what the problem that you're having is?
+Yeah, I guess like I'm just, I'm just not comfortable in there yet.
+So and then every time that I open it back up, I guess I can just never, it doesn't remember my session.
+So I guess, do I always have to open a new folder and then add the, I don't know, the default kind of like thing that I have to paste in there to install Cloud Code?
+Okay.
+So when you go back, like let's say, you know, tomorrow you're going back to a project you're working on today and are you able to start Cloud Code successfully or do you actually have to reinstall Cloud Code itself or can you type in Cloud and hit enter and it will start up?
+Yeah, no, I'm not able to.
+Whenever I click Cloud, it gives the error and I have to go find that line of code that that you share and then the extension beyond that first line to, yeah, like install it once again.
+That's super interesting.
+I wonder maybe if you're installing it at a project level instead of installing it globally on your computer.
+And so when you open up new folders, you have to keep installing within each folder.
+Okay.
+Usually that shouldn't happen, it should automatically install globally.
+Are you on Mac? Are you on Windows?
+Yeah, I'm on Mac.
+Okay.
+Maybe what I was, I don't know exactly how you've been installing it, but maybe what I would suggest trying is opening up the terminal app on your Mac.
+So you literally just open up, I don't know if you've used the terminal app on Mac, but you literally like in your applications, you just like, or in Spotlight search on Mac, you just search terminal and there's a terminal app that you can open up.
+That's literally just a terminal window and try installing it in that terminal window because that will open up automatically to your home directory of your computer, which is like the top level user level directory for your entire computer.
+Maybe try there.
+I would say also if you end up just having a super hard time installing it in the terminal, you should try using, I don't know if you have the Claw desktop app, but Claw code is now very usable in the Claw desktop app with a really nice user interface that's like way more beginner friendly than the terminal and it actually has some really cool features and works super well now.
+So if you really can't figure out how to get it working reliably, I would use that because it still has all the same features as Claw code.
+It's just within the Claw desktop app.
+Okay.
+I'm going to have to download the Claw desktop app, but I'm looking at my applications right now and ah, I found the terminal for the first time.
+Okay.
+And then I'll, yeah, this stuff kind of looks familiar, bin slash zsh.
+Okay.
+So I'll put those, those things in there.
+That's what I was expecting.
+I was expecting to like for it to be everywhere, Claw code.
+That's how it should install.
+Yeah.
+It's the default install location should be global.
+So I don't know if that's the problem that you're running into.
+So if you, if you run into this problem again, after doing what I've said, send me a screenshot maybe of how you're installing it and the error message you're getting just over DMs or something.
+And we can troubleshoot it together and get it figured out for you because it's so funny with Claude code.
+Like the hardest part of Claude code getting it working is installing it because once you have Claude code installed, you can install anything else you want by just asking Claude code to install it.
+You got to get Claude code installed first.
+So I've been in exactly your shoes.
+So we'll get it running for you.
+Gotcha.
+And another quick little question that I have is that I guess it's kind of like unique to this situation where it's like, it's, it's running in particular.
+Oh, maybe it's because I'm opening a folder and then trying to install it there rather than just installing it before I even open a folder maybe.
+I was thinking that maybe that's the problem.
+Usually even that shouldn't cause a problem, but for some reason your computer might be configured in such a way that, you know, who knows?
+You never know with this stuff.
+So yeah, try installing it without opening a folder first.
+That might be it.
+Gotcha.
+Okay.
+Yeah.
+And feel free to DM me if you, if you keep having trouble.
+All right.
+And get you up and running.
+Okay.
+I'll give it a shot in the terminal too.
+Sweet.
+I appreciate it, James.
+Yeah, of course, man.
+How's it going with you, Christopher?
+What's been up with you past week?
+Hey, can you guys hear me?
+Yeah.
+Yeah.
+For the past week, I've been working on my original project, but I also added another project where I wanted to automate a report.
+So I was able to run scripts from SQL and I was able to run scripts from the web, and load those scripts in a temporary database, and then run an update using Claude to, let's say, update all this data on a frequent basis.
+The reason why I'm going this circle is because I don't have permissions internally to do a lot of this stuff from RIT.
+So I kind of need to always push specific data to my super base and then use that data to update some of the, let's say, confidential information from the company.
+I was able to work with Claude.
+I think I was done yesterday or Sunday, right?
+So yeah, yesterday to kind of complete the automation.
+So every 7 a.m., it goes in, I get the data from SQL, push it to my internal database, and then run the data from there into a Google Sheet that everybody uses to monitor the metrics within the company.
+So I was able to work on that and my main project, which is the matching system I'm working on.
+And with that, I am at a point where I need to consistently fix steps of the process.
+So I was able to, again, match two large files with, let's say, a million rows each.
+And doing that on the first iteration, I had to go through so many different fixes to be able to get those two files in, load those two files in.
+Now I'm using a grid, so it makes it much more simpler.
+And then I had to go to the next step where we store the data.
+How do we store the data?
+If the matching is done, we need to store the data in super base, but I need to also understand from this iteration that I did what data was stored, what was in masked, and what was masked, and it's giving me errors.
+So I'm just doing it one at a time.
+And then the second aspect will be where I can actually store all this information because every iteration takes about, let's say, it's almost, I would say, 100 megs of data.
+And I'm just trying to see how consistently I can store the data in an efficient manner because I've tried GCP, I've tried, this is another option I tried, and I still can't get a system that will allow me to consistently store enough data and not crash.
+Because the more I add data into my super base and the more I try to store data in there, I get limit errors for super base.
+So I'm just working with this now and trying to figure out how exactly I can mitigate this so I can, again, roll this out to people that can use it.
+So yeah, that's where I'm at.
+And it's just, like I would say, an ongoing process.
+So are you limited to, is there a specific reason you chose super base?
+First reason I chose super base was to try to use RAG, but it did not, when I tried to load the data into super base, that was 41 gigs of data that was trying to load into super base.
+I ran into issues, so I abandoned the entire RAG aspect of it and started working with the data and trying to see what or how I could load that data into super base.
+So that's where I'm at.
+But the way the system works now, it takes all the matching data that I need to have.
+It takes it from two different files, it matches it, combines all of them into one, let's say, a unique file, and it sends that into super base.
+So it saves it there.
+So I already have a lot of data stored there because I've been running tests, and then I have to go back, delete all the data that I need to store in super base.
+And then I have to go back, delete all the data, and then run some more tests again.
+If you have another idea that I could use, I'm more than willing to migrate to that.
+But I chose super base originally because I think I saw the video with Cole Medin on creating RAG and stuff like that, and that's really what I wanted initially.
+But then again, if I can't get there because of the storage issue, I'm willing to listen to hear any other opinions you guys have.
+Yeah, there's not a specific example I can think of off the top of my head that I know for a fact would be better, but I think it would definitely be worth just taking a Cloud Code session to do some research on other alternatives that are specifically focused on what you want.
+Because I know super base kind of has a very specific clientele that it just might not be, the software might not be optimized for what you're looking for.
+So it would definitely be worth it to do some research on what service might be better for the specific things that you're trying to do, and which one would be easiest for you to migrate.
+Yeah, Kenji, go ahead.
+Hey there, good to meet every one.
+What if I ask, what are you storing in your data set?
+Out of curiosity.
+I'm storing hotel name, hotel address, long lat, zip code.
+So basically location information.
+Data, yes.
+So there's a couple different data sets in different ways, depending on how you want to use that data that I would recommend.
+RAG is not always the best for that kind of data, unless you're going to do some bedding kind of stuff.
+If you're trying to do matching, can you give a little bit of the use case for that?
+I've done a ton of stuff.
+Okay, so what I have right now, so I work in a hotel space and for most of the clients that connect to us, they need first off to understand our entire database of hotels and where the hotels are located, et cetera.
+The entire database consists of three million hotels.
+That's the overall.
+But the problem most of the clients try to solve is matching our database to their own databases, existing databases, or something normalized that they use.
+So the idea behind this tool is understanding, one, my database and all the different location criteria, comparing that to a new or existing client's database and their criteria.
+So normally they will send us a file or a ZSD.
+We would download and then try to run like Python code to try to do a match with some confidence level.
+What we're doing now is just putting this into a tool that will have the existing database of the three million hotels that assist within our database and then have the client log in and just attach a file that they want to match.
+And that file will have this criteria of, let's say, 10 or 15 different sets that they would want to match to and then they'll run it against our database and then they'll get a result that will say, okay, out of this million hotels that you try to match, there's 500,000 that have been matched and this is the confidence level for each one of them.
+So that's the logic here.
+So it's a pretty classic data set.
+We want what's called a ranker structure or a matching structure system.
+RAG can be used for that, but traditional RAG databases are not the best.
+Quick introduction, I'm CTO at a company called Grey Whale, which we actually specifically have an API, an AI data structure for doing exactly that.
+And we're just now kind of launching that out of a bit of stealth.
+But it's already been in the market for a long time for e-commerce.
+But if you want an open source solution as well, then I would look at...
+And again, depending on your data, the way you want to make it work, my company has a solution for this, but also I would say the other one to look at would be Voyage AI, which is MongoDB's basically RAG embedding system for doing ranker and retrieval information.
+So that will handle large data sets as well.
+This is a pretty classic issue problem.
+Most people try to use RAG for this.
+And unless you know how to really tune a RAG model, they're not the best at doing this.
+You want something that has a little more intelligence in it, like what my company has or Voyage AI or one of the other ones like that.
+Because you're talking about deep embedding structures with large data sets that you want to do matching on.
+And so unless you're going to write your own matching algorithm on top of it, using something like Elasticsearch tied in with it, which is a pretty classic pattern, that can get really complicated really fast.
+Oh, thanks.
+I will definitely look into these and reach out to you immediately.
+Yeah, I'll throw them in the chat.
+This is Voyage, and this is my company.
+Perfect.
+Yeah, you guys should definitely chat after the call for sure.
+It sounds like Kenji that you have good expertise on what Chris is working on.
+So that's awesome.
+I'm recording this call also so I can give you guys the transcript and everything as well.
+100%.
+Nice to meet you also, Kenji.
+Good to see you here.
+Yeah, good to meet you too.
+So I'm doing a lot of agentic coding and so forth and saw some of your stuff and figured I would join in to see some of the tricks you might have that I might not have figured out yet.
+For sure.
+Yeah, glad to have you here.
+And we'll certainly talk about that stuff.
+Roberto, yeah, go ahead.
+Hey, again.
+So now I'm at the, I guess, the user level where I've given it potentially permission for like my entire computer user, Roberto Cellini, being myself.
+And I can see like every single thing on my computer in the open folder section.
+So desktop, documents, downloads, is that what I want to do?
+Is that unsafe?
+So you've opened your user level folder in VS Code?
+Yeah, it's asking me, do I trust the files in this folder?
+But this is, yeah.
+Is that a VS Code pop-up that says trust these files?
+Yeah.
+Yeah, so that's fine.
+So I was suggesting just to install Claude code at that level.
+So now once you're in VS Code, now you've opened your user level folder.
+You can open up a terminal now in VS Code and try installing it there and see if you're able to then open up a subfolder in VS Code, like maybe one of your project folders, after you've installed it globally, and see if you can start up Claude now in a subfolder, now that you've installed it globally.
+See, I would open up a terminal and, sorry, go ahead.
+Okay, no, no, no, Dewey noted.
+I'm just weary because it's going to be everywhere now.
+I was initially doing it, maybe this is where I was running into an error, but I was just, I guess, installing it within a folder, and then it's creating things in there.
+But even still then, creating a new folder, I have to reinstall it.
+So it was strange.
+Yeah, that is strange.
+I'm honestly not sure what might be causing that.
+And usually, often like software packages, I mean, Claude Code is different, but it's common to install them globally on your computer.
+So I wouldn't be too concerned about security unless you're giving Claude Code the ability to go navigate the web and do things on your behalf, which in that case, you should be a little bit more concerned with it.
+But if you're just coding, I think most people install it as a global software package on their computer and don't have too many issues.
+But yeah, if that doesn't work out, definitely send me some screenshots of what's going on and we'll figure it out because yeah, I'm not honestly sure what could be causing that.
+Okay, I think that, I mean, I would like that to be a use case, going beyond just working with files, creating new files, right?
+Like I'm not, hey guys, everybody, I'm not a coder.
+I'm like an online business coach.
+So it's like content forward, it's SOP building, presentation creating.
+For sure.
+I mean, so to be honest with you, it's kind of like, you know, you have to do what you're personally comfortable with.
+Like I personally have Claude Code installed globally on my computer.
+I have Claude Code navigating the web all the time, connecting to a bunch of external data sources.
+I'm careful about what I keep on my computer for that reason, but I'm not super duper careful and it's really like up to you.
+You know, really the only risk is some sort of prompt injection from the web that prompts Claude Code to go do something that you don't want to do on your computer.
+If you're watching Claude Code while you're using it, that becomes even less likely to happen.
+And I've heard almost, or I've heard very, very minimal horror stories about that actually happening to people.
+And the standard that most people do, even that push the edge of Claude Code's capabilities, they install it globally on their computer and have no issues.
+So I wouldn't be too worried.
+I just make sure, you know, you don't have your bank credentials sitting in a file in a folder on your computer, you know, stuff like that.
+But otherwise, you know, it's really up to you how strict you want to be about the security stuff.
+But I think most people don't have too much trouble being a little more lenient with it.
+But personal discretion, of course.
+Understood.
+All right, I appreciate that.
+Daniel, good to see you here.
+I'm not sure, is my connection all right?
+Okay, sweet.
+Daniel, how's it going?
+Do you want to introduce yourself and maybe just talk a little bit about what you use Claude Code for and maybe some of your background?
+Hey, what's up?
+Did you hear me?
+Yes.
+Well, I joined your school probably like two weeks ago.
+I mean, I was watching you for quite a bit.
+And then kind of like waiting for that, you know, that trust to brew in, you know, because everybody's claims that they know.
+But then when I started watching your content looking, you know, this guy is actually like a big nerd like me.
+So he knows what to say.
+Once I joined in and I started looking at your content, I'm like, oh, yeah, yeah, this is it.
+This is it because I joined a few schools out there.
+And then I mean, they know.
+But you can tell is somebody scraping X, you know, and making courses out of it.
+So anyway, where can I start?
+I use Claude Code for quite a bit.
+I'm building a huge project that I'm working on.
+It's cybersecurity with like a blue team kind of thing.
+It's a big project.
+I'm kind of proud of it.
+But it's just in a very early stages.
+And right now, Claude Code, I have it just learning so much because right now my focus is I want to be good at skills, like really good, you know, like, but not only skills, like skills with batch inside and, you know, Python scripts inside and like scale within a skill within a skill, you know, like all that recursion fun stuff, you know, and I'm learning how to have Claude Code start doing content for me.
+But I'm against completely an automation.
+I have automated channels that blew up.
+I do.
+But I lean towards more shock value using AI instead of just trying to because in my opinion, just very my opinion, I don't think we're there yet because it still feels kind of robotic.
+And when you put AI to write for you, it just doesn't have the soul or if it kind of does, but it just doesn't carry your voice real well unless you train the hell out of it, you know, and even still, I mean, so that's pretty much what I do with Claude Code.
+Building a few things on the side, I made a little really fun stuff, a PDF factory, right?
+And then the PDF group, Claude Code gets the info, creates a bite-sized PDF, and it pushes to the landing page.
+You know, it's like a self-recycling machine.
+It's a lot of fun, you know, and I got to sell a few courses and because of Claude Code also, one of my accounts kind of blew up.
+But it's still in the face of kind of testing because every platform except IG, Instagram, but almost, oh, TikTok, TikTok is doing well, but YouTube, I had a really good account going on and then they killed it.
+It was a shame because I made it in November and it blew up and I was like, I got it, I got it, you know, like so hyped, and then more, more, you know, got hit with the demonetizing and I'm like, oh, man.
+So right now, YouTube, although it's very like juicy and tempting to go ahead and make automations, automated faceless channels, they can take off, but you're just, it's a Russian roulette because YouTube is dead set and saying that if it's lazy and unauthentic, it's going to get demonetized.
+So that's basically what I'm doing right now, just quietly, just ingesting, ingesting and just trying to be very good at skills, you know, and how to manage and then, and then touching a little bit on an open club, but a lot of people, it's just noise because if you look at it really well, most of the people are just building dashboards and then having your little lobster going, which is really good for doing market reconnaissance.
+That's what I see, you know, but for other stuff, I mean, it forgets and it's not really the best.
+I mean, cloud code is still king, even though it's not completely automated, but there's no match for cloud code.
+So, and then, yeah, and then I'd still like, not even, I ingested only probably like 20% of what you have because it's a lot.
+So, and then, so that's my roadmap, you know, slowly and then working on my big project and then just being chill and looking very, very, very calm looking what's out there and not, because I used to get really hyped by the noise and then the snake oil and then I had to like stay, take a few steps back and chill and relax.
+And then, because I was getting like AI tool exhaustion and it was like, I don't make a FOMO, FOMO, FOMO, and then I'm like, you know, you gotta chill, you gotta stop, grab your stack, master it, and then just on a very chill, just keep building quietly.
+And then just join the pros and then learn from them.
+That's my thinking right now.
+Yeah, I 100% agree, a lot to talk about from what you mentioned there.
+Yeah, if being in the AI space will do anything to you, it will teach you how to filter the signal from the noise, 100%, you know, the longer that you spend consuming AI social media, you know, it gets very mentally exhausting.
+So I think what you said is 100% right that, you know, picking one tool, one stack, I agree, cloud code is still king.
+And I don't see that changing too quickly, although you never know.
+But I think, you know, picking one tool, focusing on it and really building your skills and relationship with the tool is like, is the best thing because, you know, you always only reach a certain threshold if you continue switching tools after tools after tools.
+And yeah, I also am wrestling with the same sort of like content automation stuff.
+And I feel the same way as you that, you know, AI just doesn't have the ability to fully automatically generate content in a way that, first of all, that is high quality and has human soul.
+But second of all, that social media platforms will accept and won't demonetize or flag.
+So I've been working on a lot of systems for the different platforms that I use to have as close to fully automated systems as possible with one efficient human in the loop step for review where, you know, whether it be X or whether it be LinkedIn or stuff that's more text-based, you know, having a review step where I, you know, go through a bunch of posts, review them, maybe edit them, make sure that they're good.
+And then there's the whole side of, you know, of trying to wrestle with all of these social media's, you know, terms of service and stuff, which obviously you're not supposed to do.
+But, you know, it's just a reality of the transition from an internet that was mostly used by humans to an internet that will mostly be used by AIs is the terms of service have not really adapted to that yet.
+And who knows whether they will or not, but there's a lot involved there.
+And people have been automating on social media for a long time and people do crazy stuff like, having 20 different VPS's with their own IP address, posting at random times throughout the day, and, you know, randomizing the typing speed of automated typing to make it more human and all this crazy stuff.
+So there's, you know, an infinitely deep rabbit hole you can go down with that stuff.
+But I'm also thinking about that, so we should chat about that and maybe share tips.
+And in terms of the skills, I think the more and more I use skills, the more I think skills, or at least what the architecture of skills really represent is like one of the most important concepts in using agents.
+And like for my OpenClaw, for example, and I agree with you, by the way, that I think OpenClaw, at least on social media, is mostly snake oil and like dashboards and stuff because OpenClaw requires a ton of guidance to make it a really effective autonomous agent, at least in my experience.
+With my OpenClaw setup, I've pretty much turned like every single workflow and all of my rules into skills with OpenClaw.
+And whether that just be tools that OpenClaw is using, like Google Calendar, or whether that be a full complex workflow involving multiple tools and the browser, I try to encapsulate all of those into their own skills and then explicitly mention each of those skills in the agents.md file for OpenClaw so that it knows about all the skills, knows when to use each one.
+And then within each skill, there's very explicit instructions on how to go through each action.
+And I think that's a big future of how agents will work is through nested skills as well.
+Like I don't think people often think of skills as being able to be nested, but you can create three skills, each pertaining to a tool maybe, like maybe SuperBase MCP and Google Calendar MCP and Brave Search MCP.
+And then you have a fourth skill that references those three skills within the fourth skill as like a workflow.
+And you can just go add infinite them with that and just take it as far as you want.
+But yeah, I had an experience this week that felt like a little bit of a groundbreaking moment for me just to go into a little bit of what I've been working on in my projects recently.
+So I've been working on my startup CoinTally, which is a tax software for crypto traders.
+And so I've been working on that for a while, for about a month now with another developer and with my co-founder.
+And we've been kind of going back and forth with it and decided to pull another developer in who had more experience in the domain.
+And not sure if I thought think now in retrospect, that was a good idea because what I was able to do in like 36 hours was basically use cloud code connected with a bunch of MCP servers and the browser to basically completely duplicate the entire software for a different market for TikTok shop people.
+I don't know if you guys know about TikTok shop, but it's basically where TikTokers market products and get paid for it by the owners of those products on TikTok.
+And so what I did was connected cloud code with the SuperBase MCP server, connected it with a Stripe MCP server for payments and SuperBases for database.
+And I connected it with the Railway MCP server, which is for deployment.
+And then I also connected it with the Playwright MCP server, which is for browser use so that it could test the software as a user in the browser and also so it could navigate to the dashboards of all the services I connected it with.
+So we could go to the Stripe dashboard, so we could go to the SuperBase dashboard, so we could go to the Railway dashboard.
+And so basically I equipped it with all these tools to allow it to fully take my place and not only use the MCP servers, but navigate to the human facing dashboards that humans would usually have to use to configure deployments because sometimes MCP servers don't give you access to all of the settings that you need to configure your deployments or configure Stripe for payments, et cetera.
+So you kind of also want to use the browser for that as well.
+And I basically used my kind of context engineering system, which is kind of like get shit done framework to structure out a super long list of tasks to create this entire duplicate software that had deployments, you know, the whole CI-CD pipeline configured, payments configured and tested, all deployed live.
+And I configured it, I forgot I added PostTog MCP server as well, so it has user monitoring as well.
+And it did it all overnight, almost no errors.
+And it was crazy for me because even for like, I had never had an experience like that where, you know, I didn't have to go in and set up the API keys and kind of mess around with deployment because I gave Cloud Code all of the tools necessary to completely iterate on its own until all the functionality of the full software actually worked.
+And there was a lot of prompting involved in the context engineering system to make sure that Cloud Code really iteratively tested at every single step and made atomic commits to the GitHub repository after every little step, you know, doing full integration tests locally and on the deployed version.
+So it was very involved, but it really showed me that the limitation is the agent configuration and the tools.
+It's not Cloud Code.
+Cloud Code is smart enough to, you know, really fully generate completely production ready and deployed SaaS apps in, you know, a short period of time.
+So I'm gonna be releasing a little course post on that soon because it was a breakthrough moment for me where I've never been able to fully get it to do something like that before.
+And that was really cool.
+So that's what I've been working on the past week.
+That was really cool for me to see with all of those kinds of external connections to the software already made.
+It was impressive.
+I don't know if you guys have ever tried to do something like that where you have Cloud Code connected to external MCPs like that, using them autonomously.
+But I think maybe the unlock for me was giving it the browser to those dashboards as well.
+That really made it able to close the loop a little bit better.
+But I would suggest trying that if you guys haven't.
+It was cool to see.
+I'm using Codec too now.
+I'm curious, very curious about Codec and it's actually impressive.
+I'm using that.
+I mean, I bought a Mac Mini for the OpenClub but it was because my old 2012 MacBook Pro could not handle anything since 2017 or 2018.
+So I was like, you know what?
+I want to try this Codecs app and I want to try a bunch of Mac only applications.
+Back then it was a co-work.
+So I kind of gave myself permission to ride the whole OpenClub hype and got a Mac Mini.
+And then since then, instead of going with OpenClub, I've just been using Codec and it's actually impressive.
+It's actually very elegant.
+Oh yeah, Codecs is amazing.
+I would even argue that sometimes I felt Codecs is even better than Claude Code or smarter a little bit.
+Or Opus 4.6, I guess, would be a better analogy.
+But Claude Code is just so much quicker and just feels a little more agile to me.
+So I still default to Claude Code.
+But yeah, I've heard a lot of people saying also that Codecs is as good if not better than the way that Claude Code works now at some harder stuff.
+I know a lot of people where they reach a really complicated bug with Claude Code and switch over to Codecs to solve the longer running bug.
+I've heard that pretty commonly.
+And the Codecs app, I don't know if you guys have tried the Codecs app that OpenAI just launched, desktop app, super awesome.
+It's really great.
+It's really nice.
+Yeah.
+And on that note also, I was talking about this a little earlier to Roberto.
+But the most recent Claude Code update also released some updates for Claude Code in the Claude desktop app, which now you can use pretty much the same way you use Claude Code in the terminal.
+And the UI for that is great also.
+And I actually might start using Claude Code in the Claude desktop app a little bit too just to get more acquainted with that.
+I think it'd be much more comfortable to beginners.
+So definitely worth checking out.
+Yeah, Kenji.
+Just be careful with Codecs because OpenAI has changed their terms of service.
+And if you do code through there, they are training on it.
+They are no longer guaranteeing your code is private.
+If you have Codecs tied to OpenAI, just be very careful what you're putting in there because they do not guarantee privacy anymore with data that goes into Codecs.
+You can actually hack Codecs to actually route it to a different LLM, but just be aware of that.
+Sounds very Sam Altman.
+Very Sam Altman.
+Yeah.
+Yeah.
+Very much so.
+Yeah, that's very good to know.
+I'm not surprised at all.
+And I know that Anthropic says they don't do that.
+I don't know if I believe that, though.
+But yeah, I mean, I think it's crazy.
+All these social media platforms now have edited their terms of service to basically give them full rights to all of your data, which is crazy.
+Like Spotify.
+I'm a musician and post music to Spotify.
+And Spotify now basically makes you sign over the rights of anything that you post on Spotify because they're definitely going to train on that and release a music model or partner with Suno and allow you to remix people's songs on Spotify using AI and all this stuff.
+So that's the way things are headed, sadly.
+But yeah.
+Kincaid, it's good to see you here in this meeting.
+I know we chatted a few weeks ago.
+How's it going with you, Kincaid?
+Not sure if he's here.
+Kincaid, if you can hear this, just unmute and give a shout whenever you're ready.
+Benjamin, Benjamin, how are you doing?
+I'm okay.
+Let me see if I can show my face.
+Maybe a little bit dark.
+Okay.
+Clock doesn't work.
+Okay.
+Make it brighter.
+Oh, Kincaid is here.
+Maybe you go first then, Kincaid.
+Sorry, I just-
+From Windows to Mac so that I can work on some different systems and I keep losing Windows.
+No worries at all.
+How's it going, man?
+Good.
+Very good.
+Very good.
+I'm enjoying hearing the conversation.
+So learning quite a bit.
+Yeah, it's been a great convo so far.
+I know Kincaid and I have talked a little bit about some of the systems that he's working on in his business, which is really near and dear to my heart because I used to work in science briefly in a research lab before I was doing full-time in AI.
+So Kincaid, I don't know if you want to give maybe a little intro about what you do and your interest in AI for people here on this call.
+Yeah, I was originally trained as a scientist but then have subsequently done a co-working space for biotechs.
+And so my interest as it relates to this community is we're trying to figure out ways to match if we can use something like cloud code or some of the other systems to match non-coding but technical experts to systems that allow them to analyze data in a new way or approach scientific discovery in a new way.
+And what I've seen in my co-working space is a lot of these scientists want to try new systems but there's some intellectual challenges to thinking in a way that allows them to use them.
+So I'm starting to experiment on my staff in terms of building systems.
+Many of them are totally overwhelmed by the concept of building software but if we can get a system that they can use then we could roll it out and train some of the scientists that are working in my spaces.
+So the first experiment we did was my head of EH&S used to complain about all the software available for doing inspections and doing EH&S and so he went out in Lovable and we worked for four or five months and built him a new EH&S software that's better than anything we can find in the market.
+And so now we're in the process of shifting over from Lovable to using cloud code and in the desktop and seeing if we can actually turn this into a product.
+But it's been interesting to see him as an expert and a domain expert wrestling with building the software but in the end I think it got to a better product.
+So that's the goal.
+Yeah, that's what's so cool about these tools like cloud code and just AI coding in general.
+I think it really does bridge the gap between the software development aspect of things and the domain experts because oftentimes you get a software developer to build the software.
+They're the only ones that can build the software for domain experts so it's not going to be as good as if the domain expert were able to build it themselves.
+And that gap is now pretty much gone.
+And that gap is now pretty much closed.
+If you're a domain expert, you can build the software for yourself that's better than what you can find on the market.
+So yeah, if anyone's interested in helping me to, I think a next evolution of this community through multiple different ways, but a lot of people who are business owners themselves who have joined the community have expressed interest in ways for their businesses to tap into the value and AI coding expertise that we have in this community now.
+So I think as the community evolves over the next few weeks, there's going to be some more structured opportunities for people within the community to work with me and work with businesses that are interested in connecting with AI coders to help onboard them into an AI native world and helping them to understand how their employees and domain experts can leverage these tools to build their own software.
+So if you're interested in that, if you feel like you have that expertise and have the time to do so, hit me up, hit up Kincaid.
+We're going to be hopefully doing something like that with Kincaid and his business and potentially a few others as well.
+So any thoughts that any of you guys have about that, feel free to DM any of us or make a post in the community about it.
+And very soon, we're going to be having some more structured hackathons in the community to kind of see what all you guys can do and put your creative juices to the test and have some good rewards and good networking connection opportunities for people who do well in those.
+So I'm really excited for that.
+I think that will be super interesting to see.
+Any anyone have thoughts on that or questions?
+If not, Benjamin, go ahead.
+I just want to jump in.
+I think that's a great idea.
+I think that there's like a thousand ways that can go and most of them are really great.
+So I'm excited to see that.
+But yeah, I think it's a great idea.
+I think it's cool.
+One thing I say about the hackathon is cold.
+I think it's a great idea.
+I think it's a great idea.
+It's cool.
+One thing I say about the hackathon is cold.
+Midden has a community dynamos.
+And I personally like they did this hackathon.
+It was sponsored by Kiro or something.
+And just to be honest, I think some people really geeked out about it, but I don't like Kiro.
+I like cloud code and use my own tool.
+I don't know if there was like if that was somebody they knew or whatever, but if we do a hackathon and there is a sponsor, just, I guess just, I think I trust your judgment there.
+But yeah, I just want to share that experience that I was like, no way am I doing this hackathon because it's with this tool that's like a 10th as good as cloud code.
+And I don't want to do that.
+So people were like bolting on functionality and stuff.
+And it became almost like we're developing Kiro.
+So anyway, that's just my little rant.
+Yeah, that's funny.
+Yeah, no, I think the hackathons we'll have here, I think, you know, the only, hopefully the only restrictions or the only guardrails are literally just going to be the definition of the final product that people come up with.
+You know, use whatever tools you want, any methods necessary.
+You know, hopefully nobody does anything stupid and like pays someone else to do it for them.
+Or I don't know if people, I don't think people will do that.
+But, you know, yeah, use whatever tools, cloud code, whatever skills, you know, whatever orchestration you want to do and see what you can make.
+Because I think that's the new benchmark with software now.
+Nobody cares if you code it yourself or if you get an agent to do it now.
+At least people who really want to push stuff forward.
+So yeah, we I don't think there will be any and no sponsorship issues either.
+I think we'll figure out a way to bootstrap that sponsorship or have it come directly from members in the community, things like that.
+Um, so yeah, cool.
+Um, Benjamin, how's it going with you, man?
+Yeah, I'm doing good.
+You know, just trying our actually, you know, last week I mentioned about I want to play with the Xcode.
+I'm not sure, Benjamin, if you're if you're speaking, we can't hear you though.
+You hear me now?
+Yeah, we can hear him.
+Oh, you can hear him.
+Yeah, yeah, we can hear him.
+You can hear.
+Oh, yeah, that's an issue on my end then.
+Yeah, I can hear.
+I can hear him.
+Okay, you want me to speak louder?
+My issue then.
+Well, you guys are responsible for responding to Benjamin then.
+Oh, okay.
+Yeah, so maybe I make it short.
+Yeah, so maybe not everybody knows me, but I joined last week.
+So pretty much I am a mobile developer.
+Okay, but I have been using Cloud Code to doing like, you know, doing the web app, you know.
+I'm also a fan of SuperBase and but the last week.
+Okay, so wait, did everyone hear Benjamin or did no one hear Benjamin?
+I heard Benjamin.
+We can hear him.
+Oh, if you guys can't hear, can you hold up your hands?
+Right, okay.
+All right, all right.
+I guess you guys hear us.
+I'll continue.
+Yeah, so the last week I was playing with the Apple Xcode.
+So, you know, it has a new MCP server.
+Okay, so pretty much using, okay, I'm using Cloud Code, you know, ask, you know, to connect the Xcode MCP.
+Okay, and basically I'm able to create an app without opening the Xcode.
+Okay, so that was actually amazing.
+Okay, but I also are using, but there is a limitation.
+I think it's pretty new.
+Okay, so there are only like 20 tools.
+Okay, so pretty much something like, you know, you can build a project.
+Debug the code and then maybe launch the simulator.
+Okay, and pretty limited.
+Okay, so, and after that I switched to another more common tool called Xcode Build MCP.
+Okay, I think they got bought by another company, Guest Sentry, something like that.
+Yeah, so I'm using that actually build another app.
+Okay, and it's actually worked pretty well, you know.
+And also I'm very surprised.
+It can also, you know, like, you know, when you build an app, one of the things is like, you know, you need to test the app.
+Okay, so a lot of time you either you have to write, you know, like a UI code to click the button here and there, you know, to test out the app.
+But with this MCP you can actually tell, hey, you know, I build a button you click, right, and then you will display my name, something like that, right.
+So pretty much you can, using this MCP, and then we found open the Xcode, right, and it will automatically build a code and then launch the simulator.
+And then it's actually doing the click, you know, and then tell you like, hey, you know, you actually find a bug too, right, and then they fix it right away.
+And then, and then you do the test on the simulator, you know, and then finish all the human testing.
+Okay, and then the whole process, I build the app, right, it's only like 15 minutes.
+Okay, yeah, so now I am into, you know, the funny thing is like, even after I do that, right, you know, and I realized there is no cloud MD file.
+Okay, so I actually asked cloud code, like, why?
+Why there is no MD file?
+And then you say like, oh, because you're in mobile, it has a different project structure.
+Okay, so this is the part I am still looking into, you know, because at one point, what I really want to do would be, you know, as I said last week, right, you know, I want to have one single backend, you know, with a same RESTful API, which will work on both the web and the mobile.
+Okay, so, you know, so somehow I need to have a centralized, like, you know, cloud MD, at least holding the business logic.
+Okay, so I'm looking into it and see what I did wrong.
+Okay, and I'm very surprised to say, like, you know, the cloud code actually tell me, say, like, hey, you know, you do not need the cloud MD file.
+Okay, but I also looking at another way, you know, if you're actually using Xcode itself, and then you're using cloud code agent, cloud agent.
+Okay, so now, you know, it actually has a cloud MD file, but it's within the Xcode project itself.
+Okay, so I just try to, I'm still learning, you know, trying to figure it out.
+Okay, but the funny thing is, like, you know, I think it's the end of the mobile engineer, you know, because so I'll give you, I'll give you a couple hints, because I've been doing this for a while.
+I've actually been trying to, I've been doing vibe coding for almost two years at this point, and one way shape or form.
+The one area where I'll just say right now, every engine, even 4.6, as good as Opus is, it will fall down on if you're trying to do a native iOS app.
+The reason being is not, none of the engines are trained right now, none of the language models, even the Chinese ones are trained on anything better than Swift 5.1, or 5.10, none of them are trained on 6.0.
+So one of the big things is you're not going to get the latest version of Swift at all, if you're doing native iOS coding.
+It is literally, I have a test, I've been running for two years, even the latest versions, even Xcode with their built-in has failed that test every time.
+It's a very simple test and not a single language model, even with the most skills I put in, all that has been able to complete Swift yet.
+Now, there are some tools out there that can do this for Swift UI as a front end.
+BitRig is one of them.
+It's a native iOS on-device vibe coder written actually by the Swift UI team.
+It's actually very cool.
+So you kind of talk with it and it will natively create Swift UI code for you, but it will not do the business logic side of it.
+In my company, we actually have a product we're launching in two weeks in Manila at a big hackathon event that is an entire builder app that will build entire native iOS apps for you based on a template structure.
+But again, actually getting it to vibe code, any new version of Swift is really hard.
+And Swift is actually the hardest target of any vibe coding.
+Now, if you want to do React Native or any of a web structure, you can get by a lot easier on doing that right now, especially if you want to do a cross-platform app or if you want to do a web app that's also a mobile app, you then just have to wrap that React Native app or React app in a wrapper, of course, to get it onto iOS.
+And then if you want a constant back end, it's just going to be about whatever back end structure you're going to use.
+It's standard.
+If you're using a standard REST protocol, in my opinion, having actually done multiple companies and done this multiple times, you just want to choose a good platform that has a good back end that is depending on what you're building.
+SuperBase for some people is good.
+I'm much more of a fan of...
+Oh, I just spaced the name of it.
+There's a different back end I like because it actually provides all the cross-platform auth mechanisms.
+It's a little different database structure, and the name will come to me.
+But just forewarned, even Xcode, even Apple's latest version of Xcode fails at a lot of Swift coding stuff.
+I'll just throw that out there.
+Okay, I actually...
+If I'm talking about not agenda coding, right?
+Let's say you just go for using a chat GBT or Cloud Code, and I can tell you neither of them are good for Swift itself.
+But surprisingly, there's only one.
+It's actually Grook from Elon Musk.
+That one is actually when I'm working on...
+Actually, I'm working on Swift 6.8 already.
+Most of the questions or even the code I need to ask, I have to call it Grook.
+I think the worst is the copilot is the worst.
+Yeah, it's terrible for that.
+Terrible.
+Yeah, Grok does have some 6.0 stuff in it, but Grok also has the highest error rate.
+There's a good table out there.
+Grok actually has on average only a 76% accuracy rate.
+So be very careful with the code that Grok writes for you because about 30% of the time, it will assert things that it says are right that can be very, very wrong.
+Okay.
+So AppWrite, by the way, is the backend that I'm using for some of my stuff.
+So it's one of the biggest competitors, the super base for a bass or backend as a service.
+AppWrite is the one that I use mainly because it has native pre-built architectures for almost every platform out there.
+And also has one of the best authing mechanisms out there.
+You can tie in everything from phone authing, one-off passcodes.
+There's a ton of them out there.
+It's not as commonly used right now as SuperBase.
+SuperBase has really positioned them, and it's mainly because they're based on Postgres as a backend versus AppWrite uses more of a folder file structure system database as well as a couple of different ways you can do that.
+But on the flip side, if you're trying to integrate, AppWrite does have an MCP that will do all their documentation.
+And like I said, it has native iOS, it has native Android, it has native React, it literally has like native clients for almost every language out there.
+So it's easier to integrate their client portion into your app than AppWrite or than SuperBase actually, I find.
+So just as another hint.
+Okay.
+Oh, thanks for the information.
+I will continue to, because this is one of the things, for the web, I think it's become very mature.
+So basically, when you're using Cloud Code, I specifically tell what stack I really want to use, and then even got the sample coding.
+But for the mobile, I started to see actually people, I haven't tried that, but I see people using the skill.
+But into the level, for example, I don't want to go too far.
+So you have a different way to doing concurrency in Apple.
+So I started to see, there's something called async and wait.
+I can see people actually making particular package in Apple, to put it as a skill, or maybe another one, or you want to persist to database.
+So you can, in the old days, you're using the new core data, and new is a sweet data.
+So people actually put a skills on that instead of, or you have a language itself.
+So for example, if I build a, let's say I build a, something simple, let's say like a window program with Python.
+I don't really need to have a skill to say that every Python package to use.
+Yeah, so this is the big thing right now with Swift in general.
+The core, all the core language models don't have the latest version of Swift trained into them.
+And so the only way is either through MCPs or skills.
+But even then the problem I find is that when you're writing Swift native code, because the language model itself is only based on, like most of them are only up to last year through Swift 5.10 or 5.10.
+And then you start getting into these weird mismatches where your concurrencies or some of those different elements that are different in 6 than 5, you'll get into these weird error cases where it will write code one way and then you'll go into Xcode and try to compile it and you'll get a hundred errors sometimes because it doesn't, it's not matching between the language levels.
+So the other thing is as a hint is you need to make sure then you're going to force your Xcode app to only use an old version of Xcode or of Swift.
+Because the default right now is that Xcode will default to the latest version of Swift.
+And if you go into the Swift project settings and you can set it to an old version of Xcode projects, you can set it to an old version of Swift.
+And that will actually limit Xcode's use and some of its hinting now that will drive how it will do some of its error detection.
+Usually your results will be a little bit better.
+Okay, all right.
+Hopefully that helps.
+Trust me, I've been writing Swift apps for a long time since Swift 2 and it is still the one language that none of the language models have been able to crack.
+It's very interesting to see that.
+I want to add one more point.
+I think Apple needs to do more because especially they are going to push to Swift 6 as a standard very soon.
+Yeah.
+You can't really go back very soon.
+Okay, so I don't know.
+I don't think they are spending any money on it, okay?
+Oh no, they're Apple spending a lot of money on this.
+I have a feeling at WWDC this year in June, we're going to see a big announcement from Apple because I think even the investment community is a little bit like, come on Apple, you said you're going to have all this AI stuff.
+I'll just say I played with an AI model several years ago.
+I was invited to the launch, pre-launch actually of the Vision Pro and I got to play with the language model back then we've never seen released.
+I am very hopeful that at some point here we'll see a pretty crazy language model from Apple, but who knows, we'll see.
+Okay, three months from now, okay, we will see.
+Yeah, I think in three months.
+Yeah, three months, yeah.
+So also just so people on the call who are still here, if you don't know, so right, there are models running on your Mac.
+M series processors are awesome, but there's a reason why M5s are crushing it.
+M5s are the first that actually have TPUs integrated into the core processing unit and so they actually will run true AI models much faster because they have actually true TPUs embedded in the AI coprocessor.
+So the M5s are, especially everybody's waiting for the new M5 to come out, those will totally crush, I think, a new AI model as well.
+So especially if you're doing any MLX optimization, if any of you have played with the Lama local running models with MLX, if you get an MLX optimized model, they are running crazy fast locally.
+So I actually do a lot of my pre-coding entirely with local models now before I ever use the foundational models so I don't burn my tokens on the large cloud models.
+Okay, thanks for the tip.
+Okay, I have a lot of money running too.
+I need to run for another meeting, but good to meet everybody, I hope that was helpful.
+I'll reach out.
+Yeah, thank you.
+Yeah, I'm sorry, I couldn't hear Benjamin, so I wasn't sure when the call was actual silence or when it was just that Benjamin was talking and I couldn't hear Benjamin.
+But yeah, thank you for all the info you dropped, Kenji, I appreciate it.
+And sorry, I couldn't hear you, Benjamin.
+Are you going to hear anything at all?
+Yeah, nice to meet you.
+Okay.
+I don't think he could hear you at all for some reason.
+Oh, geez.
+Yeah, so weird.
+All right, guys.
+Well, thank you, guys.
+See you all next weekend or next week, hopefully, next Monday.
+Okay, bye-bye.
+Thanks, everybody.
+Thanks, guys.

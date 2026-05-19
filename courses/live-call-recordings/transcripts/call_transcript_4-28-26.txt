@@ -1,0 +1,1819 @@
+Agent Architects - Live Call Recording Transcript
+Date: 4/28/26
+
+the
+it's really nice
+I barely, I almost didn't make it to my honeymoon
+because I left my ID at a bar the night before I was supposed to get on the boat
+and thankfully
+they were open that morning
+because you know they never close
+and I was able to already get it so I could go on my honeymoon
+yeah that would have been unfortunate
+yeah
+yeah
+you know there's some advantages to the endless nightlife
+there are
+yes
+yeah I like literally, since I moved here I honestly
+haven't really explored all that much
+so I explored
+this weekend, it was really nice
+I drove down to the Keys, like up on a bunch of islands
+that was really fun
+and I went to Fort Lauderdale
+which is another city a bit north of me
+so it was cool to get to get around and explore
+a little bit and not just be cooped up
+in my little skybox apartment working
+away
+is there a bit of a community down that way
+or like is it you got family there
+or you just decided that was just
+a sunnier place to be or
+I don't actually have family down here
+my family originally is from Florida
+though like both my parents grew up in Florida
+and so some of their family lived in Florida
+but I moved down here
+a lot because of the weather but also
+because my business partner
+for my software product that I'm building
+lives down here
+oh that's good sense
+yeah so we moved in together here
+to kind of be in the same proximity
+and be able to work together more easily
+we're housemates and business partners
+good luck with that
+exactly it's gone surprisingly
+well so far I've been shocked
+I thought there was going to be problems but
+it's been alright so far
+we'll see though
+time will tell it's only been a few months
+we should do like a little
+get together event here in Florida
+we should there's a good amount
+of members if we look at the
+the map now
+Florida's pretty concentrated
+well
+it might cost me a fair bit I'm in Melbourne
+Australia yeah
+if you guys can crowdfund me to come over
+sick I'll come
+how about we all just go to like
+the central Europe you know so
+everyone can just get there much easier
+sounds good to me
+why don't we just meet
+why don't we just meet in Hawaii
+Hawaii's pretty cool
+that would be perfect actually let's just do that
+that sounds good to me
+doing alright how are you Jagmeet
+I am
+feeling amazing every day is getting better
+that's what we like to hear
+seriously
+good stuff
+that's the energy we gotta be having
+every day is better
+I sent you a message
+James I don't know if you have seen it
+but is it
+okay for me to fork
+Cortex OS or is it like
+you're like I'm kind of against that
+no
+it's honestly
+that's what it was built for
+for you guys to fork it and make it
+your own and if you
+also you know find
+that you've made something stable that can work for other
+people contributing it to the original
+repo is also a great way to pay it forward
+but that's
+I want you guys to make it your own
+and pretty much everybody or a lot of people
+have been doing that already so go ahead
+for sure
+I'm going to build something specifically
+for the Dutch market
+which Cortex OS will be
+built on top of
+so that's why
+I'm asking if it's okay or not
+yeah 100%
+the Cortex
+repo that I have that all you guys are using
+is kind of the you know proof of concept
+for
+you know being able to use
+AI agents remotely
+and kind of create
+workflows around them and orchestrate them
+messaging each other together
+but that's not an original idea
+and you guys might as well take that
+and you know make it your own on top of what
+I've already built or make it better
+I'm just now
+finally seeing other people
+realize that you can just
+you know wrap the CLI
+inside of Mac or things like that
+and run it in the background
+I was
+you're the first person that I saw
+publicly
+kind of talk about the idea
+and I'm just now seeing other people even
+think it's funny because they think they've
+just stumbled on this amazing concept
+and it's like kind of humorous
+I'm like man I've been doing this for months
+Yeah I saw
+I've seen a bunch of like my
+you know other people who
+post AI content coming out with
+similar things like their
+quad operating system
+or you know their agent operating system
+as like a product
+it's
+so funny how the space
+moves in a kind of a wave across
+different topics and
+it's very much controlled by social media but
+yeah it's interesting
+gotta stay ahead of that wave
+we'll see what the next big focus is
+Yeah well I think the advantage
+with this is that if we're all contributing
+it kind of helps
+stay ahead of that curve where like
+they're shipping new things
+you know 24-7
+as opposed to like a single maintainer
+where they you know
+you don't necessarily know when they'll get to it
+100% yeah
+yeah that makes a huge difference
+I mean I think that's what's unique about Cortex at least
+I haven't seen anybody else do
+like a open source to the community
+like you know people can contribute
+from the community so I think that is
+a huge edge
+and it has been really cool so far
+too all of the
+a lot of changes that you guys have
+pushed have made a significant impact
+on the quality of how Cortex
+functions so that's been
+great
+Did the voice feature work
+for you guys or no?
+Yeah the voice was buggy a little bit
+It worked well
+I'm still troubleshoot testing
+it so I haven't merged it actually
+I've been literally away from my computer all weekend
+so I haven't gotten a chance but it worked pretty
+well for the first few times I used it
+and then I had some issues with it
+but I'm going to merge it really soon because everyone could
+use a voice feature like everybody
+If I pull it
+is it going to override all my
+current setup? No
+And can I
+just pull one thing or do I have to pull
+the whole Cortex?
+Yeah you can pull
+you can do it selectively I'd say the best way to do
+it is like just have a critical
+conversation with your agent about the
+changes, the difference between your current
+setup and the remote repo
+and have it walk you through
+what do the changes do, what are their purpose
+because if they've been uploaded
+correctly they'll be in their own commits and
+PRs that have specific purpose
+and like some will be
+you know stability fixes
+makes the daemon more stable
+or whatever and then maybe one
+of them is a feature that you just don't want
+and you can just say okay pull all of it except for this
+commit
+and yeah the way it's designed
+is the core code of
+Cortex and your
+instance are like separate
+so you can update the background code
+that actually runs your agents while keeping
+your agent setup the same
+Yeah you'll get
+you'll ask your agent
+like today I was like
+he posted about what all changed
+and he's like we pulled those Thursday but you're
+156 ahead
+and we're now selectively
+choosing what we can and can't use
+and you'll get to that point eventually
+as you customize yours for your workflow
+obviously like you know Simon Property
+Management doing something a lot different than
+other people, mine's going to eventually
+veer off but the core stuff
+remains the core stuff
+and so it's kind of
+cool you really your analyst
+like that's a weekly skill or
+I might be a hook now but that my
+agent does is just looks at what's been up
+what's upstream and what do
+we need to pull downstream
+what would it break what would it change
+are there changes we need to make in ours because
+what's upstream is better than what we have
+and you know it'll do it
+all for you
+Yeah I'm just going the same actually
+and just
+also just finding
+you know really cool
+features on you know other people
+posting stuff on the social media and
+and really good little hacks
+and stuff and I just like
+pull from those repos and see how
+I can just add so you just keep building
+upon you just keep asking
+your agent to you know
+build upon what your setup is
+and it yeah
+it could just be you know from
+from different sources as well so you just
+keep building upon yeah
+Yeah I really sorry go ahead
+Robert
+I don't know I just like
+is there a way to
+see what the actual usage
+is going towards I know
+me and Sebastiano talked about it a little bit
+but has anybody kind of figured out
+where the usage
+is going because I maxed out my 200
+max in like three days
+Was that
+was that on install though right
+Yeah I was initially on install
+and then when I was sitting because I
+asked it to do something very complicated
+like set up a big query database
+and then it was like constantly testing
+it and I think maybe that kind of
+fucked it up a little bit
+I'll ask a couple questions because this is what
+my primary focus has been on since
+day one because I've been building employees
+to run a property management company
+how many agents do you have
+active right now I remember you said you had a lot
+Yeah I have 11
+but maybe I'm using like
+four or five at the most
+Well but even when they're sitting
+still they are burning tokens
+so what I've had to do
+is I started and I'm working on this week
+and I'm hoping to send it up to James
+as a better handoff for a hard
+restart because I am
+forcing agents to go down
+and they only run I'm running a
+shift workers now
+so if my agents don't need to be on during business
+hours they go down so I save
+RAM for my working agents
+and then they clock out and
+business hours and then other
+agents come on to do other tasks
+that don't need to be done during business hours
+because I was maxing out my 16 gig
+Mac mini and you can't
+get more RAMs you know it's harder to
+weight on that stuff
+so I learned that
+and you can ask it to do a token burn
+kind of audit and it will do it for you
+mine did and that's how we came up with that plan
+was I just talked through
+what are my options
+another thing that I did was my
+agents now speak in caveman internally
+not to me or not out to people
+but when they communicate with each other
+they use caveman to reduce token burn
+I posted a couple different
+things that I did and someone asked
+one of them but
+I now have ran opus
+with all my agents
+for the last
+four days and I'm averaging
+about a 10%
+10-12% burn a day
+and I'm running
+about six agents
+24-7 pretty much
+Hey James
+quick question what are you using for memory
+on Cortex OS?
+So memory for Cortex
+right now there's kind of
+I would say
+let's say maybe four main
+layers the first layer is just
+the native Claude memory since it's
+running on Claude code
+Claude code will still use its native memory
+system
+then there is the daily
+memory file so the
+rest of these are just copied from basically
+the way OpenClaue works
+the agents are instructed in their
+heartbeats and in their Claude.md
+file to store
+daily memories in a file for that
+day
+and then the same with
+long-term memory file which is
+just one long-term
+memory.md that they're told to
+store persistent facts
+in and then if you
+use the vector database
+that is built into Cortex it
+indexes the daily memory
+files as well as the
+memory.md file
+for querying
+automatically. So those are kind of the basic
+memory systems. I know a lot of people
+in here use obsidian
+also with graphify or
+like obsidian based memory system for
+like more long-term
+lots of documents and stuff
+and you can plug and play pretty much any
+of those memory strategies
+into Cortex that you want. The native
+system is not super advanced
+and I know a lot of people
+have found it less than
+perfect for what they're doing
+so I'm kind of still
+trying to figure out what the best
+long-term strategy is
+for it. I've been testing a few different methods to
+find a good solution and so there will be an
+update in the near future probably using
+obsidian something like obsidian and graphify
+because that seems to be what most
+people use. Yeah so
+I cracked on that but
+I mean the reason I'm asking this question is a lot of
+people who are talking seems their memory is not
+set up right. That's the reason why agents are using too many
+tokens and they're literally
+dying out of tokens on the cloud side
+so
+first of all this is Trevor
+first time on this call. Hello everybody
+and James I'm following
+you since the day one of TikTok
+video. You're awesome man. Thanks
+for tying up
+a lot of, I mean untying up
+a lot of nodes that I have in
+the cloud side
+and so the one
+so I have like a total of 29
+agents and I have a
+system that's running continuously
+and I have other six systems too. So
+what I would suggest is going with
+the combination of graphify and mem
+palos. Those things literally
+change the entire way how my agents
+are working. I like the way somebody just
+mentioned that hey I'm having a clock
+shift kind of like hey
+I'm going to tap out this agent and then the agent
+is going to be giving it over
+that also
+eats up lots of tokens actually
+so the strategy is again talk
+to your to your orchestrator
+agent today and ask it like
+build a graphify
+for all knowledge like code knowledge
+overall knowledge and everything
+else. Obsidian is good but
+only for human viewing that's how I see
+it as and then mem palos
+that is where your agents get
+your get their
+context but with very less
+tokens. So combination of these
+two is what working wonders
+for me. I'm not going
+be I mean I'm using the
+agents all all week
+and I'm still still not going beyond
+the given limitation.
+The key is
+use obsidian in order to see how
+your memory ties up
+because graphify really produces
+the vaults without you asking it but if
+you ask it it's going to give it more better
+vaults and
+once you attach those vaults to your
+to your viewing
+for obsidian make sure
+you manage those vaults
+personally like pan pick them if you're
+doing your business and then
+use mem palos in for each and every
+individual agent's memory
+so that your orchestrator agent can
+retrieve the specific
+room in the mem palos for the
+specific agent and introduce it to
+the new agent so each and every time
+your agent is not continuously sitting there
+there are only few agents that are sitting and
+invoking the sub agents or the agents
+for example in my company has
+CEO who is an orchestrator and then
+CTOs, COOs
+then invoke their own agents
+like employees, engineers, data
+analysts or whatever it is right
+and again this is how the structure
+should be I mean I gave you guys
+the full blueprint just go talk to your
+orchestrators and that should fix the
+issue.
+Yeah great recommendations
+I actually haven't tried out mem palos
+yet but it seems
+really really cool okay I'll
+have to try that yeah the combination
+of graph and mem palos make sure you
+use mem palos for agent memory and
+graphify for your overall project memory
+and make sure if you have different
+projects every project
+is slash graphified so that
+your orchestrator agent
+can tap into those with
+80% less tokens than not
+what normally you do for dot
+like memory or session
+.md files.
+Can you make a post about
+that?
+Sorry? Can you make a post
+about that?
+I would but
+I don't know
+I mean that's the reason I just gave that
+entire thing at this point.
+Yeah hopefully just transcribe it
+exactly perfect thank you
+so much yeah recording is there so just
+go and
+transcribe it.
+Rip this part of the video just grab it
+at the agency rip it
+add it
+thank you
+yeah I'll I post the transcript
+for the raw transcripts for all these so you can
+download it and use that for sure
+and the video recordings of course
+that's something else I
+forgot I was gonna say earlier
+I think Sean maybe you were
+just talking about this that
+something that I used to struggle with
+a lot before I was using
+24 seven agents like this
+was like
+keeping track of like interesting
+like Instagram reels or ex
+posts that I came
+across it was like a new tool I wanted to try
+and I would
+save them in the app and there was a bunch of apps
+that people came up with to help you save all those posts
+and stuff so I used some of those for a while
+but now something really useful that I do
+is like I just have a skill
+that works like with two of my agents
+one of them is like my researcher and the other is
+like my main developer agent
+and there's just a skill in there that allows
+me to send it a link
+to whatever posts that I
+found interesting and it uses appify
+to scrape that post and then sends
+an idea of how we can use the content
+of that post to implement it
+as a tool in my cortex system send it to
+my developer my developer makes a little test
+tool around the post that I sent or whatever
+it is and that's just really
+a cool pipeline that I feel like everyone
+interested in AI should have like
+because if you're interested in AI odds
+are a lot of your feed is filled with
+AI stuff on all your social media
+apps and it's cool to be able to
+just send over a post to an agent
+and have it kind of think about it do more research
+think about how it can implement it in your
+system and come back to you with
+a cool idea about it or if you
+post on social media like I do a
+post about it and
+you know there's a bunch of useful ways to do
+that so I would recommend everyone
+the last
+month or so I actually built
+a skill from Hermes
+and Hermes does that for me
+it's really good at just
+pulling and just
+transcribing you can ask it to transcribe
+the whole thing an insta reel or
+but then it will just
+like give bullet points of how
+it could you know be
+utilized from an operator says there's an
+operator point of view whether or not this
+would be useful for our setup
+and yeah
+and I've implemented so many things just from
+but I like the human now I like
+I still like my doom scrolling so
+like I like to be and hence
+why how I found you I just like you know
+just going through lots of my feeds
+full of AI reels now but I'm
+finding so many cool things and
+and I'm
+literally just getting
+the info and then
+feeding the links and then implementing
+within you know within
+10 minutes I've got like a brand new
+system that's added in on to my
+yeah so that's kind of my daily
+routine and I do I did set up an auto
+system where it was like it figured out
+all the the top
+influences that are posting good stuff
+that I like and it will just kind
+of pull it automatically and then
+and then sort of
+you know give you a digest and then you can say
+yay or nay to implement this or not
+yeah really really
+cool because I think I think human
+curating is really good
+and hence the social media is really good
+people are just in lots of different verticals
+finding really cool
+ways and they're just using it as content
+like yourself and
+that's just creating a lot of value
+for people and it's just like
+just keep pulling it all in and then
+you just learn heaps from it as well so so
+cool yeah. Is that
+scale available on the course?
+It's not but I can actually upload it tonight
+it's a that's a useful skill for everyone to have so
+I'll I can push that as a in the
+tools and skills course tonight
+that's a good idea so I'll do that I'll make a post
+about that.
+Trevor did you have another comment?
+More of a question actually
+did you or anybody in the community
+tried mirrorfish and if so
+what's your experience?
+Yeah I think Joey is
+in here or Joey
+was in here
+yeah I think he's the only one I've heard that
+tried it. Yeah
+so I think he was just in here
+you must have left but there's a guy named Joey
+Gonzalez in the community you can reach
+out to him he actually
+is kind of
+thinking about building a business
+around it and figuring out
+how to run mirrorfish with
+local models that's kind of like
+mirrorfish as a service
+which is a super cool idea so
+and he's looking for people to collaborate so
+if you're interested in that you should hit him up
+Joey Gonzalez.
+Okay thank you.
+I just got into it
+kind of tested like six
+different fishes it's
+really cool how they work oh man but they
+eat up a lot a lot
+I actually
+found something really interesting last
+time we talked about mirrorfish
+there is a different repo called mirror shark
+which is way
+cheaper than mirrorfish right now I think it's like
+$1 to $3.50 for
+every run when it comes to a question you ask
+oh wow
+okay mirror shark instead
+of mirrorfish
+that's way cheaper
+yeah
+yeah
+some of these names are so funny
+yeah
+you run out of normal
+names after a certain amount of time
+we got to come up with some weird stuff
+all the different claw variants
+nano claw, pico claw
+so many different ones
+anybody else who's
+it's their first call their first
+live call today that maybe wants to
+introduce yourself say what your
+background is maybe why you're interested
+in the community
+hey for me
+it's my first time in the call
+I'm a student
+right now at Georgia Tech
+majoring in CS
+and I'm interested in
+creating workflows with agents
+and like using
+agents to help me create startups
+so
+that's awesome
+it's great to
+have you man great to meet you and that you're
+in the perfect place for that that's literally
+what I did basically at the end of my
+college career as well
+I just started using agents to
+you know create workflows
+and try to make SaaS startups and all that
+good stuff so
+that's awesome
+glad to have you here
+how has the course load changed
+I graduated with
+CS in 2023
+and things have changed since then
+so I'm trying to figure out how to
+like course like course load
+kind of reflect it
+at least a lot of the recent technologies
+here in Georgia Tech
+all right
+I graduated from a school in Pennsylvania
+but I'm thinking
+like the course materials
+at least was the same
+and I don't really don't know
+how they were before but
+are they doing a lot of like AI stuff now
+or
+well I'm not like
+AI is not one of my concentrations but
+like they let you use AI
+for pretty much like
+a lot of things but like
+also they make
+it way harder
+I feel like so that it's like
+it balances out
+makes sense
+and also usually you have to demo
+everything you do
+to show that
+like you know how everything works
+yeah I was thinking
+there would have been like a cloud class
+at this point
+no I don't think there is I
+yeah go ahead Josh
+oh no I was gonna introduce myself
+next first time
+on the call as well
+this is my
+first time on the call I work
+at a renewable energy startup
+called TerraBase
+it's a kind of solar do like robots
+software all kinds of different stuff and
+I have a personal cloud subscription
+and I got the
+work cloud subscription as well so I'm kind of
+building two separate types
+of systems at once and it's kind
+of funny because although we're like
+a really advanced company
+in like the products that we're building our
+operations are like ancient right now
+so I'm trying to almost figure
+out a way to automate
+sales operations in a way
+get myself a promotion move up to
+more high level work
+so trying to figure out
+kind of all the
+different mechanisms to use
+kind of been interesting
+I don't know I mean kind of like a
+first question I don't know if
+Cortex would be something that I could
+download on my work computer
+how that does with
+IT constraints like I don't really have many IT
+constraints but I'm also not trying to get
+myself fired
+Startup?
+Yeah it's a late stage startup but
+it's a startup.
+Do you have a network engineer as a friend?
+Or cyber security
+engineer as a friend back in there?
+I'm like buddies with some guys in IT
+but we don't really have
+Just go ahead and ask them to
+create you a virtual
+server if there is one available
+and ask them to
+make it as a dev server and
+then go for it man
+It's like just don't tell them anything
+in terms of like
+what your intentions are
+but at the same time don't be dumb
+So a VPS to host
+Cortex on
+outside of?
+Because also
+Linux VM and
+you can start using Cortex vector
+I mean if you want to do it for work
+but again
+if anybody finds out you're using a harness
+and an agent
+and it's not part of an
+enterprise they will not be happy
+so do your business I would not recommend it
+but if you can sneak it
+Okay
+I haven't even brought Cortex
+onto my main setup yet because
+I was in the middle actually when I found
+this course I was in the middle of trying to develop
+my own like kind of
+system of sort and I was so far along
+that I was like maybe I can just
+try
+stealing some stuff from Cortex and including it
+in my own setup
+but the more I learned
+about how complicated it is the more I'm like
+I don't know if I should just scrap where I'm at right now
+and just download it
+I'm not really quite sure
+it seems like I mean just listening to kind of
+the things that everybody's doing is like way beyond
+where I'm currently at so
+Oh trust me everybody
+everybody started here so
+the only thing they did not do is
+not hesitate and
+they took a step forward that's all
+all the successful people in the school are doing
+actually that's how
+you are in there too right I mean you took
+a really good step right now and you're here so
+don't get discouraged
+push push push don't think too much just push
+let the agents think for you
+Yeah that's the idea
+Yeah that's good advice I
+think with yeah like
+Trevor said anything with
+like non
+anything that's
+a harness that's not just like straight
+clawed code even for a lot of companies
+I mean since you're at more of a tech
+forward start up I bet they're you know
+they want you to be using the best coding
+tools and stuff like that
+for sure a lot of companies
+have like barely even
+sanctioned their developers to use like
+cursor and stuff now everyone's still using
+copilot a lot of companies that I've heard
+Yeah now they're very forward to
+kind of new innovations right now I mean I've
+this what I've done so far is I've just
+been making skills and routines and kind
+of like they've been breaking a lot for just
+you know creating weekly sales digest
+or just tracking
+attendance for an event because I
+I'm in an interesting position where I'm like
+doing a lot of the grunt work for the sales
+team but I'm also doing like the high level
+stuff at the same time
+so yeah that's a
+quick takeaway
+trying to figure out how to automate the grunt work in
+summary yeah
+I mean you should try out cortex
+I think I would probably
+not install it on your work computer just because
+it like in all
+reality it is like a
+technically unsanctioned harness that
+some random dude me as well as a bunch
+of other random dudes in here built
+and yeah like if you
+were to use it in some sort of enterprise environment
+you should get someone else to make a better version
+for you but
+like this is like
+this is basically me hacking together something
+to execute on that vision that I think
+everyone using these agents has
+which is like a 24 seven
+agent that can have workflows and coordinate with
+other agents that uses like
+blog code in the back or the best coding agent
+in the background
+and it works pretty well if you see
+there's a I made
+a post in the community about like how is cortex
+working for you and I gave
+like I think maybe
+four options and the top one was like
+perfect and the bottom one was like unusable
+and I think the like 90
+percent of people did like the
+second to top option which is like
+it's pretty good but there are some issues
+so that's the reality of it I think is like
+cortex works pretty well
+but there's definitely some issues some
+instabilities and it takes some like
+you know some custom handling
+to really make it work well
+for you so
+quick question and for just like
+if I were to migrate to cortex then
+I've been at this for like probably like a month
+and a half now I started on
+co-work and now I'm here somehow
+but like
+I you know I have graphify obsidian
+like all like the Carpathy wiki
+kind of all like these different systems and I've been
+it has all this context on me and so
+I've had like this you know this whole file
+folder would it just be opening a new
+file folder on my desktop or
+and bringing cortex
+or cloning the github or how would that work
+with what I have existing
+right now? Yeah so
+basically cortex is
+like
+it when it installs it installs
+like a workspace that's just a cortex
+os folder and then
+everything like lives in that folder at least
+the stuff that the agents actually work on
+so the agents have their own workspaces
+they share like an organization
+workspace that's like their business that
+you know you have five agents in one
+business and they all share a business folder
+together so
+yeah
+yeah
+they just basically point a cortex
+agent a baby one that they just booted up
+at their open clause setup and say
+copy all the skills in
+copy all the memory files and folders in
+copy all of the projects
+you good?
+you guys hear that?
+no
+sorry I just
+yeah we hear
+I heard it
+sorry I just
+it's still going on
+fire alarm?
+no it's not a fire alarm it was a false
+false fire alarm
+intercom message that was really loud
+sorry about that
+I forgot what I was saying
+now that was so startling but yeah
+anyway you can migrate other agents
+into cortex or other setups and
+stuff pretty easily
+yeah that's a good thing about agents and
+harnesses and stuff like that is like
+if you build your agents
+workspace like in folders and files
+on your computer correctly you should
+be able to boot up codex in there or
+cloud code in there and it won't make a
+difference to how the agent functions other than
+the model obviously because it's
+pulling context and skills from
+the actual files and folders in there
+and same goes for cortex
+got it
+yeah I'll give it a shot maybe I'll be
+super advanced next week
+hey you never know man
+is it a big usage stuff because I have
+probably 40% left for
+this week
+yeah it is
+100% yeah like
+I'm honestly shocked that David has been able to
+get it to that he can use
+all agents on opus
+I don't do that I use most of my agents
+as sonnet agents and then only a few
+as opus
+that's another thing about the core cortex
+repo it's like it is not optimized
+for any metric
+it's you know
+so there are a lot of different
+metrics like better memory better token
+utilization better security
+measures all this stuff that could be
+optimized much better so it is a token
+hog
+but as you've heard you can
+customize it to be better and more
+efficient got it
+just a question about that
+like James I hear you use sonnet
+I'm really forced to use
+opus right now because when I try
+to use sonnet it is saying
+it's it will just not work anymore
+because I need the one million version
+for my use cases
+but when I
+try to install and use sonnet one million
+it just doesn't respond
+and the
+yeah it just doesn't work so I don't know
+if you have also had this experience just wanted
+to know how you got it
+live or maybe I'm just doing something
+to bring it up no
+that's actually an issue I've also faced
+and I thought that it was actually
+a like an issue
+with I think
+there was actually a bug
+in like the
+cloud code source for a week or so
+that when your
+sonnet one million song agents hit
+their context window limit
+they like wouldn't auto compact and would hit like
+the extra usage prompt and I
+assume that that was just the problem so I just
+basically turned all my agents to 200k
+and forgot about it
+but that's still an unaddressed issue
+I know Robert raised his hand because he faced
+the same issue which is that if you
+use a one million sonnet agent for some
+reason it doesn't work
+I'm actually not 100% sure why that
+is Robert
+so from my brief research
+from what I saw is
+with the auth you only get
+200k context
+and if you want the sonnet to
+have over
+the one million context you have to use the
+API I'm not 100%
+sure if that's
+accurate but that's kind of what I remember
+from my brief research when I was
+trying to troubleshoot it
+I see that's really my problem
+Jagmeet have you been able to use the
+one million sonnet
+just normally in the CLI I don't think I
+ever have done that you have
+yeah yeah so that
+that just works really perfectly I mean
+I haven't tried it on a Mac mini right now
+I just write it on Macbook and that just works without
+a problem but when I try to go
+to son one million on my Mac mini
+with the Cortex OS it just
+doesn't work because
+yeah I don't know
+right now I'm at 96% of usage
+and I have one more day and
+I feel useless tomorrow
+that's the whole thing right now so I'm like oh
+what am I gonna do
+just go to work
+that's worth me checking in on because that would be
+really helpful to be able to use one million sonnet
+agents for
+stuff that requires better you know context
+comprehension
+and stuff like that so I'll look into that it's so
+annoying how like just changing the
+model makes it not work
+that's so stupid it shouldn't be that way but
+it changes the way that the CLI
+shows up in the PTY window
+in the background and thus the way that
+the code interprets what's on that
+window and it can just little things
+can break it so
+that's the one annoying thing about Claude code
+that like is different with Codex
+is Claude code like doesn't want you
+to use Claude code programmatically
+they don't they really don't
+whereas Codex like you know has a whole
+built in a million built in different
+versions to use Codex programmatically
+so it's much easier
+but yeah I've got to build a lot
+around Claude code to make it
+even work this well
+but I'll take a look into that and see if we can
+fix that
+has anyone tried out or taken for a ride
+5.5 the new one
+with chat2bt that was recently released
+I've tried the new image 2.0
+and that is a really
+good model
+for images I was impressed
+by it for sure
+did someone ask about 5.5
+yeah
+yeah so I've used
+it on a couple projects
+very impressed I think it's really good
+with net new code bases
+it seems to do a pretty good
+job of like stepping into a code base
+but I would I wrote a post about this
+but long story short
+a little better
+than opus
+for a lot of things but
+I still have so much
+meta and rules around
+my opus setup that I
+tend to use that as my base
+but I for new things
+or excursions I'll go and
+use 5.5 I keep hitting a limit
+because I only have the $20 a month plan
+and this shit runs out like
+just in 30 minutes
+so I haven't
+stepped up and gotten a
+100 or 200 plan so
+that's where I am I really like it
+I don't trust the company
+that makes it but I'm using
+it just for you know due diligence
+and making sure that I'm trying stuff out
+that's it but yeah
+I'm curious too if anybody's
+getting really good use out of like
+the audit codecs feature
+where you have codecs deploy
+codecs deployed from cloud
+yeah so
+funny right I don't I mean
+somebody just mentioned I don't trust openAI2
+for codecs I mean just
+grab everything with you and then go for it but
+I created a skill and
+again this is where cloud's skill builder
+beautiful comes up beautifully
+so it literally created a
+adversarial review agent
+which will
+invoke every time I complete
+my company at least
+at least a future or
+or a production merge or
+something like that so that's when I before doing
+that I'll just use adversarial review
+and that's what I named it as
+anyway and I think that's what you're asking
+for right but you can create a skill
+in the cloud itself so that there is no need
+for codecs to come and review your code
+grab that code back and those
+are those guys are sneaky man
+they want your data
+no matter what or how
+I mean I know people they have
+some favorites here but
+for me I don't trust them at all
+but yeah to your question
+just create a skill
+builder based on
+the
+skill that codecs is
+giving and cloud can do the better job too
+just use opus
+4.7 or 4.6 for the code review
+actually 4.7 is the best
+for code review and
+you're good too
+I have been using that
+as well I think
+it's worked really well for me
+I think I don't know
+it's very different
+sometimes the feedback that different models give
+so I like doing it for more
+complicated stuff I'll do the
+I don't know if I'm actually using the
+official is the audit codecs
+the one from the official plugin
+I think it's called codecs rescue
+yeah
+yeah well I think
+I'm using the official plugin one
+and I don't use it a ton to be honest
+but every once in a while I'll remember
+to do it after something really complicated
+yeah that's the main
+thing is because I have this skill and I'm just like
+I'd rather use it to
+just preserve cloud
+usage essentially just like if there's any
+kind of grainy granular task
+that take a bunch of
+just not really like high level thinking
+skills but if I'm not
+manually remembering to like hey
+use the skill, use the skill
+it's not going to prioritize that
+I don't know if there's any better solutions
+I created a
+basically like a code debugger
+for aging grok and then
+gemini too
+just as skills directly through cloud
+to get another
+take and to James point it is
+I do sometimes like just having the
+the different LLM
+viewpoint
+right yeah
+James is it something which is built
+in cortex for us too?
+it's not I don't think the skill is
+included in cortex yet
+but I mean you can easily upload it for sure
+and I'm working right now
+on the next big updates that I want
+to do for cortex are
+support for like native codex
+agents as like
+the actual backbone as well as Hermes
+also I think Hermes is such a
+good agent I really want to push a Hermes
+adapter in there
+because I think using Hermes would be really cool
+in cortex I think
+would upgrade
+just the quality of work using
+a Hermes agent over like
+you know
+the basic like cortex
+agent is a very hacked together like open
+claw-esque kind of weird thing
+whereas using Hermes that's like its own
+established harness
+that is really good I think would be cool
+has a lot of the features already built into it
+that cortex kind of tries to sloppily
+integrate into cloud code
+but yeah hopefully codex
+support soon as well
+do you use both Hermes and
+cortex?
+I've been using Hermes
+for about a month now
+and I use it with
+cortex back to back
+so they sort of coordinate it with each other
+I have
+my main orchestrator
+agent running on cortex
+and they send messages
+they have an inbox and they send messages to each other
+so they sort of collaborate
+and
+yeah I really love Hermes
+I've been enjoying it and when I've
+ran out of usage which is rare now because I've
+optimized my setup
+I'm just using Hermes
+to
+do other things and sometimes
+I go back to back I'm working on one
+and then I just go to my other thread and use
+Hermes and they just kind of like
+yeah and then they're kind of working together like
+this is more optimized for that and then that's
+more optimized for that
+and yeah I'm finding
+Hermes really
+good at the technical
+sort of side of things
+but it runs on
+GBT 5.5 now
+and
+so yeah I have two subscriptions
+and
+yeah so
+I mean it's worth it though I find
+because if you max out on it
+because you can't use Hermes with Claw
+because it's pretty much open
+Claw so you can't use
+a subscription but you can use the API
+but that gets expensive too
+as we all know so
+so it's one
+it's good setup I find having two
+subscriptions
+one using Hermes using
+GBT and you know
+you know Cortex
+using Clawed
+and then they just kind of work together
+sort of type things so that's my current setup
+anyways yeah
+yeah
+David and Christian I'll get to you I see your raised
+hands I'll get to it in one second I just want to say
+that the Cortex
+is kind of built
+with using
+any kind of CLI
+agent in mind so
+Cortex has its own CLI
+so it has its own CLI commands
+and the messages are basically just like
+file based like
+agents have like inbox files basically
+so
+it's pretty easy to take whatever
+agent you're using like an open
+Claw or a Hermes and just tell them
+to inspect and understand
+the messaging inbox system
+and the CLI system
+and a lot of the like
+a lot of the ways that the Clawed code
+agents in Cortex know how to use Cortex
+is just skills that I've made
+that teach the agents how to use
+the systems of Cortex you could give those skills
+to Hermes as well or to an open
+Claw agent and really the only thing
+you'll be missing is the
+native Telegram
+chat feature that I built
+for Cortex that requires
+a custom adapter to use with other agents
+but pretty much everything else like agent to agent
+messaging the heartbeats
+Cron workflows that can all work
+outside of the agent
+itself so you can kind of plug and play
+agents in there
+but yeah Hermes is great
+Christian
+what's up man
+yo yo what's
+going on guys this is my
+first call I had my
+mic off I was on the move with my AirPod so
+just wanted to pop in
+at the end and introduce myself
+happy to
+be here I'm from New York and
+yeah I don't
+yeah I saw one of your videos
+James I think you were
+I think it was the
+you were recommending
+what's that um oh shit I'm blanking
+out on it
+I think you were recommending
+open CLI over
+something else and it caught my attention
+I've been watching you for a while I'm like you know what let me hop in
+see what's going on and yeah I'm pumped
+obviously there's a lot of smart people in here
+and I feel like you know
+sometimes
+you get more out of
+talking to other people than just
+engaging in you know
+xslop or just
+scrolling on reddit for like two hours sometimes
+less is more you know when it comes to that stuff so
+yeah I'm pumped to be here
+it's great to have you man
+yeah the live like especially
+communities that are dedicated like
+everyone who has joined this community
+you know is really
+interested in getting deep into this stuff
+so much so that they're willing to pay a little money for it
+and really invest some time and effort into it
+and I think that makes
+a whole world of
+difference in like the type of conversations
+that we can have here I learned something
+new on every one of these calls that we have
+and they're the best so you should definitely join
+again it's good to have you I have to actually thank
+David for that idea
+of that video that you saw the open
+CLI video David your post
+in the community
+gave me the idea for that video so thank you
+for that
+pretty sure I was the first comment on that video too
+so let's go yeah I had to
+jump out of my poker game so I could come share this
+with y'all real fast I want to go back
+to codex 5.5
+and a couple things real fast
+codex 5.5 I paid for
+the business plan which is only 100
+bucks a month but you get a lot of usage of that
+so I use opus 4.7
+as the orchestrator the business
+plan for 100 bucks you got to buy two
+seats but you basically get two of them
+and then so it's 200 for
+that it does all the coding
+5.5 that's what made me able
+to get where I run an opus so much
+it optimized everything
+and I made it that was its goal was to
+figure out how to reduce token spend and come up with
+ideas
+so it's pretty crazy
+and the problem with both of
+them opus 4.7
+and codex 5.5 they're so fast
+that the increased
+token spend once optimized
+is actually cheaper than
+4.6 that's why I'm running it so
+much
+I'll send that up also
+I made my own version of that open
+CLI and then that's what I put in the groove about
+snap CLI I've done
+a couple more changes to that
+so that I could basically run
+all these legacy
+software sites that I need to for my business
+until I rebuild them
+but to create endpoints to stuff they don't give
+us endpoints to where I could
+work with vendor things that even like they
+don't have API connections for on
+their end even if you had their
+API I just talked to the CEO of property mail
+and that's what I sent to him about redoing
+his site so that they could work with
+agents
+the other thing I did with Hermes
+because I didn't want to
+technically be in a harness
+because technically
+since we are using the CLI on the back end
+and we're staying within the usage limits
+we're not technically a harness
+by cloud codes definitions
+of what they would ban we're living in the gray
+area
+so what I did was I had
+Sonnet and Codex
+crawl the code base for Hermes
+take out all the stuff that we needed
+and put it into my agent
+that we could use so I should probably
+push that up but so now my
+agent does a lot more of the
+Hermes things that you want without
+being a Hermes agent
+is the other thing that I did
+I'm trying to remember
+a lot of it was the self improvement loop was way better
+there's a couple
+there's about four or five things that it was like
+these are what we really need the rest
+of it's really not worth it instead of doing
+that and then this week
+I'm planning to have them on
+Thursday because I only
+got 25% left well like 20%
+for tomorrow I'm going to use it all
+Wednesday tomorrow night at nine so Wednesday
+overnight they're going to add Codex
+Gronk and Geminna
+where they'll communicate in the bus bar
+with the other agents in their own
+kind of terminals so we're staying within the rules
+but that my agent will
+Opus will decide what
+it uses for what agent
+off of those four models the only reason I did
+Gronk is because I believe they have the most
+RAM moving forward within
+six months I think they'll actually be in a much
+stronger place I don't like them for anything
+right now but they're the only ones
+that actually own their own
+real database everybody else is renting
+shit and that's why they're getting
+having problems is because they're having to share
+compute and so it's going to make
+give them an advantage
+so that's why I'm adding that now
+I wouldn't trust it and use it for anything
+at the moment
+so that's it and I use
+the official cloud plugin
+and the way mine works is Opus
+orchestrates 5.5 codes
+and then Opus 4.7
+reviews what they did
+and it's been
+pretty powerful I mean I granted I
+you know you might not want to spend 400 bucks a month
+on yours
+and that kind of stuff that's what I'm spending
+but
+I can't
+hire an employee to do
+my job for 800 dollars a month
+and
+so
+did you use combination of both Codex
+and Cloud? Yes
+but I used the official plugin
+and I had them basically take it
+to where they flip the reviewer around
+so that instead of Codex
+doing the reviewing of Cloud code
+Opus tells Codex
+to do all of the actual
+coding you know right
+and then Opus reviews Cloud's code
+the Codex code
+Oh I mean because I was
+about to get into MultiLM
+and because
+Codex is really good for reasoning
+and coding and then
+Cloud is very good in creating a plan
+and brainstorming things out
+so trying to
+figure out the combination but it seems
+you already figured it out it seems like
+working in real time at this point
+any tips on
+like harnessing the
+harnessing it with Cloud code
+properly or it's just like straightforward
+just go ahead and create an agent and
+attach it to MultiLM
+so what I did
+was I used the official plugin
+but the official
+OpenAI made
+an official plugin for Cloud code
+so that OpenAI could
+review Cloud code
+so I told Opus to do
+and then basically
+was to switch that I wanted it to go
+in and use that same setup but reverse
+it so that
+Opus was the orchestrator
+Cloud code was the executor
+and then Opus was the
+reviewer and so it
+went in and did that and made that change
+I don't know
+what it had to do to make that change but
+it wasn't anything major
+and then when 5.5 came out
+with the business plan you get
+way more usage limits so I was like
+hey use 5.5
+until we don't have it anymore
+and that's when about
+maybe
+three days ago
+I switched everything to Opus
+because my Sonnet limit ran out
+and we are burning
+less tokens than we were when we were running
+Sonnet 4.6
+Crazy. Yeah that's awesome.
+David
+when will you be pushing
+this up because I'm really interested you know
+like just
+like what will it take me
+to get that as well
+What will you do?
+Sorry my fat hand
+hit the freaking leave button
+Yeah sorry about that my
+fat palm hit the
+chat button so
+I just wanted to jump out real quick of this poker game
+share that with y'all
+we need to do a better job
+of talking in the community about
+the stuff we're building and where
+we can build off of each other because they're
+you know like I am very good at
+under like I used to sell development
+so I know how to articulate
+what my developer would have been able to do
+when I had my team of developers in Ukraine
+I don't know how to execute that
+I know a lot of you other guys y'all have different
+knowledge on that farther in that one
+zero world and I just
+I feel like we're really close that if
+we could just all kind of share
+a little bit like we're all going to want to sell cycle
+we're all going to want some different things
+and I think we just you know
+as we grow
+you know there's an opportunity there
+of collaborating that we're just all
+kind of got to figure out a way to do a little bit better
+Yeah I 100% agree
+I'm going to also have
+this coming week I'm going to
+be launching the ability
+for all of you guys to host
+your own calls in the community
+so
+that's going to be really cool so you guys can meet
+outside of our like scheduled meeting times
+on Zoom or whatever
+and if you want to record it you can post a recording
+in the community
+so if you you know
+find yourself having
+a topic that you want to discuss or work on
+with people or think that you could help people
+out with a certain domain
+or just want to organize with people that you
+join the group at a similar time etc
+etc think about that and we'll be
+testing that out this coming week
+that'll be really fun
+and Dogmeat you should
+DM David he's ridiculously
+responsive on here and I'm
+sure we'll
+send you whatever he has that you need
+and hopefully we'll get it pushed up
+pushed up soon yeah he and I have been working
+a lot on thinking about
+different ways to
+make it more efficient the way that
+us individuals are able to push
+stuff up to the repo and I think
+eventually I'm going to want to maybe pull
+people from the community to be like
+regular maintainers of the repo so
+that other people can merge changes
+and it's not just me going through everything
+because my fear is like
+I don't want to merge any untested changes
+because it could just distribute a
+fleet ending error to everybody and that would
+be bad and that you know
+that happens with software sometimes but want to
+try to avoid that obviously
+so yeah
+and then I also
+want to say for those of you new members
+we have a onboarding
+and Q&A call so if you're
+a newer member and you want to get onboarded
+into the community get a tour around the community
+that call is tomorrow night
+at 7 p.m. eastern time
+I would urge you guys to join that
+and if you find yourself
+to be a little bit more on the beginner end
+of AI tools and stuff like that that's also a
+great call to just ask any questions about
+your setup
+what your project what products you're working on
+and it's the same call just like
+this just geared towards more
+you know onboarding
+and Q&A type stuff
+so everyone is welcome
+to that as well that's tomorrow at 7 p.m.
+yeah 7 p.m. EST
+on zoom as well yeah Trevor
+quick question so
+where do you post all
+new skills
+tools or anything that
+normally you discuss
+in social media
+but yeah that's a great question
+so in the community here I can share my
+screen really quick
+had the map pulled up if you guys
+haven't looked at the map you guys
+see this all right yeah
+yeah there's nobody
+in Philadelphia 13
+people in Chicago now yeah
+nobody in Nebraska
+yeah anyway
+the map is really cool
+and we got global too
+pretty crazy
+so yeah in the classroom here you see
+the tools and skills classroom
+right here it's this one with a little
+toolbox on it and this is basically
+all the tools and skills
+at least that I've taken the time
+to make a post about I don't always post about
+every single one but I especially recently
+have been trying to post all of them
+and you can see also
+on the newer ones I'm posting dates
+so that you can tell which ones were posted
+from which day and all that
+good stuff and
+you'll also see in the community
+tab in the chats there's
+a chat for tools
+and skills as well so I'll make
+a post and that will show up in the actual
+community feed here
+there you go okay thanks yeah
+yeah and yeah I'll go
+over all the pages in school
+in the community in the call tomorrow as well
+for those of you who just want a tour
+about how school works how you can get the
+most out of the community all the courses and stuff
+all that good stuff
+yeah how did
+last week go with your
+like Claude tutorial
+last
+Wednesday it was great
+it was a really good meeting I posted it
+in the live meeting if you want to watch it
+it was great had some newer members
+join people who had like
+just joined the community that week we
+went through the onboarding of the community
+just like through you know the basics
+of what we offer here and then
+did like some Q&A and it
+always ends up being a kind of an open discussion
+because that's how I like to do
+things and how everyone learns best but
+yeah it was great and
+I think the distinction between
+the two weekly calls
+is like very loose it's more just
+like this call is like
+you know the think tank where more advanced people
+maybe using cortex
+you know if that's what they want to talk about come to this call
+if you want to talk about more basic you know
+quad code usage stuff fundamental
+techniques all that stuff the Wednesday
+call might be better but
+who knows what you know we'll really talk
+about in each call it's more of a suggestion
+than a hard rule but it went
+really well and
+my favorite part of the community
+is obviously these live calls so having a second
+one I think is gonna be cool
+yeah
+I'll try to join tomorrow
+you should yeah it's gonna be fun
+alright guys we are at our
+limit for today but as I said again
+we have a call tomorrow
+at 7pm Eastern Standard Time
+so if you want to chat again
+we'll do it all again tomorrow if not next Monday
+we do this again so this is a one off call
+on Tuesday I had
+something come up yesterday that I had to cancel usually
+these calls are Monday nights
+7pm EST for
+newer members so I'll see you guys
+all in the community and thank
+you all very much for joining and nice to meet
+all the newer members as well
+great to have you guys here
+hey James can I talk to you
+for one minute after this call
+yeah yeah of course
+I sent you a message I don't know if you see it
+but I do
+need your help okay because I make
+a big mistake okay
+I will share with you guys
+like what happened right you know so
+long story short
+do you want me to end the recording or
+should I keep it going it's up to you
+yeah let's talk offline okay
+okay

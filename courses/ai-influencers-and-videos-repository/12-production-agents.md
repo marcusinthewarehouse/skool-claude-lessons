@@ -1,0 +1,168 @@
+# Production Agents
+
+**Section:** AI Agents
+**Course:** AI Influencers and Videos Repository
+**Skool URL:** https://www.skool.com/agent-architects/classroom/0357c72e?md=bf4895d0746e47d19be1b48c3923a8b0
+**Scraped:** 2026-05-19
+
+---
+
+Scale and deploy AI agents for production use. Learn about business automation, testing, error handling, and building robust agent systems.
+
+### This Revolutionary AI Business Model Will Make Millionaires in 2025
+
+Arseny Shatokhin | 42:23
+
+Emerging AI business models with high revenue potential.
+
+[https://www.youtube.com/watch?v=ED4SUWgoAhw](https://www.youtube.com/watch?v=ED4SUWgoAhw)
+
+---
+
+### Build Anything with [Make.com](http://Make.com) AI Agents
+
+Jack Roberts | 33:20
+
+Build intelligent AI agents for automation, research, and business tasks.
+
+[https://www.youtube.com/watch?v=JOTiKDaQRBo](https://www.youtube.com/watch?v=JOTiKDaQRBo)
+
+---
+
+### 16 Insane AI Lead Generation Systems for 2025 (with PROOF!)
+
+Liam Ottley | 26:16
+
+Proven lead gen systems with revenue proof across multiple industries and use cases.
+
+[https://www.youtube.com/watch?v=HBmBmnmoLOk](https://www.youtube.com/watch?v=HBmBmnmoLOk)
+
+---
+
+### RooCode VS Manus: FREE Manus AI Agent Alternative!
+
+Julian Goldie SEO | 23:52
+
+Build intelligent AI agents for automation, research, and business tasks.
+
+[https://www.youtube.com/watch?v=Tufl5yqDbqs](https://www.youtube.com/watch?v=Tufl5yqDbqs)
+
+---
+
+### NEW DeepSeek V3.1: Automate ANYTHING!
+
+Julian Goldie SEO | 19:41
+
+Use free DeepSeek models via OpenRouter API for coding, automation, and agent workflows.
+
+[https://www.youtube.com/watch?v=d0fQLgAClnk](https://www.youtube.com/watch?v=d0fQLgAClnk)
+
+---
+
+### Gemini 2.5 is so cracked
+
+AI Search | 41:25
+
+Explore Gemini 2.5's impressive capabilities and use cases.
+
+[https://www.youtube.com/watch?v=milPEW8XUK0](https://www.youtube.com/watch?v=milPEW8XUK0)
+
+---
+
+### New RooCode Gemini MCP Update is INSANE (FREE!)
+
+Julian Goldie SEO | 20:56
+
+Use RooCode with Gemini models through MCP for free AI coding assistance.
+
+[https://www.youtube.com/watch?v=MmgapN3VE30](https://www.youtube.com/watch?v=MmgapN3VE30)
+
+---
+
+### Cancel ALL Your API Subscriptions (FREE Alternative)
+
+Stephen G. Pope | 22:33
+
+Replace paid API subscriptions with free alternative solutions.
+
+[https://www.youtube.com/watch?v=kHPcBNp82W0](https://www.youtube.com/watch?v=kHPcBNp82W0)
+
+---
+
+### I Made MCP AI Agents That Automate Every App I Build
+
+AI LABS | 8:29
+
+Turn any API into AI-controlled tools using FastAPI MCP server for agentic automation.
+
+[https://www.youtube.com/watch?v=23ykmgvaSmM](https://www.youtube.com/watch?v=23ykmgvaSmM)
+
+---
+
+### The #1 Open Source AI Agent to Stop Overloading Cursor AI
+
+AI LABS | 10:03
+
+Stop Cursor slowdowns by unifying multiple MCP servers under one optimized connection.
+
+[https://www.youtube.com/watch?v=eWvaItBefYw](https://www.youtube.com/watch?v=eWvaItBefYw)
+
+---
+
+### Cursor + Browser control = Self improving coding agent
+
+AI Jason | 11:44
+
+Build self-improving agents that iterate UI and run automated tests via browser control.
+
+[https://www.youtube.com/watch?v=3tYBbH_nFcE](https://www.youtube.com/watch?v=3tYBbH_nFcE)
+
+---
+
+### Automation Testing Tutorial Using Cursor AI + [Operative.sh](http://Operative.sh) & Claude 4
+
+AI LABS | 11:34
+
+Run full-stack automated tests in plain English using AI-powered [Operative.sh](http://Operative.sh) MCP.
+
+[https://www.youtube.com/watch?v=GuKdinu64Z0](https://www.youtube.com/watch?v=GuKdinu64Z0)
+
+---
+
+### Cursor + Playwright MCP server: Your own intelligent QA team?
+
+Zoaib Khan | 23:24
+
+Automate testing workflows using AI-powered Playwright MCP server for continuous quality assurance.
+
+[https://www.youtube.com/watch?v=0kRe7vEkWTE](https://www.youtube.com/watch?v=0kRe7vEkWTE)
+
+---
+
+### How I Auto Track AI Agent Actions and Token Usage (n8n tutorial)
+
+Nate Herk | AI Automation | 9:54
+
+Build and deploy AI agents using n8n's no-code automation platform.
+
+[https://www.youtube.com/watch?v=vVdS-ZEFf50](https://www.youtube.com/watch?v=vVdS-ZEFf50)
+
+---
+
+### Make vs n8n—The Wrong Choice Will Cost You
+
+Stephen G. Pope | 49:29
+
+Build powerful no-code automations using n8n's visual workflow builder.
+
+[https://www.youtube.com/watch?v=L4uST6vOTac](https://www.youtube.com/watch?v=L4uST6vOTac)
+
+---
+
+### One n8n Workflow for Unlimited Error Handling (Step-by-Step)
+
+Nate Herk | AI Automation | 9:36
+
+Create global error workflows that log failures and send notifications across all automations.
+
+https://www.youtube.com/watch?v=bTF3tACqPRU

@@ -1,0 +1,861 @@
+Agent Architects - Weekly Think Tank Transcript
+Date: 3/30/26
+
+Hello. Hello. Can y'all hear me all right here? Yes, correct. Yes. Awesome. Someone's
+got the AI meeting notes in here already. That's what we like to see. All right, we got some cool
+stuff to talk about today. Lots of lots of news, lots of interesting stuff, and it is our giveaway
+announcement call. So we're going to be announcing who won the Mac mini giveaway, which will be fun.
+And I'm also going to run you guys through a little bit about Cortex OS. Hopefully I will be
+dropping that tonight. It's very close to being done. I want to make sure it's all nice and
+packaged up for you guys before I release it, because this is going to be the foundation of
+hopefully a really long running project. Let me make sure our wheel of names is all set correctly
+here. Should be. Looks right to me. I think one of our other members who actually owns a school
+community, vibe-coded her own proprietary wheel of names for her own community, which I should
+have definitely done. All right here, let me start this recording and we'll get started here.
+All righty.
+All right, so how's everyone doing this week? It's been a crazy week for me since our last meeting.
+I've been working like a dog pretty much 18 hours a day. It's been a big week for me.
+My SaaS coin tally just actually launched this week, which is super exciting. We're already
+talking with some of our first affiliate partners to start marketing the product and getting our
+first few users, so super exciting. It's been a long time coming. A lot of bumps in the road,
+a lot of interesting things that we had to tackle on the software side as well as the business side
+of things, but learning a ton. It's been really great building a bunch of skills that I feel like
+will carry me pretty far. Hopefully you guys will see a good amount of posts in the community and
+on my Instagram about coin tally, which for those of you who I haven't talked to about it
+before, it's basically a software for crypto traders to file their taxes in the United States
+with the IRS. It allows them to connect all of their wallets, exchanges up to one centralized
+platform, and it kind of helps them process their transactions with very minimal friction and
+file forms with the IRS. And as you can imagine, there was a lot involved with that. It was
+challenging to get up and running, working correctly, but it now works. And in my opinion,
+competes with some of the industry leaders in the space, which is really cool that we were able to
+do that. So yeah, that's my update. And of course, Cortex OS, which I've been posting about and
+talking a lot about is almost done. And so I'll talk through all that and please ask any questions
+that you guys have about that here. Hopefully I'm going to be releasing that tonight, if not
+tomorrow. There's been a lot of different complicated aspects I've had to go through to
+make sure that it's usable on Windows, Linux, Mac, and a bunch of different moving parts that
+I think will make it a super powerful tool for all of us here. And I'm really, really excited
+about it. I think it's going to be super cool. So I'll yap all day about it. So I'm going to pass
+it on at first, but feel free to ask me any questions about it. So for those of you who
+haven't been here, I see some new faces in the call. It's pretty much an open book. Feel free to
+raise your hand or just unmute and start talking or chat with other people in here and talk about
+what you've been working on if you haven't been here, or even if you have, maybe give yourself a
+little introduction and what you work on, how you use AI, why you're interested in it. And yeah,
+so anybody who's first up and working on something that they want to talk about, any questions that
+you guys have, shoot.
+I had a question about your context OS. Do you use it to just manage more administrative life
+business stuff, or do you also use it for development? The only reason I'm asking is
+if you do use it for development, if you ask that whole system to make you something,
+how do you manage the dependencies? So yeah, I do use it for development. What
+do you mean by manage dependencies? Well, so libraries and stuff, so that if you
+are developing multiple things, you don't have any conflicts on your main computer
+to manage that. Or do you just say, fuck it, and just do it all in one place?
+Because it may not even be an issue, but... Yeah, so honestly, the way that I have at work when it's
+doing development stuff, at least thus far, which hasn't been too much, it's only the system,
+the current system, has only been running now for me for probably like four days in its current
+state. But basically, I have it running on my Mac mini, which I have as kind of a dedicated computer
+for agents on coolery. And so I think you could do this on another computer as well, since it runs
+on cloud code. I think I'd feel more comfortable doing it on a laptop that has other stuff on it.
+Maybe not. I don't know. It's up to you. But I basically, when I'm doing a separate project,
+have it create a completely separate project folder. It's using its own Git repository and
+uses work trees when it's using multiple agents together. In terms of dependencies, I'm honestly
+not sure. I think my answer would probably be that thus far, I've just said, fuck it, and haven't
+been too concerned about that, because I don't think I'm working with too many things that
+would be super conflicting. But I can imagine there's kind of a whole procedure in the system
+where one of your persistent agents, like a 24-7 agent that you use maybe as your personal
+assistant or something, has the ability to spin up a worker agent, which is also just an instance
+of Cloud Code CLI full instance. And there's a skill associated with its ability to do that.
+You could easily put in that skill, spin it up in its own container so that it's not
+conflicting with anything on the computer or something like that. It already, built into that
+skill, is already forcing it to work in a Git work tree of the repository. So I'm sure there's
+some way you could finagle that to get it to be more isolated, I think. That would be interesting
+to see, though, because I can see some applications of that isolating different instances, but still
+somehow being able to communicate with them might be an interesting problem to solve.
+I've been using it for development. It's still a little new, but eventually
+you should check out. I think Docker came out with
+micro virtual machines that spin up specifically for agents. So if you launch a subagent,
+it can spin up a micro virtual machine, and all of its work is completely isolated.
+Which, depending on what you do, can be incorporated at some point. But it's still
+new, so I don't know about how much functionality it has yet.
+I mean, if that's something that is important to you, once you start using Cortex, you should
+mess around with that. Because I can see that being super useful. It could be really useful.
+Because right now, the separation that I have is the agents work in their own
+like their own mini file system in a folder, basically. And they all work on
+Git work trees when they're working on something, like some code base or something,
+so that they're working on an isolated branch. But that's not enough for some
+cases when you need to install dependencies and stuff. So that'd be really cool.
+Yeah, Robert.
+I have a huge win. Like five minutes before this call, I prompted
+Claude Code to create ads for prospecting for plumbers on Facebook. And I had to create a
+custom made tool with a webhook. And I just put it in like a skill file. And I thought it'd make
+me ads to go find plumbers as clients. And it made amazing ads with some bullshit prompt. And like
+my mind is blown. I feel like I just want a free car. I'm booked right now. And I'm just
+waiting for my Google Ads API basic access approval. It's going to go ham. And hopefully
+you come out with Cortex OS for like Windows or something. So I don't need to go buy a Mac. But
+from what I'm seeing, I feel like Mac is the way now, because everybody's working on Macs.
+So might go do that. And I'm super happy. And I'm starting to get more and more
+into this stuff. I feel like I'm super behind because I'm talking to all you guys. But then
+I'm realizing like, dude, most of the people I work with don't even know what a MCP is or anything
+like that. I'm fine, but I'm definitely having FOMO right now. Especially when I go on Twitter
+and see, oh, I made a skill. It does this. And I'm like, dude, shut the fuck up. It doesn't even
+work. So I just want to share my win. I'm like one month into this stuff. I even like was dreaming
+about file systems and stuff. And I'm a non-technical person. So whatever. Like it's
+awesome. So also James, I DM'd you. I paid for a program. I DM'd you the file for SaaS marketing.
+It's super extensive. It's on Notion. So I don't know, you can crawl it somehow and make it skills.
+It's amazing. So dude, thank you so much. That's awesome. Yeah. I'm going to hit you up about that
+and congrats, dude. That's awesome. Yeah. Like I remember the first time I like made an automation
+that wasn't just like a software thing, but that would like actually helped me with a part of my
+life or integrated with like a business service or something so helpful. And in my cortex right now
+that I have running, I have a couple of agents for my SaaS as well that are connected up to my
+meta ads account. And so I have them doing a little cycle on my meta ads, trying to optimize the meta
+ads, you know, for click through rate and stuff. So that'll be interesting for you as well. I think
+I'm going to share that template eventually in cortex. So you can use that. Yeah, Matt.
+Two questions. Good to see you, James and everybody. When I read about Cortex after I saw
+an Instagram reel that you put out, you know, I didn't really hear how you started thinking
+about using it. And I'm really curious because it's an internet of things thing. And then you
+found a different way of using it. That's fascinating to me. So I'd love to know more
+about that. And the other one, when I listened to Robert just now, it made me happy just hearing
+his story and him smiling. And it made me think of this skill remotion that'll cut video. And
+I'm curious if anybody is using that yet. So those are my questions. Yeah. To answer the first
+question first. So when you say, could you, sorry, could you repeat the question again?
+Yeah, I get interested in how people learn things or figure them out where the ideas come from. And
+since I first discovered you, you have a stream of ideas that to me makes you very different.
+Like I spend my time working with non-technical people. And so I'm observing, we're teaching
+executive teams how to use the basics of AI. But for me to learn, I go looking for other kinds of
+people like you. And among all of the other kinds of people, you are still unique. You're unique,
+unique, which is super interesting to me. And then I wonder, where did you get the idea to test out
+cortex? Are you combing through ideas and then seeing if one resonates, it kind of hits with you
+and you're like, yeah, I'm going to dive into this. There's something here. I'm going to pull
+on this thread and discover. So I'm curious how you chose to do that. And a little background,
+I started using Claude code maybe two and a half, three months ago. And now at my stage in life
+where you wouldn't think I'd pull all nighters like a college kid, I am like all the time pulling
+all nighters like last night till 4 30 in the morning because it's quiet and I can get stuff
+done. But what I saw you do with cortex and then with TMUX, I've never used TMUX. I have not been
+orchestrating across multiple screens. Like that's a next step for me. I work with my son. So I'm
+always thinking about me and what he's doing and what we can do and how we can stay legitimate.
+And part of what I'm finding out is I don't want everybody's skill. I don't want everybody's lead
+magnet. A lot of stuff I want to figure out from first principles because I want the journey so
+that I understand the learning. But the things that I see you do make me go, yo, that's the deep
+end of the pool. I want to jump in right there because it sort of leaps me ahead. It's like a
+portal through time. So that's kind of where I'm coming from. If that makes sense. A hundred
+percent. Yeah. I feel like I have a couple of different answers to that question. So I'd say
+specifically with cortex, when I knew that it was something special was when I discovered that
+you can basically interact. Like what TMUX allows you to do is TMUX basically is like two parts.
+It's like the bottom part, which is I think literally in the code called the slave.
+And that is like your normal terminal. And you spin up cloud code in the terminal,
+you're typing in the terminal back and forth with cloud code. And then there's a part on top that
+basically can interact programmatically with the slave in the terminal. So it can like basically
+take a screenshot of the terminal screen, see everything that's on it. It can send keys to the
+terminal screen so it can type into the text box and it can basically bi-directionally interact
+with the terminal as a program rather than you having to type into the terminal. So that gave
+me the idea that because all these coding agents run in the terminal, really where you get stuck
+as the human being is going back and forth from terminal to terminal, typing things in,
+going back interactively with the agent. And obviously that in and of itself six months ago
+now we have a huge level of abstraction over the things we're working on now than we did six months
+ago. But if we can go a step further and control something that controls the terminals, which
+control the agent that codes for us, then you can have an agent controlling other agents. And it
+makes it a lot more, you get another level of abstraction above and you can affect more by doing
+less. And so as soon as I figured that out, that you can have this like, you know, TMUX terminal
+that you can control programmatically, as many windows as you want, you can control as many
+Cloud Code sessions programmatically as you want. And you can have a Cloud Code session control
+another Cloud Code session. And so Cloud Code already has sub-agents, but those are limited.
+You can't have a sub-agent controlling a sub-agent controlling a sub-agent. And each sub-agent itself
+does not have all the capabilities of Cloud Code. So this is my solution to that. And it basically
+does allow you to have an infinitely nesting tree of Cloud Code sessions that can control each other
+in TMUX pain. So that's like the theory of it. Obviously you need a kind of an orchestration layer
+to make that useful. So that's part of Cortex OS as well, coordinated tasks, kind of loops that
+agents go through to optimize their own behavior. So there's a bunch in Cortex OS, so many different
+angles that I've kind of attacked it at to make it a successful system. Of course, OpenClaw,
+huge inspiration for this stuff. Like this is basically OpenClaw using Cloud Code as the core
+agent, but also some added extra stuff on top of it to make it more useful out of the box for like
+structured business goals or structured organization goals. And I have like a science
+background. I was a bio and neuro student in college and worked in a neuro lab for a few months.
+And so I think of everything from kind of a scientific point of view as well and like applying
+scientific method to these things and having the agents apply the scientific method to how
+they're working. And that helps a lot because you can have things that the agent is quantifying
+to see how it's doing, you know, measure itself, improve itself without you having to just kind of
+use willy-nilly English words to push it one direction or the other. There's a lot of stuff
+in Cortex. I could talk about it for three hours and I'm going to make a really long video on it
+explaining everything, but that's kind of the inspiration is like OpenClaw plus my discovery
+of how TMUX works was like, you know, bang, this could be crazy. I know David's in the queue to say
+something next, but I'm interested in your long version of this. I was interested in the real,
+where you've been awake for like 48 hours. I'm interested in how memory is being handled
+in what you're doing. And it also seems more dynamic of a system than something like crew AI,
+where you have to architect everything. What you've done seems like a dynamic system. That's
+exciting and happy to be here listening. Thanks. Happy to have you, man. Yeah, good to see you
+again. Thanks for the question. Yeah, David. Hey, first off, I thought I had some like luscious,
+you know, locks going on, but bro, Sebastian, I know however you're going to say that. I was
+going to say Sebastian, but I can't speak through those are some luscious locks, my man. Also,
+Roberto, I appreciate you not being the only person to take top on this call. Thanks for helping me
+out. And I just want to throw out a quick win. I just fit, I actually got my API keys this morning
+from PropertyMilled and Dane with Cortex OS is actually just finished going through and actually
+integrating completely into PropertyMilled system. So Dane IQ is now 100% running in PropertyMilled,
+which is huge for us. Once I showed them basically, we got another call in a week of it running in our
+system to start getting where we can get the process of being an integrated partner with them
+so we can resell Dane IQ to their property management companies of which they have 18,000.
+So that was huge. And then Rent and Vine, I know I posted on there. I talked to them today. My
+onboarding rep at PropertyMilled, I guess, brother-in-law's cousin's sister works for Rent and Vine.
+So she just was like, hey, let me tell her about this and see what happens. So they were like,
+yeah, as soon as you have it working with PropertyMilled, we integrate with PropertyMilled,
+so work with our system. You know, blah, blah, blah. And so I was like, awesome. Yeah, sure.
+Awesome. Yeah, sure. So a little in and over my head, but you know, I've lived my whole life by
+kind of just fake it till you make it, figure it out, figure it out. So I'll shut up now because
+I can talk too much, but I'm super pumped today. Great day. That's awesome. I'm excited to hear
+what that allows you to do. I'm not familiar with the software. So what does that allow Dane to do
+now that it wasn't able to before? Well, so originally I was planning to use voice,
+text, and email to do the operating system. So now I can go through theirs and use their messaging
+platform. So it eliminates 98% of our twillow or cost on that by using their messaging platform.
+Other than that, I had basically rebuilt PropertyMilled to work the way I wanted it to
+work, but I use their kind of flow. So now we're just basically the intelligence layer on top of
+their software. That's so cool. You should tell them about that. They'd probably be interested.
+That's kind of what I mean. Ultimately, I'm like, I don't have a problem. I love to set it up and
+just sell it to them, be done with it and, you know, spend more than just 10 days in Cancun.
+Yeah, that's awesome, dude. Yeah. Congrats. I'm excited to hear more about that, where that goes.
+Yeah. Also, I forgot to answer, Matt, your question about remotion. I actually have very
+little experience with that remotion. I think it's a remotion. I don't know if it's a CLI or skill.
+I'm not sure what it is, but I've seen a lot of people doing really crazy stuff. There's just one
+guy on Instagram that you might want to check out named Tyler Germain, who has done some really cool
+stuff with video editing that I've been looking into. I actually like, I don't know if you guys
+have seen my YouTube channel, but there's only shorts on it. I don't really make long form videos
+other than for school, which is bad. I need to be doing that. So I'll probably get into like long
+form video editing with Cloud Code at some point and share my experience, but I'll type his name
+in the chat. It's Tyler Germain. Wesley on this call here said he's used it already.
+Yeah. It seems really cool. I mean, again, anything that gives Cloud Code like
+programmatic access to a software you can use, can do big things with.
+Anybody else? Any interesting things going on with you guys this week or questions, anything?
+Oh, you can hear me now. Yeah, I was trying to respond there on Remotion. I mean, I've done it
+on two computers now and with like two types of instances and agents. And from what I can gather,
+it's relatively simple. Cloud was just able to download it and then instantly use it. So I was
+kind of able to append that onto any skill and it's all local. I think ESD's playwright. I'll have
+to double check, but that was relatively easily. And then it just uses like HTML, React. You can
+use photos that you create and create like transition slides, cool like React graphics
+that kind of sparkle whatever you want to make it do. Up to like 10 seconds and then you can
+combine them. So my next step is going to be finding a way for Cloud to be able to programmatically
+combine the videos and make longer than just 10 second clips. I'll get some more details on exactly
+how I set it up and post it in the group. Yeah, that's awesome. I think using it in combination
+with FFmpeg, which is like a general video image editing software can also be really cool and allow
+you to like put those clips together. FFmpeg. That's what I use to like take AI videos and turn
+them into frames that animate on a website. You use FFmpeg to do stuff like that. So you just like
+manipulate videos and images or Cloud Code can rather. There was another one that you create
+templates within the editor and then you can basically plug in your UGC or whatever videos
+you create into it via the API and then it stitches everything together and gives it back to you.
+Yeah, Cassidy.
+Hi guys. Nice to meet you all. Can you hear me? Yes. Great. So I have a question. I started
+getting into AI forever ago, but about a year ago I got into N8n and I kind of dropped N8n
+because AI agents just took over my brain, but I'm starting to come back into N8n. I'm wondering
+if you guys have felt that it's actually better to merge the two and use agents to code the
+workflows and then that way you're not using tokens, you're not using the power of the agents,
+you're not using the context and like running up a bunch of money through all the APIs having a
+full agent run the whole thing, but instead utilizing like the lower, it's like 24 bucks a
+month or something subscription on N8n, having all the workflows, doing all the generic automation
+crap. I think I'm coming to that point where I'm like, oh, they're crossing over now.
+So I want to know what your guys thoughts are on that.
+I 100% agree with you. I used to use N8n. I know a ton of people believe in it and
+have dreams about it. I think cloud code can pretty much do everything it can do and it's
+less pieces that can break. It's less chains in the will or whatever thing you want to say, but
+I'm not a huge fan of N8n. I know marketers are, but I look at it and think, I'm just creating
+more steps. If you're a visual person and you like to see it, maybe there's a reason for that,
+but I personally am not a huge fan of N8n based on everything you just said. Cloud code,
+you can pretty much do almost everything you need there through skills,
+NPC servers, other things that you don't need that for, in my opinion.
+I found that when I was learning N8n, it was like all the little bits and bobs and pieces and codes
+and you had to plug everything in together. I'm wondering, it looks like this is a very common
+thing. All of you guys are in the chat with different perspectives and opinions. I have looked
+at self-hosting. I don't know if my computer is going to be possible to run it. I'm really hoping
+to get the Mac mini. Oh my God. I think it's something I'm just going to have to try. David,
+I like how you say though that it just does everything for you. It's an interesting
+conversation. I've had cloud code programming N8n for me. Just populating it all, building up the
+skills, loading the APIs, smoke testing it. Just directly from cloud code. I gave it some skills
+that were done. It uploaded them and I have it running in my VPS and it's free to run in there.
+I've got no subscription on there. I'm interacting from my Mac, but it's running in the VPS.
+Cloud code is just programming it all, put all my APIs, testing everything in there. My problem is
+now I've created so many workflows. I've got to just flat tune and test them all. But the extension
+of the agent. I think as you were saying, less tokens, agents doing the work and then N8n is
+just doing some of that with compute on the VPS rather than calling these things. You could
+definitely do that on your Mac too, but it might be cheaper. I've got this VPS layer as well.
+I think, I can't remember, I paid about a hundred bucks for the year for it or something.
+Not a lot. Claude told me I could run it on there for free. I didn't know that and then
+they installed it for me and did it all. I'm not yet running it on a local server, but like
+Kyle and other people said in the chat, you can run it locally, then there's no cost.
+We learned how to use N8n and spent more time in it, my son more than me. Now we don't because both
+N8n has a really good agent inside N8n and it will map everything out on its own and it will
+put in the API. That works really well now, but I don't start there. I start in Claude, like other
+people said, and Claude will tell me if it needs N8n, if it can do it itself, it will do it itself
+through MCP, like David said. I start in Claude because it's the brain and N8n is just one of the
+pathways of execution. I like this. Thank you, gentlemen. Also, if you're a marketer like me
+and you need tighter outputs for image generation, for example, I've found that it's more rigid,
+which is good for us. Sometimes with the AI thinking and scripts, maybe scripts not as much,
+but I don't know, scripts are too complicated for me. I've got to read a bunch of code and it's
+easier for me to troubleshoot more visual things. However, if you're going to manage a lot of
+workflows and client lists and stuff like that, maybe you need a file. That's kind of what I'm
+starting to see that has like a database of all your flows, kind of like skills, like a database
+of skills, but with flows. So then Claude code doesn't waste a bunch of tokens looking up all
+your flows and what they're doing, things like that. And also, yeah, I posted a link on Postinger.
+You can self-host for like seven bucks, like Luis said. And the only downside of that is that you
+can't use their AI. So I would probably go with the version that Matt said, pay like 50 bucks a
+month with if you're going to have a bunch of and just ask the AI fix this, fix that. And it's way
+easier. Sometimes I wish I went that role, but I connected with Claude and it's basically kind of
+the same thing. So if you need tighter outputs, I feel like anything is the way. And if you're not
+technical. Yeah. Good point. That for sure. For sure. Yeah. David, go ahead. Sure. I just wanted
+to introduce myself. I mean, James, you and I have been talking a lot back and forth in the school.
+It's my first time actually joining the call, but I just want to say hi. I live in San Francisco.
+I've been in tech for 26 years. My background is in systems, DevOps, all that stuff. Started out kind
+of on the AI train, probably using cursor here and there, doing a lot of terraform, building out
+AWS and GCP infrastructure with it. And then I found Claude code on December 27th. And that's
+kind of when I, I really got the idea for my, my SAS web app. So what I'm building is it's a GRC.
+So it's governance risk compliance. I'm not trying to sort of compete with the big guns like the
+Vantas and the Doradas out there, but you know, I've been doing compliance stuff for a long time
+and it's just kind of something that's natural. So Claude's been giving me the ability to,
+you know, basically offset the fact that I'm not a full stack developer. So it's an extremely
+complicated, it's not a simple app. I've gone through multiple rounds of using GSD and I just
+got done with Paul, just got done ripping out Paul till three o'clock in the, in the morning.
+I can't remember who said this or like, yeah, it's been a long time since I've been pulling
+all-nighters. It's been kind of a long time for me too, like this whole AI stuff's been like,
+it's been a big fresh breath there, kind of rejuvenated my, my passion for being a systems
+engineer and stuff. And if you told, like, if you asked my wife, I think I'm up till four o'clock
+in the morning, almost every single night right now. So I am trying to get the, a launch date of
+six one to at least get my, my basic MVP up and running for my app, um, skill creeps on mobile
+phone. And, um, yeah, just James has been super helpful to me and I'm really glad that I joined
+the community and, and, uh, just super happy to be here. And if anybody ever needs any help,
+you know, infrastructure wise or, you know, security compliance, please feel free to reach
+out to me. Uh, I like to pay back to people cause, uh, if, uh, some people didn't kind of take their
+time to help me out along the way, I wouldn't, I wouldn't be standing here. So anyway, just want
+to say hi and, uh, yeah, I guess what's coming up for me, I've got Zach Wilson's data engineer
+or AI engineering bootcamp starting tonight. If you don't know who Zach Wilson is, he's one of
+the big wigs in meta Netflix and Airbnb. So I've got that coming up, um, starting tonight for the
+next five weeks. So really excited to be kind of, uh, getting involved with that. And then, uh,
+I think we're really worried about right now is I got to start learning how to work with agents.
+That's, that's what I got to learn how to harness. So anyway, great to meet everyone. So super excited
+to be here finally. Yeah. David, I want to say scope creep is the worst thing because it's so
+capable any idea. And that's where I think, um, cortex is going to come in. I got in a mess, but
+multiple screens, so much stuff going on. So I was building my own kind of dashboard to monitor
+my tasks or unfinished things. Hey, Claude, what did I leave open? What did I leave here?
+And so I've been building something very similar, what I needed to solve my problem. And then I saw
+what James had done. I was like, well, this is like, you know, so far ahead of where I am. I don't
+want to just build something that has already been built. So I'm, I'm super excited to see what's
+there, where we've had some crossover and, um, but just to who I think it was, uh, Sebastiano's
+point, think of it like linear, think of it like a task management thing of all your things that
+are going on, be it security, be it things you started and didn't finish. That that's where I
+got to. I was like, oh, too many Claude's and then I got into Tmox and you, and Claude got me
+do it and you can't interact with it. So you need the programmatic layer on top to use Tmox. Um,
+so I was back to multiple Claude code windows, which, um, you know, gets messy.
+Yeah. One of the issues I ran into recently was that, um, I'd spent quite a bit of time,
+you know, using notebook LLM and kind of really thinking about just the product itself and the
+features. And, and, you know, I generated an enormous amount of data and I found different
+ways to, to get it collected, kind of refine it, kind of organize it. And so I had, I had a,
+you know, an amazing repository of PRDs and all of that stuff. The problem is, is as I've gone
+through the majority of that content, it's pretty much like I'm just dragging a giant aircraft
+carrier. That's irrelevant at this point. So I literally had to go through, start pruning
+everything kind of back down, um, from just a general basis of like what the requirements are,
+what the map's supposed to be doing, what my workflows are and all that stuff. And so,
+you know, I, you gotta kind of bite the bullet about every three to four weeks to kind of prune
+the tree back down to the trunk, almost like a bonsai tree is kind of how I look at it.
+And it just takes time and I don't want to do it because I don't feel like I'm making any progress
+on the features, but I literally did all that stuff last night and I'm excited to kind of now
+get back to restructuring things. And then once I ripped out Paul and kind of just got to raw stuff,
+now I think I'm finally at a state where I can potentially look at some, at the Cortex OS stuff
+and see what. James, do you have an M2CI, I think is the other one you had built?
+Yeah, M2C1. Yeah. It's shorthand for measure twice, cut once. That's why it's M2C1. Yeah.
+Yeah. And that's basically just like my version of GSD with a few additions,
+few subtractions, a little simplified. Um, but yeah, I, it's cool hearing you guys talk about
+all these problems you're having in that I think a lot of the features of Cortex OS, first of all,
+bring them all together. Like for that N8N MCP, I know a lot of people were using N8N MCP, um,
+to kind of be like a knowledge base and, you know, index all the files they were using.
+So Cortex OS has a memory system that uses the Google embeddings to API to embed different
+documents. And it gives your agents basically notebook LM in terms of being able to like query
+a bunch of documents together, um, in the system that all the agents can manage and access to handle
+that. Um, and in terms of like skill drift, or I'm not sure if you guys were saying scope drift
+or skill drift, but drift of any, of any kind, um, it has, um, all the agents have auto research
+cycles built into them, which if you know about, um, Andre Karpathy released a repository called
+auto research, um, which is basically like, basically this method to allow, um, a Claude code
+agent to do like iterative research loops on basically whatever you want. He used it to
+actually train a, an LLM and to like optimize the parameters of an LLM to make it produce better
+outputs. But I kind of generalized it to apply to like any metric. Um, and so each agent has those
+built in and there's one auto research loop that goes through the whole Cortex OS system,
+all the agents involved. Um, and it will look at all their skill files, look at their memory files
+and tune things up. It will measure the outputs of the analytics of the system. It will look
+at all those, do an experiment to try to optimize them. So it's kind of a self-optimizing system as
+well to try to prevent drift and prune those branches by itself a little bit better. Um,
+you know, obviously it's hard to get away with these things automating themselves without some
+human involvement. You kind of, you're still going to have to prune the tree probably. Um,
+but it helps a little bit. Um, so it's cool to hear that you guys are talking about that. I think
+this, hopefully Cortex OS will solve some of these problems before we move on. I want to do
+the giveaway before some people maybe have to leave. Um, so I'm going to share my screen and do,
+do our Mac mini giveaway, which has been a long time coming. Um, then we can get back into the
+interesting stuff. Um, give me one second to share my screen correctly here.
+This is a momentous occasion guys. I've never been able to share my screen before in a school call.
+So now that we're on zoom, I can share my screen.
+All right. How's this looking? Everyone see? Yeah. Yeah. All right. So these are our candidates who
+made it to level four in the school community. So drum roll.
+Robert, we got a Robert.
+Let's go Robert. Much deserved. Much deserved. You're going to do some crazy stuff with this.
+I already know. And did you just say you needed a Mac mini? So you get off that PC, PC. Let's go,
+dude. Let's go. That's awesome, dude. Adam boy. And for those of you who didn't win, we're doing
+another one this month. So don't worry about it. We're going to do another, um, Mac mini giveaway
+in April as well. So you'll all have a chance, although you might have to get to a higher level
+for it. We'll see. But all right, Robert, let's we'll chat about this. Um, and I'll get that sent
+over to you ASAP, man. Congrats. Thanks so much. Just made my day. Let's go. Let's go. I'm so happy,
+you deserve it. Thank you. Um, I see Cassidy and Matt have your hands raised. Whoever gets to it
+first. Go ahead, Cassidy. I'm over here pointing. I'm like, go Matt, go. Um, I'm actually building
+out an app, a SaaS product for, uh, luxury watch dealers to compare their watches in the market.
+And I'm using M2C1 to build it. I'm on phase 11. So I'm in the trial stages of like dry running it
+and seeing if everything's connected and working. But, uh, so I kind of wanted to put that in as
+like a little win. I'm almost there to launch and do like beta testing. I'm super excited,
+but I'm curious. I'm a girl that will just stick to the same context window and the same terminal
+and just jam as much shit in there as I possibly can. And I don't have a good mentality of like
+when to cut the line and start a new space. How do you guys navigate that? When do you determine
+is like a good time? I know that there's context rot, but like when you're going through a thread
+of thought, you, it's all, everything's so interconnected. So do you kind of just tune,
+like, do you use the end of the day or like, no, I'm just going to tell it,
+hey, I'm logging off for the day. Let me start a new one in the morning. Like
+I've hit context window compression a few times. It's not super often, but I'm just curious as to
+what are your, how do you guys navigate this? I built a thing called slash wrap where, uh,
+it wraps a project and then writes it all to memory so that across my various surfaces,
+it gets updated within that way. So that kind of just enabled me to force myself to stop,
+because as you say, you can just keep going and going. And I had multiple windows doing the same
+thing. So I got, so being able to then force this wrap back to a central point of the memory where
+everything could update from the only downside for me is that Claude desktop on a Mac.
+There isn't an interchange with that on the VPS. So I have Claude code export a summary
+and put it in, but yeah, I built the process to stop that because I find myself doing that
+exact thing. Just keeping going, keeping going, keeping going. And as you say, it's context
+anxiety. It starts to rush answers, starts to give you the longer you go, the worse it gets.
+And you're like, just, just kill it. And then in Claude code with that little bars coming off
+at the bottom and you're like 70% in problem right now. So James knows I talk about this a lot.
+And, you know, with like GSD and Paul, you know, they, they have built in mechanisms that you can
+do a handoff process where it's basically serializing the memory state to a particular
+file that then the framework, you know, can then reference as you go through a hard clear.
+But even then over time, those files get pretty stacked up. And I think it's like
+the Claude memory default is like 200 lines or something. There's a, there's a, there's a max
+where if that memory file hits 200, it starts to really hallucinate and derail. So even with
+you know, like the GSD and the Paul's, I still ran into this context poisoning, right? Where it's
+just, it's got stuff that's so bloated in these state files and memory files that it's been
+collecting within the framework that eventually it's just, it just, you'll tell it to do something
+like, Hey, move this button from this location to this menu place. And it'll be like, okay,
+I did it. And you're like, no, I didn't do it. And so having to then go back in and print all that
+stuff out, like I found with GSD and Paul, it's probably around the 25 ish kind of phase marker
+where both those frameworks just start shitting themselves. So I don't know how M2C1 works,
+but that's where I would probably just ask James to chime in on that one. But I talk about this
+stuff all the time because it drives me nuts. I guess Cassie, the one thing that I will say is
+don't really want your context window to be getting up to like 75%. You definitely do not
+want it to auto-compact because what it can then do is it literally can then poison all of the
+memory state that it's, that it's been retained. And then now you have to start digging through
+the cloud files and start removing stuff and manually pruning content out that you just don't
+want it to have a reference to as you're kind of going through from session to session. So.
+Yeah. One thing that it works for me, usually I work in like these three phases process.
+First one is discovery. So where it's, I'm just like talking to the AI and getting the right
+context in and just getting everyone, every agent in the same kind of vibe and alignment.
+And when I reach that and I try to reach this phase really fast, just like 20%, 30%
+because that's when we get like the most valuable tokens. So I try to get as fast as possible
+cloud code with the explore and use sub agents is also like a good tip. You can ask cloud to
+navigate your file system to find, you know, the, like the juice, you know, of that topic
+instead of just getting all the files, you can just navigate that. And once you have like this
+clear vision, you can interrogate the AI to see like, like if it's the understanding is correct.
+I go to the phase two, which is planning and then it's creating markdown files. It really depends
+on what you're trying to do to get the right file. But once I get this file, that's my source
+of truth. That's like what I'm going to do. I can use that in another session. And if you're able to
+then work, create some workflows. So you get this plan and break into micro steps and then each
+micro step can be done on a new session. And then you get like what you plan more accurate in terms
+of like the precision is way better. So that's usually my work process. And it's kind of
+consistent. And it's in, it matches like what's like, get you get you done, report this, be mad.
+I post the link here. I really suggest you guys just give it a go. The party mode is awesome.
+But then with this kind of three process, three step process, you manage to not get
+auto-compactations pretty bad. When it happens for me, just like end of the line, I just think
+sometimes we start from scratch because it starts hallucinating and lose focus, et cetera.
+So yeah, that works for me.
+Yeah, I don't know if anybody else wanted to chime in before me,
+because some people had their hands raised before me. But
+I could throw some in real quick on this topic. Hey, I'm Josh in LA.
+Hi. I came up with some kind of crazy thing. I've been running
+Cortex for like a week now or something. And I've got really obsessed with making it like
+more reliable, kind of like tell me what it was doing more. And I have it doing some like
+really aggressive auto reboots on context at like 80 to 85%. And writing like writing itself hand
+off. So it's something I really liked about GSD is the way that you could clear and restart.
+And it always had a handoff state. I've got it working like 80% of the time, maybe now or more.
+So it'll be like, wait, I have to come, you know, I have to clear, I have to set my state,
+I'm going to reboot, I'm going to come back. And I'm trying to get like the master orchestrator
+is better at like watching everything to see what's frozen and see what's working and be
+interacting with it. So that's how I don't really think about context anymore. It just sort of
+solves itself. And sometimes it'll say, wait, do you want me to reboot or not? But it'll also like,
+they'll reboot themselves every 16 hours. So they're not kind of going too long. So it has
+a whole suite of like reliability fixes that it put together. It's annoying, like a lot of clearing,
+but it's also nice to not have to think about it. And I also have enough agents to like,
+I'm trying to organize my different conversations into different agents.
+So it kind of keeps my context a little cleaner. Like if there's something I work on a lot within
+a project, I just make another agent for it. I don't really have like role specific agents,
+it's more like repo specific, but it's still keeping me like this app is here, this part of
+this app is here. So I kind of like have an easy way to work on each section. And that keeps
+context cleaner too, because I'm doing less jumping around. I don't really remember what I
+built anymore, James, but there might be some useful stuff to look at.
+Yeah, actually, this is something that could use improving with Cortex even. So also, by the way,
+everyone that's referring to saying that they're using Cortex OS already, that's just the core
+that I've released so far. The real like orchestration system I still have yet to release
+just for people who haven't been using it yet. So you're not missing where the Git repo is,
+I haven't released it yet, but the core is released. And for that, like auto-compact
+stuff for Cortex, I actually haven't solved that problem yet.
+Okay, well, I'll send you, I'm going to try, I need to figure out how to just send you,
+I mean, I guess I can just ask it to update everything I've done in the last couple of days.
+Yeah, well, I'll talk about that in my intro video as well. But something that's going to be
+really cool about Cortex is that since it's one core system, and all of us are using it,
+between all of you and the core repo is going to be a big part of it. So all of you guys are going
+to be able to help me develop Cortex because I'm one person, it's hard for me to like really catch
+all these errors and flush out all the skills. So it's going to be open to you guys to turn
+your skills and your systems into general versions, submit them as PRs to the repo,
+and I'll work through and integrate them into the core system and everyone will update that.
+So I'm excited to see what you guys are up to. I'm excited to see what you guys are up to.
+And everyone will update. So there will be agents in all of your Cortex OS systems,
+with your permission, of course, that are checking the remote repo for updates from me,
+and will tell you, do you want to update to the new update or whatever? Or do you want to contribute
+this cool thing that you've come up with to the remote repo? So we'll all be able to, and Josh,
+I've already integrated some of your changes actually. And two of the other things I wanted
+to say, I never really had an open call up and running. Both times I tried it, it completely
+failed. It's a thing I had the worst luck with. I finally deleted my second attempt today,
+but I've really like, like last night I was going through and I thought through about
+35 diverse parts. I'm building an AI operations consulting agency. And it's like, you know,
+I made like a little revenue out of it. I just quit my day job and I'm like in a transition mode.
+So I'm excited. It's definitely post revenue, which is nice. But I'm really like, I ran an
+IT company for my own for 14 years and someone else's for four. And I've like really struggled
+with like some basic scalability stuff. And I'm just really excited to like really thinking about
+all the, just all, you know, I have like 35 roles already that I thought of. And I really, to like
+try to get those processes built and like get my SOPs really poured into them. Like I procrastinate
+horribly on marketing. Like I have such a beautiful content engine and I just do nothing.
+Really trying to get those pieces flowing better. And the other thing James I've been working on
+fixing is making it like really visible, like what it's doing. Like I want to get that same
+level of like, so you always know, cause these threads feel frozen a lot. Because it's like,
+Claude gets busy and nothing happens. You have no visibility, right? But like there's good notes
+happening in the background. And I really want to like, I want to get those into the chat in
+italics with a no notify. So you really like have that info if you need it. Yeah, that's a super good
+point. That's a super good point. And I have, it's not quite working, but with what I have,
+you'll have it working in like an hour. It's like basically done. It's just a little bit.
+That's awesome. Yeah. We need that. Like reflecting the actual Claude code transcript in your
+telegram chat without notifications. It would be super cool. Like I have one, one or two channels
+where it's working. It comes in, in italics. So, you know, it's a no notify and it's italics. So
+it really kind of like gives you some good info. That's awesome. Yeah. Yeah. I want to see that
+for sure. Oh yeah. That's what I'm just, I'm really like excited to try to like get this stuff like
+really working and to have it. I have a really, really deep AI like audit discovery process built
+that's like a lot deeper than anything else I've seen people building. A lot of people go pretty
+surface level and we're going like very, very deep into every pain point and how much it's
+costing people. It's a really great process. I'm excited to get in front of people.
+That's awesome. So yeah. Anyway, nice to meet you guys. Yeah. Good to meet you on the call, man.
+One thing I kind of created for my
+like purposes is one part is just hooks. So I have a hook that triggers on, it has actually a couple
+triggers. One is token based. So the first one kicks off at 50k tokens and then 10k tokens
+intervals every time after that. And then it also has a second layer where it uses a percentage based
+of the tokens remaining at 30, 15 and five, just in case. And that also helps handle when you're
+using a model with like a 200k context window versus a 1 million, because those are very different.
+And then what it does is, and a pre-compact. So if you don't remember to clear compact it yourself,
+it'll kick in right before the auto compact does. And what it does is that it goes through the
+transcript, extracts all your messages, the skills that you use, the tools and tests that it runs
+and puts in a structured format, like markdown file and like a backup file. And it does that by
+in part reading what the, so it comes with like a custom status line that I also built. So it uses
+the information from the status line to tell you, or so it knows when to kick off and it runs
+asynchronously. So it won't slow down your session. And one of my favorite parts is that it doesn't
+cost any tokens because it's a script. And then I also pair that with a custom compaction prompt
+that I built that auto clears for you at the end. And then it auto loads the, which creates a file,
+but in a separate kind of like compaction backup file, as opposed to like the automated hook files.
+And then it auto loads the summary and files back into the conversation. So you can kind of
+pick up exactly where you left off. And if you ever, like if I ever had a problem, then
+I could have it go back through those and read it to see if, you know, what happened, because in part
+on the backup files are really good for like, when something technical, like you're trying to
+figure out like maybe what changed to fix something. But sometimes with the auto compaction,
+I found that Claude would tend to lose more like the specific preferences or things to like avoid
+and stuff that it made, and then having to kind of like redo that. And so as part of my custom
+compaction, I just focus a lot on that stuff. And that isn't already covered in the backup file.
+And so it just allows me to keep working essentially with maybe just a single command.
+And the custom compaction prompt is only invocable by you. So because it has the clear command at
+the end, you don't want Claude to accidentally use it when, you know, you're not, when you don't
+actually want to use it. And so it will show you on the status line too, and then you can invoke
+anytime. But that's what kind of like I've found has worked for me, you know, so far. And it also
+takes into account the Claude puts in like a 33,000 token buffer that isn't shown through the
+status line. So it's a little deceiving when you think like you have extra tokens, but you don't,
+because I learned that the hard way. And so that's built into the calculations, isn't to like how
+much you have left. So for me, if I finish like making an update, or just finish the planning
+phase, and I want to like clear the context, actually execute it, and then just retain
+the important parts of the plan, then like I'll do it, you know, in between steps so that you can
+keep going. But the fact that it just doesn't cost tokens for those backup files also just helps
+keep token costs down while still enabling you to have like a really consistent memory.
+And all of like the trigger levels and stuff are all configurable. So if you want less files,
+you can do that. If you want more, you can increase like decrease the intervals or change them.
+So that's what like I've done. I don't know if James, I might be useful, but
+Yeah, dude, please like DM me about that or something. Because that would be super useful.
+I remember when I was first trying to deal with memory, I did a similar thing that was like
+hooks triggered based on context usage of like a number of tokens. And I had it,
+I had it using tokens, though it like deployed a background sub agent to like read the JSONL
+transcript and extract things, but tokenless super interesting. And that system sounds like
+you've honed it super well. So that could be super good for for cortex, because right now, like,
+I rely on the external memory system for cortex a lot, like external files kind of similar to
+an open cloth system where you have the agent write its own memory files, and then you have
+a check those files, you also have it vectorized those files and like use an MCP server to read,
+you know, the whatever semantic search that it does. And that works pretty well, but not great
+with tokens. And that's one thing that you guys will find when you first use Cortex OS, not token
+optimized guys, sorry to say it consumes a lot of tokens right now. So I need help with that,
+for sure, and ways to like make those systems more efficient. I'm focused on capability right
+now and get the capability there and optimize the tokens down and keep that capability up.
+And also with memory, Sebastiano, that sounds super cool. I would like to investigate that,
+see how we can integrate it, because that would be super duper helpful.
+I can definitely share that with you, because I just pulled it up. So like it tracks like your
+user requests, the files modified tasks, what it created, what it completed and any of the skills
+loaded. That's token list from the transcript. And it also tracks like the session ID, it'll
+tell you what triggered it. So if it was the initial 50k trigger, or like any of the intervals
+after that, how much context you had left when it triggered, and then just the time, like a
+solid timestamp, it's like the day and time so that you can kind of also backtrack and rebuild.
+But I found it to be the most hands-off solution I could find so far into doing it. But it just
+made me think of it because if you have like a bunch of autonomous agents doing stuff and like
+they need some sort of like programmatic memory access, it might be better than, you know, having
+to continuously like change compaction prompts. And so like the compaction prompt that like I made
+just covers the stuff that isn't already covered in the backup file. But yeah, I'll message you,
+I'll see what you think. Yeah, that'd be great. Thank you, man. That's super, super cool system,
+by the way. It sounds like you like covered a lot of the bases there. I got like 15% of that back
+when I was messing around with it with the hooks and stuff and just gave up on it and opted for a
+simpler solution. But if that really works very well for you, we should definitely integrate it
+into Cortex. It could be super, super helpful in reducing token consumption as well. It would be
+really helpful. Just quickly on that topic, I feel like I actually, my opinion differs from a lot of
+people on this topic that I actually oftentimes am more, I tend more to want to stay in the same
+conversation, even if I'm getting a little high in my percentage. And I think really what the like
+main trade-off here is, is like the two concepts. One is context drop. You know, the more tokens
+you're consuming the context window, the worse outputs get. The other side of it is in context
+learning, which is that the more context the model has in its context window, the more points of
+information it has to integrate together to get a better idea of what you're working on.
+So there's kind of a trade-off there where, you know, the more things the model has loaded into
+its context window, the better it can learn all the details of what you're working on because it
+knows about more details, but the more you've consumed, the worse the outputs get. So especially
+with 1 million context windows, I actually tend to stay in the same conversation, maybe more than I
+should. But I think, you know, context raw is real, context poisoning is real, repeated compaction
+over time and how that, you know, kind of distributes throughout your conversations in the
+future. So I don't know, it's to each his own, I think for sure, but it's interesting the interplay
+between those two ideas that I think as the context windows get bigger, hopefully context
+route will become less of a problem. But I think even though the 1 million context window is bigger,
+there's research that shows that it only gives us so much more good outputs before context
+route still hits. So we'll see how that goes. But solutions like Sebastiano's and many other
+people's, I think are super good solutions where somehow you're closing the loop between sessions.
+And that right now is one of the biggest problems in AI is like being able to persist context
+between agent sessions where people call it agent harness. There's a bunch of different words for it,
+but GSD is a good solution. Externalizing information into external files is a good
+solution. Using the transcripts somehow to extract information from the transcripts for
+the next session is a good solution. So many different approaches. They're all pretty complicated
+and I'm sure the big labs are working on it as well. So we'll see how that goes.
+Yeah, but the 1 million token window helps a lot. It's really hard to
+auto-compact with 1 million. Really hard. Yeah. And I think that's why Anthropic also had
+changed the, made the setting to clear context and accept plan. Now it's something that you have to
+enable because they want to encourage people to use it more. But that's why when I was really
+thinking, I was like, I need something in the background in case something happens where you
+can go back. Because I also forgot to mention once it saves the file, the path to where it backed up
+the file will also show back up in the status line. So if you need to extract that file path
+for whatever reason, you can do that. That's awesome, dude.
+I wanted to see if anyone has had a chance to use the iMessage plugin through Anthropic.
+I have not. It's just channel. It's the same thing as the Discord and Telegram.
+They just kind of like, it must have been super silent, honestly, because I was looking through
+GitHub with Cloud Code and we came to the conclusion that it's already on Anthropic.
+So like Clarvis is kind of something that I created, which is really just a combination of
+what I kind of created before joining this group. And then a lot of the principles and
+programming of Cortex. But I use TMUX and it's able to enable the plugin for the channel.
+So I kind of have it on like a heartbeat where it's constantly going to where I'm
+always able to text in and get the text out. But like I've kind of watched it happen. Like
+my laptop's right here. The other one are Clarvis' laptop. And you can see like the
+channel, like the message come in and it is literally instantaneous.
+So like the texting is going back and forth. And the context has been pretty decent.
+It's like still new. I just did this last week, so I got to get into some of my own architecture.
+But it's able to go back and like look at the previous conversation when a new one has started
+and like pick up right from there. And it's different because it's not necessarily reading
+the transcripts. It's reading the iMessage data on the backend. So it's been very interesting,
+but it's worked a little bit better than the Telegram Discord. The problem is that you need
+to have iMessage or a spare computer to get it logged in. But I do think you can use like
+your voicemail essentially. So you can hook that plugin into yourself and then if you text yourself,
+it would go like to cloud. So that can be applied to the Cortex.
+But yeah, I'm pretty amazed with the results just in the past couple days here.
+That's super cool. I'm interested in that as well for Cortex for like iMessage integration because
+right now I just have it using like OSA scripts for iMessage stuff. And it's not an iMessage
+conversation with quad code. It uses my iCloud email to text my phone number. I use my phone
+number to text my iCloud email. It's not great. So you're using the official iMessage
+anthropic plugin in TMUX or just in straight up cloud? It's a plugin.
+You know how you do like cloud, cloud resume. I noticed it works way differently if you do
+like the cloud channels plugin and then you enable that way. And then it's funny,
+he was making fun of me actually yesterday. I was trying to work on a project and he was telling me
+to go to bed. And I looked down the computer screen and it's like, I wonder if Wes will get
+the hint. That's super cool. Let me know about that. Of how all that looks like on the iMessage
+and on the actual terminal side or TMUX side. And once I actually go through, like I was kind
+of in speed mode build and now I got to go back and look at all the architecture and understand
+a little bit better, but I'll keep you all updated.
+James, this may not be as sophisticated. It's not as sophisticated or complicated as some of what
+I've just heard, which I appreciate like from Sebastiano and others. But I'm using these tools
+to organize myself and to expand my own business. And so I found it really useful to
+this goes back to Cassidy's question. When do we close out? I have found it useful in my simple
+way to close out sessions when I'm ready to close the loop. And my system like Wes's scolds me and
+tells me to go to sleep. And if I close out a session and then I have two more close outs in
+the day, it's like, Matt's doing this wrong. He should have run all day and then close this
+thing out. But I will close an open loop so that I can go away and know that everything is saved.
+And I first created a close out procedure. And to some, this might be useful because it goes
+through steps that matter to me. So things that I think should be vector embedded, get embedded
+in a vector database because it'll write to obsidian for me. That's a different kind of
+memory. It writes to obsidian because I want a builder's journal. Like I want to know what
+I'm doing in real time. I'm having a right to notion. Like for me, the human, this is what I
+did. So in time, I can look back and go, what did I do? So it's doing vector embeddings.
+It's doing obsidian. It's doing a journal. And then I've been wanting it to understand my voice
+better so that with the social media and other things that I write, when I'm dictating to it,
+dictating during the day with whisper flow, it can learn from me. So in these sessions, Cassidy,
+one thing I'm getting is if I have different agents pay attention to the same session,
+they gather very, very different kinds of information. So I have a finance guy listening
+to me. I have my persona that's finance that remembers the priorities. I have this person,
+Chloe, that remembers my voice more like a literary editor that's picking up on those cues.
+And in this way, I have a whole team that's paying attention to what we're building together.
+And it's interesting because my agents know a lot about me. And then I realized my partner,
+my son, is not in this process and we're not networked through cloud code. So I started
+writing end of day kind of records to him that carbon copies me, but goes out to him and say,
+look, this is the session we had and measures the time. It was four hours or it was 16 hours. So
+there's kind of a timestamp. There's what we did. There's the next steps, what's being delegated.
+And I know this will all get better. The systems will get better, but at least in the meantime,
+I'm getting different perspectives on what I'm growing. I have a case study manager because I
+think some of what we do with clients is worth remembering and writing about. So they're listening
+for case studies. This guy's listening for finance. And this has evolved over the past three weeks,
+four weeks. And this is a different kind of memory. This is like a team memory. And I think
+it's really cool. So this morning for the first time, I made a startup sequence to go with the
+closeout sequence so that it reminds me in a specific order of the things to do. And again,
+the different agents pay attention to the same conversation in different ways. And so this is
+more useful than a general memory. That sounds exactly like what I had ideally wanted to structure
+for myself, Matt. And it makes me so happy to hear that someone is utilizing it and has figured
+out a way to do it because my ADHD brain, that's insanely wonderful. I want that where I have
+multiple people, agents, like scraping all of my conversations to pick up on all the nuance in
+every year you're preaching right now. So then it's cool because we can write the skills. I mean,
+if I understood James right, you get a community like this together and we can help build cortex
+in a way he cannot do alone. So that's a type of thing. But on other things where it's us
+individually with our own neuro architecture, we should not use other people's skills. We should
+make our own skills to fit who we are. So this is my perspective now. They're community things,
+they're individual things. Matt, you're a great communicator. I can tell you've been in consulting
+or sales. What did you say? I'm a what? Creative care? Communicator. Really good. Thanks.
+How can we kind of, and this is more for me maybe, but like how can we get access to like a
+maybe like a folder structure or something of how these things work? Because I have no idea
+how to recreate what you just said. And it just like Cassidy, I would love to have that as well.
+But how can we get kind of like a blank version of that? Or maybe a how to guide or something?
+Is there a possibility to kind of figure out that so we can extract info from each other?
+Like I know a lot about paid ads, you guys know about a lot about that stuff. So I'm sure like
+my skill would be useful for some people. Your guys's skill could be useful for like,
+I don't know is going to be that with the skills, but as it's not ready yet, so I don't know.
+I'm just like, I mean, one trick we use every week, every day is transcripts from
+meetings like this with another individual or person. Because I don't, if we look at each
+other's eyes and pay attention to like gestures and responses, we don't maybe hear every word,
+but the transcript does. And then you can go back with your interest in what happened in
+that transcript and go, I want to build a system this person described. And then you're building
+it. And if you build it from first principles, from what you heard and what you want, you build
+it for yourself. And it's stronger than a few, because we've been teaching for a few years and
+people will ask for templates and stuff. And while that's kind of good to like, as a lead magnet,
+to get people to sign up for something, they don't really learn the same if they don't do it
+themselves. Which is not me saying no, because what I would say to you, Rob, Robert is let's
+connect and talk one on one, because that's the conversation. That's cool. But you take the
+transcript away. And then you it's the it's the giving a fish versus learning to fish.
+There's some happy medium in these things. Sometimes you need a leg up to get going,
+all of us do. And then sometimes you need some breadcrumbs, you have to figure out the puzzle,
+puzzles and answers like this. There's a book about this. If you get the answer,
+you don't grow. If you get the puzzle, you have a chance to grow.
+If you get a combination of the two, it's good also.
+Yeah, I'll add to that, that you can get like someone else what they built. But I think that
+a good mindset to have is just talk to cloud code. Just like I want this is how I work.
+And help me because it can just like search the internet about like its own,
+you know, ways of working, you know, what cloud code can do. And you can get to something that
+matches you. Because I agree with this like concept that there are things that we can,
+and we should definitely reuse like Cortex OS, get shit done, etc. But yes, there are a lot of
+things that will be just for you and work for you that will not work for anyone else. And sometimes
+we try to find like a recipe. But I think what works best is just like, we actually getting
+through the journey to understand ourselves and how the AI can help us in this really individual
+way. So just like what I usually talk to people, just like talk to the AI, just like this is my
+problem. How can you help me solve this problem? And sometimes you just get like more things done.
+Thank you. We totally agree with that. I spent a lot of time trying to figure out how to do it
+when the better way was just telling it what I wanted to do. And it knew more, got faster,
+but I spent a lot of tokens thinking of how to do it, but just telling it the problem,
+it solved a lot of it itself.
+Yes, the only issue with that is you have to have a level of competency to know what your
+looking for or looking at. And maybe I just don't know enough about the system yet, but I'm
+learning like every day because I'm looking at like control all I'm seeing through the dots,
+how it's like changing code and stuff like that. I'm asking, I'm saying, hey, explain this like for
+an idiot and then explaining it. So it's working.
+I would say what I ran into was getting it to interrogate itself all the time.
+Anything it does, interrogate itself, validate itself because it finds so many things it's done
+wrong. And like three or four interrogations, you're like, why didn't you do, you know,
+whatever you build, build this handover MD and interrogate it, interrogate it again.
+I found it cleared up a lot of errors because I was just going with it to start off with and false
+confidence, right? I guess you're going to stick with it.
+For those that are not technical, I really suggest you just go through BIMED method. It's just like,
+it's a collection of agents and you can just like bring all the agents to a conversation. So you can
+just like explain the problem and you have like all these different opinions and maybe you will not
+understand, but maybe you can just say, okay, this is my background, this is me, this is what I
+understand. Try to explain to me as, you know, in this context and you can get more things done. So
+even though I'm technical, sometimes there are things that I don't have a clue, but having these
+specialized agents explaining to me and just like having a conversation gets me there. So just like
+a suggestion. Thanks. Sebastiano, I just saw that you messaged me an hour ago and just responded.
+No worries. Thanks. Yeah. To close out the call, we're a bit over time now, so I'm going to close
+us out, but I kind of have a dream that's arisen from a few of our last calls as well as Cortex,
+which kind of addresses what Matt and Robert were talking about, which is like,
+first of all, some method to transfer, you know, custom agents abilities that people come up with
+to other people, but also to have it be customized to them. Like Matt said, you know, the best way to
+do it for yourself is to do it yourself and not to use someone else's recipe or template
+to combine that ability with what we get here in the community, which is people talking to people
+on video calls, in chat, you know, live chats. So my dream, who knows how soon this is going to
+happen? Hopefully, hopefully soon if it's possible, but it's to create basically an alternative to
+school that's kind of built around this idea, because school as a platform, like, you know,
+it's the platform it is, it's limited in some ways, good in others. But I think it would be
+really cool if we had a platform that would support the idea of you guys being able to
+collaborate much more easily when I'm not here, not on these weekly live calls, but, you know,
+in groups of cohorts, maybe of people who want to share ideas. And then to have that platform
+also be designed around the idea that all you guys are using agents while you're doing this.
+So, you know, a core unit of transferring knowledge can be a skill or maybe an agent
+template or something along those lines. And along with the idea of having an open source
+repo for Cortex, you can overlay a community software on top of that, where people can actually
+meet up, have live chats, kind of like Discord group chats of people in different disciplines
+or people who want to share specific information. And you can all be collaborating on the same
+architecture of something like Cortex OS that makes it really easy to plug and play different
+modules or different, you know, ideas around these agents to kind of make it more easily
+shareable and also to allow people to collaborate more easily. So that's my dream. It's kind of a
+complicated dream, but I've kind of had that idea for the past few, you know, weeks now,
+and I think it'd be really cool. So we'll see how that goes. But I think that could be super cool
+built on top of a community like we have, which is really unique. I've been in other school
+communities too, and I don't see what's going on in those communities that what happens in
+this community where so many people are so engaged and like want to help other people
+and are really knowledgeable in their own topic. And I think there's a lot to capitalize off of
+there for everybody that we could all benefit if there was easier ways for us to communicate and
+collaborate. So keep an eye on that. I'll maybe make some announcements about it if I come up
+with anything, but I think that could be a cool community layer on top of something like Cortex
+to like, I don't know, could do a lot of things. I think it could be very cool.
+James, this community is like this because you attract people like that by not being
+salesy, I think is my opinion, you know, by not having people can tell, you know,
+in this day and age is very easy to spot fakes. You don't say make a $10,000 this week
+using my Cortex thing, you know, it's just rough. Yeah, it's on the authenticity. People are drawn
+to authentic people. Like you're real, you're not putting on something else. Yeah, you talk fast,
+I talk fast, who the fuck cares. But you can see it in your TikToks. I know you always talk about
+Instagram. I'm a TikTok guy. I was in the gym, saw one of yours and was like, I immediately
+stopped working out and was like, hold on, I want to rewatch that. It was the voice, what you were
+saying. It wasn't a pitch. It was real value being handed out. And, you know, short of marrying my
+wife right now, I feel like it's the second best decision I've ever made. That's amazing, dude.
+Thank you so much. Yeah, I really try to do that because I know there's a ton of other people that
+are, you know, putting out AI content, obviously, but it is hard to separate it from the money.
+And this is a paid community as well. So it's hard for me to always make sure I'm not slipping
+into that as well. But I do, you know, I am very mindful about it because it's terrible, man. Like
+I work with a co-founder of my SaaS here and we know a bunch of other people that run communities
+and it's crazy the funnels that people who own communities have to get you to buy stuff that
+doesn't provide value. So, yeah, I don't want to be that. So if I ever go off the deep end, guys,
+please keep me in check. Hopefully I will not, but I don't think I will because, you know, you guys
+are great. I love these live calls every week. They're one of the highlights of my week.
+So great. I'm going to end it here, guys, but please feel free again. Like last week, I know
+we had a lot of people that wanted to connect after the call. So if you have someone in this
+call that you want them to connect with, I'm going to post the live recording in the community,
+drop your contact info at somebody, DM them in school or whatever, and connect offline.
+You know, that's the best. Congrats again, Robert, on your Mac Mini. We'll talk about that.
+And yeah, see you guys all next week. Great to talk to you all, meet new faces,
+see old ones, as always. Have a good one, guys. Thanks. Good night. Cheers.
+James. Yeah. Just posted on the chat just because it's like really incredible. It's the first time
+I've been here. But what you said is just like something that I've been working on for weeks.
+I have like a community in Brazil for the same kind of content. I'm not like a content creator,
+so it's more like people that I've worked with. I don't have like the social media presence.
+But if you read what I'm thinking about, it's almost like what you described. It's having like
+a platform and sometimes just like, okay, school is there, right? And there are a lot of other
+platforms. But I was thinking just like, okay, if we have something that's kind of open,
+open, not open source, but open contribution where people can just like get what they learned,
+use their agents in something that they can actually retrofit, you know, and just like
+learn more and get some feedbacks. And so yeah, just if you want to talk about it, it's just like
+it was really coincidence. So I would love to. Yeah, let's talk about it because I would
+definitely need help building something like that. So if you have ideas or things like that,
+let's talk about it because dude, I think that could be so awesome. And especially since more
+people are using AI and agents to not only learn AI stuff, but to learn everything. And there's a
+future that's probably soon that, you know, you and your agent are going to do most things together.
+So making an AI native version of a community platform, very, it could be super cool. And I
+think especially for a community like ours, which is full of people who already are familiar with
+how agents work and, you know, use agents a lot, great testing ground for that. So let's talk about
+it because I, you know, I use it, I need help with everything at this point. So yeah, let's,
+let's talk about it. I'll check out your message here and send me a DM as well on school.
+Okay. And great to meet you all also. Bye guys. Thank you. Have a good one guys. Peace.

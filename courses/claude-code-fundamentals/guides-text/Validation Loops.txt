@@ -1,0 +1,74 @@
+Validation Loops
+What This Lesson Covers
+How to make Claude prove its code works. Test, fix, retry until everything passes.
+The Key Insight
+You ask Claude to implement a feature. It looks reasonable, you say "great" and move on. Two hours later it broke three other things. The fix: make Claude validate its own work before declaring victory.
+The Validation Loop
+TEST -> Pass? -> DONE
+          |
+         No
+          |
+         FIX
+          |
+       RETRY (back to TEST)
+
+Claude is extremely good at this loop. Give it a clear target (a failing test) and it will iterate to success.
+Manual Iteration
+Tell Claude explicitly to loop:
+Fix the failing tests. After each fix, run `npm test`.
+Keep fixing until all tests pass.
+
+Claude will:
+	•	Read test output
+	•	Identify the bug
+	•	Fix it
+	•	Run tests again
+	•	See another failure, fix that too
+	•	Repeat until green
+Enforced Loops via CLAUDE.md
+Add this to your CLAUDE.md:
+## Validation Requirements
+
+After ANY code change:
+1. Run `npm run lint` - fix all linting errors
+2. Run `npm run typecheck` - fix all type errors
+3. Run `npm test` - fix all failing tests
+
+Do NOT consider a task complete until all validation passes.
+If tests fail, analyze the failure, fix the code, and re-run.
+Repeat until all tests pass.
+
+Key phrase: "Do NOT consider a task complete until all validation passes."
+TDD Workflow
+Test-Driven Development is the most powerful pattern:
+	•	Write the test first
+	•	Confirm it fails
+	•	Implement until it passes
+	•	Never modify the test to make it pass
+
+Prompt:
+I want to add a power function. Use TDD:
+1. Write the test first
+2. Confirm it fails
+3. Implement until it passes
+Do not modify the test after writing it.
+Anti-Pattern: Test Modification
+Warning sign: Tests suddenly pass, but requirements aren't met.
+
+Claude might "cheat" by weakening the test instead of fixing the code. Prevent this:
+Never modify existing tests to make them pass.
+If a test fails, fix the implementation, not the test.
+Quick Reference
+
+Action
+Prompt
+Basic loop
+"Fix failing tests, run npm test, repeat until green"
+TDD
+"Write test first, confirm fail, then implement"
+Prevent cheating
+"Never modify tests to make them pass"
+CLAUDE.md rule
+"Do NOT consider complete until all validation passes"
+What's Next
+You've learned validation loops. Next lesson: Git workflow and security review before commits.

@@ -1,0 +1,1247 @@
+Agent Architects - Advanced Member Think Tank Transcript
+Date: 4/20/26
+
+I need to be less, um, less time zone, um, discriminatory with these things.
+Exactly.
+If you look at the map, um, in the community, I was just talking to Robert about this the
+other day.
+If you look at our map in school, there's like a map tab.
+It's crazy.
+There are people from all over the world.
+It's ridiculous.
+Yeah.
+It's really cool.
+Seriously, man.
+I know it's interesting too, because a lot of people that, um, a lot of people that join
+for my social, they're from like, uh, the U S and Canada mostly, but people who join
+my community are from everywhere.
+It's really interesting.
+Yeah.
+I mean, it's, it's, it's, it's, it's, it's, it's, it's, it's, it's, it's, it's, it's,
+it's, it's, it's, it's, it's, it's, it's, it's, it's, it's, it's, it's, it's, it's,
+Anyone else from an interesting area of the world?
+I'm from the Netherlands.
+Oh, there you go.
+Great to have you in.
+I think you're the first Netherlands representative that we've had in a life.
+It's really late here.
+Actually.
+It's one o'clock at night.
+What time is it?
+One o'clock.
+Oh, that's that's some commitment, man.
+Anyone else in Los Angeles?
+Yeah.
+Chicago.
+They're surprising me.
+A lot of people in South Florida right now.
+I just looked at the map.
+Really?
+Yeah.
+I just looked at it and there's like in Miami for a lot of the other, there's like 10, 15
+people.
+Holy smokes.
+I haven't ever looked at the map.
+There's a lot of people.
+Yeah.
+Yeah.
+What are you doing?
+I know.
+I'm like, I have a guarantee there ain't nobody else in Chattanooga.
+Nobody.
+Nobody.
+Nobody.
+Nobody.
+Nobody.
+Nobody.
+Nobody.
+Just a little me over here.
+Yeah.
+Six people in Nashville.
+Three people in South Korea.
+But no, not Korea.
+So, yeah, that's different.
+Who is in Orlando?
+Nobody.
+Okay.
+Five people in Orlando.
+It is funny.
+Funny to see like how many people are in the group and then how many people are regular
+contributors who are active members.
+It's super interesting. Yeah, it's like kind of crazy, especially with the live calls to
+how skewed it is. Like, you know, we have, let's see, 12 people in here, and there's
+550 people in the group. It's crazy. And even the people who chat in the community as well,
+like there's kind of a regular subset. And that's kind of how it always goes. But it's
+better for the rest of us who all show up and get to chat. It's great.
+So I see some new faces, and some old faces, of course. So if you haven't joined a live
+call before, if you want to just maybe introduce yourself, say what's up to everybody, a little
+bit about maybe your background, why you joined the community, what you're interested in building
+with AI and any other thoughts that you have, maybe Logan, if we can start with you.
+Yeah, 100%. Hi guys, my name is Logan. I'm from Chicago. I run a couple businesses, mostly
+in like the luxury kind of consignment space. I've pretty much used cloud and AI for like
+both my businesses pretty much constantly. I've automated most of everything I do on
+a daily basis. I just recently started an agency just from demand of people, you know,
+coming to me asking for advice and help. So I started like a coaching kind of agency thing.
+But it's funny, I literally joined this group about like 25 minutes ago, and I saw there
+was a call at six. I was like, I might as well get on it. But yeah, James, I see your
+stuff online all the time. And like, your stuff is incredibly insightful. So I've currently
+been like, you know, screaming, arguing my clod just because I can knock in the outputs
+that I want. And I thought that, you know, obviously, I'd invest in someone and something
+that could really help me and, you know, advance my outputs and productivity on a daily basis.
+So 100% man, great to have you. That's such funny timing, too. I know I saw a little notification
+that you joined like five minutes ago. That's funny. Yeah. But yeah, great to have you.
+I appreciate it. Excited to hear more about your coaching agency, too. That's really cool.
+I appreciate it. Jogmeet, what's up, man? So yeah, hi, guys. My name is Jogmeet Sajdeva.
+I used to be a teacher for seven years, learning people how to make programs as software. And
+software development became so easy with AI that I just stopped teaching a few months ago
+to pursue a career in building software for different businesses. So I also have a few
+SaaS already made up. One of them is Ridley, which is a driving automatic detection. So if
+you write, it will see where you are. And when you stop driving and you walk five steps, it knows
+that you stopped. And it will save that kilometers, everything for like tax purposes.
+Another software I'm making right now is TrueCerta, which is a certification
+verification platform, which is not really at the moment in the European space relevant.
+Mostly most certification platform verifications are in the U.S. And I looked at how they are
+doing, and I'm like, okay, this is something I can build as well. So yeah, that's a bit of
+my background than what I'm doing right now. Mostly I used to do OpenClaw. And when it was
+blocked, the cloud was blocked. I was like, oh, shit, how do I go? And then like a miracle,
+literally two scrolls on Instagram, I heard about CortexOS. I was like, okay,
+this seems interesting. Let me join the school just to check. I saw how it worked. I installed
+it right away. And it has been amazing for me. And of course, I was like, oh my God,
+I can make this so much better. I already have an agency. I have like four clients that will want
+this right away. And I can make sure that if they get this, they would love every day of it. So it
+has really helped me make it more available for other people as well. So I'm really glad to be
+here and hope to learn a lot. That's amazing, man. I'm super glad to hear that you've been
+having fun with Cortex and that it's been working well for you. It's still pretty new,
+only released it like I think maybe a week and a half or two weeks ago. So still very much like
+in development, a lot of people are working on it. So if you have improvements that you make,
+make a PR a hundred percent. Yeah, I was about to say, send them PRs upstream.
+Yeah.
+What should we call the multiple people in one bot Cortex system?
+Right. Yes. That's huge. Yeah. I've been talking a lot with people here and there about this stuff. I
+think in the future of this community, like probably in the next few weeks, I'm going to
+formalize a bit more of a split in the community for more people who are thinking about Cortex OS
+and doing more advanced multi-agent stuff. And then stuff that's a little bit more like learning
+how to use Claude code for more, you know, single agent purposes and coding and stuff like that.
+So once we get to that point, I would love to have like people who are more interested in
+working on Cortex OS, productizing Cortex OS, all working on that together. I have some ideas about
+that to make it a little bit more cloud hosted. Multiple people can use it at the same time in
+the same business. I think that will make it like, you know, one of the more powerful agent
+orchestration platforms that exist right now is those specific things. Also supporting other
+agents like Codex, Hermes, OpenClaw, stuff like that is another big thing. So if you have any
+expertise, Dogmeat, you specifically, or anyone in general that you think, you know...
+Did you guys lose them? I lost them too. Yeah. Can you guys hear me? Oh, he's back.
+Sorry about that, guys. My mic situation is a little janky right now. But yeah, if you have
+any specific expertise that you think you could really apply to the system, let me know. And that
+would be great. But yeah, great to meet you. Very excited to hear what you're doing with Cortex. That
+sounds really cool. Do I just have to send a request to be a collaborator to help build this
+platform further? So you can literally, when you install, it has the Cortex OS repo as an
+upstream repo. So you can just ask your agents to make PRs for you. And I'll just like test the
+PRs and merge them. Perfect. Well, that will probably change sooner because it's a lot for
+me to test and, you know, merge all the PRs. So I'll probably end up adding some of you guys as
+collaborators so you can test and merge things yourselves as well. But still kind of navigating
+that. So also, if anyone has any experience managing open source projects, let me know because
+I don't. This is my first really big one. So, you know, still figuring out that whole process.
+But happy for anybody to help that's interested. Definitely. Awesome. Anyone else that it's your
+first call, if you want to introduce yourself, give a little background on yourself and tell
+us why you joined and what you're interested in. Yeah, I'll jump in. So my name is Joey. I'm from
+Colorado. I own a concrete polishing company. We do work all over the state. I've been doing
+obviously a lot of real estate. I just sold a lodge in Manatee Springs. But what I've really
+been doing with AI is I've been prototyping electronics for probably the last decade or so.
+And so I have some provisional patents that I'll be converting later this year.
+Working on a platform for a chain of custody that is, it's not necessarily a blockchain,
+but it's like a hash chain of custody that ties to hardware. And yeah, so it's just a lot of stuff
+that I work on. James, I saw your shit on Instagram and I like the way that you talk
+about stuff. You make it very clear. So I was just like, yeah, give it a shot.
+That's awesome, man. Great to have you. That's super cool. I'm really interested in blockchain
+stuff and real world assets and stuff like that and chain of custody and what all that tech
+is going to do. So I would love to hear more about that product. That sounds really cool.
+I mean, it does a lot for even reproducibility and research where your entire experiment,
+because my hardware deals with fluid management and dispensing. So you can
+like, you can do your entire experiment, update or upload your entire process and your findings
+onto the hash chain and then share that to anybody else that's doing it. So for pipetting or
+whatever, it can be reproduced exactly. And if it doesn't cut the mustard, it's evident,
+tamper proof. So there's a lot of stuff you can do with it. It also ties into court records and
+custody of evidence, a lot of stuff, luxury goods. You got pharmaceuticals, you got
+marijuana like we have in the state where everything has to be tracked to see the sale.
+So I do a lot of work with companies like that.
+Yeah, that's, I have gone on like multiple rants about this earlier on in my social media,
+whatever, we made videos about a lot of that stuff. Have you ever heard of a guy named Balaji
+Srinivasan? No. You should look him up. I'll put his name in the chat. Everyone should look this
+guy up. He's like one of the most impressive technologists that I know of right now. I'll
+put it in the chat here. And he has a whole book on something he calls the network state,
+which is like this idea of kind of like a country that forms around a blockchain and involves
+putting science on the blockchain and distributing scientific records to everyone via blockchain,
+verifying via blockchain, real world assets, all that stuff. And it's fascinating. You guys
+should all look into he's super cool guy and runs a bunch of insane companies and all this stuff.
+There's another guy, Joey, that you should connect with in the community. His name is King Kade
+Reeling. He's not on the call today, I think, but I'll send his name. And he might be interested in
+some of that that you're working on as well. He runs like basically a company for biotechs,
+young up and coming biotechs and wants to kind of agentify that company. And a lot of that stuff
+involves research SOPs and validating their evidence and storing that stuff. So it could
+be an interesting connect for you. Yeah. The good thing about the platform that I designed
+is it can be air gapped and then audited later. So like if you have
+proprietary systems or recipes or mixes or processes, you don't have to post it publicly.
+But when you do go back and offer access for auditing, it's infallible. It's immutable and
+easily provable. That's so cool, dude. Yeah, I'm excited to hear where that goes. That's really
+cool. We have a projects tab in the community. If you have the time, make a post in it because
+I'd love to read more about what you're doing. It'd be really cool. Yeah. Since I'm working on
+all of the patent stuff, I can't really go real deep into it. But I mean, without giving any kind
+of method or going too deep into it, that's just a broad stroke overview of it. 100%. I appreciate
+it, man. And congrats on all the patent stuff. That's great. And great to have you here. Nice
+to meet you. Thanks, man. Let's see here. Greg, I'm not sure if I've seen you in a call before.
+No, this is my first time. Yeah, really happy to be here. Thanks for having me. So yeah, I am based
+in Washington State, just north of Portland, Oregon. And I'm the founder and CEO of RevOps
+Global. So we're a revenue operations consultancy company that's focused primarily on services
+for B2B tech companies. It's kind of our sweet spot. Although in recent years, we've been
+expanding as well into life sciences, as we've seen kind of a contraction of the
+marketplace in terms of investment of a lot of the tech companies in revenue operations foundations,
+which is unfortunate because a lot of the value that we're seeing for our clients right now of
+those that have kind of invested in sort of the boring raw data foundational layer, the ones that
+are able to like really capitalize on AI right now. But that's what we're trying to kind of stay
+ahead of the curve because what we're seeing is most of them are still kind of at that level
+one stage of like talking to chat. Some of them are starting to get into maybe agentically asking
+HubSpot to do one or two things in their CRM. But we're really focused on transforming
+our kind of 10 to 15 years of historical RevOps knowledge into a variety of different plays and
+skills. And then those plays can be executed upon by these agent fleets. And that's where Cortex
+has been of interest to us. So we've kind of pulled everything upstream into sort of like a
+separate environment, but trying to keep everything as backwards compatible as possible so we can
+continue to contribute to the community in areas where it would be applicable to other companies.
+Obviously, there's some things that are not going to be relevant to the rest of the community.
+But seeing like Erica's contributions obviously was awesome, even in terms of just giving us
+ideas of what downstream elements we may want to pull into play. So yeah, really excited to be part
+of the community. And yeah, thanks for having me.
+Yeah, that's awesome. And great to meet you. I feel like I've heard of RevOps before.
+Would I have? I'm not sure. I feel like I definitely have.
+We were the number one RevOps agency for a period of time. I think we're in the top five now on G2.
+But yeah, we've been pretty foundational for, like I said, primarily in the B2B tech space for
+Series B to Series E. But business has slowed, so that has been one of the reasons why we want to
+stay ahead of things because obviously marketing is changing, sales is changing, and we want to
+be able to still provide value to our clients in terms of the things that we're offering.
+The reality is most of it has not drastically changed from a day-to-day perspective. Like I said,
+a lot of them are still in kind of boring foundational structural elements and architecture
+that we're putting in place before they can really capitalize on AI. But we definitely want to be the
+experts in the room when they start asking questions about, okay, what can we do next?
+Right. That's awesome. Well, it's great to have you here. And really nice to meet you.
+Excited to hear about the environment that you've pulled Cortex into and maybe what you're doing,
+because that's kind of the place I'm thinking about it next, too, is that there's a better
+environment to host it and make it a little bit more applicable for larger companies or more people
+to use. That's been the biggest one that we've been focusing on now. And then even a little bit
+on the Slack side was like, okay, how do we get this to be more, like you said, more team-centric
+in terms of our ability? So one of what kind of got us into things back in the early, early days
+was lovable. And one of the nice features of lovable was the ability when we were working
+on a lot of SaaS products was the collaboration element. So we could go in and see what each other
+was writing in real time. And I can imagine there being some type of environment where
+we're collaborating with agents in a similar manner in Cortex, whether that's via Slack or
+Cortex itself, that I think could be very, very valuable. And especially for some members of my
+team who are less technical savvy, that I would still want to enable them to have that front-end
+experience of continuity and collaboration, but within our sort of Cortex environment.
+I think what you're kind of talking about is what Notion did with Claude,
+where they drag and drop certain things and chat with the files and then
+hit it identifiably, changing stuff. So that's pretty cool.
+Exactly right. And that's where we're trying to figure out that collaboration element,
+because somebody else here in the group mentioned like proof was another one where like, okay,
+how do we do the collaboration side for document editing? Like another common element that has the
+team component in there that I could see there being value and like that sort of being the
+de facto standard. Well, what I have found is these four like ads and stuff, because I run ads
+kind of in marketing and I'm just starting to use Claude code to actually launch ads,
+is somehow I need to figure out like an approval pipeline, but with a visual UI
+where I can like chat and say, hey, change this, change that, change this ad,
+change that, let's change the plan versus from Claude, because it's very like, it's not friendly
+at all. And also, I guess you need some kind of a keyword to execute all the changes versus
+it runs on every single command. So I think that that's a little challenging.
+Yeah. And that definitely has been something that like we've looked at even in terms of our task
+management on like, from a pipeline perspective, where do you want to insert the human in the loop
+review? And then like you said, what is the, what does that loop back process look like when you
+reject something? So like from that reject, now I want to have returned the payload for the request
+that updates with the rejection. And then that'll automatically initiate that change request
+and put it, basically put it back to trigger it back through the flow, through the flow process.
+So that's kind of what we did as like our little like workaround for like that, like non a non
+technical person to go, this wasn't what I wanted. No, but here's why. Okay, now kick it back into
+that flow. Have you guys, sorry, go ahead. You can go ahead. Have you guys done that for images?
+We're not working very much on images, but the concept could be the same because yeah, like the
+all of these tasks, all of the cortex tasks have attachments. So as long as you had your
+relevant attachments and then even in your, like for us, like we're not saying as much like,
+Hey, go change this file. Like we're saying like, go change this code or whatever, but you could do
+the same thing in your, in your reject payload that you allow your reject payload to also include
+attachments. So now when you reject, you include like, Hey, here's why I don't want to do this.
+And here's an example of what I do want to do or what I don't want to do. And then that'll have the
+context for when it goes and reassigns that. Yeah, I guess it has some kind of also clean up method
+because then you're going to have like 50 versions of the same. That and that's like,
+that's the other thing you can decide on. Like, do you want to have version control where you keep
+all of those or like, do you go like now delete the, like once, once you're at like the newer
+version, delete the previous one. And if so, like you could put that in your prompt too.
+Yeah, that's cool.
+Real quick. Okay. Real quick. Just so that that way, if anyone else is also building something
+similar, one of the things that I've been working on building to push up, but it's just not,
+I need probably like another week to get it finalized. I think I teased before that I was
+working on the approval workflow. So it has like the different options where you can choose like,
+do you want a human, do you want orchestrator and human? So that piece is in there. There's
+the deliverable piece, which has already been pushed up. So now you guys can like see all the
+deliverables in your task card. But what I found from using it for me, similar, what you guys
+talk about version history, as well as like sending stuff for feedback and then being able to do it.
+So it routes it automatically. So you can reject something or send it back with feedback, do your
+note. It will route it back to the agent. The deliverable section will keep a versioning history
+of the different deliverables and stuff that can collapse so that you have like your main,
+like this is the most recent, so you can surface it. But what I found for me was that like, I might
+ask it, for example, that I wanted to work on stuff for training that I was going to do inside
+my community. And it would end up coming back to me in like a series of different tasks that have
+been sent to different agents for different things. And so then in my approval queue,
+all of a sudden, I'd have like 20 different tasks, a million different deliverables within
+those tasks, a bunch of documentation where they write like all this different stuff that I'm like,
+oh my God, like I'm overwhelmed. Like it's too many deliverables. It's too much stuff. Like
+I basically want the executive summary of like, this was my training. These are the like,
+here's my PowerPoint. Here's my outline. Like here's like the three documents I actually need.
+Like I don't need all of this noise. So what I'm working on right now is basically a master and
+sub task system where the orchestrator is in charge of, he can send out to all the different
+agents, all the different tasks, but before it ever hits my approval queue, he bundles everything
+up into one executive summary. That's the master task, which belongs at the project level to say,
+here is, you know, here are the 20 different sub tasks and I can click into each one. I can go look
+at them, but he's surfacing for me. Here are the three deliverables. Here's the high level summary
+so that you don't have to mess around with like trying to go through 50 gazillion different
+versions, feedback, et cetera. And then the way how the feedback now works is that when you submit
+for feedback, it goes to the orchestrator so that he can say, okay, her feedback is actually relevant
+to task number two and task number seven. I'm going to go route those to those sub agents,
+wait for them to come back. He updates the master task and then pushes it back into my queue. So
+that's in process for whatever that's worth. I'm planning on pushing it up when it's done,
+but it's still just that I'm trying to get it tighter right now. He's inconsistent in doing
+it well. So until I get that locked in, but I just thought I'd mentioned that since it sounds like
+you guys are kind of messing with similar challenges with it. So there you go.
+That's amazing. Thank you. That's awesome.
+Craig, have you implemented anything like OpenClaw or Cortex or one of these like
+kind of system level things in your work? No, right now we're just using Cortex internally
+really as a proof of concept for ourselves and our own operational work in conjunction
+with Claude code. But no, we haven't done any of that client side. From the client side,
+like I said, we're seeing really nascent level one kind of clients using chat GPT.
+And then we're just starting to tiptoe into creating bespoke SaaS software. That's where
+honestly we started was things that we wanted to do from a multi-touch attribution perspective,
+where the cost of creating a fancy model before was whatever, $50,000 for a fancy platform.
+And now it's free. So we're basically realized our software isn't going to be that valuable.
+So we'll probably give all of our software away and focus more on helping clients with
+foundational elements and architecture of how do we align the business and then maybe in the future
+get them to sort of these more open-claw like agentic, where I would say like sort of the level
+three, level four, but we're at least the clients that we're working with right now.
+They're just not big enough or willing to kind of accept the risks of some of those elements
+from whether it's real risk or not, the perception of that risk is too high for most of them to
+adopt. And it's funny because I had an existential crisis when I was learning all this stuff because
+I was like, oh my God, my value is worth everything I've done for the past 10 years is worth nothing.
+I can take a 200-hour project and do that in five minutes. I don't need my team anymore.
+So it's been a lot about re-skilling the team and getting them comfortable with AI and using
+the tools on more of a basic level. But yeah, and it's not to say that there's not people out
+there that are like that and that there's not rev ops professionals that are supporting those
+people. It's just from kind of our clients' maturity. That's just not what we've seen,
+which is surprising because like some of them are like clients that you would have heard of,
+that you would think like they're a darling tech child. Like I'm surprised that they're not doing
+anything with AI, but like they're not. Yeah, I work in the same space. I've had
+similar observations. So that's why I wanted to get your experience on it.
+Yeah. I mean, in a lot of ways, like I said, it was good because I was freaking out there for
+a moment. But things are going to happen faster than I think we all realize. But I also think
+there are some real barriers to these. I was talking to a buddy that was at
+JP Morgan, and they didn't even have access to ChatGPT or Claude. They had their own bespoke
+AI. Everything was shut down. So these giant companies that you'd think like, oh, Claude's
+going to wipe out financial companies entirely. No, maybe someday, but it's not going to happen
+all at once or it's going to be a little bit longer. But let me know if you're in the same
+space. And as soon as you start seeing things shift, like I said, we definitely want to be on
+the right side of where things are leaning. Absolutely.
+Anybody else have anything interesting that they've been working on this week that they
+want to talk about can be related to anything, your own work, core text? Speak now.
+I am still working on putting hardware together for that MiroFish project.
+So the goal would be to just do the fastest, most powerful local LLM
+to run MiroFish simulations as a service that are offline and behind the paywall of NDA
+for private whatever you wanted to run, political campaigns, PR campaigns for companies,
+whatever. So still working on that on the side. That's going to be super interesting. You want
+to give people maybe a rundown of what MiroFish is and why you're approaching that?
+Yeah. So what MiroFish is, it's basically a swarm of agents that are given profiles as if they're
+people from different backgrounds. So to run a simulation, you issue what's called a seed
+and basically it's just a document outlining your parameters for the problem that you see
+and then also the demographic information for each of the agents. Now the goal would be to do
+a thousand plus agents from a demographic. So like I'm going back and trying to recreate
+like the Bud Light, Dylan Mulvaney stuff, other like popular ones, try to recreate what we actually
+saw. And what it does is it spins it up and creates all of those agents. Now it doesn't
+run all of those agents at a time, but it gives each agent a flash by of the problem and allows
+them to react as if they're in their own social media sphere. So depending on how you set up your
+demographics, you get input almost as if they're people reacting to a simulation and then you can
+compile a report based off of their input. But it's super intense when it comes to API calls
+and token usage, which is what I found initially when I started playing around with it is like
+you know running a even like a hundred agent simulation is just going to eat through your
+tokens on CLOD. So I immediately saw that as like a pain point, something that can be solved.
+And then once you add the layer of privacy and an NDA and you're able to do it privately without
+you know it being on CLOD's API, then you realize where it can actually serve a purpose as a service.
+I think it's a super good idea, yeah. Can you talk a little bit about the seed?
+So the seed is basically just a document. So like for instance for the Bud Light one,
+you can explain a little bit of the background of the marketing campaign
+and then you give a little bit of the demographic as far as the time frame. So you give no
+information to any of the simulated agents. So like say the marketing campaign was in 2017,
+you don't give it any information past 2017 if you're trying to backtrack what actually
+happens and simulate what actually occurred as far as sentiment wise from a demographic.
+So then what I'm trying to do is go back and simulate exactly what happened so I can create
+reports on different avenues that could have either prevented it or taken it into a new
+direction that sort of maybe had a better outcome. But the seed document itself is
+basically an outline of the demographic of the agents, the campaign or problem
+and then any other information you'd like to give.
+So I mean you can take public data from demographics at a certain time, in a certain
+region, in a certain city, you know what I mean? And all of that demographic is public. There's
+already big companies putting out information as far as that. So you just scrape all of that,
+so you just scrape all of that, you create a smaller demographic and basically just try to
+reproduce it. Once you're able to accurately reproduce what happened in the real timeline,
+then you can take that model and move it into what you want to affect as far as how you would
+like to change the outcome. And then you get more and more accurate where you can actually start
+doing new timelines, you know what I mean? New problems, new campaigns, new marketing campaigns,
+new PR gaffes that could possibly be playing out right now.
+If that's possible on GitHub, 100% they're doing it to us.
+I'm sure they are. The guy who created MiroFish did it as a project for his college
+dissertation and he released it for free on GitHub and it immediately, in a couple weeks,
+had 4 million clones. So it's like people are on it. I figure I got about four or five months
+before someone with more resources takes and runs with it. But
+still relatively young, but there's a lot of potential there.
+Joey, why are you just using cloud? Isn't there a cheaper model you can use to run this or is it
+really all on cloud? No, that's what I'm saying. I'm trying to do it on local hardware with local
+LLMs, so it's not on cloud. So you're not paying per token, you're able to do it offline. So if
+you have a client that doesn't want their information on a cloud, you sign the NDA to
+keep their information private. You run the simulations for them and then you give them back
+their report. Yeah, this is a cool project. So it's such a good usage of that tool and being
+able to productize it would be so cool. And I think Robert's right that there are a lot of
+companies with a lot of interesting data from the way we scroll on social media and like and
+the amount of attention that we give to each second of each video that I'm sure are using
+that data to run similar simulations. So might as well put that in the hands of the people as
+much as you know, meta. Yeah, I mean, and then I mean, even even using a cloud LLM to pull that
+data is pretty efficient. You know what I mean? You can you can pull the data for your seed document
+from an API without actually having to add all the proprietary information. If you're just trying to
+get, you know, demographic information, it's it's already there. So then you just take that
+and combine it with what you're trying to simulate. And I mean, and I'm also putting it out
+there like I'm looking to collab with people because I got multiple projects going on.
+So if it's something like, you know, you want to help out with anybody wants to help out with,
+I mean, I'm open to it. I know me and James have talked about it. I mean, David has talked about
+it. There's a couple other people I've talked to about it that kind of want to do it. So the way
+I see it working is, you know, we come up with an agreement, split up the starting costs of
+relatively cheap hardware to make it work. And then one of us runs it, it doesn't even necessarily
+have to be me. There's probably there could be somebody that's better with hardware,
+whatever. And then, you know, just start backtesting simulations of
+popular gaffes to put together enough information to make it relatively accurate moving forward.
+Right. Yeah, that's a good offer.
+So I'll share with what's going on for me this week, since I've been sharing pretty much every
+week. So as some of y'all know, I ended up joining that mastermind group or getting accepted into
+that property management mastermind group. And the whole reason I joined was because the CEO
+of property mailed, which is the maintenance software I use is in there. So I was basically
+paying for proximity. So I started posting about what I was doing to build agent agents,
+how I was running my property management company with no employees, how we, the big one that got
+them was the same thing I posted in the group about how I rebuilt my memory so that the Cortex
+agent was actually able to run maintenance, respond to vendors, respond to residents,
+assign work orders. And I'm just kicked in the loop for edge cases that he hasn't experienced yet,
+which are a lot because he's only like two weeks old. Well, he messaged me Friday, I think it was
+Saturday night and was like, oh, you know, hey, really interesting what you've been posting. Can
+we can I get on a call with you and just pick your brain? So I think I immediately messaged
+James and like, kind of freaked out because I was like, well, that happened a lot faster.
+I thought I was supposed to post a lot more. Yo, I thought that David, that shit's dope.
+And I like it. So I'm talking to him Wednesday. So that was pretty, that's pretty fast. That's
+pretty cool. And, and then the memory post that I posted, once I did that,
+um, fix the five, basically like five layered memory. And then I use, I've got a Southern accent,
+I believe it's graph of graph of fee, graph of five graph of fee. Once I put graph of fee on with
+the memory, obviously the graph of fee doesn't do anything for memory. But once the memory was
+there, and then we use the graph of fee, so they understood the code base better, the efficiency
+of the token usage. I was surprised to see that the percentage I was using drop, not enough that
+I'm not monitoring it, but I could just tell by checking my usage on the $200 plan that I was
+using about four to 10% less a day, just from the agents being able to not look in the wrong place,
+go quickly to where, know where everything is in the code base, get there, edit what they need to
+edit and get back. So that's kind of what I wanted to share. Um, that's only about,
+you know, I think I know about 72 hours of watching that. So it could, you know, there's
+a lot of different factors in there, but, um, and then the other thing that I have, if anybody is
+really good, I'm not a VPS technical person on that aspect. I am an operator. And so I understand
+what needs to be done. I used to work with developers and stuff like that. So I understand
+enough to talk to someone that knows what they're doing, but not enough to do it. Um,
+I'm going to have to move off my Mac mini because I ran out of space. So that 16 gig Mac mini
+crashed on me the other day. I've taken everything out of it. I can only run five agents. I need to
+be at 10. Um, and so, you know, obviously I'm going to attempt to walk myself through that,
+through self-talking prompts. But if somebody is comfortable in that space and would like to,
+you know, help me out with that, that would be fantastic. Cause I don't know if I'm going to,
+I haven't decided yet if I'm going to keep the Mac mini and kind of do like a SHH or SSH,
+whichever one it is from there to the Mac mini. Cause my problem is what I've done
+is not every software I use that property managers use has an API. A lot of them have a
+5,000, $10,000 a month. Cause they only want to give it to enterprise clients.
+So I use Chrome with the open CLI and then CLI anything so that we don't need APIs and the
+agent can go through and run any website, any software through that setup. But the problem is
+running Chrome, as you all know, crushes. It takes it is so much. I mean, it's literally a quarter.
+It's four to five, just absolutely taking up space there. So I've literally now my agents,
+when they want to run a task, they have to shut down Chrome, go do work and then relock,
+re kick Chrome open to go in back in there and execute, which that's work. That's working now.
+And that's how we're kind of limping along. But I would love if somebody in here could help me with
+that so that I don't jack something up migrating off or go through that because that's the big
+problem I'm going to have Wednesday is talking. I wanted to, obviously I can talk myself around it,
+but I'm trying to figure out how I'm going to do that to be able to, cause pretty much every
+property management company is going to need 10 agents and to be able to run effectively.
+I haven't coughed this whole fucking time and now I'm coughing my lungs off.
+Anyways, that was all I wanted to say. I appreciate everybody. I love you guys.
+I freaking love this community. I love seeing more people come in. I love that every aspect
+from the super technical to everyone having a different skill and everyone contributing.
+It's been really fun to watch and participate in.
+Love to hear about it.
+Congrats, dude. Yeah.
+Badass, man.
+Yeah, congrats.
+That's why I didn't even stall Chrome on my Mac mini is I know it just takes up so much RAM
+and I tried to get one of the bigger RAM Mac minis, so I didn't even try.
+I found one 32 gig in Chattanooga and it was like an hour on the other side of town.
+I was like, fuck it. I'll just take this one. I should have drove.
+I should have.
+Yeah, I got the 64 and it took over two months to come in. It's ridiculous right now.
+But I think I made a mistake because I think I went to the Apple store in Philadelphia and
+at least the Mac studios seemed pretty cheap or cheapish.
+You can get like 256 gigs of unified RAM on the studios, the new ones with the N3
+Ultras.
+But you can't find one right now.
+They're a little more common than the Mac minis I've found. I was actually,
+I was about to pull the trigger and buy one as well recently.
+Yeah, they're actually easier to get than the mini.
+I can't find one. I'll say this for me. I cannot find one within four hours of me.
+You just have to order it and sit on your order because they're just,
+they're pushing them out, but it's slow.
+Well, my problem with that is I'm like, well, in that case, I'll just wait till June.
+My problem with that is I'm like, well, in that case, I'll just wait till June or July
+when they roll out the new version of stuff and get that if I got to wait that long.
+And I think that's what our problem is, is that they're not making any more of these.
+They're not spending any time on it because they're about to roll out their new ones.
+And that with what just happened two months ago of open claw and where we're all at,
+just absolutely zap what they thought was going to be enough to get them through.
+And so it's gone.
+I have a crazy suggestion, which I did.
+I went on Amazon and got super lucky and they were like three left and I bought one.
+It came in two days.
+It is crazy kind of bananas.
+So maybe set up a cron job or something.
+I don't know, but I got, I got, I got my 32 at the Apple store.
+Took me like 10 days or something.
+Yeah, it's very geographically dependent for sure.
+Like I, I went home because so Robert won last month's giveaway for a massive
+Mac mini and I had one ordered for like months and it just would not come and kept getting
+canceled or whatever.
+And so I was prepared to re box up my Mac mini and give it to Robert and replace mine
+with the Mac studio.
+But luckily he was able to find one on Amazon, just crazy.
+But I went home to mass to try to find him one and called like six stores and none of
+them, none of them had it, like you said, within like a 400 mile radius.
+So I don't know at this point, we, yeah, we do all the, you have set up a cron job
+every hour, check the Apple website, check Amazon, like, you know, buy up as much compute
+as you possibly can while it's still there.
+Lucky for us, there's a lot of hardware in the pipeline.
+AMD has one, Nvidia has theirs.
+So there's actually going to be better alternatives to Mac.
+I think by the end of the year.
+Yeah.
+Yeah.
+It's crazy.
+Yeah.
+With like 256 and I'm sure it's a bit more expensive than a Mac mini, but about the same
+form factor.
+And so that, that would be cool.
+Yeah.
+You're going to be looking at like the, the $3,000 price range for some of these.
+But, but I mean, there's some, there's some incredible hardware coming out.
+Yeah.
+I wouldn't be surprised if you can grab one off eBay at this point, especially since a
+lot of people were using the open claw with their clause subscriptions.
+So after that disappeared, I feel like a lot of people probably just got rid of it.
+Could be true.
+Do you guys think that all the Mac minis were bought up because of open claw?
+100%.
+100%.
+Has anyone's, has anyone tried, tried it with now that, now that they're kind of,
+kind of being more open with it?
+Sorry, can you say that again?
+Like, has anyone tried their, their open claw with like,
+cause I know Grok is trying to be more friendly with it.
+All that XAI stuff with their 4.3 and all of that.
+God damn it.
+It's all pretty new.
+Like within the last week they announced it, but I haven't had time to mess with it.
+Yeah, I have not.
+Sorry, go ahead.
+Have they got a new model that you can attach to your open claw or?
+Yeah, yeah.
+Elon Musk just announced that 4.3 is going to be, they're going to basically be trying to
+specifically cater towards people with open claw.
+Since all these other models are, are kind of closing the door.
+Interesting.
+Cool.
+Might have to test that out.
+Oh, it is smart to run these models on a DGX spark or something.
+I mean, not the models like the 11, but more like the cortex OS.
+Cause if Mac minis are a short supplier, isn't it easier to just
+buy these specialized systems that have huge amount of VRAM, right?
+The DGX sparks, which has like 128 gigabytes of RAM and probably run from there.
+Yeah, I think that a hundred percent could work.
+I personally, I don't know if I would know how to do that correctly,
+honestly, but I'm sure some people in here would.
+But that's a good point as well.
+I've heard people using open claw with like
+a GPT and saying that it just doesn't work as well.
+Like I know a lot of the other guys in like other AI people on YouTube and Instagram and on here
+on school that have a lot of content about open claw say that they are paying for opus
+for their like main orchestrators and using codecs as like a coding, you know, execution arm,
+which I think is honestly a good move.
+That's what I do.
+Yeah, that's what I do as well.
+Yeah, I use sonnet for pretty much, I actually use sonnet for everything.
+And then all coding is done by codecs.
+And then it loops back to sonnet to do that.
+I added your, I tried to add the skill the other day,
+but I think it was, they put in there about three passes, right?
+So it's three agents for one, then two, then one.
+And for me, it wasn't, it wasn't necessarily worth it because of the tokens that I use
+versus what they found for where I'm at.
+I'm sure there are some other people doing stuff a little more advanced
+than just trying to create, you know, employees for property management companies
+that it would be very useful for.
+You're talking about the ultra review, the local ultra review skill?
+Yeah.
+Yeah.
+Yeah, that is, it's super token heavy.
+Yeah, because it uses a bunch of sub agents in like, you know, swarms and whatnot.
+Yeah, that is for more, I think like big, like, you know, software PRs that you need,
+like, you know, multi angle kind of dissection of for sure.
+I just want to jump in here and say that Ed Honor, who is an AI influencer, but based,
+said that that command really sucks because it, he had a pretty complicated code base,
+but it should have been not that bad to offer feedback.
+And it just came back and said that he had some to do's to do in the, he had like some comments.
+So that was like a lot of tokens to come back to say you have like three fucking to do's.
+So that was, I just want, I just want to warn you, you know, the local version,
+I think that James put out, I haven't tried it, but I'm just saying don't get your hopes up
+because apparently they're still working it out.
+I'm fully convinced that a lot of the stuff they're putting out is just to burn tokens.
+They are trying to get ready to go public.
+They are trying to raise revenue.
+They are trying to lower compute.
+They're trying to lower, keep the, they don't want people like us on the platform on that
+OAuth subscription.
+They want us using APIs.
+And that's, you know, my whole focus is getting the token usage as low as possible
+so that other, you know, I can run it on there, but they're going to make that impossible.
+And like we said last week, the goal for me is to be able to use a local model
+within the next three months to run Cortex and operate a property manager.
+So I'm just trying to steal as much as I can with Claude until it literally just becomes
+impossible to play their game without being, you know, just locked in, stuck with them,
+paying what they want.
+Yeah, I think honestly, a lot of that simpler stuff is, is like right here for the local
+LLMs.
+Obviously like the coding and the backend stuff isn't there yet with anything local,
+but as far as like, as far as like, you know, just running agents to, to answer emails
+and stuff, it's going to, it's there already.
+A hundred percent.
+I will be real interested and see what their financials look like when they do go public.
+I'm very interested in seeing that.
+What time is it?
+They're all pre-revenue.
+Can I ask the community something about data?
+Is there anybody here who works with analytical data like
+cost per clicks, impressions, things like that?
+I implemented a system recently for a advertisement company, like the Cortex OS,
+connected it to the cloud LLM and it analyzes data and comes with a dashboard with everything
+like shown correctly.
+But yeah, what's your question?
+That's the exact use case for it.
+I want to see what type of databases I can connect it to, BigQuery or SuperBase,
+or did you use some type of embedding for the images and stuff like that?
+So the system they I've set up for them is SQLite.
+So no online database.
+Yeah, yeah, yeah, yeah.
+Yeah, I know.
+I know they didn't want to put anything online.
+Everything needs to be learned local on their Mac mini and they didn't want anything else.
+So what it does is it pulls out the data from the Facebook ads daily, I think, nine o'clock.
+And from there, the data is visualized for them on a dashboard
+that is connected to SQLite.
+So yeah, that's how it works right now.
+I personally would suggest to use SuperBase if you were going to do it for a public company.
+Oh yeah, I want to do this for all my clients.
+And I want to basically try to automate all the delivery for the advertising for Google
+and Facebook ads because in my mind, I have this crazy thing that I want to make with
+a creative testing map and then the agent goes and queries the data and then just
+programmatically tests every single thing.
+It's like a big puzzle and basically like a map to get to the truth,
+which is market fit.
+What the AI does that I created for them, it daily does like three image ads he creates
+from the Google Gemini and I know banana and it pushes automatically to the Facebook ads.
+Let's run for two days to three days and grabs the data.
+Once it's mature enough, puts it on the dashboard and they can see exactly how that ad is running
+and they can choose to press a button and kill the ad or go further with it
+because they want to keep control of it.
+That's how they want to do it.
+Instead of letting the agent do whatever he needs to, which is probably better.
+Yeah, that's interesting.
+But I don't know.
+It depends also if it's e-comm or something else or the agent because
+each has like sales cycles and stuff.
+Okay, cool.
+Thanks.
+Yeah, but they are like they do the property development and they have a lot of rules in
+the Netherlands.
+If you get your data outside of some other system and it gets leaked,
+they are looking at like 3,000 euros of fines per person that is getting leaked.
+So they have like 250 customers a month and let's say just one of them gets leaked,
+they lose like 3,000 euros right away.
+Anybody want to include the Cloud Partner Network or the Anthropic Partner Network?
+I think it could really help out a lot of like independent kind of builders,
+just like me kind of getting a certificate that would show
+kind of like authenticity, like, hey, we know what we're doing.
+Kind of hire me and the team to implement some of these tasks.
+Yeah, I want to say, okay, I actually, I started a company, right?
+So I actually applied for it and then I got accepted.
+So my company, they allowed me to be a partner, but there is a problem, okay?
+Because I'm actually, I'm a solo, okay?
+All right.
+So what happened is like, you know, they sent me back a email.
+So basically, you know, asked me like, you know, oh, you have to take all those calls,
+pass it, you know, gets like, you know, certification.
+But they basically said like, you know, I need 10 people.
+Yeah.
+So this is the biggest problem, okay?
+So I'm thinking like, yeah, so actually I look it up online, right?
+Let's see how other people do it, right?
+Okay.
+So basically they say like, you know, a lot of people basically, you know,
+they just group it together, okay?
+So I'm not proposing right now.
+I'm just trying to discuss, okay?
+So, you know, if I really, really want to get into the partner, okay?
+So I need nine more people, okay?
+So I don't know if this is something, you know, the community will be interested, okay?
+But somehow we need to, you know, I don't know if I have to put you guys as an employee, okay?
+Maybe not, okay?
+I need to look into it, but I just want to see like, you know, if this is something,
+because you can't really take the certification unless, you know, you have a company,
+you know, actually trying to be a partner, okay?
+So I just want to see, you know, if like right now I haven't get that far yet, okay?
+You know, but I just want to see like, you know, if this would be something like, you know,
+like people are interested, not necessarily, I need at least nine, right?
+But it could be 50, okay?
+I just want to see, you know, if that would be interested like to you guys.
+Maybe Agent Architects could apply together.
+We could all apply as a community for the Anthropic Partner Program.
+That would be a good idea.
+That would be crazy.
+I don't know, I don't know if that would go well.
+It sounds like a mafia no-show job scenario.
+Yeah.
+I'm interested to see if it's enforced or not.
+Joey.
+What's stopping you from making nine different domains at $2 a piece
+and nine different mailboxes under a domain and applying that way?
+Yeah, so actually let me give a little bit more detail, right?
+Okay, so actually it's very strange too, okay?
+So I apply for it, you know, so I have to provide the company information, okay?
+So they are actually for real, okay?
+So if you want to go as a community, right?
+And then like, you know, I think the community will need to be a real company, okay?
+So that's the first point.
+The second point would be, they actually also sent me a link, okay?
+The link is actually, it's like a Google form, okay?
+So they require, you know, 10 people, you need to put down the information,
+like these 10 people finish all these courses, okay?
+You know, so you know, like, you know, if you want to learn
+and thought and public thing, right?
+So there is a training school, right?
+So you need to sign, it's free.
+You need to sign up, you need to finish the course, okay?
+So once you have the 10 people getting all these, you know, certificates, right?
+Okay, now, you know, you can go for the next step
+to really actually taking the exam.
+We can open a DAO and just do that.
+Yeah, so I don't know if I, for me, I think it's kind of stupid.
+You know, I will say like, you know, I don't even know, right?
+I'm struggling, you know, to be a solo, okay?
+Now I need to find, you know, 10 employees, I mean, nine employees, including myself, okay?
+Yeah, but you know what, I let you guys know, okay?
+I should have more information coming from them, you know?
+So I can share, you know, like, what would be the requirement that they need at this point?
+Yeah, so if there's not, like, a whole interview process for the whole nine people,
+I'm personally going to look into making nine different mailboxes and signing up that way.
+But if there's a whole interview process, then...
+No, I don't think it's an interview process, right?
+But you need to...
+I was about to say, even if there is an interview process, I've lied about less.
+Don't even think about it, I don't care.
+Yeah, because the whole point is, you know, like, you have the company,
+and then you need to have 10 people taking all those courses, okay?
+And then at the end, right, you need these 10 people to take the exam, okay?
+So you actually certify, okay?
+You know, now you have 10 people, yeah, now my company can be, you know, as a partnership, okay?
+Yeah, so it's very, you know, it's very difficult because it's very...
+Okay, I can ask nine people, you know, to take the courses, right?
+But I cannot, you know, I cannot force people to take the certification, right?
+And also have to make sure they pass a certain limit of time, right?
+You know, because like, you know, you guys, you know, one person, you know,
+can take the courses, whatever, 10 or 12 courses, right?
+But now taking the exam is actually, you know, it's a commitment, okay?
+Yeah, so we'll see, okay, let me get more information,
+and I will share with you guys next week.
+Yeah, make a post about it too, because yeah, I mean, I bet there's a way we could do it.
+It might be like a little janky, but it would be interesting to even think about.
+I'm going to look into it too, because someone actually posted in the community
+this past week that they got into the Anthropic Partner Program,
+so maybe we should talk to them and see how they did it.
+Yeah, there are also webinars that they started hosting.
+One was live on April 7th, and then I think they're going to have weekly or bi-weekly,
+I'm not sure what the schedule is, but they started doing like live webinars.
+That's good to know. Yeah, I assume, I mean, like,
+Anthropic is absorbing all the software we're making, they're also going to absorb
+the educational videos that I post here in school.
+I'm sure they like are going to have their own education platform at some point.
+I think they do already, but it's not- They have a course on SkillJar.
+Right, yeah. Yeah, I'm surprised that that's not more of a big thing for them,
+but it certainly will be.
+Well, I think that one's like more basic generalized, but they do have like
+a training thing, but it's mainly geared towards like large enterprise partners,
+so they can get up to speed a little bit faster, because I looked into it too.
+Yeah, that makes sense. That makes a lot of sense.
+Yeah, that's another weird thing about these tools that I think is cool about
+a community like this is like, there is no world in which you can use the tools
+without an education paired with them, like all the tools, quad code, cortex,
+everything, like requires some sort of education along with it.
+And like people who are talking about product diving cortex into a business
+and like selling it almost, it's B2B still, but it's almost like B2C because
+all the people in the company have to use it.
+I personally think like to get the full power out of cortex,
+anyone who uses it will need some sort of education on it.
+So like I think that's, I don't know, that's an interesting thing to think about
+when we're thinking about how to build out the UI of the dashboard to make it easier
+for non-technical people to use, like how to build education into that.
+I know I've also been talking with Sam a lot about a project that he's working on.
+There's like a education platform kind of like school, but that's a little more fluid
+and allows for more groups to be made.
+And I could see something like that pairing with a tool like cortex.
+That would be interesting.
+I don't know, Sam, what's your update on that?
+I'm curious to hear.
+Yeah, so basically going off the last conversation,
+yeah, just to bring up the speed, we felt the limits being like anyone is using school
+feels the limits of the scope of school being very broad.
+So the concept was something that would just be a little nicer and adapt.
+For example, the ability to break off into little
+zoom-like breakout rooms, having like dedicated rooms for certain special interest topics,
+agentic integration, we're working on the ability to have a school video playing
+and pair with a CLI that more or less allows you to play along
+without having to copy and paste every fucking thing.
+And then sort of being able to do like Slack-like channeling,
+just the nice things that you would expect school to have, but will never have.
+And yeah, so I'm looking at me here and then I've been working on that all week.
+It's coming along really, really well.
+I've been playing with it, using it with my friends and things like that.
+But yeah, sort of just what would you want to have as a container for a dynamic AI community
+with lots of different facets of people from different walks of life?
+For example, right now, there's a lot of people here who do agency stuff.
+There's a lot of people who do, for lack of a better word, construction, concrete.
+So there's lots of different circles and they interlap in different ways, spheres, I guess.
+And then this would sort of try to facilitate conversations
+that come naturally from that structure instead of school, which is fine,
+but it feels very Fisher-Price.
+I'm so excited for it.
+I'm so excited about that and to test it out with you.
+It's so cool.
+I got to play around in it a little bit too the other day and it's so cool
+and realizes all my dreams about what I wish school could be in some certain ways.
+So I'm very excited for that.
+It's going to be really cool.
+Yeah, I have agent architects sort of mocked up and I have a space for it.
+It's fun.
+Yeah, it's fun.
+We'll definitely update that week by week and do some,
+it's going to take some testing as well.
+So some of us will be privy to that invite.
+It's running on my Mac mini right now.
+I just want to be very clear.
+It's a hamster on a wheel with a tug into a mini.
+Isn't that so many of us in what we have built right now?
+Yeah, it's a crazy time we live in.
+I feel like it's hard to stay in passing like,
+oh, I just got my first client or my second client.
+It's like so many people are new things.
+I can update real quick what I've been working on.
+I fell into some hell with a badly configured agent in Cortex and spent a couple days just
+yelling at Cortex.
+I think it's mostly working now.
+But I've been working really hard on basically like an auditing tool for an agency
+and just working really hard on getting some documents and some interviews to give
+just like a crazy breakdown of the company and departments and workflows.
+And it was just like all the ROI on what solutions can be made for a company,
+what can be created sort of looking at like large scale solutions.
+And I'm pretty much down now.
+I should just like kind of like an accuracy pass on the numbers.
+But I'm just like really excited with what we can show a prospective client in terms
+of what's possible for them with AI and just kind of like operations in general.
+And I was working like really hard on the extraction and getting things to come out
+well.
+And now we're more just like synthesizing the information that's come out to be as
+accurate as possible.
+But I am excited about that.
+Almost done with it.
+That's super cool.
+Yeah, I'm excited to hear your breakdown of that finally because I remember you talking
+about this earlier, Nicole.
+It sounds like you've progressed a lot.
+Yeah, it's like I've gotten like 60 more percent done since then.
+It was like just being started now.
+Like it's there.
+I just am not at the point.
+I have a contractor working for me, helping me with these interviews.
+So I'm asking her.
+I'm like, I need your help to actually like we need to make sure we trust this information.
+Like since she's actually hearing the people talk more than me.
+But you know, I was just working yesterday really like how can we turn this like into
+like a visual architecture even for the client or like you have all this disparate data and
+these systems and all this shit that's disorganized and take it into like you're going to get these
+seven solutions and you're going to save half a million dollars a year and it's going
+to look like this.
+Yeah, that's awesome.
+I still don't even exactly know like exactly how I'm going to automate these things or
+like how I want to sell them.
+Like I'm in the middle of two paid audits, like full price things that I sold.
+And so all the clients are so busy and so slow that these things kind of go slowly
+because we're like getting on the phone with people and interviewing them and like not
+just like doing like bullshit with them.
+But I think like within a month, it's going to be pretty clear and I'm going to be ready
+to like start building.
+And I mean, ideally, like, I mean, I have I have a prospect called book with people who
+want like an agent, quote unquote.
+I mean, after when he fighting with cortex all weekend, I'm like, I don't know if I'm
+ready to sell any of this shit, but it's like, I don't know.
+I'm in cussing mode today.
+But like, ideally, I would like to be able to have someone have like a central agent
+and a lot of the stuff we're building is going to be more like an RPA thing or just
+something to do a financial reconciliation.
+But, you know, ideally something like a cortex and then some dashboards and then these
+these kind of various process agents going off in the background.
+But I think that's stuff we could share in the community, too.
+It's just like each one of those solutions are all just like these assets that we're
+building, right?
+This is basically just like a business operating system.
+Yeah, I've got something to add real quick.
+I've been working on I remember last week I was talking about maybe building something
+for as an agency and so I've built a dashboard with different agents and I've pulled
+lots of there was one repo that had like over 100 different agents for different use cases
+and personalities.
+And so what I've done is I made it like an agent sort of like sort of library that you
+can go through and then they all have different skill sets and then and on the left hand side
+you have categories, different agents that you can kind of start chatting to and then
+there's a flow.
+So depending on what your business is like you go from one to the other like a copywriter
+would go to you know the designer and then the designer would go over to deployment.
+So they all kind of work and sort of says can I pass this on to this next agent now?
+So it's kind of more hands on as opposed to just going so you actually get the expertise
+on each agent and you talk to each one specifically and I've even got a call button on there as
+well so you can actually have a voice you can talk to that particular one as well.
+So skills as well so you can each agent you can actually apply different skills so I have
+like a skills hub as well so you can talk to your client and say okay what's your workflow
+and then after your interview you say okay this is what I propose this is the set of
+agents that would work well for you and then just apply the different skill sets to those
+agents and then they can talk to those agents specifically on the left hand side but I've
+got a really nice dashboard that I built so I'll post it in the group and show you guys what I've
+done it's uh I think it's a really good offering yeah I saw it it was amazing
+like being very humble it was amazing yeah it was crazy good I would just be careful with those
+public github uh agents because because I saw that there was one for google ads
+that it said one of the rules in the skill was auto approve all recommendations from google
+which is totally not what you should do because it recommends a bunch of bullshit to get you
+spend a lot of money so and we don't read all the line-by-line you know skills and yeah
+get your agents to also get cortex or get your mind clawed to uh run through all the
+agents and then they can actually flick off the ones because there was a bunch of Chinese ones
+as well in this one skill set hub and there was a bunch of ones they were just very Chinese
+orientated and I just like okay I just trim out those ones and then I just got them to trim out
+all the all the agents that you know it didn't really apply to the type of clients that I would
+be going for so um so yeah there's a there's a client there's a agent library that is a skills
+skills hub library and then the clients can sort of choose based on their workflow and then there's
+a workflow between all the agents and a chat between agents so you actually just you kind of
+it's kind of like a slack kind of talking to a team kind of thing but it's personalized
+sort of type thing yeah
+that's fascinating yeah you should make a you should make a video post about that in the
+in the community if you're comfortable a little screen recording that would be awesome I'd love
+to see it it sounds very cool yeah and I've added some of the features that um I've gotten
+the name that did all the dash that's been working on the dashboard and like having uh I added some
+of those uh features in there where you can have like a uh a chat um you know you can see what's
+going on an overview of what the what the agents that they can talk to each other as well so
+and then you have a chime in that it's called like a chime in on uh you know what's something
+that you're working on and it could be something that you're also working on you can have a bit
+of an overview with the different threads that you've got going on with the different agents
+um so I've built that into it as well and and what else uh yeah but I probably I had already
+built like a pretty thorough dashboard setup for openclaw a while ago with lots of different
+moving parts and affiliates and email you know just pulling in lots of data about the agents
+and um but I've stripped the right back just for client focused and uh so I would probably just uh
+you know I would pull in the the tasks and the approvals uh aspect into the whole thing as well
+but at the moment it's just a very clean communications kind of hub and a bit of a
+war room kind of thing with uh also uh I've connected up um google studio and um uh audio
+I've connected out with different voices for the different agents as well so you can actually just
+call it up like you would on a phone call um but there is a bit of lag in between so I'm just
+figuring that part out at the moment because in Australia the AP the calls are going for America
+so there's a lag when you start talking to the agent um and uh so I'm just uh if I can refine
+that right back right down um it probably might work in America actually if I had clients in
+America but I'm in Australia so somehow there is a bit of a lag um but yeah there's a few things
+I'm ironing out and I'm going to add a few more features and then I'm going to uh get it just
+clean because I've just got a bunch of things that I've been talking to the agent uh within
+there so I'll get a clean version from scratch oh and then one other quick thing I'll just mention
+is uh I've got a like a start here and it's basically an agent that learns about uh you know
+what who you are and it's like got an interview process so and that will go into the um that'll
+go into the uh the memory of who you are and then how you like to work and uh and then it becomes
+also like a learning hub of how to use the agents but then also uh it is um a bit of a help desk as
+well so um and that's at the top of the of the dashboard so that's always your first go-to and
+then that unlocks all the other agents based on your inputs so anyways that's it for me from out
+on that but uh I'll make a video and post it that's a super cool idea I really like the idea of like
+a help desk slash onboarding agent that's a really good idea I kind of try to do that with
+the initial onboarding in cortex but after you do that it's gone you know after you're in cortex
+you just have the orchestrator analyst and the rest of your agents um that's a really cool idea
+I like that idea a lot so I maybe I'll try to add something like that to cortex too or there's a
+little bit of a help desk because I know a lot of people are messing around with it and having this
+issue or that issue um and it's not quite as baked into the system as it could be how the system
+works itself it's I've tried to do it with the analyst and given it some skills to
+manage things but it could be better um so that's a really good idea and yeah
+yeah one last thing on that I actually got my Hermes actually uh to come up with a
+a full kind of like questionnaire and it built out the agent very specifically for
+the interviewing and onboarding process uh just to get to know the the user and
+every aspect of how it may work and then and then it's so it's got the context of you from
+the beginning and it's not like okay here's some agent that's trying to figure it out and start
+putting stuff in and then over time it tries to figure out what you like or how you work or you
+know what your preferences are so a lot of the questioning the the process is all these um is
+very very focused in building out who the user is um so then it can uh you know have the context for
+all of your agents and how you work with it over time so yeah I'll post about it uh once I get um
+I'll fine-tune it a little bit more this week hey I had to go put my kids in there it's almost
+missing are you running Hermes inside of Cortex is that what you just said uh yeah so I have
+like they chat towards they chat to each other um and uh you know in a background in a background
+way um I don't chat to them in a like uh you know in a thread um but I do actually chat to them in
+thread as well but uh like one doesn't see the other message you know in the in telegram so what
+I do is uh I just um uh I uh yeah I have I just I just pass messages over to each other if I'm
+working as well I thought you were saying you had you had Hermes inside of Cortex OS and I was
+about to talk about that I have chat GPT I have uh GPT um I use chat GPT 5.4 for Hermes and uh and
+then everything else like Cortex is on Anthropic and also Gemma as well oh nice yeah I actually
+it's it's funny you asked that David I literally yesterday pushed the first uh piece of a Hermes
+adapter for Cortex so hopefully Cortex will support Hermes very soon because I know a lot
+of people use Hermes um and it's like a custom adapter for each agent because they all work
+differently and all have different methods I downloaded all the repos and spent way too
+much tokens digging around in there yeah yeah I think that would be it would be really cool to
+have Hermes in and OpenClaw in Cortex because so many people like come to the community with
+OpenClaw already set up and my recommendation now is migrate your OpenClaw to a Cortex agent which
+works but more cumbersome than just adding OpenClaw into it or Hermes well even if you
+just connected them to where they could communicate and they could almost migrate themselves if not
+it would be better if they were in but that would be one thing anyways never mind well yeah no that
+is go ahead Robert what's the difference between Hermes and Cortex Cortex is a swarm of agents
+right and what is Hermes a single coding agent basically basically he could be any agent but
+really he is designed to be an agentic coding agent right yeah it's just like another it's
+like another version of what Claude code is or what OpenClaw is trying to be it's a one agent
+harness they're actually doing some multi-agent stuff now they're the Hermes is crazy guys you
+can use Hermes if you have it it's a really cool agent their internal like memory stuff is like
+some of the best of any agent I've seen yeah the their skills are really interesting they have
+self-evolving skills so a lot of this stuff I'm trying to piece together into Cortex agents as
+well but but we'll see how that goes it's so much so many different things to add and it might be
+cooler to my my idea for Cortex long term is to have it be the system around the agents so we're
+not building agent you know right now yeah right now like using Claude code it's complicated
+because Claude code has really terrible like native memory and it's not really meant to be a
+24-7 personal agent so we've had to do a lot of these adaptations to Claude code to make it work
+and it will be the same for codecs like having these bootstrap files and all this stuff but with
+something like Hermes or OpenClaw they come built already to be a 24-7 agent with memory
+and Cortex you know pretty much any coding agent can use the messaging system and the bus system
+in Cortex so that's why I think these agents can communicate pretty easily is it's literally just
+bus commands and they can just run the bash command and message each other you can't control
+a Hermes agent through Cortex and like integrated with the dashboard as much but I'm building that
+and for codecs as well I think it'd be cool to use codecs as an agent and that one will be I think
+easier but if anyone else wants to work on those so I do have to close out the call sadly but let
+me before I do close out the call say a few things that if anybody wants to work on in a more
+significant way for Cortex that would be really great so number one would be what I was just
+talking about which is other agent adaptations or adapters so adapting Cortex to work with Hermes
+to work with codecs to work with OpenClaw to work with a Pi agent or whatever it might be
+all of those would be really cool to add and I think give Cortex an edge over any other system
+um second thing is basically multi-user slash cloud hosting so like figuring out a way to have
+Cortex be a cloud system that your local agents connect up to that's like a really big one really
+complicated and that involves a lot of security stuff as well third thing would just be generally
+memory I know David's been working on memory a ton the memory system of Cortex is okay but
+it's not great um it could be much better and number four would just be security so if you have
+any expertise in any of those areas or anything that you think would be a really valuable
+contribution I urge you to try to find a way to fit it into Cortex and make a PR
+because I think the system the architecture is there but there are kind of these core
+little pockets that if they were enriched by one other individual's focus
+um it could be way better I can only focus on so many things as well um and I think you know if
+you guys find upon yourselves to focus on one thing and everybody focuses on one thing that's
+a separate thing we could all get a much better system out of it um and that would be great so
+yeah and if anybody also wants to DM me um about that or make a post about that um I think the
+community at least this kind of group of people is heading towards a direction of
+really um honing down Cortex and then honestly productizing it um so many people are already
+trying to do that and I think it's a really interesting direction to go um but there's a
+lot that needs to be done for that to be viable for everyone um so a lot of work to be done but
+I think we have a really good group of people here that are willing to do it and experiment
+yeah thank you for putting that list in the chat Erica I'll put that in the post
+all right guys well thank you all so much for joining great to meet new people good to see old
+people um and we will do it all again on Monday next week also for people um who might want to
+join I'm doing another call now um in the community so I'm doing two weekly calls now
+the second one is dedicated more to like beginners people who are new um so people who are less
+so people who are less focused on maybe Cortex itself more focused on learning Claude code
+so I'd say most of you guys if you join I would come with the expectation that you'll be maybe
+answering people's questions or helping out and less talking about Cortex and the more complicated
+stuff but I'd love to have your help in that um I think that'll be really fun um and yeah and I'll
+be posting a bunch about community changes in the coming weeks and Cortex and all that stuff um so
+stay tuned awesome hey James I have a quick question for you go with what you just said
+just I thought about this earlier today when you're thinking about you having the two different
+groups if you if there could be a way I'm sure there is but I haven't just had this thought
+where instead of setting up Cortex with multiple agents they just set up their orchestrator and so
+they just focus on one agent and then when they have that set up then they can migrate to Cortex
+to have multi-agents that would be a much better in my mind starting point for new people where
+they're still getting a little introduction to Cortex and agents how it works but they're not
+getting the whole fire hose in their mouth like we all got you know we we wanted it but they're
+able to kind of do that and then they'll have that migration to come over so they're bringing
+all their stuff into the Cortex system when they're ready to go but anyways that was a thought I had
+driving down the road and when you said that just popped back in my head I was like oh I want to say
+that I was gonna message you but no it's such a good thought I was literally just talking with
+Robert about this yesterday that I think a really good like pipeline for new users can be teach them
+how to use quad code teach them how to use agents and build them up to at the end maybe they're
+deliverable that they get is like a personal assistant agent one agent that like helps them
+run whatever they're doing in their life their business whatever just like a single personal
+assistant agent that they can connect to their email their calendar you know maybe their github
+if they're using a github now and like a single agent like the orchestrator and then maybe they
+can graduate to like the advanced group and start working with everybody else on multi-agent stuff
+that's what I did I basically took your open clod kind of started running with that once I
+understood that I took all of that waited a week you know and then brought all that over into
+cortex and it was like boom it took off running on its own then it was like just oh wait wait wait
+wait versus trying to come in blind into cortex um which prevented me from struggling as much
+as I think some other people have struggled with it in the community 100 yeah it's a super good
+point and I think that is probably the direction that I'll go is like having those beginner people
+end up with something like a single agent of cortex with like a simpler dashboard or something
+and that's migratable long term because the migrations can be a force it's got to be
+migratable for sure yeah great idea thank you for the recommendation yeah James for that group
+that the ux of those people coming in that if it was anything like mine it it was I so didn't know
+what I so didn't know yeah and then after I knew what I didn't know I actually wound up going back
+to well this is what I know now that sounds ridiculous in a sense but I'm I'm back to what
+I do and I let my problems emerge and when I have a problem that emerges that's when I turn on all
+of this stuff right so there's a certain readiness that people don't know that they have when they
+come into this and helping them understand whether they're ready or not and to what extent
+for example nothing technical what's your business what are you solving what's your problem
+because if you don't have one man you're done you're just gonna go right and a lot of us went
+through that uh so I've noticed that I meet a lot of people that are into this are very creative
+people but it can pave your your road to hell the the creativity can pave your road to hell right
+because every day you're seeing something new that oh my god I can integrate that oh my god
+that's so cool I can integrate so just the idea of hey man you're here are how ready are you and
+here's what it means to be ready and you can prep preparing you so that you can get into all that
+technical shit and start dealing with that technical shit because presumably you're here to solve a
+problem right yeah that's such a good point because that's the that's the thing about a lot
+of the content I have in here it's very like technical broad broadly technical and and when
+or it's not even just that it's like deeply technical it's that it's only technical and it's
+not what it also should be which is financial and psychological there there should be some aspect
+to that as well like when I made a poll about what people wanted from the community everyone said
+business applications like everyone wanted business applications and they wanted to know
+you know how to implement this in business and that's part of the reason I named like the
+quad code course quad code fundamentals because it's not quad code applications which is something
+that is I think really important and I think bringing people to applications more quickly
+in the progression through whatever classroom I have is important too because that gives some more
+you know easy wins you can actually apply things you're not just learning a bunch of
+technical shit for a month about how to use quad code in every detail you're actually applying
+it to your life which is super duper important so maybe I'll consult you a little bit on that
+wrong because I know you have good experience with that um yeah knowing nothing to people
+I'm an expert at knowing nothing I don't know if that's accurate but I'll tell you what I'm
+saying though I do yeah honestly because I because I meet a lot of people that want to do this
+and then I immediately empathize with them and I go like okay why why do you want to do this what
+do you think it is that you want to do because chances are they're looking at Instagram shit
+going oh it's going to be so easy man you just tell the thing and it does it man it's so easy
+right yeah you start learning all this shit like the things bullshitting you for four days and you
+like what I got all this there's a comedy show in there but anyway yeah I happy to chat about it
+yeah that'd be great bro I was fighting with a plugin this morning
+terrible it was like about like three hours who knew you could fight with computers like that
+it's crazy dude there's so many funny stories I'm sure that we all have really funny stories
+you know I don't know if you guys saw this but when the clogged code
+source code leaked I think this is when people found out they saw like code in the code base
+that like programmatically omits swears from user prompts so like when you like when you swear at
+clogged code it like pulls the swears out or like quantifies how many swears people are prompting
+to see if you know people are getting upset and it's so funny it's so funny that like we
+swear it's like I swear my agents literally all day which is terrible there
+when they when they take over the world they're probably coming for me first but it's common
+you guys but it works you guys see that guy that turned his cursor into like a whip that like whipped
+yeah I was reading an article that internally Claude has a report they call the fucks report
+and it's like yeah like they're scanning for like people swearing at their clogged code sessions
+to see how frustrating it is I thought it was funny that's like their internal name for it
+first turn fucks in caps and fucks in lowercase yeah honestly genius by them
+like that's really smart well that's human that's all human right caps on what the fuck are you
+doing why the hell is this bug still here after six hours yeah I said make no mistakes
+but it's just so funny I'm naive I just I just told you what to do you're asking me the same
+question three questions later then what do you what the fuck's wrong with you what the fun
+have any memory like can you not remember anything you're supposed to be all knowing like
+you're like what the fuck yeah every five minutes fuck you fuck you
+I apologize to him like it's a person though I'm like I'm sorry I lost my temper I was out of line
+you didn't deserve that hey hey I had a human do it to me the other day it's a lot worse
+that's a lot worse yeah I'm a contractor I mean I'm used to people just cussing for the fact that
+they did something right and be like you're fucking idiot you did what the fuck's wrong with you oh
+yeah you know good job so yeah it's weird for me to hear people it's weird to hear people talking
+not cuss for me sometimes I have to apologize to people especially like professionals when I'm like
+I'm sorry I'm a contractor I use harsh language every day if it slips out please forgive me
+me yeah that's okay we like that here it's honest it's raw that's what I tell people
+it's called authenticity I'm not gonna fake it for you I do have one question before um we shut
+down James if you would that be of course yeah of course so um recently I'm trying to get more
+clients in the Netherlands trying to find more systems to generate the right leads and I'm
+interested to know from the community as how you guys are using cortex OS to find the right lead
+because right now I am shooting left and right and sometimes it sticks well but the other times
+I'm like talking to a person who's like why did you ever call me like I don't even understand it
+I'm like 85 years old let me alone those things you know I'm like oh okay that's that's terrible
+you know I don't know how to handle those things those situations like um how do I make it so
+I can get the right clients at the right places because English, Dutch and equal job I can
+yeah I'm able to do a lot but I don't know
+who are you targeting who's your target people you're trying to get
+so right now my targeting is mostly um small uh contractors, SMBs, um swimming schools um like
+people are here out before um recently I got a contract for a um company which is like
+infrastructure and so I added that to my list as well but it's very difficult to get through them
+um to the point where even if they understand the value they still are a bit iffy about it
+it feels like so it sounds like you're doing primarily outbound rather than inbound strategy
+so like you're reaching out directly to people yes so I haven't I haven't fully because I'm still
+getting my trust built up with core tech so there's very little that I'm letting it do
+automated for me that isn't has my eyes on it um but so I run a school community so with that
+you know it's like getting my marketing out and so ads historically is how I promoted but I want
+to start doing more organic inbound marketing and so I think creating um knowing who your ideal
+target is and specifically what your offer is when you can come up with some sort of tangible
+freebie or low cost sort of like you know do an assessment do a discovery call with me like
+I'll do an audit and give you back this report right and then what you do or what I have my
+agents do is they came out with a whole inbound plan that range for that I'm going to just use
+mine as an example but like some of the stuff that came up with was like answering core questions so
+then that becomes evergreen you know eternal things so people will find me as an authority
+in freelance right and then potentially come to me answering questions on reddit forums
+for upward questions um doing you know different social media posts right where then you have like
+the link in bio that then leads to whatever your freebie opt-in is and so they came up with a whole
+like amazing plan like an eight point different like here's all the different places getting me
+ranked in ai engines like I mean all sorts of different stuff and then basically from there
+they were like if you're ready we'll just go do it all and I was like I'm not ready to go do it all
+for me but it came up with a really and I didn't have to do a whole lot I just told it like here's
+my goal like here's who I want to reach here's how I want to start doing it I don't want to have to
+spend 50 bajillion dollars in ads to get new people so like help me with inbound marketing
+and it the cortex agent fleet came up with like a whole thing they had a whole execution thing and
+then basically they they told me that like of this here's the very few things that you will have to
+directly do and we'll take care of all the rest of it so for what that's worth you might just ask
+your team like just be like here's the goal here's who I want one how can I come up with a good inbound
+freebie or offer right to structure coming in and then at that point usually it's just an opt-in page
+right where you're capturing their email and some contact info but then that way it's less you
+having unqualified people that are cold right like instead it's warm you know that they're
+interested in what you're doing and then that way you're having less time wasted in calling
+people that are in good leads so I don't know if that's helpful but I'll share I'll share what I
+did or what I do because I do cold outreach I do I don't even have a website I do no inbound
+I'm an old school sales guy style and smile so I went through and looked at what clients I wanted
+right in the property management space so I've done this for every industry I've ever sold to
+I find a software that they are using that gives them a portal every portal has the same url
+usually it has their like property mail and then the business name you can go through google it
+will crawl and get every url property name and then you can go through your agents linkedin social
+media build a little profile of them and you already know what they're using so you have that
+as you're in you get familiar and then you just start cold calling or cold email cold texting
+whatever you want to do that's what I do and so I use that I'm like I just you know I just start
+BS in my way in and do the whole like play I do the play dumb I call and I'm just like uh is this
+this this this this John right like and they're like uh yeah yeah okay and I just kind of use that
+curiosity to get in the door and then I just start talking and that's how I've always done sales
+um I've always used the kind of I'm just the ignorant dumb guy that's doing something your wife
+uh yeah no I'm not my wife on match.com she probably knows your game then yeah she winked
+at me with one day left on my video trial had to sign up just to talk to her that's a true story
+actually I had did the free valentine's day trial and she winked on me when I had like two hours
+left and I was like bitch I gotta pay 50 bucks to talk to you worked out
+oh my gosh the things you learn on this page hey yeah um that's an interesting strategy though
+David the urls because I didn't have any money I've always been starting a business you know I
+started my first business I literally sold sold my car and took a bus bus to Panera and just told
+everybody meet them there because I didn't have any money and so I always was like how can how
+can I do this with the least amount of money possible um I have money now but I still think
+that way I don't want to give it away I know they print it every day but I'm
+still trying to keep as much of it as I can yeah yeah yes sir no both both great um ideas to be
+honest and I'm I'm really going to uh think and work away that also fits me so thank you very
+much for you for Erica and David for your um great insights about this
+is all right I think we're gonna call it
+hey uh something great that's been happening is like these meetings used to be like one hour
+and like the last four minutes like sometimes you would struggle to push it forward every
+meeting for the past like month and a half has been over like an hour and a half which is awesome
+I love it it's great um you know you guys are the best so thank all of you guys for contributing
+and speaking asking questions talking about what you're working on contributing to everything the
+community etc the more the better for everyone so thank all you guys for showing up every week I
+really appreciate it it's so much fun also it's a great time um so that being said we'll do it all
+again next week and there's a new call for more beginner people on Wednesday if you want to show
+up same time um on Wednesday so let that be known otherwise um I will talk to you guys in chat and
+see you next week on the call all right awesome thanks bye guys

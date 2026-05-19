@@ -1,0 +1,136 @@
+Permissions and Trust Settings
+What This Lesson Covers
+How to configure which tools auto-approve, which need your approval, and which are completely off-limits.
+The Key Insight
+You hit Enter 47 times today without reading what Claude wanted to run. This is about taking back control — pre-approve safe stuff, focus on decisions that matter.
+The Permission Model
+
+Tool Type
+Default Behavior
+Read-only (Glob, Grep, Read)
+Auto-approved
+File modifications (Edit, Write)
+Needs approval
+Bash commands
+Needs approval
+
+Goal: Auto-approve safe operations, manually approve risky ones.
+Permission Modes
+Cycle through modes with Shift+Tab:
+
+Mode
+What It Does
+Default
+Prompts for everything except reads
+acceptEdits
+Auto-approves file changes, still asks for bash
+Plan
+Read-only — Claude can analyze but not change anything
+Bypass
+Skips all checks
+Configuring Allowed Tools
+Edit settings.json to pre-approve specific operations:
+{
+  "permissions": {
+    "allow": [
+      "Read", "Glob", "Grep",
+      "Bash(npm run:*)",
+      "Bash(npm test)",
+      "Edit(/src/**)",
+      "Edit(/tests/**)"
+    ]
+  }
+}
+Pattern Syntax
+
+Pattern
+Meaning
+Bash(npm run:*)
+npm run followed by anything
+Edit(/src/**)
+Edit any file in src (any depth)
+Read
+All read operations
+Setting Up Deny Rules
+Deny rules are your safety net — they block even if something would otherwise be allowed:
+{
+  "permissions": {
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)",
+      "Bash(rm:*)",
+      "Bash(sudo:*)",
+      "Bash(curl:*)"
+    ]
+  }
+}
+Always Deny
+	•	.env files
+	•	secrets/ directories
+	•	SSH keys
+	•	AWS credentials
+	•	Destructive commands (rm, sudo)
+Settings File Locations
+
+File
+Scope
+Use Case
+~/.claude/settings.json
+All projects
+Your personal defaults
+.claude/settings.json
+This project
+Team standards
+.claude/settings.local.json
+Personal
+Your overrides (not shared)
+
+Precedence: Local > Project > User
+Interactive Management
+Use /permissions to view and manage:
+	•	Shows allow/deny/ask lists
+	•	Tab to navigate between lists
+	•	Add or remove rules interactively
+Example Configuration
+{
+  "permissions": {
+    "allow": [
+      "Read", "Glob", "Grep",
+      "Bash(npm:*)",
+      "Bash(node:*)",
+      "Edit(/src/**)",
+      "Edit(/tests/**)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Bash(rm:*)",
+      "Bash(sudo:*)"
+    ]
+  }
+}
+Quick Reference
+
+Action
+How
+Cycle permission mode
+Shift+Tab
+View current permissions
+/permissions
+Allow a tool pattern
+Add to allow array
+Block a tool pattern
+Add to deny array
+Common Mistakes
+
+Mistake
+Fix
+Allow Read but forget to deny .env
+Always pair with deny rules
+Too restrictive (Claude asks for everything)
+Allow common safe operations
+Too permissive (Bypass mode)
+Only use in containers
+What's Next
+You've configured permissions. Next lesson: conditional rules with .mdc files for context-aware behavior.

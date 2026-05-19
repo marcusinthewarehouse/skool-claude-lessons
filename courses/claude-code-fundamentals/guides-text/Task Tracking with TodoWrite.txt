@@ -1,0 +1,83 @@
+Task Tracking with TodoWrite
+What This Lesson Covers
+How Claude Code's built-in task tracking shows exactly what's happening during complex work — no more wondering where Claude is or what's left.
+The Key Insight
+You give Claude a complex task with ten steps. Halfway through you have no idea where it is, what's done, or what's left. TodoWrite shows you exactly what's happening in real-time.
+What Is TodoWrite?
+A built-in tool that creates structured task lists with visual checkboxes. Claude uses it automatically for complex work.
+The Three Task States
+
+State
+Visual
+Meaning
+Pending
+Empty checkbox
+Queued for later
+In Progress
+Spinning/highlighted
+Currently working on this
+Completed
+Checked
+Verified done
+
+Important: Only ONE task can be in_progress at a time. Tasks are only marked complete when fully accomplished.
+When Claude Uses TodoWrite
+Claude automatically creates a todo list when:
+	•	Task requires 3+ distinct steps
+	•	You provide a numbered or bulleted list
+	•	You explicitly say "create a todo list for this"
+When TodoWrite Doesn't Appear
+Skip it for:
+	•	Single straightforward tasks
+	•	Trivial changes (fix a typo, change a color)
+	•	Fewer than 3 steps
+	•	Conversational or informational requests
+Toggling Visibility
+Press Ctrl+T to hide/show the todo list.
+
+	•	Tasks keep running when hidden
+	•	A smaller indicator shows the current task
+	•	Useful when you want more screen space
+Guiding the Breakdown
+For better task organization, structure your prompt:
+1. Update the database schema
+2. Modify the API endpoint
+3. Update the frontend form
+4. Add validation
+5. Write tests
+
+Claude will match your structure in the todo list.
+Preview Before Execution
+For critical work:
+Before you start, show me how you'd break this down
+into tasks. Wait for my approval before executing.
+
+This lets you review and adjust the plan.
+Example: Complex Refactor
+Your prompt: "Refactor the authentication system to use JWT instead of sessions"
+
+Claude's todo list:
+	•	Analyze current session-based auth implementation
+	•	Install JWT dependencies
+	•	Create JWT utility functions
+	•	Update login endpoint to issue tokens
+	•	Update middleware to verify tokens
+	•	Update logout flow
+	•	Update frontend to store/send tokens
+	•	Run tests and fix failures
+
+You watch each item transition: pending → in progress → completed.
+Quick Reference
+
+Action
+How
+Trigger todo list
+Give 3+ step task, or say "create a todo list"
+Toggle visibility
+Ctrl+T
+Guide breakdown
+Provide numbered list in your prompt
+Preview first
+"Show me the breakdown, wait for approval"
+What's Next
+You've mastered task tracking. Next module: context management — handling large codebases, long conversations, and keeping Claude focused.

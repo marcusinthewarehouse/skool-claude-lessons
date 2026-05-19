@@ -1,0 +1,296 @@
+{
+  "course": "AI Influencers and Videos Repository",
+  "slug": "0357c72e",
+  "lessons": [
+    {
+      "order": 1,
+      "date": null,
+      "title": "\ud83d\udcda Navigation Hub",
+      "section": null,
+      "file": "01-navigation-hub.md",
+      "id": "bb6c6ac625084cf48626d2b462636ff5",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 2,
+      "date": null,
+      "title": "\ud83c\udfaf AI Influencer List",
+      "section": null,
+      "file": "02-ai-influencer-list.md",
+      "id": "abfc98f4c2434225a10868be1c49d9d0",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 3,
+      "date": null,
+      "title": "Getting Started",
+      "section": "Claude Code",
+      "file": "03-getting-started.md",
+      "id": "314108da570e4c769ffaf2be0f75ad90",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 4,
+      "date": null,
+      "title": "Sub-Agents",
+      "section": "Claude Code",
+      "file": "04-sub-agents.md",
+      "id": "19f3402768564129b407eafff2e02b45",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 5,
+      "date": null,
+      "title": "Context Engineering",
+      "section": "Claude Code",
+      "file": "05-context-engineering.md",
+      "id": "085cf30e2ca04e6c8bf585af047e4feb",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 6,
+      "date": null,
+      "title": "Skills & Customization",
+      "section": "Claude Code",
+      "file": "06-skills-customization.md",
+      "id": "9ade4956e57d44c6b6ad5d060c0ecfc8",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 7,
+      "date": null,
+      "title": "Web & UI Development",
+      "section": "Claude Code",
+      "file": "07-web-ui-development.md",
+      "id": "c7855f7bede145f08318edb8141ef7e5",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 8,
+      "date": null,
+      "title": "Agent Fundamentals",
+      "section": "AI Agents",
+      "file": "08-agent-fundamentals.md",
+      "id": "9882061921cd42cfa75acd9757ed851a",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 9,
+      "date": null,
+      "title": "N8n Agents",
+      "section": "AI Agents",
+      "file": "09-n8n-agents.md",
+      "id": "1de14057fb7e4404bd8666f1774f9117",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 10,
+      "date": null,
+      "title": "Research Agents",
+      "section": "AI Agents",
+      "file": "10-research-agents.md",
+      "id": "978a601cb04a45f28cd9624026d070f6",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 11,
+      "date": null,
+      "title": "Voice & Chat Agents",
+      "section": "AI Agents",
+      "file": "11-voice-chat-agents.md",
+      "id": "bbbb4209e9334d2485a858a7cf741139",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 12,
+      "date": null,
+      "title": "Production Agents",
+      "section": "AI Agents",
+      "file": "12-production-agents.md",
+      "id": "bf4895d0746e47d19be1b48c3923a8b0",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 13,
+      "date": null,
+      "title": "MCP Fundamentals",
+      "section": "MCP Servers",
+      "file": "13-mcp-fundamentals.md",
+      "id": "f7ddab660bc2457480c5a50967180263",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 14,
+      "date": null,
+      "title": "Essential MCP Tools",
+      "section": "MCP Servers",
+      "file": "14-essential-mcp-tools.md",
+      "id": "27307d46c96443be954c66646565a4a8",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 15,
+      "date": null,
+      "title": "Cursor Mastery",
+      "section": "IDE & Coding Tools",
+      "file": "15-cursor-mastery.md",
+      "id": "806d7854306040f99cfbfa0422c22558",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 16,
+      "date": null,
+      "title": "IDE Alternatives",
+      "section": "IDE & Coding Tools",
+      "file": "16-ide-alternatives.md",
+      "id": "a602c86f6ab141c1b4d3bafa959ba5db",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 17,
+      "date": null,
+      "title": "UI/UX Design",
+      "section": "IDE & Coding Tools",
+      "file": "17-ui-ux-design.md",
+      "id": "6b84de17bc7847b7b7abb98839dd9676",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 18,
+      "date": null,
+      "title": "N8n Basics",
+      "section": "N8n Automation",
+      "file": "18-n8n-basics.md",
+      "id": "9f4f7061b4e5415089b79fa5aa703e89",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 19,
+      "date": null,
+      "title": "Social Media Automation",
+      "section": "N8n Automation",
+      "file": "19-social-media-automation.md",
+      "id": "7a0b0dfa3f17401e83a1f67846c847cc",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 20,
+      "date": null,
+      "title": "Content & Research",
+      "section": "N8n Automation",
+      "file": "20-content-research.md",
+      "id": "55673ee0918d4b50a381b97945cddc38",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 21,
+      "date": null,
+      "title": "Business Automation",
+      "section": "N8n Automation",
+      "file": "21-business-automation.md",
+      "id": "6feb279b8a794b85b34da00be7e73826",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 22,
+      "date": null,
+      "title": "App Development",
+      "section": "Mobile Apps",
+      "file": "22-app-development.md",
+      "id": "c212a341192448cc82e79213b1351447",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 23,
+      "date": null,
+      "title": "App Store Optimization (ASO)",
+      "section": "Mobile Apps",
+      "file": "23-app-store-optimization.md",
+      "id": "224976e5e69d44ec9941fa513751b272",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 24,
+      "date": null,
+      "title": "App Monetization & Growth",
+      "section": "Mobile Apps",
+      "file": "24-app-monetization-growth.md",
+      "id": "262983cec26347509529a2fc9c8cf818",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 25,
+      "date": null,
+      "title": "AI Marketing & Advertising",
+      "section": "AI Content Creation",
+      "file": "25-ai-marketing-advertising.md",
+      "id": "0d66948294574eb6926add0a0bee26bf",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 26,
+      "date": null,
+      "title": "Social Media Automation",
+      "section": "AI Content Creation",
+      "file": "26-social-media-automation.md",
+      "id": "7a7630b337d14679b3376a05bda44cf5",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 27,
+      "date": null,
+      "title": "AI Video & Audio Generation",
+      "section": "AI Content Creation",
+      "file": "27-ai-video-audio-generation.md",
+      "id": "b245b7cc73ee4dd4878d4697c57d9631",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 28,
+      "date": null,
+      "title": "Local LLMs & Fundamentals",
+      "section": "Fundamentals",
+      "file": "28-local-llms-fundamentals.md",
+      "id": "47339f8682af4a06b9ded091cfd679f4",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 29,
+      "date": null,
+      "title": "General Coding & Context Engineering",
+      "section": "Fundamentals",
+      "file": "29-general-coding-context-engineering.md",
+      "id": "55d14a00aed741948dd5ba85bfefab39",
+      "videoId": null,
+      "resources": []
+    }
+  ]
+}

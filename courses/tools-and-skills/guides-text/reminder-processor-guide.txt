@@ -1,0 +1,147 @@
+Reminder Processor
+Claude Cowork Scheduled Tasks Guide
+1. What Are Scheduled Tasks in Claude Cowork?
+Scheduled tasks are a feature in Claude Desktop's Cowork mode that let you save a prompt and have Claude run it automatically on a recurring schedule. Think of it like setting up a cron job, but instead of running a script, Claude runs your instructions.
+When you create a scheduled task, Claude saves your prompt and runs it at the cadence you choose:
+	•	Hourly
+	•	Daily
+	•	Weekly
+	•	On weekdays only
+	•	Manually (on-demand)
+Scheduled tasks have access to the same tools and capabilities as regular Cowork tasks - all your connected MCP servers, skills, plugins, and connectors.
+Important: Scheduled tasks only run while your Mac is awake and Claude Desktop is open. If your Mac is asleep when a task is scheduled, Cowork will run it automatically once you wake up and open the app.
+
+2. How to Create a Scheduled Task
+Method 1: Using /schedule
+	•	Open Claude Desktop and switch to Cowork mode
+	•	Open any task (or create a new one)
+	•	Type /schedule in the chat
+	•	Describe what you want the task to do
+	•	Claude will ask clarifying questions and show you a preview
+	•	Set the frequency (daily, weekly, etc.)
+	•	Click Schedule to confirm
+Method 2: From the Scheduled Tasks Page
+	•	Open Claude Desktop and switch to Cowork mode
+	•	Click "Scheduled" in the left sidebar
+	•	Click "+ New task" in the upper right corner
+	•	Fill in the form: Task name, Prompt, Frequency, Model (optional), Working folder (optional)
+	•	Click Save
+	•	Click "Run now" to test it immediately
+
+3. Installing the Reminder Processor Skill
+The Reminder Processor is a skill that teaches Claude how to process your Apple Reminders. It pulls all your incomplete reminders, classifies them (AI-completable vs human-required), and completes the AI ones automatically.
+Prerequisites
+	•	Mac with Claude Desktop (Pro, Max, Team, or Enterprise plan)
+	•	Cowork enabled
+	•	"Control your Mac" connector enabled in Cowork (for Apple Reminders access)
+Option A: Auto-Setup (Recommended)
+	•	Open Terminal
+	•	Run: git clone https://github.com/grandamenium/reminder-processor-skill.git
+	•	Run: cd reminder-processor-skill && ./setup.sh
+	•	Restart Claude Desktop
+Option B: Manual Install
+	•	Download the repo as a ZIP from GitHub (click green "Code" button, then "Download ZIP")
+	•	Extract the ZIP file
+	•	Open Finder, press Cmd+Shift+G, go to: ~/.claude/skills/
+	•	Copy the reminder-processor/ folder (containing SKILL.md) into that directory
+	•	You should now have: ~/.claude/skills/reminder-processor/SKILL.md
+	•	Restart Claude Desktop
+Option C: Upload in Claude Desktop
+	•	Download the repo ZIP from GitHub
+	•	Extract it
+	•	In Claude Desktop, switch to Cowork
+	•	Click Customize in the left sidebar
+	•	Upload or point to the reminder-processor/ folder
+4. Verify the Skill is Installed
+	•	Open Claude Desktop and switch to Cowork
+	•	Open any task
+	•	Type / to see the slash command menu
+	•	Look for reminder-processor in the list
+	•	Or type /reminder-processor directly to run it
+5. Enable the "Control your Mac" Connector
+This is required for the skill to read and write Apple Reminders.
+	•	In Cowork, click Customize in the left sidebar
+	•	Under Connectors, find "Control your Mac"
+	•	Enable it
+	•	Grant any macOS permissions that pop up (Reminders access)
+
+6. Create the Scheduled Task
+	•	In Cowork, click "Scheduled" in the left sidebar
+	•	Click "+ New task"
+	•	Fill in the form as follows:
+Field
+Value
+Task name
+Morning Reminder Processor
+Frequency
+Daily
+Working folder
+Your preferred output folder (optional)
+Prompt (copy this exactly):
+Run /reminder-processor to process my Apple Reminders.
+Pull all incomplete reminders from Apple Reminders using the osascript MCP tool. For each reminder, classify it using your judgment:
+- AI-completable tasks (research, writing, analysis, planning, code, content, etc.): spawn subagents to complete them in parallel
+- Hybrid tasks: extract and complete the AI portion
+- Human-required tasks: skip with a note
+- Too vague: skip with a note
+Save all deliverables to the workspace folder. Mark completed reminders as done in Apple Reminders (one at a time). Give me a summary of results.
+4. Click Save
+5. Click "Run now" to test
+7. Customization
+	•	Change the schedule: Edit the scheduled task and change the frequency. You can create multiple schedules (morning full run + afternoon quick check).
+	•	Customize classification: The skill uses LLM reasoning, not hard-coded rules. Edit SKILL.md to adjust the heuristics.
+	•	Add a second pass: Create another scheduled task: "Quick afternoon check. Run /reminder-processor but only process reminders added today."
+	•	Change output location: Set a specific "Working folder" when creating the scheduled task.
+
+8. What Gets Processed vs Skipped
+AI-Completable Tasks
+Type
+Trigger Words
+What Claude Does
+research
+investigate, find out, compare
+Web search, synthesize findings, cite sources
+writing
+draft, write, compose
+Drafts content ready for your review
+analysis
+analyze, review, evaluate
+Structured analysis with findings
+summary
+summarize, outline, recap
+Concise summaries with key points
+planning
+plan, strategy, roadmap
+Action plans and roadmaps
+code
+code, automate, build, debug
+Writes or fixes code
+content
+script, video idea, hook
+Content plans, scripts, shot lists
+data
+spreadsheet, calculate, report
+Processes data, creates reports
+general
+prepare, create, update
+Best-effort completion
+Skipped (Human Required)
+	•	Physical actions (call, meet, visit, pick up)
+	•	Financial (buy, pay, subscribe)
+	•	Account setup (login, 2FA, create account)
+	•	Health (doctor, gym, workout)
+	•	Personal care (eat, sleep, laundry)
+	•	Travel (drive, fly, book)
+	•	Watching/listening to content
+9. Troubleshooting
+Problem
+Solution
+Skill not showing in Cowork
+Verify ~/.claude/skills/reminder-processor/SKILL.md exists. Restart Claude Desktop.
+osascript MCP not available
+Enable "Control your Mac" in Cowork > Customize > Connectors
+No reminders found
+Make sure you have incomplete reminders in Apple Reminders. The skill reads ALL lists.
+Scheduled task doesn't run
+Mac must be awake and Claude Desktop open. Check Scheduled page for run history.
+GitHub: github.com/grandamenium/reminder-processor-skill

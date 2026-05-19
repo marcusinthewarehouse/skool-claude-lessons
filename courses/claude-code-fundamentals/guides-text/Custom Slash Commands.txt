@@ -1,0 +1,131 @@
+Building Custom Slash Commands
+What This Lesson Covers
+How to turn repeated prompts into reusable slash commands — type /, pick command, done.
+The Key Insight
+You just typed the same code review prompt for the fifth time today. Copy, paste, tweak, submit. Custom slash commands turn repeated prompts into reusable tools.
+Creating Commands
+Commands are just markdown files in .claude/commands/.
+
+Filename becomes command name: review.md → review
+Project vs User Commands
+
+Location
+Command
+Scope
+.claude/commands/review.md
+/project:review
+This project (team)
+~/.claude/commands/review.md
+/user:review
+Personal, all projects
+
+project: = commands for this codebase
+user: = your personal commands, available everywhere
+Your First Command
+Create .claude/commands/debug.md:
+Find and fix bugs in this codebase.
+
+1. Run the tests to see what's failing
+2. Trace the failure to the root cause
+3. Fix the bug
+4. Run tests again to confirm
+
+Now type /project:debug and it runs.
+Dynamic Arguments
+$ARGUMENTS (Single Input)
+Captures everything after the command as one string:
+Add this feature: $ARGUMENTS
+
+1. Plan the implementation
+2. Write the code
+3. Add tests
+
+Usage: /project:add-feature password reset flow
+→ $ARGUMENTS = "password reset flow"
+$1, $2 (Multiple Inputs)
+Captures space-separated arguments positionally:
+Compare $1 with $2 and list the differences.
+
+Usage: /project:compare src/old.js src/new.js
+→ $1 = "src/old.js"
+→ $2 = "src/new.js"
+When to Use Which
+
+Syntax
+Use When
+Example
+$ARGUMENTS
+Single input, might have spaces
+"fix the login bug"
+$1, $2
+Multiple distinct inputs
+two file paths
+Frontmatter Options
+Add YAML frontmatter for advanced control:
+---
+description: Quick explanation (fast)
+argument-hint: [file or function name]
+model: claude-3-5-haiku-20241022
+allowed-tools: Read, Glob, Grep
+---
+
+Explain $ARGUMENTS in 3-4 sentences.
+
+Option
+What It Does
+description
+Shows in command picker
+argument-hint
+Placeholder text shown to user
+model
+Use Haiku for simple/fast tasks
+allowed-tools
+Restrict what Claude can do
+Example Commands
+Basic (no YAML)
+.claude/commands/debug.md:
+Find and fix bugs. Run tests, trace failures, fix, verify.
+With Haiku Model
+.claude/commands/explain.md:
+---
+description: Quick explanation (fast)
+model: claude-3-5-haiku-20241022
+argument-hint: [file or function]
+---
+
+Explain $ARGUMENTS in 3-4 sentences.
+Read-Only Review
+.claude/commands/review.md:
+---
+description: Code review (no changes)
+allowed-tools: Read, Glob, Grep
+---
+
+Review for security issues and logic errors.
+Do NOT make changes.
+Positional Arguments
+.claude/commands/compare.md:
+---
+description: Compare two files
+argument-hint: [file1] [file2]
+---
+
+Compare $1 and $2. What's similar? Different?
+Quick Reference
+
+Syntax
+Purpose
+/project:name
+Run project command
+/user:name
+Run personal command
+$ARGUMENTS
+Everything after command name
+$1, $2
+Positional arguments
+model: haiku
+Faster, cheaper model
+allowed-tools:
+Restrict tool access
+What's Next
+You've built reusable commands. Next lesson: configuring permissions and trust settings.

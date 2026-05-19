@@ -1,0 +1,51 @@
+{
+  "course": "Open Clawd Code (3/9/26)",
+  "slug": "3caebf63",
+  "lessons": [
+    {
+      "order": 1,
+      "date": null,
+      "title": "Lesson 1: Claude Code with Telegram",
+      "section": "Module 1: Setting Up Open Clawd Code",
+      "file": "01-lesson-1-claude-code-with-telegram.md",
+      "id": "c3c301bb60914443b79190d83939be9c",
+      "videoId": "df7889f26e42405ba778d5da13094c70",
+      "resources": [
+        {
+          "title": "Lesson 1 Example Project (GitHub)",
+          "link": "https://github.com/grandamenium/openclawd-lesson-1-telegram-bot"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "date": null,
+      "title": "Lesson 2: Turn Claude Code into Open Claw",
+      "section": "Module 1: Setting Up Open Clawd Code",
+      "file": "02-lesson-2-turn-claude-code-into-open-claw.md",
+      "id": "21ae50931e11439fb1230d54e25fbfeb",
+      "videoId": "2471465002f34b8ab199c33386547b57",
+      "resources": []
+    },
+    {
+      "order": 3,
+      "date": null,
+      "title": "Lesson 3: Keep It Alive",
+      "section": "Module 1: Setting Up Open Clawd Code",
+      "file": "03-lesson-3-keep-it-alive.md",
+      "id": "2a1cc57292ba4a94ae8602f21a6a3fcf",
+      "videoId": "739f4ddffd53403e862b7f69c0151c5c",
+      "resources": []
+    },
+    {
+      "order": 4,
+      "date": null,
+      "title": "Lesson 4: Instant Comms + Multimodal Memory",
+      "section": "Module 1: Setting Up Open Clawd Code",
+      "file": "04-lesson-4-instant-comms-multimodal-memory.md",
+      "id": "19c24e0bbca3475d8d7e3d0eef722609",
+      "videoId": null,
+      "resources": []
+    }
+  ]
+}

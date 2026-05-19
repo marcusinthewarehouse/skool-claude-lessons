@@ -1,0 +1,756 @@
+Agent Architects - Live Call Recording Transcript
+Date: 3/16/26
+
+Yep.
+It's been a very busy one for me.
+I was actually traveling the past, I think, three days.
+I'm in a rock band, so I played some shows this past weekend with my rock band, which
+was really fun.
+So I was bustling around from New York to Boston and back in my hometown now, which
+is nice for a few days, and then headed back to Florida in a few days and been working
+on a lot this week that I'll get into maybe a little bit later, but good to see you guys
+here.
+Robert, how's stuff with David going there?
+Things are finally clicking in my brain about all this cloud stuff.
+I've been playing for the past two and a half hours, configuring cloud codes for my marketing
+agency.
+I have some questions, but we'll get to it.
+But overall, I'm really happy with the progress and how I'm actually starting to understand
+how this system works.
+And the more I go through the stuff you have set up and the more I ask Chad GPT about scripts
+and workflows and when to use MCP versus a script and stuff like that, it just makes
+more sense for my workflow.
+That's awesome.
+And can I ask just out of curiosity, how long now have you been using ZIP or in this world
+of AI stuff?
+When did you start really focusing on it?
+So in December, I took an NA 10 course on Udemy, but before I've been using ZIP here
+for three, four years.
+And then in, I want to say early February, I started like really getting into this stuff.
+So maybe a month and a half or so, really more.
+I would say maybe since joining your community, that's when I actually installed the VS code,
+cloud code, and that's when I actually started doing things.
+The challenge for me was you guys have probably done sports.
+Yeah, I'll give you a sports analogy with boxing.
+That's what I know is they teach you like a left right first, and then they teach you
+like, you know, your feet and whatnot.
+I feel like I just went down the deep end, they just, you know, put me in a fight the
+first five minutes.
+And I think maybe having some more beginner friendly stuff would help you have larger
+cam, but I don't know, maybe your videos are more for people who are ready to convert more
+down the flow, which probably is the case at least right now.
+Yeah, that's a great point.
+I asked that because I find it interesting to see like how a lot of people have that
+moment that you kind of describe where things start to click and they start to like accumulate
+enough knowledge of the different kind of tools, the different pieces of the technology
+where they're like, OK, I have a kind of an idea now, more of the different steps that
+these tools go through from prompt to delivering something where it's like easier to kind of
+manipulate them. And I feel like it's consistently about like two weeks to a month where people
+from like really focusing on it really feel much more comfortable.
+And yeah, that's something that I've always thought about with the community in terms
+of like beginner friendly stuff versus advanced stuff.
+I remember Sam, Sam Wilson was one of the first members of my community, like that,
+like literally maybe member like three or two or three or something still here, which
+is amazing, by the way. Thank you so much for sticking around, dude.
+It's so good to see you every week.
+Yeah. Yeah, I remember like back then we talked about another community that Sam was in
+called Dynamis and how things kind of like went a little bit crazy and people got, you
+know, really focused on more advanced stuff and felt like it lost some members in the
+mix. And so that's something I keep in mind.
+I really do want to make it more beginner focused.
+I mean, my tendency because I'm focusing on the new tools I'm developing does tend to
+be, I think, a little bit more advanced and that, you know, I think can cause issues within
+the community depending on people's different levels.
+So I want to focus more on that and do a revamp of the Quad Fundamentals course as well.
+And I've been thinking a lot about also making some courses on like LLM fundamentals,
+prompting fundamentals, and also how to use the other Quad tools, like Quad projects,
+Quad Co-Works, you know, stuff like that, that can be a little more accessible, especially
+to non-technical people and non-developer.
+So I think some of that coming in, because you're right, would increase TAM a lot.
+But at the same time, I think, I don't know how everybody else feels, but like the way
+you speak really in your videos are really like showing how much you know.
+And it's like very interesting, especially the, because I'm on Twitter all the time.
+I saw you just posted it.
+You didn't just copy Karpatis or whatever his name is, you know, GitHub.
+You probably just went through it, reconfigured it.
+So it's like proper and whatnot, and then you posted it.
+So you add a lot of value there, you know, when you explain certain things, maybe you
+can explain certain repos and whatnot.
+That's something I still don't know is how to know which repo to import, which is safe,
+which is not, because how not to fuck up my current setup and things like that.
+But it's very interesting, honestly.
+I'm focused.
+I'm a believer.
+I feel like it's Facebook ads, 2016 all over.
+Good to hear that from you, Rama.
+Thank you.
+Kelly, I don't think I've seen you before here.
+Kelly Prince.
+Nice to meet you, man.
+Good to see you in the call.
+Yeah, my bad.
+I didn't know it was my actual personal name in there.
+I thought it was like a little business account.
+So I was trying to figure out how to switch that.
+I don't know if you guys saw my background flipping off, but obviously, yeah, first time
+on the call.
+My name is Aaron.
+Hopefully that'll be up there next time.
+But nice to meet you guys.
+Seems like a pretty cool, tight-knit little community of people that are all interested
+in the same stuff.
+So excited to be here.
+Yeah, great to have you, man.
+That's okay.
+I like the energy of your name.
+We like that energy.
+So I feel no need to change it.
+If you don't mind, maybe talk to us a little bit about your background, like what your
+interest is in, you know, quad code agents, AI, et cetera, and what you're thinking about
+building, implementing for yourself.
+Sure.
+I've been playing around with it for probably a year, seriously for like eight or nine months.
+I've been more so trying to work in the online like sales space in terms of like the drop
+shipping print-on-demand, you know, that whole array and kind of building out a stack there
+in terms of, you know, research to end product.
+And then at work, during the day, I'd say work number one, and then get off and go back
+to cloud code for work session number two.
+But I do construction management, so managing the finances and controls for a multi-billion
+dollar project.
+So it's kind of fun because now they've, I guess they said with copilot, which I don't
+know if any of you guys have used copilot, but trash, but they said I was the number
+one user of AI in the company, and I was like, oh, I guess nobody's using AI.
+So they've been tapping me at like the, I guess, corporate level to try and implement
+AI.
+So one, I've kind of been trying to push them toward cloud.
+But if there's any tricks, that's kind of what I'm here for is to learn kind of what
+you guys got going on and see if there's anything there that I can, you know, a further the
+career, maybe throw into my own workflow at home.
+That's awesome.
+That's super cool.
+I feel like I've heard the same kind of similar story of people who are like working in a
+company, maybe a large company, it's doing a lot that, you know, the people, especially
+the ones that are higher up in control are, you know, they just don't have the time to
+pay attention to this stuff.
+And if you're the guy that, you know, is the AI guy in your company or whatever can be
+huge, this like upward mobility for you in the company because AI can give you so much
+leverage.
+Absolutely.
+Yeah, that's very cool.
+And yeah, maybe I don't know how long you've been in the community, but maybe if you go
+through things or figure out a little bit more what you want to do, make a post in the
+project section about what, you know, project you're working on.
+And people always love to see that and comment, give tips and tricks, myself included.
+Yeah, for sure.
+Awesome.
+What about you?
+How's things been for you, man?
+Going well.
+I'm actually working on an opportunity.
+A good buddy of mine I've known for 25 plus years or so.
+I think I shared it in the community, also in the roofing space.
+And so he's like a partner.
+And so he runs all operations as well.
+And so, yeah, I'm putting together a proposal right now for for them.
+Basically, they don't advertise at all and they do about 10 million a year or so.
+And yeah, they basically have a website and that's it.
+So they don't run ads, they don't have anything.
+And he's like all in on AI.
+So he wants me to build a system for them.
+So I'm just trying to figure out how to price it.
+I'm like, I think I'm going to go like a monthly retainer and just do as much as I
+can in about six months.
+I have like a six month plan laid out, but yeah, it's a big number, right?
+So based on like all the research and stuff and just like hesitant, you know, I
+know they can afford it, but at the same time, it's like, can they afford it for
+this type deal?
+So so yeah, if anyone has any recommendations there, I was going to kind
+of show like value based pricing alternative and then do like a, you know,
+monthly retainer type option with maintenance.
+So yeah, I don't know.
+That's that's kind of where I'm at.
+I'm just sitting in this like huge opportunity, but yeah, we'll see where it
+goes.
+Yeah, Robert, did you raise your hand there?
+Yeah, Corey, have you thought about, you know, apart from the retainer, which is
+great for stability, doing some performance bonuses?
+I think that would be huge because you've got to unlock a lot of value.
+And then I think I mean, I think you've got to probably figure out how to
+measure employee productivity, like roof per day or something.
+I don't know.
+And then show them, hey, you're doing like, you know, a roof in 33 hours versus
+like two days, whatever.
+I don't exactly know.
+Yeah, no, that's a good point.
+I thought about like a revenue share, you know, maybe like a per job ROI or maybe
+like some sort of like hybrid model as well.
+Um, yeah, those are all things I'm like literally jamming out with Claude right
+now.
+And why I'm saying that is because I, somebody referred me a re piping
+company from California and Orange County, super competitive.
+Their cost per conversion was 2600.
+I was able to lower it to $900 and they made $20,000 in the first few weeks and
+now they have like $60,000, $70,000.
+Um, in the pipeline.
+So is I get my little retainer, but like how much better would it be for me if
+I get like 5% of the cut for example, but you know, yeah, I know that's,
+that's a good point.
+Thanks for, for sharing that.
+Appreciate it.
+Yeah, it's obviously like a common thing that I've experienced from
+talking to multiple people who are.
+I got an experience myself, honestly, uh, like trying to sell AI services,
+especially the companies is like pricing is very weird.
+Um, because it's kind of a new thing.
+And especially from the perspective of the people who are buying the AI
+tools, a lot of their perspectives are like, I've seen all these people
+talking about what AI can do for my business and it seems insanely amazing
+and I'm willing to pay what it takes to get a piece of that pie.
+So it's kind of in that, I think like a little bit frothy zone in terms of
+pricing of like, you can probably charge what you want for the most part.
+And as long as it's within their budget, um, they'll do it.
+And then obviously fulfillment is challenging.
+Got to make sure you fulfill on that money.
+Um, but what kind of a system are you thinking about installing for them?
+Yeah.
+So this is, um, let me, let me back up a little bit.
+So first, uh, what I've had it, I've been running my own company for a
+couple of years now, and then, you know, I've had companies in the past.
+What's worked for me as far as like pricing goes is, is figuring out,
+you know, what they value their time at and how much time they would be
+saving with the system and then, you know, coming up with like a rough,
+like 20 to 30% based off of that.
+Um, and that's like ultimately what I would end up charging them.
+Not that model has seemed to like really work well, but this one's
+challenging because it's, you know, they don't have any of that stuff or,
+you know, tasks that, um, tasks that they're manually doing right now.
+I'm not really like building systems for it because they're not doing it yet.
+So it's, it's difficult to kind of put a value on what that number might be.
+Right.
+Um, Wes, I think you had your hand up.
+Yeah.
+So like, are you going to be doing a full website?
+Build for them.
+And do they have a Google business profile or are those type of local set up?
+Yeah, they do have a local, um, business profile.
+So I'm going to be building like quite, quite a bit.
+So, uh, it's going to be a website redo.
+Um, we're going to have like a storm recon where they have a couple,
+like services that they have for like storm APIs and different things like
+that.
+So I'm going to be building an agent that just has like these triggers and
+response, you know, pipelines to create pages, ads, um, they're going to have a,
+they want a voice agent warranty alerts.
+Um, we're going to have another agent for like content specifically.
+So blog posts, um, what else?
+I'm looking at my proposal here and then, um, for the voice agent,
+um, we'll probably have a few voice agents for like all the different areas,
+depending on like where the storm hits.
+I'm going to be running ads as well.
+So I want to be, you know, I want to create like UGC ads, um, for them as well,
+or at least like have an avatar, um, deep, deep research to see what other
+companies are doing competitors.
+Gosh, what else is there?
+There's, there's so much.
+I don't mean to interrupt you.
+Did you say this is your buddy?
+Yeah.
+Have you thought about potentially being like, Hey, like an equity play of five,
+10% or something, because it sounds like you're about to take his business.
+Yeah.
+And I feel like that's beneficial for both where you're almost now like, Hey,
+instead of trying to figure out what you're doing, you're trying to figure out
+every feature and function.
+I get out of this as much as I put in, you know, you're now fired up,
+getting out of bed every day and making every tool and making it as good as
+you can because you got in the game.
+Yeah, honestly, I haven't thought about the equity play.
+Um, I've been part of like startups and stuff in the past.
+So equity is kind of, I've kind of been turned off by equity a little bit,
+to be honest.
+Um, but yeah, no, that's it.
+That's a good point.
+Something I could, I could definitely bring up, but I think, I think what I
+want to do is just, I want to build AI systems for people, kind of like hop
+in and hop out, um, and, you know, just kind of do my own thing.
+So I think exactly what, like, I'm, I've been doing it for a long time.
+I've been doing it for a long time.
+Exactly what, like, I'm, I've been doing for about the past five months.
+Um, I've just been really using different entry points, whether it's
+email campaigns, SEO, basic funnel conversion.
+Um, honestly, like my first client, he, he ended up getting a bunch of
+systems, like right after I got set up with them for email campaigns.
+Um, I think for one voice AI agent, he's paying around 1500 a month.
+Um, pretty wild.
+And I know the chat bots, like those can go 500, 750.
+Yeah.
+I, I've been building voice agents for a couple of years now and the, kind
+of the larger ones that I built, um, was like around 26 K for, for the
+voice agent.
+Um, I had a, an agency hire me, um, to do the build and they charged
+obviously a lot more.
+They probably charged 85 to a hundred for it, but I got around
+26 for, for the one I built.
+Um, but yeah, I think like, for me, it's, I would love to stay in the
+kind of like systems of AI and sell systems rather than doing like the,
+the equity play.
+Um, I don't know, he might be open to it, or at least like the, the
+percentage of these jobs that I bring in, like what you were saying, Robert.
+Um, I think that's where the money is, man, because sounds like, you know,
+a lot about a lot.
+And I, what I think maybe you should break it down into deliverables that
+can be directly attributed to revenue ads, funnels, SEO with UTMs and
+whatnot, uh, versus, you know, the things that can't be like block, which
+blogs could be too, but like go figure attribution there.
+Um, and also I was thinking, maybe you thought of this, um, you can do
+with, um, where Storm API, you can probably plug it into like a print on
+demand postcard service and then send postcards as well.
+Um, yeah.
+Although now they're saying it's all not storms.
+Yeah, no, that's a good idea.
+Yeah.
+Awesome.
+Yeah.
+Thanks everyone.
+I don't want to take too much more time, but who's a marketer here?
+Cause like, I think Wes and you and maybe, I'm sorry.
+It says pitch.
+I'm sorry.
+I'm sorry.
+I'm sorry.
+I'm sorry.
+I'm sorry.
+I'm sorry.
+I'm sorry.
+I'm sorry.
+I'm sorry.
+I'm sorry.
+I'm sorry.
+I think Wes and you and maybe I'm sorry.
+It says Peli Prince.
+I know you said your name, but I forgot.
+Aaron.
+Yeah.
+Yeah.
+Yeah.
+Are you guys marketers or no?
+Yeah.
+Marketing automation.
+Um, pretty much anything and all of it.
+I just try to automate with AI.
+Okay.
+So pretty, pretty open for what I, I take in right now.
+Cool.
+Maybe we can talk.
+I don't know.
+I want to see like how you guys set up certain things and maybe can shortcut some of my learning
+process.
+I was going to say, that's probably one of the larger items for my personal facts is
+the marketing side of just, there's so many social media platforms, selling platforms,
+tweaks for each one in their algorithms.
+Is there a general format where you don't over complicate it?
+Um, all kinds of general questions.
+I'm now into that.
+Let me start figuring out that marketing AI.
+Yeah.
+This makes me think it might be worth creating some sort of easy, easier way for you guys
+to like move down in the community with other members because we have enough members now
+where there are clear, like these people are software people, people on marketing, people
+on this, people on Zoom callers.
+Cool.
+I mean, cool.
+Maybe I'll think about that in a way where we can like maybe make some forums for that
+or Zoom calls and maybe, I think that would be cool though.
+I remember earlier, I floated the idea a month ago of doing Zoom calls outside of school.
+I think that would be really cool.
+You guys, you know, really helping each other outside of these live calls.
+It'd be very cool.
+You do it on Discord.
+I don't know.
+Or do you already have a Discord?
+I actually don't.
+So I, I've been debating, like going back and forth about creating like another external
+service like, you know, Discord or Slack or something that's like a little more live.
+And I think that probably is a good idea.
+I think it would just be a little bit more lively and more interactive than school.
+I don't want to, you know, my only hesitation is taking away from the school that we have
+already and then having it be divided and confused.
+So I need to figure out the best way to kind of do that.
+But I've been considering it for some time.
+So that will probably happen at some point.
+Discord is a great option too for video, audio call, forums, everything in there.
+So probably Discord.
+Sweet.
+Yeah.
+Yeah, Robert.
+Isn't there like an API for school that you can build plugins?
+Can you build like some kind of a chat plugin just on top of school?
+Yeah, that's a good idea.
+I don't think the plugins are like that robust.
+But I think, you know, maybe I actually haven't thought about that before.
+That's a good idea.
+So let me let me look into that.
+So it can help me create a layer on top of school to make chats a little more interactive.
+That would be a good idea.
+Wes, how have you been doing?
+What's the update on your stuff that you've been hacking away on?
+Yeah.
+So it's been just been kind of running experiments.
+I mean, right now I need to find a use case for each of the different computers.
+So for people who weren't here last week, I use Cloud Code essentially to turn a 2009
+Mac Pro and 2012 iMac just into like a Linux headless unit essentially.
+So all of them can run Cloud and all of them have Cloud.
+They're all set up.
+I've kind of messed around with some some daemons, some cons schedules.
+I can't find like a specific use case on how it's going to really be any different than just having agents running in different folders.
+So I'm kind of trying to naturally find a way for it to make sense rather than forcing one.
+But I'm very open to ideas because I've done random things with it.
+I got to post on a Reddit type page that I made and make recommendations on what I should do with my business based on some of the documents that I had.
+So it's been cool.
+It's been cool.
+I just want to find a way to actually use it for efficiency within my own workflow or maybe pull data off somewhere and use it on Polymarket or something cool.
+I don't know.
+Yes.
+Sorry, go ahead.
+I was going to say, is your right now like the thing you're struggling to find the use case differentiator with the fact that you have multiple computer or the repurposed computer or the multiple agents?
+I mean, I can because I guess finding a way for a little bit of both.
+I mean, because really I can run multi agents on a single computer and I have a pretty powerful PC.
+So I guess for something like the iMac that doesn't have much power, finding a use case, maybe like a daemon that can push a cloud code instance or something to communicate with another computer that's more powerful of a bigger task.
+That's kind of the initial framework that I had in mind, like maybe some of the lighter devices just for always on polling.
+And then they can kind of relay that information accordingly.
+I think that's a good idea.
+Honestly, I mean, that's cool.
+It is hard to see exactly.
+I mean, maybe the use case will arise just when you end up doing more stuff and you need more compute for that stuff.
+You know, maybe things that are specifically intense and give you like video editing stuff to be cool.
+Like I know there's a lot of stuff with the cloud code and the remotion.
+I do that now on my PC.
+I'm actually like do that in the background.
+I'm using Higgs field and open art AI and I have to use playwright because the APIs aren't great for it.
+So I'm looking to potentially switch to one that's more API friendly, but it's pretty cool.
+I mean, it can do text overlay, can do like reacts, other like JavaScript library to designs on top of ads.
+So that is kind of the overall angle is to get that a little bit more automated.
+And then maybe I could pull the request through like a telegram or a Discord chat on one of the lighter computers and then turn the workhorse on.
+Yeah, that's it.
+Go ahead.
+I had one thing really quick.
+I use I mean, it's a Raspberry Pi, but I use that and downloaded smaller language models,
+stuff that can handle essentially kind of a middleman task like you're talking about,
+but like where it doesn't take that much brain power or computing skills, you know, it's kind of just, hey, you know,
+look at this title that I have and analyze it for any of these errors.
+Little tiny lightweight tasks that you can just kind of have running in the background.
+I don't know if that helps at all, but that's what I use one of them for because it eliminates like your your API call and having to pay for all that.
+You know, it's it's kind of the mix of balancing quality with cost, which if the cost goes to zero,
+I usually try and find a way to structure some weaker model to still give me whatever output I'm looking for.
+I've really thought about like I want to I've seen people do this where they're messing with local models and kind of creating an agentic framework and running it locally.
+I could probably do that on my PC. I've got 32 gigs of RAM.
+I just need a weekend to do that because because I think I think that's where this is all headed.
+In the next couple of years, I mean, even the models right now, they're a local are getting pretty crazy.
+Wes, have you thought about and I've had this idea, but I can't execute it.
+Have you thought about basically creating agents to sign up for softwares, make super detailed reviews, post them and get paid isn't it?
+No, that's a really good idea.
+I thought about making a marketplace like that where it's going to be three pronged.
+So you have the SAS, the user who's looking for the SAS and basically people who are very tech proficient.
+Somebody signs up for the SAS.
+This guy goes and autocross everything, creates, expects the code base and whatnot, runs different scenarios, runs all the integrations,
+checks the API documentation because in the future agents are going to sign up.
+Basically, I'm going to prompt something.
+Cloud call is going to say, hey, this is the best one.
+And then the more detailed the review is, you know, more screenshots, more detail, blah, blah, blah.
+Then you naturally you would get commission from the review and then software pays very high.
+Like if school can pay and go high level, can pay 40 percent, I can imagine some of these enterprise solutions, how much they would pay.
+So I think that probably is a good use case.
+And then what I thought was if I create basically if I'm the middleman and I generate the affiliate links, I can process all the payment and then distribute them to people like you, for example, if you do something like that.
+But I don't know how to do it.
+We can partner with, you know, there's the idea.
+Oh, it's a really good idea.
+Yeah, I'm an ideas guy. That's kind of my, I think I'm trying to be technical.
+Yeah, that's a super cool idea.
+You guys can do that.
+I think that's a huge thing in the future is going to be like agent accessibility for software and that, you know, documentation or reviews, things like that, even for things like CEO, like generative engine optimization, I think is what it stands for.
+I have a friend, he's a photographer, very high end photographer.
+He's still using Zoho. He hired me to do some automations for him.
+Fucking hate Zoho.
+But he picked it because one of his employees, they didn't know nothing about nothing eight years ago, picked it and they have like eight years of data and we can't migrate the damn thing anywhere because you can't map the fields properly because it's a piece of shit.
+Terrible. But imagine if now he goes and says, hey, find me a CRM that works great for photographers, blah, blah, blah.
+And there's one that says, oh, in this use case, you can send proposals and you know, you can have one person have multiple photoshoots and blah, blah, blah.
+I think that would be cool.
+Yeah, that'd be super cool.
+Benjamin, how have your products been going on? Still working on an iOS app?
+Actually, I changed my direction a little bit. So this week, I mean, actually last week, I started a new company.
+So it's more like an AI consulting.
+There are a few things actually I'm working on right now. So first, I actually going through your notes about how to use a claw code to mimic like an open claw.
+And finally, I will have my machine shipped tomorrow.
+So now I can really, really try it on my Mac Mini.
+But actually, I do have a use case to use that.
+So I actually have a lot of contacts from the...
+It's like a commerce of business.
+So there's a lot of people there.
+But of course, I didn't know many of them.
+So what happened is one of the things I...
+Actually, it's kind of competitive too.
+So one of the things I tried to do would be using the Mac Mini.
+So what happened is like, you know, I will have a telegram.
+So the idea is like, you know, after I talk to the client.
+So let's say not something crazy.
+Let's say, oh, you know, the client want to have a website to do some stuff, you know, blah, blah, blah.
+So basically, I want to be able to like using telegram or whatever.
+I need to write something to record the conversation between the client and I.
+And at the same time, it will send back, you know, the requirement, like, you know, back to my home machine.
+And then it will trigger, you know, the agents, you know, building the actual...
+I will not say a full product, more like an MVP.
+OK, so basically, like, you know, if I have a meeting with him, you know, like, you know, maybe after one or two hours,
+I say, hey, I already have the prototype, what we are talking about.
+OK, you know, because I'm not the only one to try to be like, you know, doing the AI stuff.
+OK, you know, it's actually like people like I think people try to survive, you know, no matter what they would just bring the term AI.
+OK, you know, but I can also tell you guys like, you know, 99 percent of the people, OK,
+they do not know anything about like, you know, like cloud code, CLI with folders.
+They have no idea, like empty file, they have no idea what that is.
+OK, but they just want to use some AI stuff.
+And then the only thing they know most is actually is the chat GBT.
+OK, but they but also I find out they kind of against it because of what happened to news, right, you know, about the government.
+Right. So, you know, and that's why my new company, I am strictly using cloud code.
+You know, and then I are using open AI to write, but I would be separated with my another company.
+But for this company, just using cloud code and and also one more thing, I'm not sure you guys actually saw it like, you know,
+they have a product actually come up like two things.
+One is like like a cloud code certification.
+And also another thing is like you can actually sign up to be a partnership with them.
+OK, so what happened is this is my plan.
+OK, so I actually, you know, I registered my company doing all this banking and everything.
+Right. You know, now I'm just waiting for my machine tomorrow and to set up everything.
+OK, so I hopefully within a week or two, then, you know, I will have my company will say, hey, you know, I'm actually, you know,
+and thought it or cloud code, you know, a partnership, you know, and that that would be able to help me to doing consulting.
+OK, I think that would be my first step for now.
+OK, but in terms of the product, like, you know, like call reset, right.
+OK, you build a system, you know, you think have a different agent, you know, to doing all.
+I think that will be the next step for me because because my background is more like a software engineering.
+OK, so I don't really, really know much about the other side.
+So it's also for me, right. It's more like, you know, I need to learn more about business than actually coding.
+OK, so, you know, and I also find out, like, you know, there is a I think the the the part really,
+really making money is like, you know, the people who actually like, you know, writing like, you know,
+and orchestra, the agent, how to do business, not to the people who actually write code to create an agent.
+OK, yeah, but unfortunately, I think the certification is more about creating agent than actually running the business.
+OK, so we'll see, you know, and I'm looking forward for my machine.
+You know, I ordered three weeks ago and finally they ship tomorrow.
+OK, that's it. Yeah, that's super cool.
+I kind of like building a similar similar system, at least for my business, although I'm not doing consulting with it,
+you know, specifically more for my software business, but that kind of pipeline where you have an agent that's the in between of you
+and you have an idea for a product or a piece of software that you want to create for your company or for a company that you're consulting.
+And then an agent is between that idea and some sort of MVP out the other side.
+You have some sort of structured workflow, whether it's in skills or markdown files that converts your idea with all that necessary
+context about the business into some sort of MVP or tool that allows you to do that better in your business.
+Because software is so cheap and, you know, fairly good software, so it's really easy to do that type of stuff.
+I think that's a really good approach, honestly. I'm also still waiting for my Mac Mini to come in.
+I waited to buy mine a few like weeks after I saw everyone buying it, you know, on Twitter for OpenClaw and whatnot,
+because I thought, well, I can just use one of my old laptops and that worked for a while,
+but now it's starting to overheat on a daily basis, so needed to get myself a Mac Mini.
+But yeah, I hope that comes in soon for you to get started.
+Maybe I'll give you guys an update on what I've been working on the past few days and what will be soon released here in the community.
+So a couple of different little tools and parts that will all culminate hopefully very soon in Big Business OS, which I've been using a lot recently,
+which is basically, I don't know if you guys have seen the OpenClawedCode course that I have in the classroom right now.
+That's basically like how to turn OpenClaw into, or how to turn Cloud Code into OpenClaw rather,
+basically kind of how to hack around Cloud Code to make it function like OpenClaw.
+So now I'm kind of at the point where I've been able to figure out how to replicate all of those features of OpenClaw around Cloud Code CLI,
+to keep it running in the same way that everyone who's been using Cloud Code for a while is used to using it.
+You don't have to use another harness like OpenClaw or one of these other harnesses that people have been kind of using together.
+Instead, you can just use Cloud Code with some little hacks and modifications around it,
+so you know you're getting all the security and all the stability and all the infrastructure that you get with Cloud Code ecosystem.
+And so a few of the things that I've been building to do that, one is like a RAG memory system like OpenClaw has,
+which I'm using the embedding model to create.
+And for those of you who don't know, RAG stands for Retrieval Augmented Generation.
+It basically allows you to search a database of knowledge based on semantic meaning.
+So instead of searching for the exact file name, you can search a database for the concept that's in that file, and you'll be able to retrieve that.
+And using Google's new embedding model, it's fully multimodal for video, image, audio, and text.
+So you can have all of that centralized into one knowledge base for memory,
+and basically have your agent query that memory database for whatever or get relevant information, just as OpenClaw does.
+That's been really cool. So I'm going to release that probably tonight as a standalone tool, that memory tool.
+You can just plug it into your existing setup.
+And then I'll also release it with the multi-agent business OS as like a core security agent that has that memory.
+And I also figured out for those of you who have taken that course,
+one of the constraints to turning Cloud Code into OpenClaw was the telegram communication.
+So in that course, I talked about figuring a one-minute prong that checks telegrams.
+The constraint of that is you have to wait one minute for your agent to be able to pull messages from telegram, which is not free.
+It's not as real-time as OpenClaw is.
+So I found a way around that, kind of a complicated way, but it works, and it works very reliably.
+So it's because those agents are running TeamUp, the Terminal Manager,
+you can basically use the script to type in the TeamUp Terminal as if it were a human instead of running that on a cron.
+So now there's no one-minute cron anymore. It's automatic real-time.
+Basically, you have to wait only the amount of time it takes for the model to generate the response to get a response back.
+So with those additions, pretty much at the functionality level of OpenClaw, it has all of those important constraints.
+And then plugging that into Business OS, basically just duplicating that system into multiple agents
+and then layering agent-to-agent communication systems on top of that
+so that agents can send each other messages from each other in a structured way.
+And you, as the business owner, also get a feed of all those agent messages.
+That's exactly what your agents are talking about, which is really cool.
+And it's been working pretty well for my business so far. I'm still kind of working out those kinks.
+But as soon as I feel confident enough to release to you guys, hopefully within the next week, that'll be out for video.
+Of course, you guys can all use that.
+And it sounds like a lot of you guys are already heading that direction anyways and want something like that.
+So I think it will be really interesting to see what people think of that.
+I also released today Auto Research Anything skill, which is really cool.
+You guys should check that out.
+I released that in the community in a GitHub repo.
+And it basically adapted from Andre Garpom's Auto Research Repository,
+which he used as a way to make a self-optimizing machine learning researcher out of his plot code
+to have plot codes iterate in a scientific way to optimize a machine learning model to get better outputs.
+And I kind of generalized that concept to kind of any metrics that you have in a business or in a software.
+So right now I have it running for me, like doing my cold emails, optimizing the copywriting in my cold emails.
+So basically on a daily loop basis, it evaluates the open rate of the emails
+and it A-B tests different copywriting within those emails.
+You can apply that to a lot of different things, add creatives, copywriting, landing page,
+and have it kind of your agent focused on one metric to optimize.
+And every night it goes through this kind of scientific experimentation loop where it takes all of its data points,
+does some analyses on them, evaluates all the past experiments,
+and says, OK, given all this information and what we're trying to optimize for,
+these are the changes I'm going to make tonight and we'll check in again tomorrow.
+And this runs on an infinite loop, kind of optimize any system that can be measured, which is really cool.
+And Anthropics Skills V2 for skills also has like a similar concept of like scientific optimization
+where you A-B testing things, measuring how they work, taking the best options.
+So it's a common theme, I think, with agents to make them a little bit more self optimizing and self editing
+to have this kind of scientific approach to things where you use the scientific method on your agent's outputs
+to make it kind of self improve over time. It's very cool.
+So check that out and stay tuned for those other tools.
+I'll be dropping the rag, multimodal rag system tonight with the video as well after we hop off here.
+And that will be really cool too. It's like a plug and play rag knowledge base for any of your agents,
+which is really nice to be able to easily set that up locally with all of your local files, multimodal.
+So that'll be very cool.
+What time is it here? Does anyone have any questions?
+Any thoughts about any of the material? Questions about your own project?
+Things you wanted to get the live calls opinions on?
+I got a question, James. Maybe a couple of questions, actually.
+So I'm essentially migrating from like Claw Desktop over to...
+I was going to go the OpenClaw route, but I kind of decided just to wait because I don't have like a dedicated machine yet.
+And I want a dedicated machine. I don't want like a VPS or anything like that. But anyway.
+Yeah, really just curious around...
+Are you just chatting with yours in like, you know, the terminal or do you have like a mission control kind of like dashboard for it?
+I'm thinking of building like a...
+It would essentially kind of be like a copy of OpenClaw in a sense, but I don't know.
+I don't know. I'm kind of...
+It's one of those things I feel like I don't want to get too stuck in the weeds of like building an OpenClaw like, you know, replicate, essentially.
+And when I can get like a new machine for that, whether it's a Mac mini or something else, then I'll start it then.
+But in the meantime, I'm building like, you know, skills and agents and stuff for myself.
+So, yeah, I'm just kind of curious what your approach would be to something like that, where it's like, I don't really want to dive fully into OpenClaw yet.
+But I also want to like build up my own like little library with Claude code, which I think is probably the best option, you know, as far as scale and like long term.
+So, yeah, what are your thoughts there? I know it's a loaded question.
+Yeah, I would agree with you in terms of focusing on building like, you know, agent profiles, you know, as projects, you know, sets of markdown files, sets of skills, rather than the underlying tool, whether it's in Claude code or OpenClaw.
+I think something that's really powerful as someone working in this space is to think about those things as independent as much as you can, because all these agents, you know, Codex, Claude code, OpenClaw, all fundamentally work in the same way.
+And most of the, you know, domain specific power that you get from the tool is in those markdown files and skills and overlay on top of kind of almost another layer of software on top of the agent.
+Yeah, I focus on that in terms of the dashboard thing. I've also thought about the dashboard thing. I used it when I was using OpenClaw.
+And I added, I like edited the OpenClaw dashboard to have like a tasks and a project system for, you know, kind of like a little Kanban board for tasks.
+And I found myself just like honestly not using it and finding that it was just easier for me to chat with the agent to kind of get out of what I wanted to get out of it.
+I think what is important though and what the dashboard is good for, at least mentally, is thinking about on a dashboard, if there were to be a dashboard for my multi-agent system, what things would I want to see on that dashboard?
+Would I want to have somewhere to be able to search their memories? Would I want to have a place to see which agents are healthy? Would I want to have a task board?
+And then just using that as like kind of a mental model to actually just make like API endpoints out of for your agents to use.
+That's what I do is like, I have a whole task system, project system, health endpoints for all my agents.
+And if I'm, if I want to know something, I just ask my main agent, you know, what's the status of X or what a task looks like for today, et cetera, et cetera.
+It totally depends on your workflow, though. I've kind of configured my agents to be a little more autonomous in that I have one agent that sets the goals for other agents and sets their task list for the day rather than me doing that myself.
+And that works for the most part. But if you want to be more in granular control, the agents having like a Kanban board for tasks to be able to drag things around and create them might be better.
+It's really personal preference. I just prefer chatting. It's just comfortable for me and I feel like it's almost the dynamic UI.
+Like you can almost have your agent generate exactly the message that you want to see with the exact things you're, you know, concerned about in that moment.
+Though other things are a little lower bandwidth, like dragging tasks, creating new tasks and stuff. So personal preference, but I just haven't gotten much out of the dashboard so far.
+So we'll see. I might, I might add one to Business LS because I think a lot of people like to see something that makes it easier than like, oh, there's six teamwork terminals running on my computer right now.
+Yeah, yeah, I think from a high level, like, because my, my background's in like UI UX. So, you know, I've built dashboards and stuff for, for years.
+And so I would love to have something for myself, even if it's just like a Kanban board, just to see like, you know, what projects, what tasks I have these agents doing just from like a visual standpoint.
+I'm happy chatting with it. But yeah, I think like what you're saying is finding that balance of chatting versus like the visual aspect of it. Right.
+Because, you know, probably just like everyone else here on the call, I've got a ton of ideas and like things that I want to work on.
+And it's like, it's hard to, you know, you get kind of like siloed into like one brain, at least I do one brain space. You're like working on a thing for a little bit and you're like, oh, I want to do this and not have to go fire up this agent.
+So yeah, I could have like one agent that like delegates to the others. That would be ideal for sure.
+Do you have anything in the classroom that shows kind of like your personal setup or like how you're using what you built? That would be cool to see if you don't.
+Yeah, that's a great point. I mean, that's kind of what the Business OS course is going to be eventually. It's going to be like basically an example of my multi-agent system.
+And it will show, that's a good idea, honestly, to show exactly how my system works. It will all be templated out for you guys to install the same way I have as well.
+But it would be good to show what it looks like working, what the agent methods can look like. It would be cool.
+I don't have anything like that right now. Everything in the classroom right now is...
+Actually, that's not true. So most things are single agent setup, like the Open Clawed Code, Open Claw, Clawed Code, Fundamentals courses are all just single agent stuff.
+The Life OS course is an example of like the underlying project and task system that I use for my agent.
+So I think in that course, I go over only using it with one agent, but you could think of that agent almost as being like your main agent.
+And you can spin up other agents to work in their own workspaces as well that connect up to that with shared tasks, shared projects, stuff like that.
+But yeah, the general, I can just give a quick summary of the general system.
+Basically, all my agents are organized through the orchestrator, first of all.
+They can all chat back and forth with each other, but the orchestrator is kind of the main link between me and the rest of the agents.
+I don't chat with the agents, the individual agents too much, specifically mostly through the orchestrator.
+And all the agents work around a goals.nd file as their North Star, which contains their primary goals for that day.
+And also, really importantly, the bottle, primary bottleneck in their domain is kind of a bottleneck for ideology, which is kind of common amongst a lot of startups.
+You want to be always focusing on the primary bottleneck, preventing you from reaching the goal of the business.
+Maybe that's to make money or build a product or whatever.
+So they're all organized around that kind of thought process.
+And I set the orchestrator's goal and bottleneck pretty much every day.
+And then the orchestrator sets the goal and bottleneck for all the domain agents.
+So I have like a development agent, a content agent, sales agent, finance agent.
+And then I also have a systems agent that monitors and gets metrics on the entire system of other agents to optimize their prompts and make sure that they have high up time and stuff like that.
+So that's my basic system, and they literally just use scripts and JSON files to send each other messages.
+So agents have a JSON file as their inbox.
+They check that inbox on every communication loop, and they use a script to send each other messages.
+So it's pretty simple, honestly.
+And that has been working very well for me so far.
+And I think adding these new memory tools and other research tools as well will make things even better and more robust.
+But that's the basic structure.
+Awesome. Yeah, thank you for that.
+Are you using like anything outside of cloud code, like OpenRouter or Olama for, let's say, other maybe LLMs for smaller tasks for agents, or are you primarily using just cloud?
+I actually don't, which I think is one of my like one of my biggest lead points as an AI person is local models.
+I just kind of like cloud models and I just continue to use them.
+And we're not even local, just like pointing to the other models.
+Yeah. Yeah. Yeah.
+So I use Codex a little bit, mostly just when I'm actually working in like a software project on software.
+I use Codex for like more complicated stuff and planning and debugging.
+In terms of OpenRouter, I've messed around with it.
+I don't really use OpenRouter, like as in, you know, to use cloud code with another model.
+I use antigravity for stuff that I want to use Gemini with.
+And otherwise, for the most part, I haven't really packed around that stuff yet, which I definitely need to do.
+It is the future, as many people have been talking about.
+Local models are the future.
+And I've also kind of just volunteered myself a little bit as a data guinea pig.
+And, you know, aside from like bank details and like really sensitive stuff, pretty much just gives most information to cloud without fear, which is probably stupid.
+So I need to probably not be doing that in the future if I have the resources to do otherwise.
+But I think it's also a case of really wanting to stay on the cutting edge.
+And I know cloud models are the cutting edge and I want to push the architecture forward around those in my system.
+But eventually, especially with multi-agent systems, we're using a ton of tokens.
+I bought a new Mac plan this week because I was getting my usage usage limits.
+So, you know, at a certain point, it doesn't make sense to be paying for anthropic tokens for simpler stuff.
+So I will get back to you on that.
+Also, when my Mac Studio comes in and I start running some local models on that.
+Yeah, Wes.
+One thing I kind of did on accident, I think I mentioned this last week, but I use these cloud fire workers.
+The ones that I used right now, I think they're not AI, but I was actually just looking into this earlier today.
+I think in the five dollar plan that I get, it is included.
+So I'm probably going to look into using like that in a workflow that's heavy with cloud, but just uses it for some of the more basic components or to kick it off.
+So I'll update once I get deeper on that.
+Yeah, that'd be awesome.
+I've heard there's one member of our community who works at Cloudflare.
+And every time he comes on, he always talks about all the new Cloudflare features and like agent related Cloudflare stuff.
+And super cool, super cool stuff.
+Yeah, I'm excited to hear that update for sure.
+All right. Yeah, go ahead, Robert.
+Wes, do you want to connect after maybe we can talk about that or can I have some questions about like what you do for ads and stuff?
+Yeah, just DM me. If not tonight, we'll find some time this week to connect.
+Cool. And then James, I know you said you optimize for open rates, but I don't think you should do that.
+I think you should optimize for positive sentiment and flies.
+I think that would be more accurate because it's more down the funnel.
+And then I had a video about, have you, do you know about Hyros?
+It's like an attribution tool for like Ecom and whatever.
+I was thinking about Instagram videos and how I found you and Angus, and it's because I've been following you guys.
+But how do you attribute the school sign up to actual, you know, which videos?
+So it would be cool if there's some kind of a sign up with privacy invasive, but you sign up with Instagram or the person who signs into school.
+And then you basically call their activity and you see which videos and what pattern it is related to your channel.
+And then you optimize your basic content around those sign ups and that specific kind of topic versus you follows or things like that.
+I think that would be cool, too. Yeah, that's a great idea.
+We should talk about that because I've been trying to think of different ways to do that type of optimization for my own funnel and working on some stuff.
+That sounds good. I haven't heard of that tool before. That would be really useful because school doesn't exist.
+It's right here. Oh, I see. OK, well, we can build it.
+Yeah, school is not very good with attribution and like, you know, giving a paper trail where people came from.
+It's very glitchy and inaccurate, I think. Let's talk about that. That's a really great idea.
+I could use something like that for sure. Yeah, I want to say it is the end of the call, but I want to say to Rodrigo, actually, who I saw just joined before we get off that.
+Thank you for your idea about using the dash P and dash C flags for your CLI.
+That actually gave me an idea of how to kind of implement a more real time chat with my open cloud code setup, which uses something different because I wanted to have the kind of active CLI going the whole time in TMUX.
+But there's a feature in TMUX where you can like send keys to TMUX basically and send key inputs.
+That's much more real time. And so now we have the real time chat with the TMUX setup, which is great.
+So I really appreciate that inspiration and you posting that document was very helpful to me.
+Hopefully I'll be dropping that that edit very soon so you can check it out and see if you have any opinions on it.
+Awesome, man. Awesome. And we're dropping the open source version of while we're building our own open cloud with this house code base.
+You know, we're dropping on some releases, I think next week, maybe the next one, an open source version of it.
+I'll be sure to send here on the on the community. That would be awesome.
+I'd love to check it out for sure. Yeah. Yeah. Yeah.
+And happy, happy help, man. Happy help. Definitely. Yeah, I appreciate it.
+Sadly, we are at the end of our call for this week, but next week, same time, same place.
+Seven p.m. Eastern time on school. Hope to see you guys all there. Great to meet new faces.
+Good to see everybody else and excited to see your updates next week.
+Thanks, everybody. Keep coding.

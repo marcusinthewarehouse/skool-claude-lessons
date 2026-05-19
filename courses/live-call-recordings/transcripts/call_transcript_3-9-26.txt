@@ -1,0 +1,566 @@
+Agent Architects - Live Call Recording Transcript
+Date: 3/9/26
+
+how's it going everybody hey what's up how's everybody doing hey hey doing good doing all right myself
+just got myself situated got back from the gym here
+having some nice long days i just actually um a few days ago last wednesday moved in with my
+business partner here so i've been working a lot of 16 18 hour days but it's been fun it's been a
+good time so far pushing hard um i think see almost all mostly new new names here um i'd
+encourage you guys to turn on your camera and your mics if you're uh willing to um if not no
+worries at all um but yeah so um uh i think most of you i'm not sure if any of you guys know but i
+have been working on a software for a little while now um called coin tally which is a tax software
+for crypto traders um and so actually in the past week or two um we've kind of met some people and
+talking to some people through my business partner um have kind of come up with another idea um to
+kind of pivot a little bit with our first launch um to actually kind of change the core logic of
+our herb keep the core logic of our software which is tax calculation and pivot to uh content
+creators and tiktok shoppers um which is kind of a very you know popular niche right now it's kind
+of very rapidly growing whereas there's a lot of kind of existing competitor crypto tax software
+is already out there um so good example of how vibe coding allows you to super quickly pivot software
+um you know we had been building the software for some time and had a lot of infrastructure built up
+in the back end of the software and the tax logic making sure it was irs compliant um and we were
+able to kind of take that and just apply it to a new angle to address the market in a way that we
+thought would be a little bit more likely to grow more quickly so we've kind of pivoted in the last
+few week or two um pivoting our marketing and our branding to creators and tiktok shoppers so
+you guys will probably see me posting a lot of announcements and content potentially on uh on
+that on my instagram and stuff like that and here in the school community as well maybe for some beta
+testers and stuff like that um but that's what i've been up to the past week as well as i don't know
+if you guys have seen i'm sure a lot of you maybe newer members here have joined um from some of my
+short form content on using clod code like openclaw um using their new looping and cron job
+features to kind of hack around um some of the kind of deficits that clod code as a tool had
+compared to openclaw to really make it function autonomously like that um and i actually haven't
+made a post about it yet in the school community here um but i did just release a new course today
+that goes through using launched and using tmux um basically to kind of automate the renewal
+of those looping and cron job features because they have a three day limit in clod code and
+they expire after three days um so that's super cool and i've also created a business os um like
+a business operating system which takes kind of multiple of those clod code instances running in
+tmux and kind of chaining them together with some agent to agent communication and some logging to
+kind of make a really cool multi-agent autonomous business system which a lot of people have been
+doing with openclaw as well but um i think doing it with clod code just introduces even more
+capabilities with clod code's native features so that's what i've been up to this week and i'm
+happy to talk about any and all of that um and excited to hear what you guys have been working
+on this week as well soon and meet some of you new faces um that's awesome i'll go ahead and
+kick it off as far as like things that i've been working on this week mainly has been about
+the openclaw swarm mini open clause i did have a moment where i asked it was working really well
+it's been working really well and i asked um i asked uh claw excuse me clod to sort of spitball
+the idea of migrating that and i think that's going to be something for this week but i didn't
+want to stop midstream and do all that by integrated uh retail which is r-e-t-e-l-l
+the voice agent just for fun uh i aimed i had some uh skills developed that sort of do a lot
+of life admin things for me and i aimed uh the system at that and uh yeah it was really
+interesting it went off the rails somebody texted me and they got a uh an openclaw uh pairing prompt
+which is hilarious um and so there's like some lessons learned there um but yeah i got a bunch
+of my to-do's done in this way and then um starting a couple of uh things that are related to ideas
+significantly this week at work i work um i'm from austin texas i in my job
+um you know everybody's having this discovery of like oh you know coding with ai is is kind
+of being accepted now everybody's freaking out so i've been making steps to sort of become
+a little bit more useful at work because i i feel like there will be a purge not of everyone but
+like of of certain um certain roles so i've been sort of worried about that and preparing for that
+so yeah that's my week
+cool yeah i think the stuff i'm releasing on the business os um hopefully tomorrow or the next day
+will be cool for your i mean cool for openclaw setup as well there's a lot of um you know whether
+it's openclaw or quadcode good insights in there um yeah cool to hear that sam good to see you again
+of course um anyone else uh want to talk about what they've been working on this week what
+they're thinking about any questions thoughts comments pretty much an open end here for you
+guys due to the the call here we kind of just talk about the state of the space anything we're
+working on thoughts questions all of the above so feel free to raise your hand with the raise hand
+function in school or just unmute and talk up to you um i'll go i'll introduce myself i'm new to
+the community today picked you up james probably a month ago probably around the open call time
+probably i would imagine like a lot of people but great content thank you for all the all the
+content tips and everything it's been great um i think my biggest challenge is figuring out what
+exactly to spend my time on in terms of uh you know building out capabilities for my openclaw
+um do i just ignore a lot of noise um and uh you know just focus on trying to use my openclaw in
+my businesses and ventures today but at the moment i'm having a lot of issues with mine
+for getting context and so uh joining the community today started browsing a bit
+to find some skills that are actually uh you know curated and and validated that's my main
+concern as the marketplace can be littered with malware so i like the fact that you have that
+so if you have any input on that for one i'm i'm curious but two i'm building right now
+a new platform for land buying and it's called acre hound and it's effectively an ai first
+platform that you know actually screens the the the deals and the parcels to your buy box
+which is like an actually useful um you know real estate platform or a real estate tool
+whereas zillow and mls and redfin etc i don't actually do any of that and um
+and uh beyond that i've got some different ways to
+represent the the listings themselves versus the buyers preferences and using ai to to look at the
+listing agents on history determine patterns from that and use that as leverage negotiations
+that's super cool man great to meet you uh glad to have you here um sounds like a really cool
+software i'm excited to see where that goes and you should definitely like make some posts i don't
+know if you saw the projects tab we have here make a post about your project about your your
+software your business and the projects tab and see what people think um love to see how that
+progresses that's awesome in terms of um the memory or context loss the great thing about open
+loss the great thing about open claw and like these agents in general
+is you can really tune them up by tuning up the markdown files that kind of core to the system
+i'm not sure if you've um like looked into that too much or looked into the core markdown files
+called the bootstrap files that are part of open claw system um but the way that i kind of handled
+really locking in the memory functions of open claw and making sure that it's not forgetting
+context is creating a memory management skill and referencing that in the agents.md file
+of open claw which is like the core file that gets loaded into open claw to like tell instructions
+about how to manage the workspace and so you create a memory management skill right
+and within that memory management skill you reference open clause tools so it has two memory
+tools i think has memory search and memory get which allow it to search through its memory
+and basically the memory skill and the way you can kind of make it a little bit more concrete
+is by just using really strong language at all of those points of context
+ingestion so in the agents.md telling open claw you know every time you go to tackle the task
+please use your memory search and memory get tool check the daily memory log and also use
+your memory get and memory search tools to get relevant information from your memory so really
+forcing open claw like prompting it directly to use its memory tools proactively can help
+a lot um and i don't know whether your problems are like more general memory loss or when like
+a compact cycle happens and it seems like open claw just like forgets everything forgets completely
+what's going on um and after it compacts but this can kind of help both of those things where
+you use those core bootstrap files to every time open claw like restarts in any way whether it's
+a gateway restart or it compacts or it's just starting a new task it knows okay in my agents.md
+file super strong language telling me to go reference the memory skill then it reads the
+memory skill and in that memory skill there's super strong language telling it to use the
+memory search and the memory get tool before it does anything to make sure it has all the
+context it needs because open claw by itself like it will use the memory tools here and there
+but it's not going to use them all the time um so you can really make it a little more specific
+by doing that and that goes for anything memory goes for checking your crm goes for
+checking your email you know if you use strong language and all those kind of context points
+you can really kind of change how the whole system works in that way yeah i think i used
+uh dbt 5.4 today actually to um to review and research some uh a good alternative uh you know
+in the memory actually would have been in the agents.md file to direct whichever agents to
+you know how to operate when starting each session and some of that some of the similar
+things you brought up were mentioned there and i just i really wasn't sure if i go to implement
+all that or at least some of it you know what do i stand to risk or what i put at risk by
+you know effectively rewriting my entire agents.md and possibly you know some of the some of the
+memory and you know if we're if i'm back up to github is that do i just you know uh roll back
+to a previous version or do i just you know keep a copy file i mean maybe it's as simple as that
+and just restore the old file but i think it i think it is as simple as that for your use case
+like you just build yourself a little bit of a safety net and go experiment that's what i would
+do if i were you have you used have you used clodcode yet yeah yeah okay with my with my agent
+and i started with openclaw and then i ditched it because it felt kind of sketchy to me at the
+beginning and i didn't make it through that sketchy feeling but then i just told clodcode to make me
+my own you know openclaw and so i for whatever reason i feel like i'm more protected from the
+malware that way like you were mentioning but it does mean you know all the stuff that james just
+talked about about all the different memory files and stuff like i'm not sure that my guy has that
+or not so but with clodcode why i mentioned that is because you could you can directly link in your
+openclaw folder and just have it work in it and have it review it and i just talked to it like
+the biggest thing with ai for me and maybe everyone's already at this level in this group
+i'm not sure um but literally just talk with it when you when you don't know like don't pretend
+like you know just say what the hell does that mean you know like just go for it like act like
+it's it's the smartest friend you've ever had and ask it all the dumbest questions you have
+um i guess that's my my two cents here
+yeah thank you i would also suggest um for like courses here in the community that could help
+you out with this um the last video in the clodcode fundamentals course goes over like
+context engineering um it's just like a general it like generally goes over kind of how agents
+clodcode and openclaw use those types of bootstrap files to like kind of hop through different pieces
+of context in the code base and how you can really chain those together to have much better control
+over how your agent works um and for me a lot of people have different like philosophies on this
+whether you want to really understand all the bootstrap files understand how the system works
+to over engineer it to make it perfect or whether you just talk to it and just ask it to make
+changes for you in plain english not knowing anything both are valid my bias is to understand
+how it works um and go deep on it but i know people who have gotten good results without
+doing that at all so it's up to you for sure but yeah i watched that video
+um awesome thank you i recorded your uh your your first direction directly in the telegram
+and so i've already got the uh input from my box yeah i love it there you go yeah i i'm i'm really
+hoping like some i'm so busy like creating all this stuff but one of my goals in the community
+is to like transcribe all the videos all the courses everything and like make some sort of
+website or make an mcp server make an agent architect's mcp server so we can all just
+connect our agents up to the agent architect's mcp server and like with with all the video
+calls as well i think it would be cool um but yeah actually it sounds like you can't
+yeah i don't mean to jump here sorry um no go ahead go ahead i kind of do a little bit of that
+with with work uh with chat gpt you know you just use those product project folders and you just
+start dumping information into them um and i started as a contractor at another company
+and i was not you got to ask first and mine doesn't um send anything out to the to the parent
+models or anything like that so we're not giving away you know secrets or anything but um same
+thing like just to get up to speed on on different things that they've built different software that
+they've built i just dump it all in any information they give me i record every call and if i can't
+get the video i'll just get the transcript i'll dump that in and then i'm just talking to it like
+just asking questions about the code base and what can it do what can it not do and it usually
+knows it like i feel probably 80 percent like confident that i'm getting the right information
+out of it you know and i don't i don't necessarily execute off of it it's just kind of when i'm on
+the calls and listening to the guys talk about oh we got this issue or that issue none of them
+there are using ai yet which is remarkable um and at least in work they're not um and so
+i just start bringing things up like hey have we looked at this have we looked at that and they're
+like how are you knowing this like when you're the new guy in the room and i'm like and i just
+kind of share well use ai so no no yeah it could be a superpower especially in like an industry or
+an area where people are not using it using it yet which is surprisingly many areas
+it really is surprising how little people are actually using it to the level that everybody in
+this room wants to use it right now yeah i mean i think that's part of the exponential of the
+technology as well as you know as things starting to advance faster faster faster faster the gap
+between the users and the non-users it's grows greater and um you know it becomes more and more
+kind of just like that um the divide just becomes greater
+yeah anyone else want to jump in yeah go ahead yeah
+myself here from brazil nice to meet you guys how are you guys doing uh just joining the community
+here i've been i created a business here in brazil uh three years ago we were just reselling go ahead
+level ghl and yeah it came like a boom here in brazil as i know it was in the usa and yeah really
+good time uh the first year of the company was just ghl then we jumped at n8n and we started
+doing some integrations and automations and by the end of the second year of the company we
+discovered vibe coding you know and this changed everything uh now we have six employees right now
+all developers uh some of them old schoolers i have one that is 50 plus years one of the best
+of my team actually and yeah we do implementations for companies here in brazil so we look to
+introduce the company to ai so in us i do believe that the companies have a really higher conscious
+level uh of ai and everything but in brazil is only the hype and a lot of demand and not
+any knowledge on how to really explore the benefits that ai has to business and yeah
+so i'm really in this gap right now introducing companies to it implementing the software is
+connected to llm's and doing the job there uh we have some big clients here with us we work with
+in a big mr that's how i run those clients we have 15 active clients nowadays 30 companies have
+passed by in this new model with ai since n8n and yeah right now n8n we have dumped it everything
+100 we're using vms on mac minis or vps on some providers to run all the operations i saw your
+video on the end of this week i think james about the crons and cloud codes on telegram we just
+jumped open claw and now we're creating our the most vanilla version of cloud code uh slash open
+claw let's say like this and don't mind my english guys sometimes i get a little rusty on some words
+but yeah uh we go there and yeah yeah just sharing something here we are working on computer vision
+from one of our clients i highly recommend yolo 26 is from ultra analytics ultralytics it's an
+open source it's fantastic incredibly amazing like some we did 15 batches of training in the
+model it got perfectly like the efficiency of the model is crazy i'm gonna put that the link on the
+chat here rodrigo i'd love to talk to you about about that one of my projects is i wanted to
+computer vision to analyze basketball games um and that's one of the things where i was just
+kind of like oh this isn't working at all like i thought it was going to so it's interesting that
+you're getting some some progress on that that's awesome yeah and we have a here in our clients
+it's one of the biggest beverage companies in brazil it's a coconut water company coco legal
+is the name and uh we are building uh inside there's a production line they have some cameras
+there which monitor how many coconuts you know enter inside the line you're just them and
+counting how many coconuts are passing through the line right so it's something for that it's
+amazing because they don't know if the supplier is really delivering the amount of coconuts they
+promise to deliver so it's a really quick and easy way that we're doing to check it out but yeah sure
+jake nice to meet you also man let's chat let's chat definitely yeah thanks yeah so yeah just a
+brief resume guys i hope to talk later more yeah great to meet you man yeah awesome to have you
+yeah computer vision is crazy crazy to be working on right now yeah and i'll have to check that out
+i messed around like jake with some computer vision projects and also had absolutely no luck
+and i'm sure it's because i just wasn't using you know a tool that was set up well enough to
+be able to be fine tuned in an easy enough way i think yeah i think for me it's training data
+like i don't know how to do that part yet so yeah so i didn't know also what i did got a few frames
+from those videos i talked to cloud code and what it did was like broke those in like a thousand
+frames the whole video you know and like a 20 second video becomes like a really
+sufficient uh base of data for the the model to be trained you know it just frames like
+milliseconds by milliseconds in the video you don't have a bunch of image to train the model
+you know something that is important that changes our results different uh illumination you know
+light night uh late night when it's early this changes completely and yeah just having those
+different setups you know like understanding your context and trying to get as much diversity
+you can get to train the model you know yeah we should connect i don't want to take everyone's
+time up here but i'm i'm really curious on how to actually pull that off and i'm sure i could
+just ask claude to do it as well but thank you of course yeah nice to meet you nice to meet you
+also thanks for what it's worth uh this is caleb i would also be interested in connecting i'm
+looking at implementing uh i'm a non-technical guy but um on the p.e side we own a handful
+of manufacturing companies that this is exactly what i would like to start implementing in our
+businesses yeah let's talk let's chat let's chat let's do it let's do it some international
+business less this is the community no that's what the community is up to yeah there you go
+yeah yeah that's why we have the find uh co-founders and partners chat exactly for this
+reason you know a lot of cool people a lot of different talent a lot of different backgrounds
+in this community it's awesome i've met so many cool people through already even just this call
+there you go great yeah awesome great to meet you man i can happen here i can happen here oh
+sorry man you can go okay cool yeah so um been in the community for a couple months now um
+i think this is actually my first like live call so great to see everyone here um so my background
+um backgrounds intact been building like websites and app pretty much my whole career
+left my corporate job a few years ago and i've been in the voice ai space for about two years now
+uh been building with clog code for maybe four or five months and uh really enjoying it building
+a lot of dashboards and all the stuff i was doing but now i can actually
+you know build it myself uh which is great um so one question i have is i've been
+i don't know if it it's hesitant but i've been i guess it's hesitancy with with openclaw so i'm
+at a place where i kind of like you know was watching a lot of youtube videos and there was
+a lot of high brown openclaw when it first came out i was like oh this is cool but i kind of wanted
+to you know um get a separate machine for it and then i kind of just waited i kind of just waited
+to see you know how everything was going to pan out and now i'm like do i create my own with
+clog code now that you know the dust is kind of settled and so if you guys would love to hear
+just kind of some feedback on that if you guys would kind of like take a step back in knowing
+what you know if you've experimented with clog code now or openclaw i'm sorry um would you spin
+one up or would you just kind of build one from scratch with clog code um i think what i don't
+want to do is i don't want to give it like full access to everything you know what i primarily
+would use openclaw for is uh research building those types of things um so i'm kind of like at
+this crossroads i mean i've been super busy with work and personal projects and i know i'm just i'll
+go down a rabbit hole with openclaw if i if i end up spinning one up so yeah we'd just love to hear
+some feedback on you know um you know whether or not you would fire up an openclaw or would you
+just build one yourself and kind of just just go from there so i'm kind of looking at it from like
+you know executive assistant and then spinning up other agents um so yeah i'd love to hear some
+feedback did you corey did you say that you had gotten a mac mini or you're you're considering it
+i have not yet i'm considering it and then i also am considering like a mac studio because of you
+know i'd i'd like to run um some larger like lms locally which i've done um but you know have a
+really slow m1 macbook air yeah so i i'll just speak to what i've done and what i think has been
+really good a lot of us have done mac minis and you can do any mac product but i feel doing that
+for security apple's like the weight of like apple's built-in security i'm more comfortable
+doing that and it has worked out really well for me versus spinning up and a lot of people are like
+why don't you just do like yes p2 or yeah or something aws but uh i just instinctively wanted
+to not do that and it's been really good i haven't had to fuck around with a bunch of
+configurations and it's it's been nice um just follow a lot of good safety practices so that's
+what i would vote for um but i'm sure a lot of people have other setups that are perfectly
+as good if not better so that's just one to you know say that awesome thanks sam
+i actually was in the same boat on friday i was trying to decide am i going to go ahead and get
+a mac mini and start doing this and looking at it from a price perspective
+um and having claude to help me understand what it would take to do this in aws
+it would not installing open claw on an ec2 but building out a slightly different system
+i can run it for about ten dollars a month on am on on amazon and that's with a function that
+does the heartbeat and then a function that handles um the communication back to the
+to models and um and then but one of the things that i wanted to do with this was to be able to
+add functionality to my phone so i wanted to be able to write an app and like or have claude
+write an app and then have it show up on my phone and so um what i've set up is an expo account
+and got the apple developer stuff going so that i can go in and using um really just for fun
+it's using xterm js running claude code the the terminal interface and then chat with it and have
+it um it accepts the chat and then it spins up a vm that's predefined the vm is pretty much
+completely locked down and there's a separate process called the governor that takes requests
+if claude asks for access to something it comes to the governor the governor makes the decision
+about whether or not to allow access rather than letting claude control it itself because a
+malicious prompt could get in there and and and mess with the file and give itself permission to
+do something so the governor runs and it keeps anything from uh and it governs claude's uh
+access but it all runs on that on that vm is that governor ai as well or is that
+go back to a human no the the governor is code because um i don't want i mean there is ai that
+helps the governor make decisions but yeah it's separate it doesn't in any way cross prompts with
+with the vm that does the work and so then these functions sit there and and everything is stored
+on s3 or in databases um and so it it just every um uh if it's not being used it spins down
+and then you're looking at like if it's running completely idle it's less than 10 dollars
+a month if you know you ask it to do stuff then it's going to you know it spins up but i think
+the maximum price on the vm is something like it's under 150 a month if it ran 24 seven
+31 days 30 out of the month it would only be like 150 bucks or something like that
+so i don't know it's not it you know it's not finished yet um claude's working on it right now
+but um you know i want to i should be able to start publishing my first apps
+tomorrow and we'll see see how they go sorry and something that we have done here that it's very
+simple one of the developers of my team here when i told that i saw james video and i was like let's
+dump open claw and let's build our own with like cloud code he came for really valid that was like
+there is 29 and 90 000 stars on open claw it's a lot of a big developer community putting their
+hands on the on various fork uh variations of the of the github repo and like building up you know
+like sending updates and pushing it forward you know and he was like we're gonna miss that we're
+gonna miss some updates you know so we created a really simple chrome job that is a that has a
+skill connected to it that it's a trigger when the chrome happened that just analyzes daily at
+midnight if there is any github project any github commit inside the open claw github repo and it
+analyzes if it can push anything that is great to update our structure with the cloud code you know
+and it validates with us does just just does a double check you know do you want these features
+or you don't you know and it just updates itself it's really good simple updates but not miss the
+new features of open claw you know yeah cool so rodrigo are you running your own and then
+you're just using that as inspiration on what to add um yeah i'm running my own like cloud codes
+you know i what i've done is not using the chrome's of cloud code that was my inspiration when i saw
+james video but i just created an own cli that is triggered by launch agent when i connect my
+computer it just triggers a cli that opens a go session of cloud codes which is operating
+when i talk to the telegram so they are connected and to start that something that i discovered you
+have to use just like the slash c when you want to go back to the conversation with clouds there is
+a slash p which i did not know of but it's like that it's something on print when the it enables
+cloud to exchange this conversation with an external chat not using the chrome something
+that made viable this idea and the the why not to use the chrome inside the cloud code was not to
+triggered because i want to trigger in three to three seconds you know i saw james commenting
+about one minute you know the chrome and i was like man that's too long for me to wait for an
+answer to offer of cloud code i'm anxious here i want to see the production you know and i was
+like okay i wanted to do three seconds but now run out of tokens and yeah this little
+shell command inside the the system there it just keeps checking the api and triggers
+once there is a new message there
+that's super cool i'm gonna have to i'm gonna have to add that to my
+cloud code looping agents because yeah i still have mine looping on a one minute interval just
+because i just send a message and let it work and come back to it whenever but it is still nice to
+have that interactivity if you want to have a back and forth so that's super cool thanks for
+sharing that um and quarry for your for your question i also like had a similar fear hesitation
+about open claw especially since i talked about a lot of this stuff like publicly on social media
+and a lot of people see it um and you know didn't want to have any malicious attackers you know
+dm me on instagram or you know in my email or whatever um but i've been using cloud code to
+do all of these things for a really long time and had absolutely no issues and so i kind of
+feel more comfortable now using cloud code instead of open cloth to kind of do the same things and i
+do run it on its own machine still this this instance of cloud code separate from my other
+um you know my personal data on my actual laptop and so i think that's a viable option if you're
+more comfortable with quad code um it will save you a lot of time to use clock code instead of
+building an open clock because quad code is open cloth open cloth is based on quad code at least
+conceptually um you just have to like rodrigo said add that ability for real time telegram and then
+add something to you know create a heartbeat and reminders or scheduled tasks which now we have
+the looping and cron job features um and so i just released a new course today uh in the open clod
+code course in the community that kind of goes over how to turn clod code into open clod code with
+launched and having it automatically launch and using tmux to be able to uh like what rodrigo
+said go back and forth and use the terminal versus use telegram and go back and forth if you want
+um and yeah so it's the quickest if i was able to boot that up way quicker than i was able to
+set up my open claw and get it working even um it you know it like i had to figure out how to make
+this system around clod code to make it work but once i figured out okay we need to use tmux we
+need to use launch we need to use a couple different prongs together as soon as i figured
+that out and did all of it very quick because it can use your existing quad code configuration
+all your mcps your skills if you have that you can just make a plugin port it over to a new
+computer and you have all the knowledge that you've created over five months with clod code
+in open call now so it's quick to boot up
+awesome that's great yeah um that sounds exactly like what i what i need to do so and kind of the
+path i wanted to go you know i didn't want to like hack together like an open claw and then end up
+ditching it and going so i'm looking to kind of like build this long term and then obviously
+scale it for myself so awesome thanks everyone for the feedback appreciate it
+documents or something like that i do the small tutorial for my team to like how you guys do this
+cli thing you know if i can share the with color with foreign people i think would be great
+yeah i think in posts you should be able to link a document i'm 99 sure that there's a
+like if you create a post in the community tab if you go to the general chat um when that pop
+post window pops up there should be a little link button like in the bottom left corner
+and you can link a document or a github repo or anything great great awesome
+hey guys i thought i'd introduce myself my name is noah uh this is the my first day in the community
+by trade i'm a software engineer and i've been one for about eight years now and i actually had
+a very specific question i just wanted to know what your guys's thoughts are on codex 5.4 because
+i've been using it a lot today specifically the model on like high mode and i've been very
+impressed with it and just because of a lot of the capabilities that have come to it especially
+with the codex app that just came out they have the kind of like their automations marketplace
+their skills marketplace what are your opinions on creating an open claw using codex over
+clawed code or is it just going to be back and forth until the end of time
+i don't know if anyone's used it yet i haven't used 5.4 yet i use 5.2 inside a cursor for work
+though but other than that i haven't used 5.4 to be honest i'm sorry your 5.4 use is
+oh sorry so i've not used open claw i haven't i've been kind of flirting with the idea of
+like building out one with uh quad code or codex and i'm trying to decide which one i should use
+because i feel like i pop back and forth between the two and i'm also having trouble finding like
+things in my life to automate and where i should start i i have two companies and i i work a lot
+and i find that a lot of um kind of the mundane day-to-day tasks that i take care of will take me
+away from work context switching and kind of take me on my element and so um yeah i'm open to all
+suggestions and ideas or whatever you guys started with i haven't tested this much codex
+yeah i have to test it more to be fully honest you should be very impressed yeah do you have
+sorry sorry i'm going to say the only thing i can say for codex is it cracked a couple bugs that
+i was not able to solve with clawed on a personal project but that was like a couple months ago i am
+super impressed i ditched it because it's so damn slow or it was i'm sure they're going to solve that
+but um but yeah we're using codex with the um forget what i think it was 5.3 i don't know if
+i'm crazy or 5.2 i don't know but i should give it another shot um because i haven't i i ended up
+canceling i had to pare down so i got rid of that so i can't really speak to it i was too many
+monthly fees here and there so i just ended up going with max uh but yeah it's you know it's so
+easy to go poor with the amount of subscriptions that you can have so but yeah we would love to
+know though we would love to know you should just do it and tell us about it yeah i'm going to move
+away from gemini because i've been mostly using so i have cloud code max like a hundred dollar
+a month one and then um literally just for uh for chat gpt i just have the pro version it's like
+20 a month but right now if you download the codex app uh it's 2x limit 2x rate limits for
+the next month or so so um i usually have those running simultaneously we'll work on my projects
+and noah just a question do you have any like specific situation you change to cloud or to
+codex or just like you reach the context limit let's switch um so specifically the reason like
+the catalyst that got me into codex was because i was doing some i was helping our sales guy
+do some like lead generation and so i just put together a bunch of agents to find some stuff
+and i maxed out in clod so i moved to codex and it did a really good job and then i started using
+it asking some questions having it critique some of the architecture that i built and it found a
+lot of good maybe a lot of good points i found a lot of good bugs uh that clod hadn't and so
+uh i found my found myself today using it a lot more than clod but um my clod is a lot more
+customized and so it's like hard to go back and forth but so i try to have i try to share the
+skills when i can but um i'm still kind of new to this space i've been trying to um the the
+engineers that i work with are uh very much purists and so um they're starting to get more
+comfortable with ai generated code but um initially that's like they call them clankers they uh talk
+about like all the slop that gets put in and and i agree and so like you really have to be careful
+about the code that you push especially if you're doing in mass but um yeah i hi um i want to add
+one thing um i'm also a software engineer so basically um when you're talking about like uh
+open ai you know codecs or clock code right so i'm actually i'm a mobile um so i'm doing mostly
+the ios x code okay but uh what i know about this is yeah you can using both okay but i will
+recommend try to stay with one okay so what what i mean is for example right let's say you're using
+uh clock code maybe you're using uh the model uh the highest model right okay you write the code
+okay and then you're using codecs to do it as a code review okay you know and then after the code
+review right maybe you can do it on the uh github okay when you have a pl okay so you're doing a
+code review onto the code right okay and then you're using um uh claw okay based on the
+recommendation from codecs and fix the bugs you know that's how yeah the company i do
+and so i've actually started to do code review before i create the pr i um there's like a lot
+of good code review skills out there and um i mean critiquing it before you put up it's i mean it's
+easier to look at into in your ide than on github and so i found that's been really helpful but
+yeah that's that's one i try to have them like argue and critique um each other i try not to
+mix too much but yeah that's good advice yeah i personally have not used uh 5.4 yet um but i feel
+like something funny that i've noticed is that a lot of software engineers who have worked um
+longer as a software engineer especially before you know ai coding was so popular
+prefer codecs actually um uh over clawed code and i also have heard a lot of observations about
+like the personality and tendency differences between codecs and clawed code that um clawed
+code is often better for like greenfield code bases that you know are just you know much smaller
+or you're generating fresh code and to do like a comprehensive feature from scratch that doesn't
+have too many dependencies associated with it whereas codecs is much better for larger code bases
+that have a lot more dependencies and require maybe a lot more analysis and integration before
+creating new features or just making edits in general and i've heard a lot about the
+personalities of codecs versus clawed code where codecs is a bit more cold and objective and
+clawed is a bit more opinionated and ready to make changes without as much planning and codecs will
+take a lot more time to explore all the edge cases of whatever changes it might be making
+before it actually starts implementing and clawed code is just quick to you know make a one-time fix
+for something um and yeah using that idea of like lm council of you know reviewing the same idea with
+multiple lms to balance out the different personality biases of different lms is a good idea
+um but i have to try 5.4 because i've heard such good things
+about 5.3 and the codecs app especially um so i definitely need to check that out because
+i'm very deep in the clawed ecosystem and um got to keep up with everything because you never know
+what's going to happen yeah no i i agree with that assessment um i feel like without telling codecs
+it's able to intuitively pull like instead of doing like string literals it will it will pull
+schemas from random parts of the of the code base and correctly use what i've built for it
+rather than just like hard coding stuff and so it's been nice
+yeah okay okay maybe uh let me talk a little bit more um yeah so that would be one um i was
+saying like you know i'm doing like software development for the mobile right that's one part
+of my full-time job at the same time right now i also like actually i just start another business
+right now i also like actually i just start another business so basically you know trying to do
+uh some kind of ai consulting for small business okay so one of the things i built like this week
+okay but i need to give you guys a little bit background so i'm building a a small program
+basically calling more like a reverse engineering okay so what happened is like you know i
+met a lot of small maybe a small small size company right they all were very excited like
+you know i want to use ai okay and they already have their own business right maybe their own
+software okay they mostly they hire some some were doing it before right okay uh but the
+biggest problem is they do not really know what they want to do you know with their existing
+business you know they just want to be all have ai to make things faster you know cut costs you
+know um so what happened is like you know met a couple of clients right okay and then um they
+are not that technical okay but they do hire some third party company okay so they have some existing
+program okay so what i have done this week is basically you know i collect um their source code
+okay actually is a really really messy source code i try to read it and i have a hard time to
+understand and then also you know they have some documentation okay so um i build it too i actually
+using core code okay so basically this tool what it does is is uh collect you know all the source
+code from those company right from a specific company okay and at the same time um i also like
+you know have some document from them right those documents i actually put it in the pine cone okay
+so become a rack so um you can analyze you know the information right um and then this tool basically
+um i would say not just reverse engineering but also is a document editor okay so what happened
+is after you have all these source code and document right so behind the scene is essentially
+you know i have a small server it's like a python web server okay so what happened is if you click
+analyze right so what it does is especially for the source code and i would actually like you know
+um i actually i have to using the uh the highest model okay to basically you know to understand
+you know um the source code and then ask it to come back to write a document okay um so at the
+end so you know you have the information there and plus the pine code so now you know when i
+have the source code right so basically it will come up a reverse engineering document okay and
+it will become like a html you know um uh not just one page it's like you can think about like a
+dictionary html about the entire business you know i i need it because i need to generate that
+and then i will bring it back to my client you know because you still need to verify
+from them to see you know if it's correct okay um so this is actually really helpful okay
+and then i am planning to expand this a little bit more okay because um i you know for this one
+right it's actually a little bit easier because it's c++ okay but uh but you you will be surprised
+some people using an excel spreadsheet to run the entire operation okay so i'm also looking into
+you know how to do with them you know yeah with the excel spreadsheet you know yeah and then
+ultimately you know right now i'm still waiting for my mac mini you know i'm still waiting for
+apple ship mini mac mini you know and i hope i can have the open claw okay so now you know whenever
+i got a client right i can just dump it to you know to the mac mini right and then do the whole
+process because right now it's kind of i need to be like you know uh um need to do like a menu
+process a little bit okay uh yeah and then that's like you know what i have done like for this week
+yeah that's super cool that's very useful i feel like i don't know if you're gonna
+turn that into a product or not but i know a lot of people that would use something i personally
+would use something like that can be very very helpful um that's very cool benjamin
+all right few minutes left um any new old members
+uh want to introduce themselves talk about what you guys have been working on this week
+yeah i can um i can jump in here so um yeah i'm new here i think i just joined in uh yesterday
+my name is west i'm from chicago um so i've been pretty much in in sales all my life i'm not
+i'm not very technical i'm kind of technical um good at good at troubleshooting um towards the
+end of my my sales career i actually ran a septic and plumbing and grease trapping and used cooking
+oil company um had a short time there with a family member but uh really i had to use ai to
+basically learn everything about the industry and um also just from like an operational component so
+i was into ai since like 2024 but um as of october i i left all that and i started my
+own business so um i'm using go high level right now and doing like ai automation for mainly home
+service businesses but i um switched to claude about a month and a half ago and it's been
+absolutely a game changer i'm addicted my girlfriend hates claude but what i've been
+able to build and automate and it just keeps getting better but to the earlier question about
+open car and out open claw i'm definitely on the uh the team claude code and kind of just the
+guy writ to do what you need in the open claw way um especially because you can use your max
+subscription you if you get the 200 max like you will save a lot of money compared to just regular
+apis um and another thing i've been doing for just like basic data transfers you can use the
+cloud fair workers with some um like agentic automation or ai of some sort just because if
+you're using the apis or your subscription for small data transfers or for things that have
+api endpoints um it could take a lot and i kind of learned that the hard way but
+what i've been working on lately i actually turned a 2009 cheese grater mac pro
+into a headlix linux unit and a 2012 imac and i have a macbook air and then a pc with a decent
+amount of ram um so i've been trying to give them an identity of some sort and apply them to my
+business and kind of create agents within agents communication and context has been hard i've kind
+of done a relay system i've gone through tail scale i even did like a similar notebook type
+thing called hinds book where they would just post um so i can get that down but i realize i need to
+have better memory and context otherwise i'll have a bunch of agents talking and doing things
+without knowing everything all the time um so that's actually kind of what led me to here i
+saw the um i've honestly been getting the the newest cloud code updates from from you james and
+the loop and the chron scheduling it's kind of what i was emulating on my own computer
+so i was just like all right it seems like the right group of people
+that's awesome that's super cool yeah something that i like actually kind of just realized when
+i was just listening to you talking about it is the way that i've been dealing with
+context and communication between agents i think i guess i've subconsciously copied
+the way that cloud code agent teams and cloud code like kind of manages context um like the
+way agent teams work the the actual cloud code feature agent teams they have like an orchestrator
+agent um and that orchestrator agent can manage the sub agents even though they're not sub agents
+they're they're on agents and then they each have just inbox files and just drop lines of text in
+inbox files um like it's a json file and they literally just drop messages to each other in
+those inbox files and that's what i implemented in my own system that i'm using with um quad code and
+loops and crons now and it's worked exceptionally well um like the messaging has worked super well
+and just having those agents check their inboxes on a one-minute loop um it's worked very well and
+for context just kind of the same way as i was talking about um earlier to jason about memory
+and context management using really strong language about checking memory and just using
+grep for you know different memory concepts and finding different you know blogging for files from
+a certain date um using github to kind of track the time that certain memories were created
+potentially um and kind of using all those things together works pretty well in my opinion um but
+that's cool that you're kind of piecing all those machines together um i've heard a lot about a lot
+of people doing that and plugging in machines together to run local models as well it's cool
+that we're all kind of becoming software and hardware hackers now with all this stuff it's
+very cool that non-technical people for for context i have absolutely no technical software
+background just so you guys know so it's crazy to me that i've ended up here talking to a bunch
+of people who are experienced software developers and obviously my expertise is not in software
+development itself i would say my expertise is more in like ai um and i like you know i think
+i've studied a lot of just the fundamentals of how ai works how the models are trained all the
+way up to how these harnesses are created so that's kind of my expertise but i have no official
+no real software background other than an intro you know coding course in college i have a
+background in neuroscience actually which kind of overlaps with ai in some ways but yeah so glad
+to have um a lot of people with with background in software engineering and without background
+in software engineering here kind of all attacking it from different angles i think is super helpful
+to get context from different you know kind of approaches and different angles to the same
+problems that we're all kind of tackling it's really really interesting wes uh we should connect
+one of my companies uh we build software for people in the home service industry we integrate
+with housecall pro and jobber and so i used to work at housecall pro that's what i do i yeah oh
+i sold their software i know it my skills i used to work at housecall pro really that's why we're
+that's why we're in it yeah that's yeah that's yeah let's look at that fine
+that's awesome all right well we're just about reaching our time here but it was amazing to
+meet all of you guys that are new great to see everybody that i have seen many times before and
+we do it all again next week same time same place um hopefully we'll have some cool updates from
+everyone cool updates from the community and i will see you guys all there thank you everybody
+for coming very much it's been uh great to talk to you guys again good chat everybody see you
+have a good one thank you

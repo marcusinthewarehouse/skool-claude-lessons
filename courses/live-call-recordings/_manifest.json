@@ -1,0 +1,255 @@
+{
+  "course": "Live Call Recordings",
+  "slug": "95773b76",
+  "lessons": [
+    {
+      "date": "2026-02-16",
+      "title": "2/16/26: Job Disruption, Using GSD, iOS, OpenClaw",
+      "section": "Think Tank Calls",
+      "file": "2026-02-16-2-16-26-job-disruption-using-gsd-ios-openclaw.md",
+      "id": "e412104115b24e32a880d17dfc7534a9",
+      "videoId": "ed7f8d30bf724e6c8c4e6f1909997622",
+      "resources": []
+    },
+    {
+      "date": "2026-02-23",
+      "title": "2/23/26: SaaS in 36 Hours, iOS, Data Matching",
+      "section": "Think Tank Calls",
+      "file": "2026-02-23-2-23-26-saas-in-36-hours-ios-data-matching.md",
+      "id": "59bc76378f94483a8f1d3c3d2017e39e",
+      "videoId": "6c3d8130371d42fe823cd1344435aa75",
+      "resources": [
+        {
+          "title": "Full Call Transcript (2/23/26)",
+          "file_id": "bba20921845947fb94a7f007db156b9c",
+          "file_name": "call_transcript_2-23-26.txt",
+          "file_content_type": "text/plain"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "title": "3/2/26: OpenClaw, Context Trees, Client CRM",
+      "section": "Think Tank Calls",
+      "file": "2026-03-02-3-2-26-openclaw-context-trees-client-crm.md",
+      "id": "ee70d5dab8054f199fa166f404b4ff8a",
+      "videoId": "a90ddf4667704a52863f5d37b1e62180",
+      "resources": [
+        {
+          "title": "Full Call Transcript (3/2/26)",
+          "file_id": "6273b88813b74ac7b440ebb3e5ea8672",
+          "file_name": "call_transcript_3-2-26.txt",
+          "file_content_type": "text/plain"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "title": "3/9/26: Claude vs OpenClaw, Memory, Codex",
+      "section": "Think Tank Calls",
+      "file": "2026-03-09-3-9-26-claude-vs-openclaw-memory-codex.md",
+      "id": "373d833e9035457e99599234120cc7b3",
+      "videoId": "654a430d94f84410bf7e96e4fa71d4aa",
+      "resources": [
+        {
+          "title": "Full Call Transcript (3/9/26)",
+          "file_id": "06d31c7a9f3e459489a7f92bb27ba36e",
+          "file_name": "call_transcript_3-9-26.txt",
+          "file_content_type": "text/plain"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-16",
+      "title": "3/16/26: Business OS, Pricing AI, RAG Memory",
+      "section": "Think Tank Calls",
+      "file": "2026-03-16-3-16-26-business-os-pricing-ai-rag-memory.md",
+      "id": "7d49fe833dfd42739cdde1c5b7e59254",
+      "videoId": "cd4e3d0bb1c6438daefd914245dbc06d",
+      "resources": [
+        {
+          "title": "Full Call Transcript (3/16/26)",
+          "file_id": "6fb3d8968911444697cc688023bdb3b6",
+          "file_name": "call_transcript_3-16-26.txt",
+          "file_content_type": "text/plain"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "title": "3/23/26: The Future of this Community",
+      "section": "Think Tank Calls",
+      "file": "2026-03-23-3-23-26-the-future-of-this-community.md",
+      "id": "0429d57347b2492c9fb64c9a1b10ecd2",
+      "videoId": "4ba12eb59866479c9b1de60b66624538",
+      "resources": [
+        {
+          "title": "Full Call Transcript (3/23/26)",
+          "file_id": "2df81f425d8a4cad984ca56eaa88e5be",
+          "file_name": "call_transcript_3-23-26.txt",
+          "file_content_type": "text/plain"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-30",
+      "title": "3/30/26: Weekly Think Tank",
+      "section": "Think Tank Calls",
+      "file": "2026-03-30-3-30-26-weekly-think-tank.md",
+      "id": "892d10fa252f4dcfa5d73c9664ee31b0",
+      "videoId": "d737c58c33cc40b2b95d8be09603e3ef",
+      "resources": [
+        {
+          "title": "Full Call Transcript (3/30/26)",
+          "file_id": "bd72e7e07b914d8d9d57ace16ff09965",
+          "file_name": "call_transcript_3-30-26.txt",
+          "file_content_type": "text/plain"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "title": "4/13/26: Memory, Productizing Cortex, Local AI",
+      "section": "Think Tank Calls",
+      "file": "2026-04-13-4-13-26-memory-productizing-cortex-local-ai.md",
+      "id": "5bb8f3079d2e40578db9ecd864e33af4",
+      "videoId": "46016a8f1192439fbfb5c430fc8e5a57",
+      "resources": [
+        {
+          "title": "Full Call Transcript (4/13/26)",
+          "file_id": "68bcafb6b87c4286b224233cec60bb85",
+          "file_name": "call_transcript_4-13-26.txt",
+          "file_content_type": "text/plain"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-20",
+      "title": "4/20/26: Cortex Roadmap, MiroFish, New Platform",
+      "section": "Think Tank Calls",
+      "file": "2026-04-20-4-20-26-cortex-roadmap-mirofish-new-platform.md",
+      "id": "1300a6ed54fc4f628f0144fab98513e1",
+      "videoId": "898312daac0b480db4691fe9c2b07040",
+      "resources": [
+        {
+          "title": "Full Call Transcript (4/20/26)",
+          "file_id": "b4c4ff92422b490da81a33a4394ac1dc",
+          "file_name": "call_transcript_4-20-26.txt",
+          "file_content_type": "text/plain"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-22",
+      "title": "4/22/26: Cortex Fixes, Mac Tips, AI Monetization",
+      "section": "Q&A + Onboarding Calls",
+      "file": "2026-04-22-4-22-26-cortex-fixes-mac-tips-ai-monetization.md",
+      "id": "36aa9815b14148bcac95cc585b03a9b7",
+      "videoId": "8e6d0de199954fb384d00b42ebd411a7",
+      "resources": [
+        {
+          "title": "Full Call Transcript (4/22/26)",
+          "file_id": "603b604afb1e4c2eb2fc888454433ce6",
+          "file_name": "call_transcript_4-22-26.txt",
+          "file_content_type": "text/plain"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "title": "4/28/26: Memory Stack, Token Burn, Multi-LLM",
+      "section": "Think Tank Calls",
+      "file": "2026-04-28-4-28-26-memory-stack-token-burn-multi-llm.md",
+      "id": "c2f09b842c0d49af98b4219fb52dbedf",
+      "videoId": "a9d65f283dbf45e6b286126b0cdfd4a7",
+      "resources": [
+        {
+          "title": "Full Call Transcript (4/28/26)",
+          "file_id": "c6c6f7ebe346443abe5581508affd152",
+          "file_name": "call_transcript_4-28-26.txt",
+          "file_content_type": "text/plain"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "title": "4/29/26: Containers, Observability, Content",
+      "section": "Q&A + Onboarding Calls",
+      "file": "2026-04-29-4-29-26-containers-observability-content.md",
+      "id": "3d4e36782a0645ff96dc0dd998be3d30",
+      "videoId": "237ba3237e2b4cd5aad641ae8e9d5bee",
+      "resources": [
+        {
+          "title": "Full Call Transcript (4/29/26)",
+          "file_id": "53c03ea53fb94ebe97a6257b58ee482b",
+          "file_name": "call_transcript_4-29-26.txt",
+          "file_content_type": "text/plain"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "title": "5/4/26: AI Prompting, Memory, Grill Me Skill",
+      "section": "Think Tank Calls",
+      "file": "2026-05-04-5-4-26-ai-prompting-memory-grill-me-skill.md",
+      "id": "6e503b9811b445e8a39fc5ea03442d3f",
+      "videoId": "dd427bc9d3a741aa88767a95e1844576",
+      "resources": [
+        {
+          "title": "Full Call Transcript (5/4/26)",
+          "file_id": "3d39b83b75a74c33b25409f8d66bebf3",
+          "file_name": "call_transcript_5-4-26.txt",
+          "file_content_type": "text/plain"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-06",
+      "title": "5/6/26: Mac Mini vs VPS, Browsers, Permissions",
+      "section": "Q&A + Onboarding Calls",
+      "file": "2026-05-06-5-6-26-mac-mini-vs-vps-browsers-permissions.md",
+      "id": "a8cc812f2a854b35b32badd30b072b19",
+      "videoId": "f3b543bb343847e98e1321927de3dd01",
+      "resources": [
+        {
+          "title": "Full Call Transcript (5/6/26)",
+          "file_id": "732af907c94f4154a8656997c63b70e4",
+          "file_name": "call_transcript_5-6-26.txt",
+          "file_content_type": "text/plain"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "title": "5/11/26: Niching, Partnerships, Selling AI",
+      "section": "Think Tank Calls",
+      "file": "2026-05-11-5-11-26-niching-partnerships-selling-ai.md",
+      "id": "821a9f7c136f4d3e9f677b5547b03b0e",
+      "videoId": "816de90ca555469d9d8d814f6eb4a346",
+      "resources": [
+        {
+          "title": "Full Call Transcript (5/11/26)",
+          "file_id": "802a4b5c275042e5ae3d174513805f57",
+          "file_name": "call_transcript_5-11-26.txt",
+          "file_content_type": "text/plain"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "title": "5/18/26: Voice AI, Selling AI, Codex Switch",
+      "section": "Think Tank Calls",
+      "file": "2026-05-18-5-18-26-voice-ai-selling-ai-codex-switch.md",
+      "id": "caf9cacafa484718aa5f61f4a0f223f0",
+      "videoId": "a82d27b536454d1e930ae0bc8bf8eac4",
+      "resources": [
+        {
+          "title": "Full Call Transcript (5/18/26)",
+          "file_id": "0aeafc9114964e7284098172bc723fb7",
+          "file_name": "call_transcript_5-18-26.txt",
+          "file_content_type": "text/plain"
+        }
+      ]
+    }
+  ]
+}

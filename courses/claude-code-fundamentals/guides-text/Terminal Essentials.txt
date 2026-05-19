@@ -1,0 +1,84 @@
+Terminal Essentials
+What This Lesson Covers
+Three commands that let you run Claude Code from any terminal, on any project, without VS Code.
+Why This Matters
+Claude Code runs in whatever folder your terminal is in. Wrong folder = Claude can't see your files.
+
+These three commands tell you where you are and how to move around.
+The Three Commands
+
+Command
+Question It Answers
+Example Output
+pwd
+Where am I?
+/Users/yourname/Desktop
+ls
+What's here?
+Documents  Downloads  my-project
+cd
+How do I move?
+(changes your location)
+pwd — Where Am I?
+Shows your current location in the filesystem.
+pwd
+Output:
+/Users/yourname
+
+This is your "home" folder. Everything else is relative to here.
+ls — What's Here?
+Lists files and folders in your current location.
+ls
+Output:
+Desktop  Documents  Downloads  my-project
+
+Add -la for details and hidden files:
+ls -la
+cd — Moving Around
+cd = "change directory". This is how you navigate.
+
+Command
+What It Does
+cd Desktop
+Go into Desktop folder
+cd my-project
+Go into my-project folder
+cd ..
+Go UP one level
+cd ~
+Go straight home
+
+Pro tip: Type the first few letters then press Tab — it autocompletes!
+The Workflow
+Every time you want to run Claude Code:
+
+	•	pwd — Check where you are
+	•	cd to your project folder
+	•	ls — Verify your files are here
+	•	claude — Start Claude Code
+
+Example:
+pwd                         # /Users/yourname
+cd Desktop/my-project       # Navigate to project
+ls                          # index.html  styles.css
+claude                      # Start Claude Code
+Quick Reference
+
+What You Want
+Command
+See where I am
+pwd
+See what's in this folder
+ls
+Go into a folder
+cd foldername
+Go up one level
+cd ..
+Go home
+cd ~
+Autocomplete
+Type first letters + Tab
+What's Next
+Now you can run Claude Code from any terminal on any project.
+
+In Module 1, we'll learn what to actually SAY to Claude to get great results.

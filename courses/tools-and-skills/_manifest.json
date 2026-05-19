@@ -1,0 +1,258 @@
+{
+  "course": "Tools and Skills (3/23/2026)",
+  "slug": "93e0ef05",
+  "lessons": [
+    {
+      "order": 1,
+      "date": null,
+      "title": "Tools and Skills Index",
+      "section": null,
+      "file": "01-tools-and-skills-index.md",
+      "id": "1be090b96cf947e8a2144ba22cac2220",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 2,
+      "date": null,
+      "title": "Memory Management Skill",
+      "section": null,
+      "file": "02-memory-management-skill.md",
+      "id": "5902689dc9124a6689234cc018830479",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 3,
+      "date": null,
+      "title": "Nano Banana 2 - Image Generation Skill",
+      "section": null,
+      "file": "03-nano-banana-2-image-generation-skill.md",
+      "id": "964e29da36f74a86a3d1d8e47f3c2fa5",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 4,
+      "date": null,
+      "title": "General Task Agent Orchestration Skill",
+      "section": null,
+      "file": "04-general-task-agent-orchestration-skill.md",
+      "id": "320ccc35f21f47d8824510fc928cdc91",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 5,
+      "date": null,
+      "title": "Reminder Processor - Cowork Scheduled Task Skill",
+      "section": null,
+      "file": "05-reminder-processor-cowork-scheduled-task-skill.md",
+      "id": "ef4824cd83c5481cb92d83d308a5a88b",
+      "videoId": null,
+      "resources": [
+        {
+          "title": "Setup Guide (docx)",
+          "file_id": "84b104b7c81945c5bde6da0e59c5bdf1",
+          "file_name": "reminder-processor-guide.docx",
+          "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "date": null,
+      "title": "Programmatic MCP Tool Calling Skill",
+      "section": null,
+      "file": "06-programmatic-mcp-tool-calling-skill.md",
+      "id": "dd4f9db7c1de4d44b35e69ef4b08d41c",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 7,
+      "date": null,
+      "title": "Multi-Agent OpenClaw Setup Skill",
+      "section": null,
+      "file": "07-multi-agent-openclaw-setup-skill.md",
+      "id": "eb019d786feb4f12b95bbbd6cf1d485a",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 8,
+      "date": null,
+      "title": "OpenClaw Reliability Guide",
+      "section": null,
+      "file": "08-openclaw-reliability-guide.md",
+      "id": "eea831715fb1445da23b32d881c469a8",
+      "videoId": null,
+      "resources": [
+        {
+          "title": "Guide",
+          "link": "https://docs.google.com/document/d/1Fh4tCOdsQOdyD2LBVZrTmmRUxrjn1K0C/edit?usp=drivesdk&ouid=106775031503775355150&rtpof=true&sd=true"
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "date": null,
+      "title": "GWS Meta-Workflows Skill",
+      "section": null,
+      "file": "09-gws-meta-workflows-skill.md",
+      "id": "d0cbb00e44d2404aad0e1e708a7db453",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 10,
+      "date": null,
+      "title": "Autoresearch-Anything Skill",
+      "section": null,
+      "file": "10-autoresearch-anything-skill.md",
+      "id": "9b275cdf81d940958ac74096edd81954",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 11,
+      "date": null,
+      "title": "Multimodal RAG Knowledge Base Skill",
+      "section": null,
+      "file": "11-multimodal-rag-knowledge-base-skill.md",
+      "id": "5a9e7568d74540cf8816fc1b6dc2ad7a",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 12,
+      "date": null,
+      "title": "CLI Agent Tools - 30+ CLI Tools with Skills",
+      "section": null,
+      "file": "12-cli-agent-tools-30-cli-tools-with-skills.md",
+      "id": "9b2538ec6b9d440a8272295925646b49",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 13,
+      "date": null,
+      "title": "Dream - Memory Consolidation Skill",
+      "section": null,
+      "file": "13-dream-memory-consolidation-skill.md",
+      "id": "c093731f23c54ff69513dd09ad85e7a7",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 14,
+      "date": null,
+      "title": "Short Form + YouTube Video Scraper",
+      "section": null,
+      "file": "14-short-form-youtube-video-scraper.md",
+      "id": "596a3f44a5e14ccb8ea97b16671fdf36",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 15,
+      "date": null,
+      "title": "AI Content Pipeline (Twitter/X Scraper)",
+      "section": null,
+      "file": "15-ai-content-pipeline.md",
+      "id": "7a46258a199540f1b0258fd31dc9d406",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 16,
+      "date": "2026-04-16",
+      "title": "Skill-Optimizer (4/16/2026)",
+      "section": null,
+      "file": "2026-04-16-skill-optimizer.md",
+      "id": "b740fb42dd6641dc806909a6617a834f",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 17,
+      "date": "2026-04-16",
+      "title": "StatusLine Builder (4/16/2026)",
+      "section": null,
+      "file": "2026-04-16-statusline-builder.md",
+      "id": "ff81b640f1e54db6887c231bde393bfe",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 18,
+      "date": "2026-04-17",
+      "title": "local-ultrareview Skill (4/17/2026)",
+      "section": null,
+      "file": "2026-04-17-local-ultrareview-skill.md",
+      "id": "749153e2e31944a6b73dcf5a01b1d7f7",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 19,
+      "date": "2026-04-17",
+      "title": "Claude Code /schedule Guide (4/17/2026)",
+      "section": null,
+      "file": "2026-04-17-claude-code-schedule-guide.md",
+      "id": "e8c25538dcae4218b7e8191ba9429f48",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 20,
+      "date": "2026-04-19",
+      "title": "Claude Managed Agents (4/19/2026)",
+      "section": null,
+      "file": "2026-04-19-claude-managed-agents.md",
+      "id": "7e716905d424400e983cd87a17f66497",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 21,
+      "date": "2026-04-29",
+      "title": "Social Media Insights Skill (4/29/26)",
+      "section": null,
+      "file": "2026-04-29-social-media-insights-skill.md",
+      "id": "c4bfc863dd194433bf7e45afee9c03c1",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 22,
+      "date": "2026-04-30",
+      "title": "Agent Security Audit Skill (4/30/26)",
+      "section": null,
+      "file": "2026-04-30-agent-security-audit-skill.md",
+      "id": "57b244d4ba5c498e8d34a763633d4e65",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 23,
+      "date": "2026-04-30",
+      "title": "Infisical Vault Skill (4/30/26)",
+      "section": null,
+      "file": "2026-04-30-infisical-vault-skill.md",
+      "id": "c9aba0f7468447cab93e3fb779544b9e",
+      "videoId": null,
+      "resources": []
+    },
+    {
+      "order": 24,
+      "date": "2026-04-30",
+      "title": "Blotato Posting Skill (4/30/26)",
+      "section": null,
+      "file": "2026-04-30-blotato-posting-skill.md",
+      "id": "27c0b48b4b90439694f32ff1029eb25f",
+      "videoId": null,
+      "resources": []
+    }
+  ]
+}

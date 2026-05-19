@@ -1,0 +1,149 @@
+Plan Mode & Interactive Requirements
+What This Lesson Covers
+Three tools for getting Claude's approach right before writing code: Plan Mode for read-only exploration, specialized subagents for research, and AskUserQuestion for gathering requirements.
+Part 1: Plan Mode
+The Key Insight
+You asked Claude to refactor the auth system. It immediately started editing files, broke three things, and went down a rabbit hole. Plan Mode forces Claude to think before acting.
+Permission Modes
+Cycle through modes with Shift+Tab:
+
+Mode
+What It Does
+Default
+Prompts for everything except reads
+acceptEdits
+Auto-approves file changes, still asks for bash
+Plan
+Read-only — Claude can analyze but not change anything
+Bypass
+Skips all checks
+What Plan Mode Allows
+	•	Read files
+	•	Search with Glob and Grep
+	•	Analyze architecture
+	•	Think through approaches
+	•	Ask you questions
+
+What it blocks: Edit, Write, Bash, NotebookEdit — anything that changes files.
+Thinking Toggle
+Press Option+T to see Claude's reasoning process. Shows the extended thinking that happens before responses.
+When to Use Plan Mode
+
+Scenario
+Why Plan Mode Helps
+Complex refactoring
+Maps dependencies before touching code
+Unfamiliar codebase
+Learns architecture without breaking things
+Multiple valid approaches
+Compares options before committing
+High-stakes changes
+You review the plan before any edits
+The Workflow
+	•	1. Start in Plan Mode (Shift+Tab until you see Plan)
+	•	2. Describe what you want
+	•	3. Claude explores, analyzes, creates a plan
+	•	4. Review the plan
+	•	5. Switch to Default mode (Shift+Tab)
+	•	6. Say "execute the plan"
+Part 2: Explore & Plan Subagents
+What Are Subagents?
+Subagents are specialized Claude instances that run in their own context window. They can research, explore, and analyze without cluttering your main conversation.
+Key Characteristics
+	•	Own context window: Subagents don't see your conversation history
+	•	Read-only: Both Explore and Plan subagents cannot modify files
+	•	Focused: Optimized for specific tasks (exploration vs. planning)
+	•	Return results: Send back findings to your main conversation
+Explore Subagent
+Use for broad codebase exploration and answering questions about how things work.
+
+Good for:
+	•	"How does authentication work in this codebase?"
+	•	"Find all API endpoints"
+	•	"What patterns does this project use?"
+
+Thoroughness levels:
+Level
+When to Use
+quick
+Simple questions, known file locations
+medium
+Most exploration tasks
+thorough
+Complex systems, need complete picture
+Plan Subagent
+Use when you need an implementation strategy before writing code.
+
+Good for:
+	•	"Plan how to add user notifications"
+	•	"Design the database schema for orders"
+	•	"What's the best approach for caching?"
+
+Returns:
+	•	Step-by-step implementation plan
+	•	Files that need to change
+	•	Potential challenges
+	•	Architectural trade-offs
+When Claude Uses Subagents
+Claude automatically spawns subagents when appropriate. You can also request them explicitly:
+	•	"Use an explore agent to find how errors are handled"
+	•	"Spawn a plan agent to design the API"
+Part 3: AskUserQuestion
+The Problem
+Claude makes assumptions. Sometimes they're right, sometimes they're not. AskUserQuestion lets Claude pause and ask you before committing to an approach.
+How to Trigger It
+Include this phrase in your prompt: "Ask me questions to clarify requirements."
+
+Claude will then gather requirements before starting work, presenting you with structured choices.
+What It Looks Like
+Claude presents multiple-choice questions with clear options:
+Which authentication method should we use?
+  [ ] JWT tokens (stateless, good for APIs)
+  [ ] Session cookies (traditional, good for web apps)
+  [ ] OAuth (for third-party login)
+  [ ] Other (specify)
+Constraints
+	•	1-4 questions at a time
+	•	2-4 options per question
+	•	"Other" option always available for custom input
+	•	Can allow multiple selections when appropriate
+When to Use
+
+Scenario
+Example Question
+Multiple valid approaches
+"JWT or sessions?"
+Unclear scope
+"Which features to include?"
+Technology choice
+"Which database?"
+Style/preference
+"Functional or class components?"
+Example Prompt
+Add a payment system to the app.
+Ask me questions to clarify requirements.
+Putting It All Together
+Plan Mode = Force read-only exploration before edits
+Explore Subagent = Research codebase without cluttering context
+Plan Subagent = Get implementation strategy before coding
+AskUserQuestion = Gather requirements before making assumptions
+
+Use these together: Start in Plan Mode, let Claude spawn subagents to explore, have it ask clarifying questions, review the plan, then switch modes to execute.
+Quick Reference
+
+Action
+How
+Enter Plan Mode
+Shift+Tab until "Plan" shows
+Toggle thinking
+Option+T
+Request exploration
+"Use explore agent to..."
+Request planning
+"Plan how to..."
+Trigger questions
+"Ask me questions to clarify requirements"
+Execute after planning
+Switch to Default, say "execute the plan"
+What's Next
+You've learned to control Claude's planning and requirements gathering. Next lesson: Memory and the /memory command.

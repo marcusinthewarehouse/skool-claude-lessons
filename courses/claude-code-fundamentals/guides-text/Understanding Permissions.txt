@@ -1,0 +1,77 @@
+Understanding Permissions
+What This Lesson Covers
+How Claude Code asks for permission before making changes, what each option means, and how to control the permission mode.
+The Trust Prompt
+First time you run Claude Code in a new folder, you'll see:
+
+"Do you trust the files in this folder?"
+
+	•	Click Yes for your own projects
+	•	This only appears once per folder
+	•	Stored in the .claude folder
+File Edit Permissions
+When Claude wants to edit a file, you'll see these choices:
+
+Option
+What It Does
+When to Use
+Yes
+Approves this one edit
+Review each change
+Yes, all edits this session
+Auto-approves until you close
+Recommended
+Yes, don't ask for this file
+Permanent for this file
+Rarely needed
+No
+Rejects the edit
+Claude suggested wrong
+Bash Command Permissions
+When Claude wants to run a terminal command, you'll see the exact command before approving.
+
+Always read the command first.
+
+Safe Commands
+Think Before Approving
+ls, pwd, cat
+npm install, pip install
+git status, git log
+git push, git commit
+echo, which
+rm, mv, chmod
+Permission Modes
+Press Shift+Tab to cycle through modes:
+
+Mode
+File Edits
+Bash Commands
+Best For
+Default
+Asks
+Asks
+Normal work
+acceptEdits
+Auto-approve
+Asks
+Fast iteration
+Plan
+Blocked
+Blocked
+Exploring only
+
+The current mode shows in your Claude Code prompt.
+The Key Rule
+"Yes, all edits this session" is the sweet spot:
+
+	•	Moves fast without constant popups
+	•	Still shows you what changed
+	•	Resets when you close Claude Code
+
+Warning: Don't leave acceptEdits mode on and walk away — Claude will keep working.
+Going Deeper
+This is the basics. In Module 2 (Video 2.4), you'll learn:
+
+	•	Auto-approve rules for specific commands (npm test, git status)
+	•	Deny rules to protect secrets (.env files, API keys)
+	•	Project vs personal permission settings

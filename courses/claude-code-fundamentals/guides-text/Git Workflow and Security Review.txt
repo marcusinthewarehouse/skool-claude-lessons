@@ -1,0 +1,138 @@
+Git Workflow & Security Review
+What This Lesson Covers
+Git fundamentals, how Claude handles git operations, atomic commits, and security checks before pushing code.
+The Key Insight
+Your app broke. Somewhere in the last fifty commits, something went wrong. If your commits are atomic (one change per commit), you can find the exact problem in minutes. Plus, Claude can check its own code for security issues before you push.
+Git Basics
+Git is version control. It tracks every change to your code, who made it, and when.
+Core Concepts
+
+Concept
+What It Means
+Repository (repo)
+Your project folder with git tracking
+Commit
+A snapshot of your code at a point in time
+Staged changes
+Files marked to be included in the next commit
+Branch
+A parallel version of your code
+Push
+Upload commits to a remote server (GitHub)
+Pull
+Download commits from a remote server
+Essential Commands
+git status          # See what's changed
+git add .           # Stage all changes
+git commit -m "msg" # Save a snapshot
+git push            # Upload to GitHub
+git pull            # Download from GitHub
+git log             # View commit history
+git diff            # See what changed
+GitHub
+GitHub is where your git repositories live online. It enables:
+	•	Backup of your code
+	•	Collaboration with others
+	•	Pull requests for code review
+	•	Issue tracking
+
+You don't need to memorize git commands. Claude handles most git operations for you.
+Claude's Git Superpowers
+Many engineers use Claude for 90%+ of git interactions:
+
+You Say
+Claude Does
+"What changed in the last 5 commits?"
+Analyzes git log, summarizes changes
+"Suggest a commit message"
+Reads diff, proposes meaningful message
+"Commit these changes"
+Executes git commit with good message
+"Create a new branch for this feature"
+Runs git checkout -b
+"Push my changes"
+Runs git push
+
+Claude writes commits that describe the WHY, not just the WHAT.
+What Makes a Commit Atomic
+One commit, one purpose. The smallest change that can't be broken down further.
+
+Test: Can you revert this commit without unexpected side effects?
+
+Bad
+Good
+"Add feature, fix typo, refactor code"
+Three separate commits
+Revert loses all three changes
+Revert only what broke
+
+Rule: If you need "and" in your commit message, split it into multiple commits.
+Conventional Commits Format
+feat(api): add rate limiting to /calculate endpoint
+fix(calculator): correct rounding in divide function
+refactor(calculator): extract validation to helper
+test(calculator): add edge cases for negative numbers
+docs(readme): update installation instructions
+
+Types: feat, fix, refactor, test, docs, chore
+Configuring Git in CLAUDE.md
+## Git Conventions
+
+- Each commit should do ONE thing only
+- If you need "and" in your message, split into multiple commits
+- A commit should be revertable without side effects
+- Run tests before committing
+- Use conventional commit format: type(scope): description
+Security Review Before Commits
+Claude can check its own code for vulnerabilities before you push.
+Using /security-review
+/security-review          # Reviews staged changes
+/security-review --all    # Reviews all recent session changes
+
+Output: List of potential issues with severity (Critical/High/Medium/Low) and suggested fixes.
+What It Checks
+	•	Input validation gaps
+	•	SQL injection vectors
+	•	XSS vulnerabilities
+	•	Authentication/authorization logic
+	•	Secrets exposure
+	•	OWASP Top 10 patterns
+When to Use It
+	•	Before committing user-facing features
+	•	After implementing auth logic
+	•	When handling user input or database queries
+	•	Before pushing to production branches
+The Complete Pre-Commit Workflow
+	•	1. Make changes
+	•	2. Run tests (validation loop)
+	•	3. Run /security-review
+	•	4. Fix any issues found
+	•	5. Stage changes
+	•	6. Ask Claude for commit message
+	•	7. Commit and push
+Adding to CLAUDE.md
+## Pre-Commit Checklist
+
+Before committing:
+1. All tests pass
+2. Run /security-review and fix any issues
+3. Use atomic commits (one purpose per commit)
+4. Use conventional commit format
+Quick Reference
+
+Action
+How
+Check status
+"What's the git status?"
+Suggest commit message
+"Look at staged changes and suggest a commit message"
+Commit changes
+"Commit these changes"
+Review security
+/security-review
+Atomic commit rule
+"If you need AND, split into multiple commits"
+Commit format
+type(scope): description
+What's Next
+You've mastered validation, git, and security workflows. Next module: extending Claude with MCP servers, hooks, and integrations.

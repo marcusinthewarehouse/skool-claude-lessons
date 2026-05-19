@@ -1,0 +1,705 @@
+Agent Architects - Live Call Recording Transcript
+Date: 5/11/26
+Call: Advanced Member Think Tank
+
+================================================================
+TRANSCRIPT
+================================================================
+
+I chose the crazy angle to have the lighting on me in this meeting.
+
+I know, I was just saying that. I was going to say.
+
+It's because usually I'm angled this way, and so half of my face is lit, and the other half is not. This isn't much better, though. And now... The glare is right in my eyes, so I can barely see. I'm actually going to move a little bit here.
+
+It's tough in Miami, bro.
+
+It is. It's this time, too, you know? It's... It's basically like sunsets while we're having the meeting. So All right. That's a little better for me at least, but now I look super dramatic. That's all right.
+
+That's cool. It'll be great for those videos you shoot later for social media. Exactly. Make some dramatic videos. Yeah, seriously.
+
+I've been super busy today, so I haven't recorded. I recorded one video today, but... I don't know if you guys saw that. I posted today about, um, Hold on, let me actually start recording here.
+
+I got the notification it was.
+
+I know I heard that. I didn't see it. Maybe someone else started it. I don't know. Yeah. I recorded a video today about, you know how people always say that LLMs are just like fancy autocomplete? I thought that was a great video.
+
+Yeah, I did too.
+
+Thank you guys. Yeah, 'cause I just saw people, I saw another video of someone talking about that, and I was like– Technically, it's true, but just totally misses the point, like completely misses the point. And I thought the human analogy as fancy baby makers was a good one to kind of make that point that, you know, it's true. Humans are fancy baby makers, but that misses a lot of nuance about what's cool about humans.
+
+And it's the same with LLMs, you know. Yeah.
+
+That was a good analogy.
+
+Got to make some helpful content later, though. That's not super helpful.
+
+But... I actually...
+
+I've been thinking about making another like Instagram account to just post like more philosophical thoughts. That's actually how my Instagram started before I started on TikTok before. The AI content started... I didn't set out to, like, make an AI, you know, social media account. It was more just... I wanted to do social media and see what stuck and the AI stuff stuck, but... If you like scroll down all the way to the very bottom of my TikTok page, I'm like, I forgot what I talk about. I think I was talking about like geopolitics or something and like neuroscience also.
+
+And just like different stuff, like stuff I was thinking about. I'm really into like neuroscience and like philosophy of neuroscience. And so I was talking a lot about that. And every once in a while I make an AI video that's related to that as well, because they do overlap a good amount. Yeah. But yeah, maybe I'll get back to that. We'll see. Anyway, how are you? Yeah, go ahead.
+
+Are you TikTok live? Did you do any TikTok live?
+
+I haven't yet. Actually, I did one Instagram live and it was awesome. I really enjoyed doing the Instagram live. Um, So I need to figure, I know there's a way that people like live stream across all their accounts at the same time, maybe with like OBS or something like that. So I need to figure out how to do that.
+
+That's how people been doing it for years, OBS.
+
+Yeah. So I probably should do that so I can do it across platform. That would be really cool, I think. I really love the live streams because it's kind of like... I get to interact with my followers more rather than just the content, just the comments and stuff on content and people can actually ask questions. And it's people who, you know, people who are much more on the beginner side end up asking a lot of questions, which is really good.
+
+And it was really fun.
+
+Yeah. Oh great Okay. Um...
+
+All right. Well, anyone have anything on their mind that they want to chat about? It's been a long week for me. I have a couple things, but I'll let you guys go first.
+
+I only have a few minutes and I just wanted to say hi before I have to go again because I haven't come say hi in a couple of weeks.
+
+Yeah, it's good to see you. How's your cortex running, Josh? Has it improved?
+
+You know, it's actually all the initial issues are gone. The only issue I'm having right now is I think probably it's a rules file problem. I can't get it to fucking listen to me and not do things that I... I'm like, use a staging environment. And it's like, great, here's nine ways I'm going to make sure I use the staging environment. And then the next thing it does is update production. That's not a cortex problem. That's a me problem somehow.
+
+An agent problem, man. That is just like an agent problem. I remember when I was working on my SaaS and I had a staging in a production environment connected to railway through the CLI, it would always confuse itself and not know. I always had to remind it despite the rules.
+
+I'm using railway connected to a CLI. But no, it's working and I've been building out. I mean, I built out an agent this week to get me out of my house more and find more events to go to. So we're just like, it's finding Instagram and TikTok followers and reading sub steps. It actually got me to a really great thing on Thursday. That was cool, but... Mostly, I fully left my job running an IT company last week. Wow, congrats, dude. So I'm now kind of taking a break, but definitely running a boutique AI consultancy. I sold two $10,000 audits, one of them to a 100-person nonprofit.
+
+And one of them to a really interesting, small... you know, right adjacent to you, David, right? These guys are kind of like, they started as flippers, but now they're doing like all kinds of loan syndications and stuff. And, I mean, I have like 150 workflows that I've pulled out of our interviews so far and just Right now, I'm about 90% done with getting usable data out of this audit tool I built.
+
+And then I'm going to show it off to you guys hopefully next week. But I... Oh, yeah. I have... I now finished all the interviews and actually owe them a deliverable. So the clock is ticking. Yeah, exactly.
+
+But they're super happy. You know, I'm working.
+
+I've pulled out like... I pulled out a long document of KPIs that would be relevant to them to kind of start with just a BI for them and actually start automating the workflows. And so it's, you know, I'm now doing this one way or another. And I am excited about it. It feels really good to make a change and to sort of, you know, be using this AI times to make a life change.
+
+It's amazing, dude. Congrats.
+
+How did that, how did that, um, Oh, pardon me. Can I ask a question? Like how did those deals materialize?
+
+Like how to, um, How did they come to you specifically curious about just AI or do they have specific problems they were trying to solve and it led to that discussion or soup?
+
+They are both super warm. They're not. Like one of them was just went to high school with my old boss and, you know, But I mean, okay, but to your point, though, he introduced me to them to just like, hey, I think Josh can help you with AI. That was like in October. That was six months ago. they were kind of dragging their feet. But having... Like once they were ready, I had an offer in a deliverable ready. I'd be happy to share that with anyone if they want to see it.
+
+And I said, if you guys want help, you're not going to buy tools. You're not going to just set up whatever. We need to start at the very beginning and we need to really understand how you guys work and break that down in a real ROI-backed way and not just start automating things, which is what most people want.
+
+Are you approaching it more like from an automation sort of the idea, or is it something about AI that has always been in the news? I'm trying to figure out. I know roughly where most of us are, but I still am trying to understand where our market is. Are they teaching AI in general?
+
+Well, so let me... I mean, I can tell you these two deals, they're both kind of unique. The real estate one, they... The guy who runs it is on podcasts a lot. And he's already on podcasts saying he's automated his whole company and is using AI, which is not true. So he's very sold on the concept. And he already wants to turn what we're building into a platform and go co-sell it because he has all these clients that he teaches about real estate investing. who have this same problem.
+
+So for him, he's already sold on wanting the AI and automation, both for his own image and for how he wants to... He sent me his company goals for the next five years and it includes 60% to 70% of company processes automated completely. The other guys, honestly, they're old clients of mine and I just told them what they're doing and they actually are not even sure they want to do anything after the audit.
+
+see all their workflows broken down and see what the opportunities for improvement are. What I would say in terms of the market, and I think James and I think everyone else here will have their own thoughts on this, is that I've always liked talking... I ran an IT company for 20 years and I've always liked talking about process. And I found most of my clients were more interested in the commodity parts of IT and just getting tech support and getting cybersecurity.
+
+And I think because of AI, people are more engaged and willing to talk about how their people work.
+
+And so I always tell them it's not just AI, it's automation, it's AI. It's like, just understanding that you have no SOPs and people are disorganized. So I think it goes a lot of different ways. Yeah.
+
+Yeah, Josh, I really like to say that on our workflows that we deliver to our clients, like 10% of the content of the workflow are API requests, LLM models, or SDK AI models, and the rest is full automations, full scripts.
+
+Yeah, exactly. It's what sustains the AI. It's what makes the AI work.
+
+Yeah, exactly. Yeah, I mean, this company is doing so much. I find often people think they want AI and what they need to do is like, or not a fucking integration between systems. It's like, you know, people are, people are so unclear, right? That it's like, you know, like every interview I do, people are cutting and pasting things from one system into a spreadsheet to process it and then put it somewhere else.
+
+Yeah. And it's really interesting because it's only 10% of the workflow, but it adds 90% of the value.
+
+It's like the smallest portion, but the biggest value added. It's crazy. Right.
+
+So, yeah, I mean, you know, I think... Go ahead. Go ahead. They have a guy who is way more technical than me, who's in like an operational and a sales role. And like he's built hundreds of N8N automations and he's like done all this stuff for them. And like, what they don't have is someone who can see the big picture. and help them realize that because they haven't mapped things out right, they keep just like building automations that don't work and things aren't kind of synchronizing together.
+
+And so even if they know the tools exist, they also need someone to help. I don't know. It's like people are like unruly children. Yeah.
+
+That's really, that mirrors a lot of what's happened to me because I was in... Hello. Go ahead, Rich. I was in a kind of one-on-one battle with a technical, much, much more technical person than myself for a client, like Clovis, by the way, so yay me. But I have experience with scaling companies and working with agencies, which is what my kind of niche is. And this guy was just more technical and he understood kind of like how to connect APIs, how to build workflows, but didn't get the whole kind of Yeah, the macro sort of scale thing. So exactly what you're saying.
+
+I think that's a really big value to bring to these kind of conversations, especially if it's like a big business. They think they want someone to come and build stuff, but that person doesn't understand business as a whole. And obviously the technical stuff. So yeah, definitely.
+
+So it's been interesting. And I'm basically just trying to finish an app that just turns like interviews and sort of, you know, random documents into a really good breakdown of how the company works and kind of gives a good path forward. Hey, Josh, before you leave, I just want one thing to say to all of y'all.
+
+A lot of sounds like, you know, everybody knows I'm very niche specific.
+
+I've learned that at SEO. I believe riches are in the niches. I know a lot of it is that people are generalistic. I will tell you one thing from when I had a development company back when we were writing software for Christian colleges to do online universities. Put in your contracts. Yep. If they don't know better it sounds manipulative that you retain ownership and the ability to resell this if they're not going to pay for it take what you've done and turn that into something that you can resell over and over and over again because what the value of ai is is once you get someone who is a a i don't know i'm not gonna use the right word here it's obvious but has the industry knowledge because that's what most of you don't have in a certain niche is what industry knowledge but once they give it to you They're going to pay to have that and not let you resell it.
+
+Put it in there that you have the ability to resell it. They don't read the contract. Then you turn that work into repeatable work and go actually make real money. Yeah.
+
+You'll drive yourself crazy selling $10,000 contracts. You gotta sell 24 of those a year, two a month to actually make any money. That is not a fun life.
+
+For an audit, that's great though.
+
+Yeah, for an audit. I mean, my goal, like my goal, David, is like a 10 to 15K MRR. on the implementation of this roadmap. But also, Michael, is what you're saying. It's a double. It's a double. This is just a paid discovery. Yeah, no, I understand. I'm saying, but once you go through that, now you have the industry knowledge when you're talking to that company, going through that audit. And if they're not going to pay you to not reuse that, which, you know, that's going to be a lot more. You have more gold in keeping what they gave you than getting an extra $30,000 to let them keep it. Yeah, for sure. Just my two cents.
+
+I'm going to go work out, guys. I've been sitting way too much and not working out enough, but it's great to see you guys.
+
+Have a good workout, Josh. Thanks for that. Bye.
+
+For sure. Thanks, Mike.
+
+Yeah. David told us about his...
+
+intellectual property thing. I'm going to just put a clause that we use in our contracts if anyone wants to use it. Oh, I cannot put on Zoom because it's too... Let me break it down. And I'm going to send in two halves. the clause here.
+
+Yeah, that'd be great. I remember when I first started, like before I started doing this, I started thinking I was going to do like a web design consulting type thing because my dad actually did web design. He was like ran a web design agency when people were like using WordPress for most sites and Drupal and stuff like that. And he said the exact same thing to me that all you guys are saying that, you know, as you develop new modules for a client, make sure in your contract, because you're building a portfolio of whatever it is, modules, apps, domain knowledge over time. So huge.
+
+Yeah, and to what I think Josh W. was saying, a lot of the, like, consultants or agencies that I've talked to, you know, to all your guys' points, a lot of what they find are kind of these really small entry points into businesses. Like maybe a business wants a website, right? And to build that website, you need to get a little bit of domain knowledge about, you know, the company that you're building a website for, the people that work at the company.
+
+And if you have more knowledge about AI automation or implementing AI into businesses or AI native workflows, whatever you want to call it, You end up talking to the client in such a way where they realize that you can provide them something they didn't even really know that they needed. And maybe it's an AI solution, but maybe it's just an automation. Maybe it's just connecting and, you know, connecting some sort of workflow.
+
+And AI is just a nice shiny, you know, shiny object that can attract clients, but doesn't You never know what they'll need. And it's such a good inroad to have like a simple little thing like that, where you build up some goodwill with a client, deliver them a nice website or a simple automation. And then they realize you have access to a, you know, an agent that you can give them that does something or, you know, a specific workflow or automation that they could use.
+
+And so many people that I know that are like consultants or, you know, AI automation agencies do it exactly in that way, where they get in for some sort of lower ticket type of deal and end up upselling them to automate their whole business just from getting to know them and the person getting to trust them. And that's huge.
+
+Yeah, if I could share a little bit of what I've been seeing too with some of my students and the client landscape. I think most of you guys have met me before, but I teach freelancing and I'm a top 1% freelancer on Upwork. And I think that with AI right now, especially for people wanting to monetize that and self-consulting or auditing and stuff around it, I think that rarely, do they actually know what the AI implementation is that they want? It's just, they have pains in their business. And so, and kind of like what Josh W was saying before he hopped off about how like really what they just need is like an automation, not necessarily AI.
+
+And so I think that when positioning, like if that's something you guys are interested in doing, like offering consulting sort of packages, right? Getting retainer based sort of clients. I think positioning it more so is like you guys are solution architects and AI is like one of the tools in your toolbox. And that then, and to David's point about like having niches and domain expertise, with the beauty of AI, you really don't even have to be an expert yourself in the industry that you're going to specialize in because AI allows you to become that expert very quickly, combined with what the client is going to tell you and what AI, what you can leverage.
+
+like super niche, right. And something is to just, so like for me, I was a funnel builder, sales copywriter, and I worked with coaches and consultants. And so it was like, that was a broad enough niche that like lots of different potential types of coaches, consultants within it, but specific enough that when I did marketing or I talked about it, someone's like, Oh, I'm a coach. Like she's talking to me. Right. So same thing, like you can have your niche be just, I'm I work with accountants and bookkeepers, right. Very broad, right. Of all the different sorts of things they can do.
+
+but specific enough that when you talk, they're like, oh, that's about me. And then what's great is, is then as you start to become a solutions architect or work on solutions, you offer something free, like a really simple free audit upfront over like, tell me your biggest pain point bottleneck you have, right? Do a little audit so that you can figure out, is this an AI solution they need? Do they need automation? Do they really just have a messed up like business plan model structure, right? Like that's causing it. And then what you do is then you come back with the big pitch.
+
+Like then that's kind of what Josh W is building of like this 10K sort of solution of let's do like the three month. I'm going to build you a roadmap. Right. We're going to do a three month implementation. But I think the other thing, too, I'm seeing is that a lot of times people see AI and they are like charging towards software as a service where they're just like, oh, I could build I could build software.
+
+And I think that there's definitely like a limited runway where, you know, but just as all of us have been able to hop in and immediately start building software tools, apps, different things. Systems are going to get better and better at like to where it's just going to become everyday people are going to be able to hop in and create software on demand for themselves for their unique use case using AI. Right. And so I think that where right now the sweet spot really is, is when you can bring insights and implementation.
+
+Like those are two areas where AI can generate like a bunch of blah, blah. Right. Like and that people get very overwhelmed and they pay for the convenience of someone else to sort through all the shit for them and go, this is what your problem is. This is how you can fix it. Pay me enough money. I will fix it for you. Right. So that is what I've seen working really well for the people who are monetizing AI right now. Their experience in AI and turning that into high ticket packages and consulting. But I thought that might be helpful for anyone who's trying to monetize it right now.
+
+Amazing. Eric, I had a quick question for you.
+
+I did see your profile and your group that you have about Upwork.
+
+I'm just curious, how do you sort through the builds that you take on in Upwork? Because my experience in Upwork is pretty bad. These people are... It's bad most of the time. Sometimes they're... Not a struggling business, but they hire off Upwork. So they expect... cheap labor. Hey, tell me... I'm going to tell you what to do and... Yeah. You're going to accept it or I'm going to go somewhere else.
+
+And or you get somebody who's too cheap to pay for actual labor. Yeah. That's the issue.
+
+Yeah, what you're talking about, that's exactly like why I built what I did. Like, I don't want to turn this into like a pitch around my community. But, but I see that problem all over the place where people are professionals, they come in on the platform, they because they're professional, they're like, well, I should be charging 50 or 100 or 150 an hour. And I should be targeting these like, really like premium sort of jobs.
+
+And the problem is, is that strategy does not work on Upwork, you're going to waste a ton of money on connects, you're not going to land any jobs. And the only jobs that you're going to be able to get responses on are are those bottom feeder sort of jobs where everyone's racing to the bottom. So the way how I teach that is it's a very specific, I have like four courses that go through like where you have to start basically at that bottom, but then real quickly, I show you how to walk up your rate so that you are, what you're talking about is you do, you have a lot of solopreneurs to come on there.
+
+That's the main place for like, they resource their, you know, their ad hoc work that they want done. And those are not the ideal people, but as you, you have to build out the proof on your profile. First, you have to get your social proof. You have to get your badges and your job success score. And so that's going to require you to do a little bit of grindy work at the beginning so that when you start walking up your rate, then very quickly. So like then you can start charging the hundred and fifteen an hour and you will get to where you will start working with the more enterprise experience, more professional clients.
+
+And they won't treat you that way. Like they're happy to pay for experienced people, but you can't compete for those jobs because there are people who have put in their paces that have done the work that their profiles. experience, their social proof is going to land them the job every single time over you. And so that's where people get on there and just like, this is a waste of time. It's a waste of my money. Like, you know, it's stupid.
+
+Right. And then they walk away, but it's because they tried to skip all those steps and go straight to, I'm an expert, hire me. I'm going to apply for these jobs. And you just, you have to build up the profile first in order to get to those clients. But yeah, there's a hundred percent. Those clients are on there. But you have to work your way up to them. Yeah.
+
+This is a good time to say that Erica and I have planned a little bit of a cross-pollination between our school communities. So Erica is going to do a live call here very soon. I think we're planning, I haven't responded to your message yet, Erica, but very soon within the next few weeks, she's going to do a crash course here on freelancing with AI and, you know, making money with AI. I'm going to do a course in her community on pretty much the same thing.
+
+We're cross-pollinating with our own expertise, so you guys should definitely pull up to that one. It's going to be good. Thank you for that, Erica. That's really good advice. I actually, early on... also like was going to be an Upwork freelancer. And for the same reason as Brandon decided against it, I just didn't stick with it. I didn't have the persistence to do it. But yeah, I mean, I've seen so many people have such good success with it, and especially from Erica's community.
+
+So soft shill to Erica's community if you're interested. I was going to ask you guys, I feel like a lot of people, it seems like a lot of people here are doing like, consulting, type things with clients. So I would ask... maybe just like as a show, I don't know, a show of hands or whatever, like who would consider themselves like a, AI consultant, software consultant, working with different clients, doing automations, AI type stuff.
+
+Cool. Okay. and that this kind of took off a lot more quickly. So I've been kind of thinking about the difference between an offer that is, um, focused on education. So like, let's say you're teaching a company, uh, and the company's employees how to leverage AI tools for themselves. So that's option one. And then option two is you're implementing solutions for them kind of done for you. So I'm curious if you guys have experience with one of the two of those, what you think about those two options.
+
+I'm just, yeah, I'm curious to know, to hear what you guys think about that. I really do think, Jay, the sweet spot may be between those two touch points you talked about. The education-wise and the platform, the solution-wise. If in your education process, you show your client that the state that they are currently and the state that they am, that they desire for their company, you have the best channel to educate them in how to change their operation to a more modern way, directly related to AI. and the whole workflow you use on your daily basis.
+
+Plus you... give them access through the retainer or through a monthly subscription to some subscriptions, some platforms that you deliver to them, you build to them and not to them specifically, but to your pool of clients, then your education process becomes a stair to your SaaS, to your products. You teach them how to better execute with AI using your infrastructure, your structure, your software that you develop it.
+
+That's something that I'm really aiming to because I started, Other way, I went to the consulting and to the business-wise, and now I'm looking to social content and building a platform and going to education side. And that's just a little bit of the plan, you know, going to education, but with some platforms to... grab the client and ohook them. Yeah, this is kind of the way that I see it as well. Like, I feel like building Cortex and having everyone in the community use it has shown me that, like, you know, of course, building the tool is really important so that people can use the tool, but it requires some education to use correctly as well. And, like, there's kind of a sweet spot between those two things.
+
+Yeah, that's kind of- Rodrigo, is that what you're doing with your- your agent platform, kind of productizing it into a SaaS and then having clients on a retainer.
+
+Great, James.
+
+Yeah, currently not. That's another, like we see have a fly that it's my company in two fronts that are growing nowadays. The biggest one of them is service. So we do them personalized implementation for our clients, each client in a different niche. We really do not verticalize or like aim to a specific niche in implementation and in the sector of our clients. So it's very diverse. And here in Brazil, the bubble is much smaller.
+
+So when I'm talking about Brazilian situation, The companies are completely ignorant about AI, about what we talk about, low code, automation workflows, vibe code as a whole. So yeah, it's a big opportunity here for small, big, medium-sized companies. So we're really looking at this front for the last three years. And now we are looking to the social contents and everything, and the education is going to come.
+
+This whole idea comes from my biggest benchmark, which was the company that I used to work My company, which is called G4 Educacao. It's a company that nowadays it's in one billion reais of valuation. It's a really big company of education here in Brazil. They are the biggest players. They built Easy Taxi, Happy, Vitex, which are unicorns here in Brazil. They got together and built this education company. It's called G4 Educacao, but Educacao in Portuguese, right? And yeah, they do exactly that.
+
+They are the biggest case or founder-led growth that any company, or maybe in the whole world has ever done. It's crazy. There are full entrepreneurs and they're like putting their face out in the web, getting clients to their education platform. And nowadays, actually three years ago, when I was at the company, 40% of all the incoming leads, which are really high, big B2B, high net worth people came from social, from the founders Instagram.
+
+So yeah, it's what we're looking to go now, but not the current state of our life.
+
+Okay, awesome. Thank you for that. Yeah, it's crazy. I would have never thought like what you said about business owners and high net individual and B2B leads coming from a TikTok comment. But as soon as I started posting videos on TikTok, lo and behold, I mean, this community is a great example. This group of people on this call right now are not like beginners getting into AI. You guys are serving clients or running your own business.
+
+So yeah, I think social media is a great vector for those leads.
+
+Yeah. Anyone else have thoughts on that?
+
+I feel like I'm going to have a really unpopular boring answer to this.
+
+So I'm coming from I'm the manager of AI implementation for Zendesk for North America and Latin America. So like I'm on that side of things, right? So it's...
+
+But if I did not work for Zendesk, I would totally go become a partner of all these big SaaS companies because I have a friend that does this and he makes so much freaking money.
+
+Like now, if you were there to make money, this is a, this is an awesome way to do it.
+
+You're a small partner, right? you charge less than the big company and you say, I will implement I'm a five, nine partner. I'm a service now partner. I'm a like AWS.
+
+Like I do like Amazon connect implementations and you do those things. Now you'll start making, you'll get to build cool things. You'll make a lot of money doing those and they will refer you. You become a good partner. And AWS is like, This is too small of a customer for me. Send them to James. And they dump work on you, which is fucking awesome for side contractors, right? Now, if you're like, I just want to build cool things. And if you're telling me I got to implement 5.9, I got to implement Zendesk, I got to implement AWS. That's old, boring software. I don't want to touch that shit. Well...
+
+That comes with your own services, right? Maybe that's when you upsell your own services. So you get in there, let AWS dump Amazon Connect builds on you. you do an awesome job at AWS, Amazon Connect builds. And then you're like, and by the way, did you want that?
+
+Like, did I show you that for your managers, I've created this like, like all the AI agents operating system that will make your managers amazing at all these things.
+
+This is my own thing. And let me just sell this to you guys. Whoa. You've been so great at this implementation.
+
+Can I buy that from you?
+
+So I think if I was not the person running the professional services team, I would totally bounce out and... hook on to all of the other partners that are out there. So that's my take on it. I know it sounds boring to start with, but that's how I'm curious to hear your opinion, though. How would you recommend going about landing a first partnership or getting your foot in the door with an organization like that? Yeah.
+
+Really? You just...
+
+It's a good question. Let me look into that because I was going to say it's pretty easy. I've had some, there's some partners that are like Zendesk partners that I like in my One guy was my customer. I trained him how to build Zendesk.
+
+And then he like reached out to the partner program. I think most of them have partner programs.
+
+She'd find, go say part AWS partner program. and apply for their partner program, you'll go through like a training, they'll teach you up and they'll say, you're approved.
+
+As long as you have the stamp, then you can start and you can resell too.
+
+You say, you know what's even better is you should be using Amazon Connect. And then when you sell them, they... they're like, oh man, I love working with James, right? So anyway, that's my take on it. I know that's a boring approach though.
+
+Thank you, though, man.
+
+The boring approaches are what tends to make the most money and work the most efficiently.
+
+That's fantastic advice, Eric. I'm just thinking here. I've been on the other side. We have another company. It's called Zillow. It's bootstrapped, not released yet. And we had a recent opportunity to talk to a type of venture capital, but they did not make any report of money, right? They just only smart money, right? And only because of that, our logo was showing on the platform. And just because we had the logo showing, like GCP, Google Cloud Platform, We were already qualified to have a huge amount of credits. And I was presented to the Google Cloud Platform partners. And with those credits that GCP gave you, you can use to hire those people from the partners program. That was the biggest insight for us. You can hire people who are certified by Google. I don't know about AWS.
+
+We just had this talk with GCP people. And yeah, it was amazing. So yeah, we are on the process of viabilizing that. If anybody is in this position, I have the contact of the person in Google that I'm talking with. He's really friendly and really open to talk with people. So if anybody wants to contact, just hit up. Can I share a story about what Eric said?
+
+It's how I started and sold my first business. Y'all remember when Gmail came out? Like literally Gmail came out, they went for college students first. Well, I was a director of admissions and recruiting for a small Christian college. We were building online universities. And so I went to the guy that was building it. This was 2010, maybe. I don't remember. But anyways, and so we signed up like 5,000 students.
+
+One week and they drove us to Atlanta did this whole thing and then we just used that and went to a bunch of Christian colleges Implemented it for free but because we were doing so many Google's pumped us up there we ended up doing a bunch of stuff over two years and then sold the company and all because We were... giving away a free product that Google wanted to give the students were just going to colleges and be like, oh yeah, this is what you need to use. It's free. Give it to your students. Stop using this old email system and use this.
+
+And it sounds crazy, but like it really is a good way to get started. I it's It's great advice. But, Ian, I wanted to... branch off what you said. That's most of the reason why I have pros and cons of Upwork. You can, after a work is completed, or a good client, you can... most likely refer you to, say, some of their friends, and then you can get reoccurring work. But... Sometimes that doesn't work out.
+
+And for Eric, what you said, what restrictions does Zendesk have on you for... Going out and making solutions for people. Because tomorrow I do another interview at New York, and I'm trying to think about the restrictions that they would have on me if I continue doing what I do. My only restrictions are that I am not a direct competitor to my service, right?
+
+And so because I am the leader of implementation for AI, of Zendesk AI, If I went and implemented Zendesk AI, this would like, this would be against my contract, right?
+
+I've made myself a direct competitor, but I could go do Any kind of AI implementation that has nothing to do with help center software or something like that. if I had time for it, right? Which is the other thing. So yeah, as long as you're not a direct competitor, you're normally good.
+
+Later on, when you fund your AI SaaS company and go to Y Combinator saying you're the ex-lead AI of Zendesk, then it's going to compensate a lot. Pretty sure. Pretty sure. Yeah, there you go.
+
+I think I was real bullish on the Antopic Partner Network because, like you said, I think it was Rodrigo who said something about the AWS certification. When you get that badge on there, you're... It opens up a whole new world for you. It seems like getting referrals showing, hey, I know what I'm doing. And people would just automatically, I don't know how it really works, but it seems like you get a leg up on a lot of the other freelancers implementing AI in the companies.
+
+Yeah.
+
+Yeah, I wish there's...
+
+When you get that badge, okay, this is important. I'll tell you something. So, like, right, Google wanted to get into colleges. They wanted to get into the... university ecosystem. Once you get that badge, don't go badge chasing. Don't rely on the badge. That's when you have to use your ability to network with your client to get you introductions to kind of other things. So if you, if you don't have a lot of experience, a lot of people, I've, I've had friends that do this. I don't, you know, they can make money, but when you're coming in, I would just say like one of the skills that you need, that's very valuable.
+
+That's a lot of people don't have when it comes to soft skills, especially just traditionally. space. You know, we're really good at doing stuff with computers and we're really good at working by ourselves, but we don't always play nice with others. taking the time to learn how to network and learn how to listen to people that say dumb ass shit and just smile and let them talk and let them talk about themselves and tell you how great they are and that they got this jet and you know it's a fucking piece of shit for 60,000 built from 1968 but you just smile and grin and you let them gas themselves up and you're like yeah and then they will introduce you to a ton of fucking people because you played into their emotions and you took emotional intelligence and you were you know played It's just that's the soft skill that I would invest in just as hard once you get that badge and you start getting a couple clients is learning how to make let them go get you more clients because they will and they love it.
+
+They love being the dude making the introduction to the guy that did this. But you just have to get them to do it. And a lot of very I find people really struggle at that part. And so I would just say it's invest in that skill too.
+
+Yeah, I agree with that 100%. As far as almost all of my business, once I got going, became referral-based to where I didn't even have to apply anymore. And so one is delivering great work, right? That's always like the best way to get referrals. And then the other part I would say from what David said is two, just asking for it. I think a lot of times people are afraid to ask, like it feels uncomfortable.
+
+And so one of the ways that I did that that made it really easy was just letting them know like, hey, if you come across anyone, Because for me, once you're in a niche, right, they all are in groups with each other. They all know each other, right? So once I started working with coaches, my coaches were in groups with a bunch of other coaches, right, that also needed funnel building done, also needed copywriting done.
+
+And so what I would tell them was like, hey, if you come across anyone else that you think would benefit from these things, I pay $500 for every new retainer client that gets referred to me. So like, I'd be happy if you would just, you know, pass my, here's my email, pass my email to them. loaded, like so much demand that like I had to consistently turn down business because it's like just a self-referring engine. So like what David said, one, listening, people always love to talk about themselves. So if you let them do that, that always helps.
+
+But even just asking, just asking and having like a little referral program. And it doesn't have to feel weird. Like people always like feel uncomfortable because you're talking about money and you're talking about sales, but it really can be just as simple as, hey, like once you know they're happy with it, like, hey, if you, you know, that we did, I would love it. I'd really appreciate it. If you'd be willing, if you come across anyone, I have a referral program, just give them my email. If they turn to retain our client, it's $500 for you.
+
+Right. And so, and then to me, it's really like, it feels good to pay them those referral fees, you know, because for me, it was like, I wouldn't even take on a retainer unless it was 2000 a month or more. And so it's like that $500 was nothing in comparison to a three month commitment at a One other thing I'll say back to James's question about consulting and the two different directions. James, I think for not that, I mean, I guess I kind of do, I do strategy work with consulting, so I'm not totally in this space, but When you were talking about that, I think that the bigger question would be for you to sit with, would you rather spend your days building stuff or would you rather spend your days educating and like talking, like conceptualizing?
+
+want to be in the space of not having to do the doing and when instead want to do the intellectualizing, the strategizing, et cetera. And so that's a very saturated space, right? And so usually it's much easier to land clients when you're willing to do the doing, right? Because that's the hard part. So people don't, they want to pay someone to just do it for them, build them something, do it, right? So I think that that in and of itself, being in that space is a competitive advantage because more people want to consult than want to do the doing.
+
+But if you're going to be in the space of the consulting talking, strategizing, et cetera, I think that your unique positioning is the education lane. So if you were going to do that, I think really leaning into the education side. And I think that there's probably a huge opportunity to position yourself as someone that can come in and almost be like a trainer for teams, like, or, or to help like come up with solutions for like their unique use case.
+
+But then in addition, like training and bringing up to speed teams before I started working for myself, I worked in healthcare and we would regularly pay crazy money for people to come in and do like bespoke training to our different teams for the different use cases. Right. And so like, so I think that, and that would immediately put you in a segment that, that is very different from all the other people right now that are just trying to do generalized AI consulting, right?
+
+Like it's just a totally different skill and you have really great social proof behind, like you run a community, you teach it, you don't, you build it. Right. So I think that you would have an easier way of getting in at a business level. at volume, it allows you to command much higher prices than when you're doing like one-on-one work with people. So that was my My thoughts on that for what that's worth.
+
+That's a great advice. I really appreciate it.
+
+I completely agree with that one. Yeah. So I... Go ahead, go ahead, Brandon.
+
+Sorry. So I was going to say, I guess like the, the differences is kind of labeling yourself as more of a solutions architect versus like more of a fractional CTO to businesses itself. Cause I have a guy who wants, he wants to be, he wants a build out, but then he also wants to be coached on strategy and how we're going to keep his data safe.
+
+So I'm kind of stuck in between two worlds here. It's like, of course, I give him the build-out price, but then I also give him a retainer price, kind of coaching him and moving his business along. I wanted to say something to James. I think you should, Take care. your path, okay?
+
+Because what I know, right? Okay, I build products and I write software and also I have some AI consulting too, okay? But one thing I know is when you're dealing with the client with AI consulting, if you want to teach them to, educate them to, I don't think it's a good idea, okay? I tell you why, because there is a conflict over there, okay? I'll give you one example, right? So let's say you build something for the client, right? Okay.
+
+And they use some AI or something, right? And at the same time, you teach your client some basic stuff about the LLM. Then let's say your whole solution is using and using CLAW. One day, the client may not be learning enough, but they would challenge you to say, "Hey, how come you built me the solution using the model from the CLAW?" But I find out there is a key mean 2.6, Which is like, you know, a one-third of the price, you know, like that's why I think like, you know, you will get into some kind of trouble, you know, because in my opinion, okay, the best client will be like the last they know.
+
+Is better, okay? That's just my opinion. Otherwise, if you try to teach them and then once they learn more about AI, it's also easy once you show them the direction, they will know quick too. So I would say like try to pick one path instead of doing both. That would be my opinion.
+
+Yeah, that's also really good advice.
+
+I'd say that's kind of why I like frameworks like Langchain and Langriff, because... Really, it's why we stuck to one platform like OpenAI or Anthropic because... The prices could always change, models always change, but having something, being able to be flexible is just... Bye. It's great. You could transfer the whole project without really tearing everything down. It's more code, but it's...
+
+It's easier. No, actually, I can explain to you. This is more related to... the cost and complexity, okay? So I have clients, actually I have clients, they all want, you know, they do not want automation. They want AI agents. Okay. So they do not even want the AI agents to be part of the system. They want it to be outside. Okay. You know, but so I'm actually looking into, you know, I can write code using land chain and then, you deploy it to Cloudflare, the agent worker, and then to do all this kind of work.
+
+But at the same time, There is another approach I can go for, will be using the managed AI agent from Adformtik. So I can tell you, if something is straightforward, and also you were talking about the cost, let's complicated, okay, I will go for mProtect, okay, because I can easily to build it, you know, it's actually like very similar to what we do, you know, when we have the block CLI, build the agent with the prompt and everything MCP, you know, you will find out that that thing take you like 20 minutes to be what you want right away.
+
+But now if you're going to using a land chain, now you will need to know the framework, you need to know the Python. And also now, when you have the thing done, and then you need to deploy it into a different platform. It depends. You can go in for the Cloudflare or you can go in for AWS like a bedrock. So there is like a complete complexity over there. Okay. You know, so we are, so, you know, my, my thinking is more like, you know, it really depends on your client.
+
+Okay. If they just say like, oh, you know, they want some AI agent to manage the office straightforward. Okay. Yeah. Then, you know, you will go for and thought that, okay. But if you have something, like an enterprise level. Maybe you need to connect to a SandDesk or maybe some other tools. Then you will go for a land chain. Most importantly, you will go into the enterprise. Those people are expecting like a 99.9% uptime.
+
+But if I go for Anthoptic, because I cannot guarantee you know it would be like 99 or 9% up okay um yeah so It really depends on your client. you know Because sometimes you just don't want to implement something really, really complicated, but you end up like you only make like $2,000. It doesn't worth it.
+
+Yeah, that makes a lot of sense. Save it.
+
+You use a, you try to use a lot of local models. Are you using like a framework, like a, like line graph or line chain for those? Are you did you say david? David. I didn't know if you were using a framework like that for your local models. I'll tell you guys exactly what I'm doing, which I'm listening to all y'all, and y'all all have the answers already. Everyone needs to share it. I am very opinionated, but...
+
+I'll just tell you what I'm doing. I've been is 100% on it. You need to pick your clients. Stop worrying about what models you're using, what lane chain, a crew AI. It's all going to change within six months. There's going to be something new. James has already done this in the broad space. He's already gotten all of us to sign up for here and pay money to get to learn something so he can clearly teach.
+
+He can clearly implement. You go after a community. a niche and you're the professional, you teach them how to do something. You don't care where the market goes. You're already the professional. They're locked in. They're coming to you for what the new thing is. Anthropic doesn't have the compute to be able to maintain what they're doing. Maybe they do keep it. Maybe they go. Maybe XAI shows up. I don't care. Roll switch. There's going to always be a new product. You're selling yourself to a niche.
+
+Then you become the industry expert in that little community. I'm doing property management. There's 63,000 property management companies in the United States that are 500 doors or less. Well, at 500 doors, you're making about $400,000 a year. See you. depending on how you run your business, you have enough money to give me two, $3,000 a month just to be like, hey, here's what you need to do. Here's the next change. Here's what we're doing.
+
+You set up a community. Now with school and all these easy to manage communities, you put them all in there on their monthly retainer for a smaller fee, do a done for you service. You just put in little stuff and you put tiers up there and they could, oh, I want that. I want this. Like it's not... Rocket science so to speak we're getting too stuck on the details of execution and not on the who you're selling to.
+
+Like it doesn't matter how great you are at something if you can't sell it. And so that's what I'm doing. What I am doing, I am reselling. I'm taking Cortex OS. I have implemented it to run property management agents. I went into that mastermind group. I paid 500 bucks to get in there to get to the CEO property mill. I started sharing what Cortex OS could do, what my maintenance director was doing with that, with the maintenance director software I kind of did.
+
+Then I shifted to have it run his software,That to him, Went in and started a school community, told the first 15 people that signed up they'd get everything for free, got them in there, and then now I've started charging, jacking fees up and say, oh, they don't want to pay to implement this. They're all going, when can you do this for me? When can you implement this for me? When can you do this? I'm like, well, you got to get it in line. Got to get in line. I'm going to have to increase the price. Clearly, there's too many people lining up. Sorry, sorry. And they're all, I told them, you can only get in here from a referral.
+
+somebody's already in my group, I'm not taking business. So, and I have like, I just got three people that sent me a school request submission and I was like, who referred you? Who are you doing this? Okay, like this is what we're looking at. Like... It's not where we get so focused on execution and what's the new thing, what's the next shiny object, and we're not focused on who's our customer, how do we use the referrals, how do we become the expert? I don't even have a website, guys. I don't even have a social media account for this. I'm in one mastermind group and just sharing regurgitated knowledge that's all over social media accounts.
+
+More times than not, I just turn AI on and listen to some influencer recording. voice and say, turn that into a post for a community and make it sound like me paste. You're just saying, Hey, there's this RTK. I mean, RTK, this is a way to reduce your costs and be able to make your $20 a month account go further. Use it. Guys, they don't know what's out there on GitHub. They don't even know GitHub fucking exists.
+
+There's something new every other week coming out on GitHub. And all you're doing is going, hey, this is this really cool thing. I know I told you all about GitHub and you need to be using it. Give this to your AI agent and ask them, how would you make this work with the software I use right now? It's going to give them some crazy answer. They're not going to know what to do. Well, hey, if you have questions, just shoot me a message. I love talking about this shit. You get them on the phone and they're like, yeah, you should do this, this.
+
+Well, I don't know how to do that. Well, I got this community where I kind of help people do it for free just to get stuff. And they're like, can I get in there? Yeah. Oh, you want me to do it for you? Well, it's $10,000 to set it up and you got to join this group and it's $500 a month. But that's where I kind of show everything and actually really coach people.
+
+I saw someone raise their hand. I have one really quick question for James. More about the Cortex OS. How are you planning to. Reserve this. Okay. Because my only question about. I'm using it, I think it's great for the builder. It does a lot of things. And also because auto subscription, it saves a lot of money. But now, when they try to resell it, so let's say I implement some workflow, right? For some industry, right? Okay.
+
+You know, but I look into it, I talk to the people. So there are two questions. I'm kind of hesitant to do it. One would be the, um, they are really against, you know, to have a machine running in the office. That's one. And second thing is they will keep asking me about like, Is it even okay to run the business with the... Because you need to install the Cloth CLI, right? Okay. So they were asking like, "Okay, you're selling this to me, but I also need to subscribe to CrossCLI to have a subscription." So he said, "Okay, I do not have an answer for that." Yeah, so probably like James, you will be able to answer that.
+
+Yeah.
+
+Um, So... I mean, for me, I think the product future of Cortex is very slowly... becoming clearer, but to me it's still very unclear. I think David, David, out of anybody, including myself... I don't know actually yet, but David and I are probably neck and neck for productizing Cortex. I mean, this community is the way I've productized Cortex. I'm not selling it to businesses other than the ones that you guys are running if you're using Cortex to help run your business. So I think...
+
+to really actually productize it and address the concerns that you're talking about, Ben, like using it with a cloud subscription. There are security concerns. You said there's hardware concerns. There's a lot of different roadblocks. And I know Rodrigo has also talked about productizing a similar thing. And he was running agents on a VPS. So I think the first step is somewhere in between full productization and a builder. Like right now, Cortex is pretty much for builders, people who are willing to hack around. Like pretty much everyone who's used Cortex right now, like the first week, there's like 10 bugs and they have to spend, you know, 10 hours like getting their system, you know, honed in.
+
+And then from there, it works pretty good. That's not, you know, okay for a product. So you have to maybe address, you know, business owners that are willing to be a little bit of a hacker next, who see the leverage that they can get from this type of tool and are willing to hack around with it a little bit, with you. But to fully productize it, I have a million and one ideas about it. And let me put a quick note in here that I've been talking with a few different community members here about people who are really focused on Cortex and want to implement it more widely.
+
+So if you're interested in really dedicating time to Cortex as a system, hit me up because I am. I think it could be really great. And if there's a way to, you know, actually make it like primarily cloud-based, let's say. You know, everything lives in a cloud database. You're able to run agents in the cloud. You're able to, for instance, have multiple employees log into the same Cortex instance to have each employee's own agents collaborate through a shared platform.
+
+That doesn't really exist right now. And that would be pretty revolutionary, I think. So if you're interested in building stuff like that, let me know. Anyway, Ben, I I don't know if that answers your question. I know David wanted to say something as well.
+
+Yeah, so... One, You got to find, that's why I say pick a niche, guys. And so I'm in property management. I know that there are other property management companies that everybody wants AI right now. Nobody knows what the fuck it can do. They all live in fairytale land and believe the hype. All right? That's fine. I don't mind that. I'll tell people, like, you're going to get your own Mac Mini. You can do it on Windows. You can do it on VPS.
+
+This is rough around the edges. Who's your IT person? Who's your nephew that you trust to kind of get in here? They just want to have something to play with. And I tell them like, yeah, This is where we're going. Most property management is not enterprise software. It is the most, it is all mom and pop shops. There are very few property management companies that are massive. So that's a benefit to me. It's all mom and pop shops. It's all one person.
+
+And if you got 10 employees and you have a 1200 doors, you're a huge success. You know, it's not something you can resell. It sells at a 1.5 multiplier. So like, it's not something that people can grow and turn into, turn around and sell. So it's the industry when you get in it, you're grinding it out for 40 years and it's kind of sucks. And there's a ton of different software. There's not, you have to have at least three to four different pieces of software.
+
+And so what they want, the way I position this, I can give you an AI agent that you run on your own thing and it goes through here and you, you retain a little bit more control over it than the other companies that are in our space that are trying to do it all for you. And they're like, I can't legally give that data away. I have to control it. And I'm like, do I trust them or do I kind of trust? I'm like, there's security risk everywhere.
+
+Like there's no safe space. I was like, you can guarantee you if I wanted to, I'd go get your social security number right now. Like, It just is what it is. And they know that to be true. They might not like it, but you're like, if you're going to get hacked, you're going to get hacked. You know, like we can let the fear of all this stuff stop us from moving forward and we can live in a nice big bubble. Or we can go and push the envelope and be prepared. And when the day comes that Anthropic or OpenAI or someone we've never heard of that's 12 living in the Philippines decides to make the next great thing, we're going to use it, but we'll already have our industry knowledge in there.
+
+We'll already be set up and we'll be ready to go.
+
+you And that's literally all I tell people. I'm like, this is not a perfect system, but do you want something that can make your life better that you can get out of the work where you're not having to sit on the phone and talk to all these people all day? You don't have to do all these processes from spreadsheet to spreadsheet and move from Appolio to Property Mail to Tenant Turner to RentVon to this.
+
+And that's your whole day. And you can automate that in a telegram. You talk to telegram on your phone while you're sitting at the golf course, while you're eating lunch with your girlfriends, when you're doing mimosa You can say, yes, send Carlos to fix that. Thank you. God, I'm so glad I didn't have to do the rest of that. What's that worth to you? what is what does it cost to buy back your time what is your quality of life worth and most people in their 40s do not care about spending money small business owners they want their quality of life they have done the grind especially if they're in their 50s 60s and realize I'm not gonna be able to retire I'm I have to keep working. Well, how do I do that while still being able to be semi-retired or at least enjoy my life?
+
+I want to, I go to, I, I, my kid's in fourth grade. I missed the, me and my wife missed the first field trip. And he was like, I'd never been on a field trip without you. And I tell that story to people and they're like, I want that life. And I'm like, well, here we go. It's not that hard. It's not, you know, and so you can get stuck on trying to solve all the problems, which there will always be a new problem. There will always be a reason not to do this.
+
+The difference is there's a hundred reasons to do it. Thousands of reasons on the other side. So we're either looking for problems or we're looking for solutions. Which one are you? And if you like, I'm not going to agree them all, but I'm using it. I'm implementing, this is how I run my business. I'm doing it right now. So I know I can at least help you do that. And that's one advantage I have because I actually own a property management company.
+
+So I'm able to show it actually working right now, running my maintenance department. I'm setting up a leasing. And so... Cortex OS to run my maintenance department.
+
+That's why when you get a client that's in a niche or in an industry and you learn that knowledge, I'm like, hold on to that. That's your door in. You can be like, I already, I have a, and just let them know, hey, can I, can I show people what I've built for you?
+
+And they're like, yeah. Oh, and you're like, hey, you want to do a call with me with a couple of clients where we can talk about what we built for you and you talk about your business and how it's helping you? People love that shit. Oh, my gosh. I get to talk to other people that do what I do and I'm the front runner. I'm cutting edge. Like I'm out here on the freaking. Yeah, I'll do that. And they'll sell it for you. And then you're just like, do you want that?
+
+Yeah. How can you do that for me? And you make it kind of easy to start. Like if you haven't done this before and you don't have the ability, you're people pay 99 bucks a month, 200-300 bucks a month to come in here and have you set Cortex OS up for them, basically. I probably would rebrand it. You know, come up, you know, you're all smart enough to figure that out and personalize it and then do kind of what James has already done. Get out there, put your face out there. Don't worry about the brand. You're the brand. And you just start. I mean, if you're not very good at it, he puts up a video every day.
+
+Just re-say it in your own words and apply it to your niche.
+
+It's great advice. No, it's 100% true. Yeah, Draper, go ahead. I know you've had your hand up. Yeah, no, man. What are David saying?
+
+Oh, man. It's like angels coming down or something.
+
+So, see, everybody is talking about tech.
+
+You're absolutely right, thousand percent. people who are on this call, especially the techies, we all are kind of focused on perfecting things instead of doing that first step, right? And you're right. I mean, getting the customer base is more important than getting into this because people like James are always out there helping us to get to the technical level as fast as possible. And again, as James also mentioned, hey, I built this community not to sell it to enterprise, but help you guys in order for you to sell it to enterprise, right?
+
+So we're all in the spot. By the way, James, I built my own agent system, but yours is awesome, man. I'm working on Cortex right now. I have built it entirely on my new M464 gig.
+
+It's killing it. I have red team, blue team.
+
+I have the whole Dell setup. I have the entire AIS DLC going on it. The way it collects the data, that's what impressed me. I mean, I still would just go with my autonomous system, which I already built. with all the agents and everything. But yours is exactly the enterprise level. And David, I have one question. So how did you get your first, I mean, actually, that's a wrong question, but let me ask it this way.
+
+How do any one of us would start getting clients actually? What do you do if you're starting from scratch to get a client? You want me to give you my, I'll give you my honest answer. You do it for fucking free. You find somebody, you find somebody, not anybody. You don't go, you find somebody that's successful. You go to meetups, you pick them out. There's someone in your town. There's someone within, this is just what I did. You have somebody within proxy. When I first started my SEO business, I'm telling you how I did that because that's, I knew how to do it because back then you just bought safe links from Russia and threw a bunch at them and they went to number one.
+
+But, um, I found somebody who was very well networked, went to all the network meetings, was successful, and I just got proximity. I will pay for proximity. That's why I joined that mastermind group. A CEO's there. I'll pay the monthly fee to get access to them. You might not want to do that, but there's free networking. Find somebody and Once you have one successful implementation, then you go to and you use them to get you to other people.
+
+You say the same thing like, hey, Who else do you know in your niche that could benefit from something like this? I'm trying to grow my business. I'll do it. Hell, say, who's your buddy in another city that's not your competitor, but you want to be a fucking rock star? They know someone and be like, hey, could you introduce me to them? And I'll do it. Maybe you do it for free again. But you got to get started somehow. And like Erica said, even with...
+
+Um, Freelancing. Like you kind of got to grind a little bit at first. And it's really hard. When I started my first business, I sold my car. I got a house close enough to the bus line. I rode the bus to Panera because I didn't have a fucking car. And I scheduled a bunch of meetings to come meet me at Panera so they didn't know I didn't have a car. And so I could sell enough fucking WordPress websites at $500 a pop to be able to buy a car and pay for a few more meetings. And eventually I found somebody who I was like, okay, you're actually successful.
+
+You believe in me. I use that story. I still use that story today. People love that fucking story. It's true, but they love it. Everybody wants to be the freaking... Like you have some struggle that's universal. The only other thing I will tell you is be authentic. I'm dyslexic. I can't write a perfect email. I thank God for AI, but you guys have seen me when I don't actually AI edit my post in here.
+
+You're like, what the fuck is David saying? And I'll tell you what, I'm not that guy. Like if you want a perfect email, go hire somebody else. If you want to get shit done, call me. Call me if you don't want to hear a cuss word. Occasionally, I ain't your guy. Like if you like, okay, it's, it's productive, but like, hopefully God will save them. I'll, I'll, I'll take that. Pray for me. We're good. Let's go. I'm in the South. So there's a lot of religious people.
+
+Um, But yeah, and the only other thing I'll tell you is when I was younger, even into my late 20s, I was afraid of older people because I didn't think that I had the right to speak because I didn't have the experience. Every single person sitting here has knowledge right now just from being in this community that no one else has. People think pencil is going to do all this for them. Pencil, I mean, it's great. Don't get me wrong. There's great things about it, but they can't implement it. Every single one of you could implement Pencil, Hermes agents, Cortex OS.
+
+What else? All the other AI, agent, orchestration, OSs that they might know about, when you just point them in a direction, And go from there. I'll ramble forever. I talk too much, but... Mm-hmm.
+
+And get testimonials.
+
+That's testimonials. Don't forget to get them.
+
+Because people, you can say it, but if it's all over your website and people are like, oh, yeah, like, I guess I shouldn't give it a try.
+
+Thank you, Eric. If you do it for free for someone, it is mandatory. They will give you testimonials and they are going to help you get the next person. I will do this for free. I'm starting out and like, okay, blah, blah, blah. But you're going to help me get to the next person. And like you say it a little bit nicer than that, or if you're, you know, 250 pounds, you just say it like that and try to intimidate them. But, you know, you play to your strengths and weaknesses. You own your weaknesses when you're networking because people don't do that. If you're going to a network event in public and you're not used to it, I'll tell you the greatest piece of advice I ever get.
+
+You go find the person sitting against the sidewall scared to death and you walk over to them. You go, oh, fuck, man, you hate these things, too. I don't know nobody.
+
+That way you'll know the whole room. Because you'll be the one that goes to everybody that's... And then all of a sudden, it's easy to meet the people that everybody wants to talk to when everybody else knows you. The only other piece of advice I'll give you is when you do go to a networking event and you do know some people and someone new shows up, go to them and they'll start talking and you say, hold on, whoa, whoa, whoa.
+
+Who are you trying to meet?
+
+And they'll go, I want to meet this person or that person. And you go, awesome, come here. Hey, James, this dude's wanting to implement AI. I know you know you're the AI guy. He needs your help. And you just say, hey, and then you walk away. Hang out for a little bit and walk away. They will remember you every time they come to that meeting. They'll be like, David, what's up, man? Dude, James helped me out so much. Didn't buy anything. It was a great conversation.
+
+We grabbed lunch. But now you're the guy that introduced them.
+
+So if you do in-person events, that's the best way, in my opinion, to do those is go to the people that are scared and then start introducing people that you met the week before and become the introduction person and then P.
+
+People, you know, you're just kind of going through and want people to remember you without you talking about you. It goes back to that. People don't care what you know. They want to know that you care. And nobody wants to be the person introducing someone. They want you to be like, oh, I do this, this. You can use my service. Don't do that. Don't do that. It never works. I love it.
+
+That's great advice. So with David, I think like David, you have such a big personality that like, it's so easy. I think people to love you and to remember you and to do that. On Draper's question, if you're more of an introvert, like I am, some advice that I have on ways to get clients, if you are not a networking person, if you don't feel comfortable, I think that it's great. Cause like I've had to, I've had to stretch my capacity to be able to get clients.
+
+more of a people person to talk more. So I think it's great to still challenge yourself to do networking to put yourself out there that's huge in growing a business. But one way that has worked really well for landing clients for freelancing off platform, like off of Upwork is once you have picked, it's so important that you pick a specialization sort of niche, right? So whether it's bookkeeping and accountants, whether you said you're gonna be in the medical field, they're gonna do coaches, whatever.
+
+Once you pick who that is, who you're going to serve, where they hang out, Facebook groups, school groups. There's so many free school groups out there, Reddit forums, et cetera. And then what you do is you just once a day make Practice to go hit those different things. Look through the posts and see whether or not there's anything that you can bring value to.
+
+too. It could be ideating, brainstorming. It could be a problem that they have. And it can literally be stuff that like, you might be thinking like, well, what would I do from an AI perspective to help someone who's like in this bookkeeping or accounting firm? Right. But it's like, they may be posting something about like that they're having problems with their ads campaign that they're trying to run. Right. And then you can hop in. And the whole idea is you are not there to sell. You are there to serve.
+
+And so you show up to serve and not sell. And you give genuine advice of like, Hey, I worked with a client, you know, that had a problem like this and we built a system doing this, you might want to check this, this, and this setting. And if not, you know, like I'd be happy to shoot you over a quick little, you know, three-step process of how you can use AI to do whatever. Right. And so you actually give away value, like high value, and it's worth usually like 10, 15 minutes of your time.
+
+So kind of like David was saying, where you're giving away something free, the part where I would pivot, it's a bit different from which giving away stuff for free is always great because then you have leverage for the getting the testimony. referrals. But another angle you can do is to offer beta clients to where they just get a really steep discount and that you're doing it in exchange for the testimonial and that they get a really steep discount for your first X amount of clients. That can work really well too.
+
+But So basically what you do is you just show up and you super serve, finding a few good examples where you can post it. It lives evergreen in those groups, which is great. So sometimes leads will come to you long after you took some time to leave some value on a post. And then you want to make sure wherever it's at that you have kind of like, let's use James as an example. So like whenever James does TikToks, right, he points to join my school community, go to the link in my bio, right? And so like when you go to the link in the bio, that link goes to his school group.
+
+You want to make sure that like, if you're on Facebook doing Facebook groups, people are, what's going to happen is when they see you and they're like, Oh, well, this person seems confident. And like, you know what they're talking about? We're nosy. Right? So we're going to go hop and we're going to go look in their profile. So you want to make sure that your profile is set up so that the link, like where you would have a website, if you don't have a website, a really easy low lift way. This is where people get like, they get stuck down in the weeds of like, I need a website. I need to do this. You don't need, you don't need all of that. So like go set up Calendly for free.
+
+percent for free, set your times and just have book a discovery call with me for 15 minutes for free. Put that link, like that link becomes your website link, right? And then you optimize your Facebook page and make sure that like, you know, you're not posting like your MAGA posts and different things that are going to like repel people, right? Make sure it's professional that you've got a good, nice, clean feed, right? And that up at the top, you have stuff about what it is you do, like you're an AI expert, right? Because people are nosy. So they want to come look and see like, what is this person who just left this thing?
+
+And right now, now you've got a link that says book a free discovery call with me, like a 20 minute discovery call. Right. And then now you've got your lead. Now you've got your way in. And so that's a really fast, really easy way. And a good practice that if you're trying to land clients to do that. So that's the introvert introverts version for what that's worth.
+
+I'm going to throw one thing on top of that. Do all of that. When you make your post, end it with, hey, if you run into any problems, just shoot me a message. or something that way you don't even you do that but even before that people will go there And I get messaged all the time from stuff I did years ago where they're like, hey, do you still, can you help me? Now, sometimes I'm like, I don't do that anymore. Let me introduce you to someone else. I don't, you know, do the, but make it easy for people to contact you is basically what we're coming up with here is don't make them struggle.
+
+Make it super easy. If you're on Facebook, shoot me a message. Every platform has direct messages. Hey, just, you know, if you're running any problems, you need a little bit help with what I just told you, that little nugget, shoot me a message. I can, I'll, I'll, I'll help you. I gotta go put my kids to bed. So I just realized it's almost 830. Sorry. If we're still here when I'm done, I'll be back.
+
+Hey, Erica, how do you feel about as an extrovert myself, here's a question for you as the opposite end of the spectrum, right?
+
+How do you feel about doing a, a video or kind of a YouTube video or course, The reason why I say that is because I have, I've hired people Um. because I found something they did on YouTube And I went...
+
+I found him on LinkedIn after that and I said, can I hire you for like four hours of your time?
+
+I will pay you like whatever you want. And then they quote me something crazy and I go, Okay, so I still want it. I still want it. Let's do it. Yeah. And it lives forever. Like this one lady was a, she was in charge of like helping people with their career paths at Google. And something I suck at as a manager is like, what do you want to do with your career? What do you want to do with your life? I watched a video of her on YouTube, like, this is how I do this at Google.
+
+And I was like, nine years ago and I found her on LinkedIn and I reached out to her and said, will you teach me how to do that conversation? And she said, yeah, it's $900 for an hour.
+
+And I said, "Will I be able to do that conversation after an hour?" She said, "Yeah." Pay me a thousand bucks and I'll teach you how to do that conversation.
+
+Done.
+
+Let's go. Like that was a fuck ton of money for an hour worth of somebody's time.
+
+Yeah. but it was totally worth it now i can have that conversation so if you how do you feel Like make that video, put that video out there, something like that as a marketing tool. I don't know.
+
+Yeah, that's definitely like, are you asking about like me specifically? How do I feel about going on video? Are you saying more just as a strategy?
+
+Well, you were talking about like the introvert approach, right? Yeah.
+
+Yeah, so video, video is huge. People love video, right? So video is absolutely huge. I agree YouTube as a mechanism. It's great evergreen content, because people search by keywords, right? So if you do a good job in your title, your description, and the content of your video, because it has the transcription. And then you in especially if you're consistent at posting, right, people are going to find you especially the more unique and the more niche the topics are that you're talking about, the more likely you are then to hit people evergreen.
+
+nine years later on something. Um, So yeah, I think that that's a great mechanism too. That's more of a long, a little bit more of a long game. Just because like when, when you're in a group, so like when I talk about like doing those Facebook groups, a lot of times for me, it's like I was in groups, you know, with coaches and stuff. Right. And so I would, I would come in and those groups might have two or 3000 people in it. Right. And so if someone posts something today and people are in there, it's like, that gets me a very immediate return on like, not only am I helping that person, but really your comments.
+
+is being seen by all the other people in the group. And so a lot of times it's like, I would go in there. And for me, it's like, you want to throw in a little bit of your social credit. So for me, it's like someone would be talking about like their ad campaign, not, not converting. Right. Which is something that I do within like the funnel space. And so I would come in and say like, Hey, like I'm a top 1% sales copywriter on Upwork. I took a look at your creative. I have a few suggestions on how to make this convert better. Here's what I would do. And then I give them like, you know, four or five different things. And like, here's an example of your rewritten copy.
+
+If you would like to test it out, hope this helps. Right. And so like, so I would spend 10 minutes doing that. And then I'm not kidding within like 20 minutes, I would have like 20 different comments where people would be like, where's your website? Where can I hire you? Are you taking people? Right. Because it's not about the one person, it's everyone else reading it that gets it. So, so I think that it's, you know, like you get more immediacy, but if you're willing to do the long-term game of like just consistently posting a hundred percent, like that's a huge way.
+
+And leads. I mean, really, that's just traditional marketing, just what you could be doing. TikToks, you could be doing YouTube, you could be doing any of the other ones. So if you're extroverted, that's like that's my personal challenge. That's something I'm working on is I have a really hard time getting on video and doing social media and all of that. Long form is much easier for me if I can just if I can just get on and talk and teach. But if I have to do anything that's like tight and scripted and like it feels so.
+
+It just feels gross to me. I don't know. I can't do it. My brain is like, no, thank you. So, but yeah, YouTube videos. Absolutely. That's a great lead. That's a freebies. I mean, like, so you can really get down, like if you're going to actually turn it into a business, it's like lead magnets with opt-ins and email marketing and like the whole spiel, right? Like all of that's great and good. But I'm, I think we have several people in here that are kind of like right at the very beginnings of like, they know they have a skill. They know they want to sell that skill, but they have a pretty big gap between that and how do I start landing?
+
+And so in that regard, I think the easiest, fastest is doing like group posts, you know, and just putting value out for people to find.
+
+Also, just to add what Erica just mentioned, right? The best thing which supports you is timing. So it doesn't matter how good the content is. I saw multiple people doing very awesome content, but they never go viral or just go to the right people who they reach to because the time is not right. Now there are tools which can help you. Posters, oh man, that's a life-changing one. Just use that. source tool it's called post is uh if you guys haven't heard about it it all you need to do is get your uh ai working on your entire video editing and everything once it is done it just sends it to post this directly and post it will send it in the right exact time also you can do a research on which time goes for your for your specific uh uh users so for example there are users back in uh us and there are some users back in europe but there are some users back in india or maybe wherever it is, right?
+
+And your niche kind of tags to that specific geographical area. And sometimes you'll be really shocked to know like your readers will mostly watch in Thailand too, actually. So that's how these things work. But with the power of AI, actually with the power of LLMs and their brain on how things are working and with the power of Cortex agents, right? You can really get the details and post this for the specific times.
+
+Thank you. Trust me, your views will be 100x more and your reach will be 100x more when you post it in the right time because there is a psychological thing tied up to this entire thing. That's how Instagram, Facebook, and everybody ties up on. And that's how they know what you think at what particular time. It is analysis. And it's in your hands right now to do that. So whatever Erica mentioned is awesome. That's true. And that's how you need to go to the next step.
+
+But the tool which really helps you is a proper social media agent, do some research on that one, and then post this. That's it. You got the entire thing working. But the only problem with the entire social media is it takes time. Be prepared for it. It takes at least 90 days, consistent posting in the right times. You miss one time, your algorithm will just kick you back. Just remember that, Paco.
+
+Can you put the link on the chat? Thank you.
+
+Yeah, your name is, uh, how can I say your name? Drabber? Heart is the correct form.
+
+That's true. That's right.
+
+Strava? Okay, okay.
+
+Yeah, that's my game name anyway.
+
+All right, all right, all right. Yeah, so really good comments from Erica. And I think something very interesting from Erica that made me thinking here is like maybe she, even she calls herself like an introvert. She has one of the best oratory I have ever seen, you know? So like that's something that is very important is being able to connect to people like that is the key point for me with what I've seen so far.
+
+You know, everything, everything. Even if you're talking about your team, your clients, scaling, everything. Sales, it's about people. It's about connections, about how you can face them and create a real connection with them. And something that I will highlight is use and abuse of your network and not your professional network in the beginning, I say, right? I have a fly started with me alone, just getting GHL Go high level subscriptions on the free trial.
+
+the free trial and changing gmails for three months until i i saw that i okay okay i'm great at the platform now i can resell to a business and i like made a list of my friends and parents of my friends that had companies you know and yeah just start approaching them and that's something that is really good to the beginning you have a really big connection from the first moment you know it's a personal uh network you know people trust you and that's usually the biggest barrier you're gonna have in the sales process making people And when that's already broken from the minute one of the conversation, if you work it around...
+
+Just like well, you know, like doing the basics, you have a really high success of closing it. Even further, if you follow David and Erica's recommendation, do it for free. You know, it's a very high probability to land a good case as your first one.
+
+Can I say one thing real fast to everybody in here that's thinking about doing this? The knowledge you have in your head, people want. Especially right now. The last time this happened that I'll speak on something I know about was 2006, 2007 with SEO.
+
+If you knew that all you had to do was get on a website called Stape and spend $100 and you went number one to Google, you could walk in and ask for money from anybody.
+
+And they were just like, how do you know this? How do you know? Right now, no one understands AI.
+
+Just being in this community, you can speak on it better than 99.9% of the population. It's an easy buzzword, everybody understands it when you can actually say, "Oh yeah, I run AI agents in my personal life. I run the LifeOS. Yeah, I have this and it's what I do to help automate my business. Yeah, that's going." They're going to want to know more. They can't help it because they don't know anyone else that does that.
+
+I don't. And I mean, like...
+
+It's crazy. Like, you know, it's like...
+
+People want that information. Do not be afraid to talk to people. They're going to want to pick your brain. So I just want you to have that confidence to realize that people want to know what you know right now, and they don't know how to go get it. They can talk to, you know, they can get all the information you get access to. They have the same resources, but they are, they don't know what's true and what's not true. They don't know anyone that's actually implemented this.
+
+I guarantee you, They don't. If they do, that person is not going to share any knowledge with them. They're probably in the scarcity mindset and they're gatekeeping it.
+
+I posted it like five times, but I seriously think somebody here should go to corporate, should go into big companies. Every company I have access to Claude, to OpenAI, to Cursor, to GitHub Copilot, to like, I just, I like, like I can keep listing every, to Gemini, iCubic, I have access to all these enterprise, I don't pay for them. I have them all for free. through my company. But the only people that are really doing a good job at using them are our engineering department.
+
+Yet my company pays for me and all of these like accountants account managers and sales people and you're like what did how do you use this tool salesperson and they're like well i would ask it to make my email professional make this professional right like what the fuck somebody please go in and start like i teach i teach I teach salespeople how to use AI. I teach account managers how to use the AI that you already pay fuck tons of money for.
+
+And like, so like, I feel like if you landed that niche, oh man, I'm almost thinking I should quit my job and go do that one.
+
+Yeah, the implementation space. I was talking about with James to where like when we were in healthcare, we quite literally paid an implementation team. It was three people that came in and we paid them $250,000 to come in for a two week period to basically because we got this new big piece of software, our electronic health record, and we needed unique use cases for every different department and the different use cases of like, so basically those people would just come in and they would Go sit next to someone like and be like, tell me about what you do day to day in your job.
+
+Like, how can we build custom things within the software to help you do your job? Use that tool. Right. It's like that's exactly what came to mind when James was asked about that. It's like I could totally see him getting integrated into a company and sitting down and just going department by department. Go sit with the sales department. What do they need? And then like do the build and then teach and train them on like how to do it.
+
+OK, now what is the engineering team need? Now what is the accounting team need? Right. Like. But like people, companies pay stupid money for that because it's like, it's a very unique skillset. It's not something they have an ongoing need for. So they have to pull in an expert, right? Like to sit down and implement and teach. But yeah, I agree. That's a huge opportunity, huge to have be like an implementation specialist to come in. And, and I think too, it just takes a unique person to where you can. And I think, you know, I think James has that unique skillset to where like you can, you don't have to just be the sales department.
+
+and look at all the different use cases where a problem is just a problem with a solution that needs to be built, right? And then you're building that solution specific to that use case, that person, their workflow, like their thing. And so that's where I was saying he wouldn't be competing with many people, right? There's just, there's not many people out there thinking to even go that direction. So I feel like that's a huge, huge opportunity for sure.
+
+Or somebody here teach me this one.
+
+How the hell do I use AI as a manager?
+
+This is the problem that I've been trying to solve. I've been trying to solve. It's actually why I'm in this community. I'm a manager. I know I was a technical guy six years ago.
+
+have fun goofing around with things. But now I'm a manager. and I know that I need to know AI because the future is gonna have my AI agents running, all these kind of things.
+
+How do I use AI as a manager? How many people are on your team? Uh...
+
+20 something, 27.
+
+How do you, what do y'all use right now for internal communication? Slack. Perfect. Oh, my God. I've already got a message. I already have Cortex running through Telegram integrated to Slack so that my property management teams personally and me and my wife and our employees can all communicate with the agents through Slack so they can talk to them. You could literally set up one Cortex OS, have your coder, have your analyst, have that create that. You're a manager. You create one agent, maybe a couple if you want to take your playbooks and SOPs, get that all in there to them.
+
+They have things they can go on Slack, message that agent. It can give them, oh, this is what you would handle in this situation. This is how you go through this. So they're just going, okay, instead of coming to Eric with my problem, let's go talk to Eric 2.0. He already has all my knowledge. If he can't answer it, then you come to me. You get them interacting with it, and then you're able to go, okay, boom, it's just sitting there.
+
+That'd be cool. The other thing I was doing was, I made like a coach agent and I said, this is how I think, this is how, here are the books I like, here are the leaders I like, think like them. And here's the thing that's annoying though, is I had to get like an API key to get uh like transcripts coming in so we have gong and i want these transcripts to be from my meetings when i have my one-on-ones and have it like get a transcript of it and i wanted to read it and identify like eric just talked to david and like grab this piece and like put it into david's like updates for his one-on-ones and so yeah so you have a meeting one-on-one you have a meeting one-on-one with someone you're like okay hey here's the things we're going to work on i need you to work on this this this and this now the your agent because you have your they get you have i'm sure company pays for it you can have an oauth subscription or api keys whatever goes through and says here's your here's your things Turn your, you turn yourself up.
+
+You didn't meet this goal.
+
+This is what your benchmark where they know, okay, here's where I did this. There's a lot of different ways like that. You could set it up where you're like, okay, you know, here's your, we're meeting again in two weeks. I need you. These are the goals you have to hit. Talk to, you know, go through that. It measures them. It, follows them, you know, that kind of stuff. Yeah. There's a lot of easy ways, and you have Cortex OS.
+
+I think a lot of people get stuck on the, we think orchestrator, analysis, builder, we're here to build code. The same agents that are in there, you just create a specialist and you're like, This is what your role is. It's boom, boom, boom. And you're going to be this person's agent. This is to get your own agent and it's going to add that your agent has what your workflow is, what you're supposed to do. You can ask the questions, but also knows your measurables. It's like every morning in my morning brief, it's like, here are the six work orders that came in overnight. Here's what I think you should do.
+
+What do you want to focus on first? I want to take care of those four work orders and I want to work on implementing this today. We're going to work on solving the memory problem. Here's what, here's three plugins. I call them plugins because I'm used to WordPress. Three GitHub repositories. I want you to go through them. Tell me what we should steal and take from them and how it implemented into, I call it a send ops, a send ops repository.
+
+And so then it's like, okay, here's your, you know, it's like you present solutions, not problems. Don't ever tell me a problem without giving me two solutions and your opinion of it. And then if I don't know anything about the subject, I'm like, hey, you're the expert here. We're going to default for yours and we're going to measure it for the next three days. Tell me what we should do. And that's how I built an agent to do maintenance. That's how I did leasing.
+
+That's how I go into-another thing I'll tell you about a niche you don't understand, every software has the best practices. You just tell it, hey, I need you to crawl the website, get their API keys, get all this stuff. They already tell you how to ingest it all. The only thing I haven't really figured out, because I go through Telegram and don't use the dashboard, is getting video all the way into it.
+
+But I'm sure it's pretty simple. I just haven't taken the time. And then you're like, there's your resources, dude.
+
+Yeah, because I wanted to listen to like, I've got everybody's gong recordings.
+
+I say, go through everybody's gong recordings. Identify negative sentiment and tell me where I'm supposed to go. Like, what team member should I go check in on? Like, yo, how's David? David, are you okay? I heard you had a hard call. Here's who's struggling.
+
+Yep. Here's who's struggling right now.
+
+Here's who overachieving. You know, give in. The other thing I used to do, I coached a lot of sports. And coaching sports and coaching business and managing is the same thing. Find your best player, right? And you're like, hey... I need your help with this guy. They're struggling. Like, you're really good at this. I need to delegate this to you. And this is how I take, this is where you look at your A, B and C players and you go, I can't have C players.
+
+I need my A players to help my B players become A players. And I'm going to teach you how to, you know, there's someone that's an A player that wants to progress. You're like, here, I'm going to teach you how to do my job. Because if I can replace me, I get promoted and you get promoted. Might not be totally true, but they'll buy in, you're delegated, you You kind of use your team to start. And when people can take ownership over someone that's struggling, especially if two people's personalities really mesh or they don't mesh with you per se, you know, AI really can help there.
+
+I was gonna say too, With that many people, you could like if you have a place like JIRA or whatever task management thing that you have, you build like almost like a CRM profile of just all of your people and what they're working on. So whenever they interact with the AI, the AI will have some idea of what they've been working on recently.
+
+And that kind of helps with the qualities so that they don't have to Restate.
+
+everything that they're working on. and it has like a little bit of an idea and you can kind of keep track also for you, of like, what people are working on individually.
+
+Because I found with enough people that it kind of helps to have that kind of like top line view with like a timeline of like, okay, this is...
+
+what each person has been doing, you know, over time. Right, and then you can, yeah.
+
+I have one way to take this, right? I mean, I was, the conversation is going serious, but how we are conversing, it feels like I'm going back to, remember, Lynn, and looking at Sir Anton, if anybody knows who that is, from Silicon Valley. I mean, I don't know if you guys have seen the show. If not, I would highly suggest to go and check about Anton.
+
+The conversation which is going on right now, how it can go wrong is what that AI agent is back in that series.
+
+It's a HBO series. You'll see a lot of YouTube videos on that one. It's called Sir Anton. And whoever just spoke right now, man, your hair is awesome, man. I'm very jealous.
+
+It's like you're some sort of moral or something like that. I don't know. Thank you. Yeah, I was going to also mention having a... a CRM, basically, like a CRM, I have a CRM for like, all the people that I know, like literally just all the people that I know, you know, I don't manage a team. But I talked with a lot of people over email, over Slack, over iMessage, over school, and I just have a centralized CRM that I've connected different scrapers to have my agents, you know, be able to get those messages. And as time passes on the CRM gets more and more enriched, pulling meeting transcripts as well.
+
+And then of course, connected to your email or your calendar you know that way it can if you schedule a meeting with someone you already have a crm with a bunch of past meeting transcripts and some history about that person it can send you a brief to brief you that meeting tell you what you need to talk to them about it you know schedule things for you send emails for you all that good stuff and of course if you're working with the team i'm sure like i think ben asked you're working with a task manager you know, all those you can connect up to an agent as well through, like David said, they all have great documentation on, you know, how to get started.
+
+Most of these services have an MCP server or a CLI tool now, like Jira, you know, and I forget the other ones that a lot of people, linear, you know, all those have, you know, AI native tools, basically, that, you know, you just create a kind of memory and a CRM for your brain that relates to those people connected up to the tools that you use in your job. And it's not going to be perfect, obviously, you still, the way I view these tools is like, they bring you a level of abstraction above what you were before.
+
+of a manager that manages the people rather than the manager that manages the people. Um, and yeah. Yeah. Yeah, so I mean, my main goal is to be like, hey, somebody's in danger. Hey, what's wrong? Who needs help, right? And you could have your tool that could, You easily identify, whoa, something's off track. It's time to help this person instead of two weeks later, like, oh shit, why didn't you come to me, man? Right? Right.
+
+So I think that's what managers mean. So what about heavy enterprise level environments? So this is good on maybe like small businesses or something like that. But... Would that be same applicable to an enterprise level environment? Like, for example, because I can clearly see the path of what James just mentioned, where you get a persona of each and every person and how you pre-know like what that person would ask. And even if the question, how would it go if there is a pre-agenda and then you can be prepped up and provide the best answers possible so that your manager's role is kind of taken care of.
+
+And at the same time, your work is made a thousand times easy instead of you thinking, Is that how it goes?
+
+Yeah, I feel like that's a pretty good description of it. Yeah. And like when you get to a larger company, I'd say it really just comes down to like context management and the tools that you're using to be able to have work. one centralized, you know, however you want to think about it, an agent, one context window, be able to attend to so much information. They're just, you know, you need strategies, you know, in those types of situations to be able to condense all the raw data, which is way too much for any one agent to understand into enough, you know, actionable summaries that are concise enough that, you know, you can have one brain thinking about them, but that have enough granularity to make accurate decisions.
+
+It's a hard problem to solve, honestly. And I haven't, yeah. Yeah.
+
+Coming to the legal aspect of this one, how legal is this?
+
+Yeah, that's a whole nother question.
+
+Yeah, legal.
+
+You cannot have an AI make employment decisions for you. You can't have it surface information to you. All that information is there, right? But you can't have it say like, fire this person.
+
+Of course not, right? Oh yeah, obviously. I mean, that's going to be you or somebody else who needs to take the decision, but the statistics and everything that can be used. But what I'm trying to ask is, now we are capturing a person's persona, right? The possibility that you can even clone this person into an agent. And as long as you have the technical knowledge on how to create the agent in that context, the agent can start thinking like that person. Obviously, humans' thinking will drastically change on emotions and everything else.
+
+But there is a definite situation where you get enough information on the person. And again, I don't know if you guys know it or not, sedans too, the reason why they have shut it down, at least in the US and some other parts of the world, you give a picture to it and it literally cloned the voice of the person. without even giving the voice to the person. That's how dangerous that is. So I'm just trying to figure out, like, I know this is all great and awesome, and we're a group of people who are talking this, this will not go outside and all this stuff. But just thinking in the legal aspect, like, is there any rules out there which will avoid us doing this?
+
+Or there are none, and we can just do whatever we have to do? Because the possibilities are very, very huge at this point.
+
+I would say that...
+
+It's not illegal in the US yet, but the EU, they have some strict data laws. Yeah. Oh, okay. Good to know.
+
+Yeah, it really comes down to the data laws, I think. And for a lot of this stuff...
+
+I think there aren't even laws about it because it's not really like the capabilities to do this type of thing have not been around enough for the legal system to catch up. Another additional consideration is security. Like, you know, whenever we're having a conversation about this type of AI capability, like the word security and legal are like out the window, like, you know, five years ago, like they're just, you know, it's not secure and it's probably questionably legal, even though there are no laws about it. You know, as a few, as a legal system catches up, it will probably become illegal to, you know, have this kind of database of, you know, voice transcript on your employees.
+
+Like once the legal system realizes what you can actually do and you leverage that data, it probably won't be allowed, but no one is thinking about that at this point. And the same thing with, you know, security considerations, like, You know, like we're talking about these systems of agents that have access to all these different services. And these are stochastic systems that make random decisions that have access to your task management software that directly interacts with your employees or your Slack that directly interacts with your employees. All of these are like, you know, a security legal nightmare in all reality.
+
+So it has to, I think the reality of it is you have to tread really carefully or you have to accept, accept all the liability onto yourself. It's really like a lot of the people that are in this community who work for large enterprise companies, like got the ability to use cloud code at work, like two weeks ago. Like it's really, you know, not in a lot of companies. It's like, you just wouldn't be able to use this without breaking the rules at this point.
+
+So it's kind of weird.
+
+Yeah. No. So for example, right. I'm, I'm a, I work in an enterprise level. It's a 30,000 people company. And I mean, nobody else is allowed to use Cloud Code except me because I did not say so to them. Like, hey, I'm using Cloud Code. I mean, everybody is saying that, oh yeah, use Cloud Code through AWS Bedrock. I was like, okay, I'm going to use it, but not going to use it because it's shit. I mean, seriously. I mean, any enterprise level tools, until and unless you're going with a $200 max subscription, it's not worth it because the context windows are pretty low. Everything you say will be forgotten.
+
+Obviously, with the recent, hook skills, memory, or the whole harness part, right? You can make the agent way more intelligent, but the problem is enterprise will not allow. So for example, somebody says, somebody goes to a CDO or CEO says that, hey, you know what? I'm going to use, get my shit done, GitHub repo. And he's going to right away say no to it, obviously. The security team will raise flags because as you mentioned, security is like 10 years behind this entire thing. So yeah, it's enterprise.
+
+It can be like a mid and low level businesses, maybe like below 100 people or maybe 1000 people. But anything beyond that, yeah, I don't think they want to allow us to use it.
+
+You certainly can't run it through your personal cloud, right? But you could, if you have provided that by a business.
+
+Oh, trust me. Yeah, trust me, we should not be doing it, but nobody cares. Again, trust me, I mean, that's what I'm going to do. Nobody cares. Even your coworker, who knows when he may be using it. And all it takes is API key and 443 access, which most of the companies allow it and open it. By the way, I'm a security engineer, network engineer, and an AI orchestrator. So I have all the keys to the world and I know how to use it securely. But my concern always is, what the heck if somebody from a developing team who doesn't understand security, who doesn't understand how basic red teaming works, you know what red teams are, right? And I don't know.
+
+For me, it's a disaster waiting to happen in the whole IT age. for every company. It will blow out on a day. It's just like we're waiting for that one specialized agent to be deployed or maybe have already been deployed in darknet. That's going to kill everything. It's coming up, guys, for sure. Hey, I just wanted to say something. When you mentioned CRM, and we were talking earlier about networking, and I believe it was Rodrigue Rigo that said something about using your personal network before you get your professional.
+
+One of the things I do, because I really struggled with that because people are nosy and I don't want them to know what I do all the time. I don't really love the friends, social media side of stuff. Um, I text three people every day. Hey man, you just popped on my mind and I was thinking about you. Just wanted to just check in and make sure everything was going good for you. Nobody does that. Nobody does that.
+
+It is so easy, especially if you have a CRM. I was like, you just blew my mind, James. I'm like, how the fuck do I not have that? Um, But you'll be amazed at how many times people will then start asking you questions, ask them what's going on, and next thing you know, they're like, "Oh, you're doing this? Oh man, I got a buddy who needs help with that." So I just want to throw that in there of a way to easily and a very simple way to connect with people that you haven't talked to in 15 years maybe and just be like, I don't know why you just popped on my mind, bro.
+
+I just wanted to make sure you see what's going on in your life. And they may not respond to anything but that you don't have to be outgoing like super look super low in Investment, but anyway stop That's great advice.
+
+I'm so sorry, guys. I got to call it here. I haven't had dinner yet. I got to go eat some dinner. But guys, this was a crazy call. Amazing call. I learned so much from this call, guys. So I appreciate all you guys and I hope you guys did as well.
+
+Please get this up on the community as soon as possible, brother. This has been gold.
+
+Yeah, I'm posting it ASAP. I'm posting it ASAP. Got the transcript, got everything. I'm going to copy the comments, everything. We need everything. So yeah. Great to talk to you guys. As always, we have another meeting Wednesday, so I'm sure I'll see all of you guys there. And yeah, let's stay active in the community and keep chatting.
+
+Thanks, all. Have a good one.
+
+Have a good one, guys. Bye guys.
+
+Have a good one.
+
+================================================================
+LINKS SHARED IN CHAT
+================================================================
+
+- AWS Partner Program: https://aws.amazon.com/partners/
+- Five9 Partner Program: https://www.five9.com/partners
+- Postiz (open-source social media scheduler): https://github.com/gitroomhq/postiz-app

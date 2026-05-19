@@ -1,0 +1,873 @@
+Agent Architects - Live Call Recording Transcript
+Date: 3/2/26
+
+It's it's highly experimental for me right now
+So to be here today guys is unbelievable because I'm talking to actual human beings for once about this shit
+I feel like I'm in like a support group because all of my interactions are one way with watching
+Instagram or and fuck it's like being an Instagram like every morning. I wake up this new shit
+I haven't even got any of my shit together like it's doing all kinds of really cool stuff and it's almost by accident
+So I'm a man. I'm a management consultant and I have like I've got client deliverables on this thing
+Like it's producing client and it's doing crazy cool amazing shit
+I don't know exactly how but it is doing it and I must have something to do with it
+But I don't know how to set this up control this. I don't understand its anatomy. I'm reading
+I'm trying to learn it's got a soul identity all this
+So that's why I'm here guys, that's my story
+Yeah, really nice to meet both of you guys super glad to have you here in the group of course and yeah Rob
+What you said about this being like a support group for AI?
+Enthusiast is really funny and very true. Honestly because it can get super overwhelming and for a while too
+I like it's funny
+I didn't have that many friends or like people in my life that really were as into AI as I am
+And now through this community
+I've met so many cool people who are in the same boat and it's helped me a ton learn it learn a bunch that I didn't
+Know from other people with better domain specific information on specific things
+and so yeah, it's
+Amazing honestly the the group of people that are in this community so many people who work in different domains and tools like openclaw are so cool
+Because they have kind of made this amazing capability really accessible
+You don't have to be super technical to know how to get openclaw to produce like client deliverables
+For example, you can prompt it with natural language to do that
+But what you also got at is that to really be able to use these things
+At like an enterprise level and to feel safe about using them and also to be able to guide them and guardrail them as best
+As possible you do end up having to get some technical knowledge about how they kind of work in the back end
+And so the later I think the last I don't know if you guys have seen I have an openclaw course in here openclaw
+Fundamentals in the classroom and I just released that the other day
+So gonna I'm gonna be coming out with a ton more videos on that subject as well
+More complex things about the inner workings of openclaw like what's really going on behind the scenes how the memory works
+How all those bootstrap files work in more detail like the identity the sole the agents.md stuff like that
+And then also multiple agents together, which is actually a natively supported feature in openclaw, which is cool
+So yeah, lots more to come on that and I personally was pretty skeptical of openclaw actually when it first came out
+I used it and it obviously is very powerful
+but because of the security issues especially right there at the beginning when
+So many people got into openclaw and you know security researchers like found like 30,000 exposed
+Instances of openclaw that were leaking all their keys and all their private information
+I just didn't want to touch it at first, but now things are a little bit more locked down
+It's it's calmed down a little bit and I think after working with openclaw more and more
+I do really feel like it is the cutting-edge tool to be using out of all these tools and
+For different use cases. I also really like Claude code
+Of course
+That's what a lot of my content is about and I think Claude code is a much more
+Human-in-the-loop type of tool. It's less autonomous, but I actually do still think it's more powerful in terms of software development
+There's just more you can do because you have more control
+But I think using both tools together like Michael was talking about is actually that's how I've been doing it since the beginning
+As well as kind of using Claude code and openclaw together for different use cases
+like when I'm working on a software project, I'm using Claude code just because
+The interactive elements with Claude code and the workflows I've developed just are in Claude code and they work best with Claude code
+Whereas for more business type stuff and more autonomous stuff openclaw is better
+So we'll see those tools converge to and share different features as you see in anthropic like copying basically all the openclaw features
+Recently I've been posting about
+But yeah, I think using them together is really cool. Yeah, Robert raised his hand first and then Michael
+Hey guys, I'm you too. I joined a couple of days ago
+I'm into advertising and I also got FOMO. I also got ADD. So I
+Feel like I fit in very well James. I was actually talking to Angus today and
+Yeah, your content and stuff like that. So very interesting how it's like a small community, but it's really expanding super fast
+Do you know if there's anybody in this community who is into advertising or has agency?
+That is using this stuff and then maybe could you
+Maybe make a little bit more content on
+kind of
+that type of content not even fulfillment or if you need any context on
+Like the industry or domain whatever how different workflows need to work. I can also share my experience
+I've been using Claude itself to cut down probably five times the amount of work. I was doing before
+With Google Ads, I'm able to build accounts in like two hours extreme quality even
+custom landing pages with lovable
+You know tracking is issue, but I figured it out because apparently it's like
+Vite or whatever the coding language is so tag manager is not working with you know
+It's not seeing the HTML because there's no HTML. So whatever I figured all that stuff out, but would be helpful just kind of to
+Shortcut and just get info from people who are actually, you know doing it
+Angus was saying basically
+For you for me, especially if you're gonna have like VA's and stuff like that. Just use Claude
+Teams and then configure the MCPs in the in an 8n and just have it work like that
+But I don't know if that makes sense versus open cloud and really played with open clock because I'm still new to this stuff
+But I don't know I feel like this was a big info dump, but that's kind of the content the context there
+No, I mean, I think it's funny you man
+I mean you mentioned your specific industry which I you know
+Don't have a huge amount of personal experience with other than talking to people like you who work in that industry about how they can apply
+AI there are definitely people who do that in this community
+I feel like every fifth or tenth post I see is about that honestly
+So I'm sure there are people in the community in terms of people
+I remember talking to who have gotten a lot of this agentic kind of stuff going
+I can't think of anyone off the top of my head
+But I think it's a good idea that you had to make more domain specific content about how to implement these tools
+I'll definitely think about that and try to do that because I think that's where a
+Lot of this is going is like a lot of my content is generic about how to use the tools
+But it could provide so much more value to specific groups of people if I had specific actionable on specific industries
+I think to give general advice
+what I would say is that I
+Would suggest using Claude whether it's in the desktop app or Claude code
+My preference is Claude code just because it's more powerful and has a little bit less guardrails
+But you can use now you can use Claude code in the desktop app
+Pretty much with the same capability as in the terminal
+so using Claude and then thinking about you know at first the simpler tasks that you do on a day-to-day basis and
+Skillifying them just kind of the term that I like to use about turning these tasks that humans do
+Into skills that agents can execute and most importantly that they can actually validate what they've done
+That's like the biggest
+You know gap between getting agents to be able to do human tasks is that
+Agents can't always validate their work
+And that's why coding is the first industry that will be automated by AI is because coding is
+Quantifiable you can run a test on a script and if it outputs the wrong answer, you know, it's wrong
+Whereas something like ad creatives much more subjective much harder to validate
+so thinking about those validation criteria and then somehow encapsulating that validation criteria and the
+flow that the agent will use to get to that point
+Encapsulating all that into a skill that can be reusable and literally testing that skill and editing the skill itself and keep iterating
+Iterating and to get it to enter interface with those external services. Like you were saying MCP isn't great
+CLI tools are also great for agents. They really like to use CLI. It's basically like
+It kind of has the same effect as an MCP, but it's just that the agent can run a command
+To basically use the tool instead of having to use an MCP tool
+And there's actually some hot debate about which is better MCPs or CLI's in my opinion CLI's actually are better
+I couldn't tell you exactly why but not too much
+You don't need to get too wrapped up in those details
+You just need a way to connect your agent to that external data source
+Whether it be Google Ads account Facebook Ads account
+There's MCPs for all of those that you can connect your agent to
+And this might be a little too specific but when how do you decide when to use an MCP versus
+API endpoint like API
+Token because with API from what I read and some videos I saw
+Basically, it kind of works the same way if not better
+Yeah, so MCPs really are just a agent-friendly wrapper for an API
+That's literally all an MCP is it just makes it
+Theoretically makes it more friendly for an agent to use in practice now that the agents are so good at writing code and executing code
+A lot of people actually prefer just we're using the raw API or the CLI, which is basically the same thing
+and
+Another common theme that I see with CLI's and MCPs is giving your agent a skill
+Associated with those MCPs and CLI's
+Teaching them how to use the API endpoints that you're giving them access to and so a lot of these big
+Service providers have skills already that teach your agent how to use the Google Ads
+CLI or how to use the Facebook Ads MCP server correctly and so pairing skills and MCPs together can get you much better results as well
+Okay, great last question well, you know, we're gonna talk but just follow a question on that
+Do you have a video that basically explains how to structure the folders?
+Because that's something I know it might seem very rudimentary like super
+Kindergarten level stuff, but I feel like that probably could make a difference for beginners like me
+So when you say structure the folders, what are you referring get a little more detail on what you're referring to there?
+So basically, you know the main folder I have on my desktop
+Agency folder for you know, my clients and then do I basically put
+agents in each client folder or do I get like once main folder with agents and then the agents go into each client folder and
+Then just grab the context from there. That's kind of
+something I've been struggling with
+Yeah, so I think the best way to think about it
+First of all is that most of these agents like Claude code?
+Let's take for an example when you start up Claude code you start it inside of a folder
+So it's kind of that folder then becomes its workspace and all the folders within that folder. It has access to
+so the way I would think about it is
+Depending on how much access you want your agent to have to your computer
+You know if you really wanted to go crazy
+You could take your home directory of your computer the one that says that has the home logo next to it
+Start up Claude code in the home directory and it has access to your everything
+Yeah, obviously that is a little overkill and can get confusing to the agent. So more what I'd recommend
+creating a folder that is a workspace for your agent and
+providing only the
+Documents and the context that you want your agent to use in that workspace. Do you really have control over it?
+You really understand what's in that folder
+So like let's say you have a business and you want your agent to manage your business
+You could have your business folder agency folder and within that you could have a finances folder, you know connections folder
+Clients folder a projects folder and then within each of those you can have specific information about those things
+And those can be go ahead Mike
+You're muted. I like your Microsoft, dude
+Yeah, I just wanted to say to this line of questioning to that what like I have zero technical experience
+I've been playing around with these tools for about a year and a half now
+So I have like gotten to do some of this coding with like cursor and with VO
+and so I've learned some of how the back-end software works because just by like a
+Year ago if you started this and you didn't know stuff
+You had to get a base level of understanding to at least know what you were trying to organize and try to figure stuff out
+So I like crash course myself there
+But now you don't need to know anything you can literally ask
+Claude code to figure out your file structure for you and it'll say well
+What are you trying to accomplish and you'll say well, I have an agency and this this and that you'll say, okay here
+This is my plan. This is what I'm gonna do
+You think you should change it or you think we should implement it and then you say implement it and you're like
+Oh wait, I'm free forgot something then go back and say I forgot something. You'll say, okay, great
+We're gonna add it here and it'll be so easy and like you can literally do that with
+Everything I just want to give you one example
+I want to be able to access Claude code from my phone on my computer
+Whenever I want which if your computer is off, you can't really do
+Necessarily but you can actually because if you go into your terminal and
+Start Claude code there and make sure it's it updates itself
+So the most recent version then you can activate what's called remote control and it's a slash command
+And then you can remote control your way
+into your
+Your Claude and if you just leave your computer on you basically have your version
+of open claw because you can access it from wherever you want through the app as long as you've opened up a remote channel and
+You can open up as many remote channels as you want before you leave your house
+So that you have like empty channel one empty channel to empty channel three empty channel four and then as you think of shit
+As you're going you can on your date
+Referencing. I mean my wife is not a huge fan of this but you know
+Okay
+The other thing is like I set up on in Claude a shutdown sequence
+so that every time I'm and I also set up a
+context window tracking bar and a alert through
+NTFY or Netify or whichever that's called so like when I'm getting too far my context window
+It sends me a message that says run the shutdown sequence
+So you save all the memory nothing gets compacted and so like but all these things I have no I don't know how to do
+This I've just learned ideas by watching
+James and other folks on Instagram
+Running those ideas by Claude asking Claude things and I'm doing things that I never would have imagined possible because it knows
+How to do it
+Yeah, James
+Go ahead Rob. Yeah, cuz you got people like I already want to talk to some of you guys
+So I don't know how we're gonna do that
+But I'd like to talk to some of you guys in terms of the file folder structure you're talking about Robert
+I don't even know if this is correct or not. I'm a kind of a data guy
+I'm a massive data fan. Like I believe that everything needs at the bottom needs to be structured. I'm like
+Obsessive compulsive about it. So one experiment I've been doing is I don't care what agent I'm talking to or whatever
+It is they all have to know the file structure. They all have to know my file
+So if it's in my email, that's my file structure if it's on my drop. That's my file structure. I don't care
+That's my file structure
+So it's almost like the file structure is like a mental model of how it's like context
+The file structure is the con is partly the context
+So I don't know if this is good or bad if that's too prescriptive James if I'm locking myself out of opportunities because Michael
+I just heard you say hey
+You could just let Claude decide what the optimal file structure is on the fly
+That shit scares me sometimes because I'm like I wonder sometimes when I'm doing shit on the fly
+Whether I'm leaving the breadcrumbs behind me to find my way back and then I find out fuck Claude or open clause
+Like oh, dude, I I didn't remember that we just all
+Cuz I'm cuz I don't know what I'm doing
+So what I'm hoping is that I'm giving it as much structure as possible
+And one of these things that I obsess about is the file structure
+Is that a is that a good practice James do that to apply a consistent file structure or my?
+Though I'm kind of like you Rob that I
+have a tendency to
+really want to micromanage the the agents workspace and the context and the
+Capabilities and the workflows and really like understand the technicals behind it
+I think
+For right now the technology that we have right now. I think it's somewhere in between Michael's and Rob's strategy where
+You know some things you can fully just tell the agent and it will do it and it will do it in a way
+That is repeatable
+Reproducible secure organized whatnot
+And then there's some things that you ask the agent to do that for whatever reason
+It doesn't have the wisdom or the context to know how to do it correctly
+And it will do it in a way that you as a human would not do that's not not reproducible not, you know reliable
+so I think I would err on the side of trying to
+Understand the underlying folder structure and context and you know
+technicals behind the tool because it will allow you to use the tool better if you know how the tool works, but
+With the caveat that these things are evolving so quickly. We all need to be ready to
+Forgo and go a level of abstraction above and just forget about the technicals below at some point because
+It is you know with open clause a great example that open clock can do a ton without you understanding how it works
+Right, but also Rob just to clarify like, you know, I used to run
+post-production
+Graphics department and so like I am very structured. I have file name conventions or whatever
+So like when I started this like James said as opposed to starting
+Installing Claude at my root
+I installed it in a work folder and then I every project that I have has a different folder in my work folder
+Okay, and each one has its own subfolders and then when I'm adding things to Claude, I'm like, hey
+I put these files in this folder
+Grab that and like so you can still set up your complete infrastructure and it will learn it and you say I always want to
+Follow this and it will do it
+but if you're also looking for like if you're trying to set up something new like
+You're working with Claude and open claw and you're trying to set up this new agent thing
+That's completely unlike the file systems that you're used to it has like nothing to do
+Your traditional tracking like software files and how they were out and like web architecture works is
+Specific and you know different but it knows that too. So you can work together
+Yeah, suppose it's just it's really crazy how you you almost got a
+It's like half art half science
+This is some sweet spot in the middle where you don't over prescribe it
+But you kind of let it like sometimes when I talk to it
+I'm like dude is there a best practice for this because am I just telling you shit?
+Like do you maybe you shouldn't listen to me? Maybe you shouldn't be listening to me, right?
+Like maybe I'm not the guy to be telling you this because I think I know what I'm talking about
+But I don't know what I don't know. Do you know something? I don't know kind of thing, right?
+I find myself so it doesn't know but it doesn't know everything to like your expertise in
+How you have lived and what you know, like it doesn't know that and so your taste and your perspective
+And like how you want it to operate what you want to see the deliverables as you are free to
+Tweak with those infinitely until it gets what you want
+Yeah, and that's the problem with having ADHD and doing this shit
+Right is because like I've had to create rules to tell it to like stop me after four branches like dude
+But who knows on the sixth branch I might come through with like a Hail Mary idea
+Right. So so so I've asked it to create rules called seeds
+Where it plants these seeds in the future that this idea might align to something depending on where we go
+Right, and it's just a rabbit hole man. That's awesome. I'm trying to figure out how we're like
+Honestly, and I know this doesn't exist but like and I don't shouldn't exist but it's like where's the vanilla?
+I don't have to think
+Apple, you know like Apple and Microsoft like Apple's like you don't think Microsoft you could micromanage the shit all the way to
+Android you could micromanage the shit out of it Apple you you can't right Burger King have it your way your decision
+McDonald's we do it all for you
+And I'm like, where's the we do it all for you in open claw and I can't find it and and it's just this massive
+Open space that I could just hang myself in a million times
+And then I got all these guys on Instagram telling me all this different shit every day about what it could do that
+I can't even focus
+So I think that what I'm trying to do is figure out how to hold on to a business problem that's specific
+Clean clear. I just keep it focused on it and Michael one thing you told me is really interesting that I'm thinking about now
+Is maybe I haven't had enough time with it for it to sort of learn my pattern so to speak
+Right. Maybe I haven't just maybe I haven't grooved with it long enough for it to figure out my
+Vibe my pattern the way I think the way I haven't had enough of that because I've been in pure
+Rd mode trying to set up a some kind of stack and it's been
+That's why I'm here man
+On my name. Yeah Rob. Go ahead
+Something that might help you and it helped me a lot
+I'm very much like you is basically ask it to create a psychological profile for you based on NLP and other
+I did that cycle
+Yes
+Psychographics and then you ask it to create a system prompt and I asked the chat GPT to do that because I was migrating to
+Clod and I put it in the root and it's not letting me do shit except prospect
+It's like bro. Yeah, it's like bro. You're gonna have a baby in five months. You need to make money
+Okay, let's ask you like what time it is
+I gotta go DM people
+Okay, I gotta find this up
+So hopefully we could connect after this because I gotta find out because I asked to do the same thing
+And I wind up doing shit like Rob you got a deadline tomorrow at 10. I'm like, I don't give a fuck
+We're gonna do this shit. It's gonna be so cool. And they're like Rob. You told us not you told you would do this
+Yeah, you told us to tell you not to do this and I'll tell you not to do this and I just keep
+I'm my worst enemy, right?
+So I think the problem is it's such a wide open
+Capability that if you don't know what you do and that's the whole point about the constraint of coding. It's gone
+It's gone upstream. It's no longer a constraint of coding. The constraint is what do you want to do?
+It can keep your attention on what you want to do long enough, right?
+Michael what you said about the open cloud, you know what it reminded me of like we don't know like how it works
+It doesn't even matter. I think James said the same thing. It reminds me of mechanical
+Watches like we don't know how any of that shit works, but you can tell the time so it's kind of who cares
+Yep
+What is the difference between open claw and clawed code? Can somebody explain that to me?
+Yeah, there's a few key differences but fundamentally I mean at the core they both use the LLM like clawed or
+Open AI and
+They're both built on agent harnesses. So clawed code is an agent harness
+It's basically like software around the LLM that lets it use tools and let's it work for a long time
+autonomously on your computer
+The difference with open claw there's like three key differences between open claw and clawed code
+The first key difference with open claw is that open claw?
+Doesn't just run as like a program in your terminal. It runs on something called a gateway
+Which allows you to connect messaging services to open claw
+So you can text open claw from your phone on telegram on whatsapp on iMessage
+Whereas clawed code you need to use it in the terminal or on your computer
+Although now as Michael said they released the remote control mode, which lets you use it from the clawed app on your phone
+But the gateway allows you to communicate with open claw back and forth on a bunch of different messaging platforms
+So that means you can use it from anywhere, which is great
+The second key difference is that open claw has these kind of trigger mechanisms
+there's two different ones one called a heartbeat and one called cron jobs and these are basically
+Programs that execute at a specific time on your computer that wake up open claw
+It like tells open claw wake up start working
+Whereas with clawed code you prompt clawed code for it to wake up and start working
+So with open claw you could say open claw every 30 minutes wake up and execute the next task on this list of tasks
+And it will work for you all day without you ever prompting it at all. So that makes open claw more autonomous
+And then the third thing is memory open claw has a very complicated
+I mean, it's actually not that complicated but compared to clawed code its memory mechanism is a lot more robust and
+Open claw will take memories all day
+It will store memories and then those memories get processed in the background in a certain way to allow open claw to
+Access all of the memories that it's ever taken through every day
+Whereas clawed code has not very much automated memory, although they also added an automated memory feature now this past week
+Doesn't work as well as open claw, but those are the key three differences open claw
+You can message from anywhere it will wake up at different times throughout the day to work on its own and it has really good memory
+So that's what makes it better
+But fundamentally they're the same tool
+It's just open claw has those kind of add-ons on top of it
+But you can do the same things with clawed code and open claw same exact things can connect them to the same services
+You can even turn clawed code into open claw if you want
+It's just a lot of software development work for you to do that. Whereas you could just use the open claw
+Something else I wanted to say on the topics you guys were talking about before
+About kind of the file system and having it learn your preferences
+Is that there's like a key thing to understand just about LLMs as a technology?
+that
+The LLMs are trained in like a pre training process on a ton of data from the internet and that gives them like, you know
+PhD level knowledge in every discipline, right?
+And they're really smart on like pretty much anything that's on the internet
+Now once the LLMs are released by these big model companies the weights of those models don't change at all
+So they don't get smarter. They don't learn more from you working with them
+You know, they they're they're static after the companies release them
+So the way that models do learn when you are using them is something called in context learning
+which is basically like
+Models have a context window, which is basically how much information the model can have in its working memory at one time
+There's a limit to that and that's whenever you see compacting in the chat window
+it's compacting its context window because you exceeded that limit and
+So the model can actually learn based off of all the information that's in its context window
+It can really glean like intelligent reasoning level learnings from that information
+so
+You want to be using your file system?
+To basically make the LLM do in-context learning the best it possibly can
+so your job as the human working with the LLM and with your file system is you want to set up your file system such that
+the information in each of those files in its workspace
+Really provide the context that about you and about your project all of the context that you can think of
+That you want the LLM to know to be able to execute on that project well
+So it can do in-context learning when it's reading all those documents into its context when context window
+And another kind of concept that I talked about in some of my Claude code fundamentals course videos in the school community is
+context breadcrumbs and this is kind of the idea that you have a bunch of different files in your you know folder, right and
+The agent doesn't read all of those files automatically the way that these agents work is they
+Find the name of a file and if they deem that file, you know important
+They'll read the whole file and now that files in its context window
+But before it reads the file it has no idea what's in there, even if it's in the folder
+So what you want to do is you want to have?
+Documents like text files or markdown files is what's most commonly used
+Where like you can think of it as a branching tree of context or of knowledge
+And so at the base of that tree you have something like your Claude MD file
+Which is a file that Claude code always knows about and that contains core information about your project and it will always get loaded
+into context automatically
+That's like the trunk of your context breadcrumb tree and within that Claude MD file
+You want to mention other important files in the code base to point to the branches of the tree and
+Then within those branch files you can point to even further branch files that are leaves down the tree
+and so this basically allows the agent to
+Understand from a high level. This is all the context and information that I have in my project
+Okay, let me decide based on the task which files I actually want to read and then it reads those files and then from reading
+Those files maybe it learns. Oh, there's more files that I should read for this this task
+And so it can then traverse down that tree reading only the files that it needs to read
+And it's up to you to kind of engineer that context tree best for the agent to be able to work with
+So that's how I think about folder folder structures and files
+Thanks
+One of the things that I that I and I don't even remember where I found it now like I'm you know
+I'm gathering information from so many different sources and just trying to input what makes sense
+But in my shutdown process, so whenever I find whenever it's like, okay, you've reached
+70% of your context window
+Then I trigger the shutdown sequence that like checks that like it commits anything that needs to be committed
+It checks all the files related to what we've been working on it writes a memory for
+Itself to pick up so then when I open a new window I say hey
+Referencing this project that we were working on I want to pick back up
+and so it goes back into its memory that it created during our shutdown sequence and has all of the
+Context from that previous context window because I set the shutdown before the context window collapses
+And you can add code to create a visual
+Bar at the bottom of its readout on the terminal that shows you green yellow red
+As you're working and then when it hits whatever number you give it for the red
+You can get it to send you a message through NTF why?
+You just have to download that stuff and get it all it connects it all in the background
+But so now whenever I'm hit I hit 70% of my context window. I my phone vibrates and it's like shut down your shit
+Mm-hmm. What's yeah, what's a
+shut down sequence
+Well, it's like what I wanted to do. It's a program that we've built together where I say I'm wrapping up this context window
+So get all the shit that we've done in your memory save all the files
+We've done like basically wrap everything up from this chat
+So we lose nothing so that when I pick up in a new chat you have all of the context from what we just did
+Hey
+Go ahead I'm looking in the chat
+So thanks for somebody answering I was asking about the optimal number of characters for the tree for the files of the tree
+But I'm also looking at a chat. I'm seeing
+Sam mentioned everything in obsidian and
+I cheat you were just mentioning about obsidian as a couple of people mentioning of see
+I've seen obsidian mentioned a lot and the way I've seen it mentioned is like dude. This is next-level shit
+Don't go don't go there kind of thing
+What is it? And is it something I should mess around with and yeah, I can guys talking about it. Yeah
+I have so
+essentially obsidian is just
+Fancy Apple notes and it's open source and it's smart. It's very wired to communicate smoothly with
+LLMS I feel like it exploded in popularity as people were looking for
+Some way to organize their ideas and their to-do's
+It has
+It's so simple. It's just it's just really a tree of
+Documents, but it's in how you use it. There's a lot of strategies obviously that you can employ
+But there's there's nothing that special about obsidian other than you can sync it
+So you have like every come every machine that you have, you know sort of has a common
+document tree
+It is really for me the way I use it. It's just a tree of markdown files that
+represent
+pieces of ideas research
+Everything it's a friendly way for me to interact with my information
+But yeah, there's lots of ways that you could overload it to act as like a living database as a notes repo memory
+but there's probably
+harder-baked ways to
+implement
+State like memory state and everything like that, but that's just sort of how I use obsidian
+I was being kind of funny when I said everything everything in obsidian
+I do tend to put everything in obsidian
+But that isn't to say that there aren't better ways and I'm sure in a couple months there might be something cooler
+But right now I really love obsidian
+Just for my own personal sanity helps me like export a lot of thoughts that I have without, you know
+High commit somebody asked me do I use?
+Claude to organize obsidian I use Claude for everything of just like all of you
+So yes, I'm recursively asking like how should I think about think about this, you know, so like I'm doing that too
+So I have like a template ties
+I have a template that I define and it imposes that template on my messy idea so that it organizes it
+Automatically in a heartbeat cron jobs
+So yeah, there's lots of things that you can do and be creative with with obsidian
+But it's just a big document tree is all it is
+Yeah, I'm sitting is really cool David I saw that you raised your hand
+Yeah, I was just gonna echo first of all, can you hear me this time? Yes. Hey fantastic
+I was just gonna echo what Sam was saying and and and point out that yeah, you can ask Claude to actually
+Suggest for you control freaks out there that are really structure-oriented
+You can have Claude suggest a file or excuse me a folder
+Format so, you know under any project and I'm working on I use obsidian the exact same way that Sam sounds like Sam is using it
+And and Claude will suggest
+You know a blocker folder a decisions folder
+a spec folder
+handoffs session summaries
+And in fact, I've gotten to the practice. Although Claude assures me that no legitimate programmer in their right mind would ever do this
+I've gotten I've gotten to the practice
+I've gotten the practice of actually asking for so so if I'm using AI Claude AI or desktop for things
+I will ask it to name the session for me
+So that I can go back and find the session and it'll name itself
+Which is which is kind of nice but on the point that I think Michael you were talking about
+I guess the question that came to my mind was
+If if you're if you were not familiar with GSD
+And and you're not somebody who does a whole lot of this stuff it will change your life if you start using the GSD
+And the command that I frequently use is pause work
+Because when you pause work it writes a separate file it it writes a I don't remember what it's called like
+Pickup here or something like that
+But but I mean that one is a lifesaver that command is a lifesaver for me
+It's just because I get interrupted so many times
+So
+That's good, I mean in in
+GSD
+Does it do you use obsidian with GSD? Does it write to GSD about where you paused?
+Just curious about how is it persisting?
+So Claude code Claude code actually drops the file into the planning into the planning directory that is part of the project that you're working on
+So it's part of the GSD flow
+It doesn't need obsidian, but if you wanted to you could easily you know drop that it's a markdown file
+You could easily drop it into obsidian if you wanted it
+Got it so it serves as as just a
+Kind of a persistent layer for things where you pause and can pick it up from there again the next time you start working again
+Yeah, that's right. That's right
+In fact, I think I and I'll be happy to post it if I if I remember to look after the call
+But I think I just came across the median medium. Excuse me medium
+Article a couple of nights ago on using obsidian as a persistent memory for your for your Claude code
+And if I can find it again, I'll I'll post it
+Thanks. Yeah, that was something I was working on. Yeah. Sorry. Go ahead whoever spoke
+No, no finish because I'm gonna I want to just ask something else
+Yeah, I was gonna say yeah, I when I first discovered using obsidian with Claude code
+I was going to I was gonna try to use it as a persistent memory system as well
+Because there are some cool features of obsidian that allow you to like link notes together based on topic
+which kind of
+You know if you get a big enough base of files can act like kind of a knowledge graph of files to allow an agent
+Look through that stuff better now, there's a bunch more ways that are just better of doing that than that but
+That's a cool way also to be able to visualize like they have that graph feature in obsidian
+Which allows you to see like a graph of all the files you have just really just cool to look at
+But yeah, you guys ever heard of Ian Carroll
+Yeah, Ian Carol's got he's like he does all this crazy research on all this just crazy crazy
+Shit like but it's all
+Like the Epstein files and stuff not to get into the content, but he's created some kind of crazy tool
+that allows you to
+iteratively
+Investigate ask questions learn it makes connections. I don't know what this tool is but
+This obsidian I'm glad I asked about obsidian because it sounds like a bit of a mind map
+Rather than this idea of a conventional file structure, right?
+It sounds more like a mind map and I think that's way more conducive to the way I think
+Yeah, it is like a graph good news. If you know of notion or any of these apps. Yeah, they were
+competitors to obsidian and obsidian was an open source project
+But that suddenly became popular with cloud code becoming popular because their main claim to fame was how everything was defaulted to markdown files
+Which are very cloud code friendly the other advantage is it's all local
+So you're not really using any cloud unless you want to
+but but you can keep all of your content all in your on your disk and you can
+It kind of stays private rather than sharing it with Google or anybody else is perhaps gonna read your data
+So anything you want you can just keep it local
+Can yeah Robert silly question
+Yes, are you guys making money with all this stuff because this is great
+But ultimately, you know, we want to make money. Obviously you're saving time
+So you're actually making money because you get paid more per hour
+Per hour nobody's getting paid per hour, but you guys know what I'm saying. So what are we doing?
+Yeah, Robert Roberto, I saw you raise your hand there I
+Can jump it on how many money with it but I had a question separate from Robert
+But I like I love the question actually I have a high ticket coaching offer
+So I'm using it to get the message out and then deliver the results on the highest level, but that's just me
+I'm not a tech. I'm not I'm a non tech founder. So that's maybe that's not helpful for Robert. I
+Mean, I've been in the marketing world for like seven years. So I'm familiar with
+Kind of what you're doing. I just don't know, you know nation offer and all that so I
+Can certainly speak to it from my perspective
+so I
+have
+two software products that
+One of them I just actually just launched and the other one is going to be launching hopefully this week
+And so of course cloud code, you know has written a lot of the software
+But it's also helping me do a lot of the marketing and create a lot of them like add creatives and stuff
+Through using things like nano banana through kind of planning the you know, Facebook and Google Ads campaigns
+Connecting it to the MCP servers and it actually helps me run this business the school community and my content a lot
+you know I have it's really what it is is just finding those kind of tasks to whatever your domain is and
+Figuring out a way to offload those onto cloud code or fully automate them
+Like there's not really many ways to have cloud code just make you money or open cloud. Just make you money
+I've seen content about that and I don't really believe that
+but for me it helps like automate a lot of my
+Content research content drafting content scripting. It actually helps me manage things in the community in my school community
+Helps me read through posts
+Helps summarize news from the community it helps me draft news posts for the community stuff like that
+So it's very specific to my you know, my job and what I do
+But you could easily have the same things for your own business as well
+Okay, I think David raised his hand first yeah James James can I embarrass you for a second, please do
+Okay, so if you don't know James has got this great and I'm sure you have other ones as well
+But the one that I'm I'm aware of he's got this great product that does tax reporting for
+crypto
+And you know, it's it's somebody had asked the question. How do you make money? I don't know
+I haven't made a penny on this. I just seem to spend a lot of money that drives my wife crazy
+but
+But you know, I I would think you know, I again I can't speak from a coding standpoint
+But from other aspects of life you find a need that somebody has
+And you solve the need and you know James
+James has stumbled upon one that I mean
+I've had clients before that do this algorithmic crypto trading and they have literally thousands of trades per minute
+You know, so they get reporting that that is that is
+You can't even put it in in terms of number of pages of printouts that have to be reported
+And it's something that the IRS has told people they're gonna go after crypto traders
+so James identifies a need and he builds it he builds towards solving that need and
+If I had to bet I'd say that James is gonna be very successful with that with that app
+Nice fingers crossed fingers crossed
+That's an incredibly powerful tool. It's an incredibly powerful tool and and kudos to you James. I
+Appreciate that. Thank you
+Yeah, Robert, I'm not making money but I'm saving a ton of time
+So as a management consultant, I have clients who like what I do basically is I take data structured and unstructured
+I create an intelligence model with it and then I leverage that to solve their problems. Well, that's like that's the playbook that I do
+I've been doing that without all this stuff for years. So when this stuff showed up it was like, oh my god
+This is awesome because it's a structured approach
+So I can now basically go out scrape sites grab, you know data tables from authoritative sources
+Put them together in an intelligent model and then I can deliver solutions to my clients or prototypes of how they'd like to see
+things to support their decisions and I
+Mean, it's the other the other week. I put something together in two hours that when I asked
+The agent how long it would have taken
+It was like 29 days with a team of data engineers, you'd have this other
+You know the person who's a subject matter expert and like a hundred and some thousand dollars so I can get paid
+So I'm doing multiple gigs
+For seven point five hours a day. I do a multiple gigs, but I don't have to put in that time anymore
+And and so I got a I got this routine going where I have open claw
+Has a stethoscope on my outbox and my inbox and my calendar
+So it knows when I got a meeting coming up
+It knows all the communications that happened in between those meetings including teams transcripts
+It takes all that shit and before the meeting it schedules me to do my work with it
+whatever that is and
+So that I can deliver for that meeting and I deliver for the meeting and then I say a bunch of shit
+Oh, here's all your stuff. It's got a stethoscope on it again reads what I sent reads what they sent
+Taps for anything coming back and I gotta tell you ever since like discovering this that and GSD
+Whereas it's like the only time in my life where I've been able to focus on something because I got this thing
+It's like tunneling my creativity. I will never go back to working the way
+I can't even imagine working the way I used to work and that was
+November
+So it's I don't make money
+But I my fact my productivity has gone up at least 10x on some days
+It's got to be like a hundred. It's crazy what it can do. I just wish I could I
+Wish I could stabilize it and operationalize it. But of course, that's natural and normal to not you know, it's early days
+That's why I'm here is to learn what the practices are
+It's awesome to hear everybody talking here because there are some bunch of people now that I can see faces and names and stuff
+I can reach out to of a while you were talking about this and you're talking about that
+But now I need to speak to human beings
+And be like, okay people what are you guys doing?
+What's real and how can I leverage that for myself?
+And then I guess share anything that I'm doing that might be helpful to you. My my gig is a less structured gig
+It's a bit structured, but I have management consulting
+methodologies data and information and I have to bring all those things together to deliver
+Solutions to clients and I can't believe how smart this thing could be like I feed it the methodologies
+I'm certified in this this this this I feed it those certified methodologies as skills and it just does it
+It's crazy
+Absolutely, the thing thinks and James one of the things that I'm really interested in is figuring out how to teach it
+During those minute moments of like context because I don't know if you guys ever saw this movie called memento
+Whereas dude wakes up in the morning and he doesn't know what he did yesterday
+He's got to put stickies on a mirror every morning. That's how I feel. I'm talking to these agents
+Like dude, did you not read the sticky?
+Like I thought you told me you put that sticky on the mirror and now I'm talking to you and you're like, what's sticky?
+I didn't put a sticky on the mirror. I like dude
+We've been talking for like six hours about shit man
+Like you're just making shit up now like so that that that that if there was something really practical to say look
+Here's how you get it to that sticky note thing James
+It's like the tree it wakes up and it sees the sticky note and it go
+There's breadcrumbs on it and depending on what I say to it it goes this way with the breadcrumbs in that way
+So I'm thinking off this call breadcrumbs obsidian
+I don't know how it's gonna go sleep Rob
+I think Rob for you the context window if you're having six-hour sessions and it's losing stuff
+Like you want to be switching out of chat so that you're not having those contact windows keep
+Condensing I agree because like I'm paranoid about that while I'm talking I'm like dude
+If you're gonna collapse write yourself a sticky note
+Like I need the sticky note. Where's the latest?
+Yeah, I'll tell you can't unless you're using I mean and this is in my developing this program
+Unless you're going through the terminal it won't know that's why I want to talk to you
+It's used you have to go through the terminal
+But once if you start a session in the terminal and then remote control into the app
+Then it will still tell you you will still get the update because it's it originated in the terminal
+So I'm gonna be contacting you Michael
+I reach out to you because I've heard some people talk about some of this stuff like I'm gonna be talking
+I'm gonna be reaching out to you because I want to learn how to do that. It's awesome. Thank you
+It's ass Claude. I don't fucking know
+I
+Yeah, Roberto I saw you raise your hand earlier
+Yeah, you guys conversation has been on fire here today
+I've been I've been taking a lot of notes jumping in and out so appreciate everyone for sharing their experiences
+And this is the value of being here outside of James putting together. What a lightning
+Classroom, but I was trying to kind of produce something like Rob is
+Has has been doing with like gathering intelligence over
+Like kind of in-depth
+conversations that I'm having with clients that I'm coaching and
+Kind of building an intelligence profile on them
+Each one of them like sits in in kind of like a six months coaching program
+So understanding before or every time that I talk to them, you know how they're progressing
+Where specifically they are in in the program and
+And trying to kind of build that now I spent like a lot of time like
+connecting the my my fathom
+Library of calls and then like having Claude build me a notion dashboard of all these clients and
+Then like I'm sure everyone is seeing like you go on Instagram for one minute and then you have like
+James pop up and be like this is there's a better way to do this like you get it for you and I'm like
+Cool. I mean, this is why I'm in the game at the moment to like try things out and then learn faster and better ways
+But like I yeah, I do want to learn if there's better ways to do that, but that's generally the scope of it
+I also connected it with n8n for the first time or not connected with not I haven't even connected with it
+I didn't but I was just telling Claude like I will have to do an n8n to like
+Get the calls always transcribed summarized brought it
+James is coming out of his seat almost
+Yeah, you got something I'm ready to hear I'm gonna take some notes if I lose my
+No, no, you're good. Sorry. Could you could you again ask your question? I'm hearing some here's some background noise right now
+I don't know if you guys are hearing that okay. It's gone now. No worries
+Alright, so like right now. I don't really have a CRM for my clients
+but like I need like a central place where
+One like, you know kind of the whole
+like
+Scope of our engagement is captured like the battle plan with that individual client and then every time that we connect
+I'm coaching them and I'm extracting like what are you struggling with where we've been making progress where we succeed, right?
+And then I'd like for that to be brought in to their profile and then every day
+You know it looks at my calendar and it says are you talking to this person?
+Are you talking to this person? This is where they were at. This is what you know
+Etc. That's kind of what I'm trying to do
+Yeah, I mean there's a bunch of different ways you can do that. I would say
+The general if I were to do that the general idea that I would use is I would have some sort of database
+This can be like an actual database like a sequel light database or it can literally just be
+Folders and files like you could literally just have folders and files
+That also works as a database
+Maybe you have a folder for each person that you're working with and a file for each each meeting you have or each encounter
+You have with them or whatever. And so you're recording with fathom, right?
+Correct. Yeah. Yeah, so and if you you connected fathom up to cloud code in some way
+Is that true?
+I'm on them. I'm right there by having actually I think I needed get the API's the API's are
+Open on fathom. I'm pretty sure so it's my next step, but I haven't yes, but I will have to do that
+Yeah, either way whether it's manual or whether you already have it connected you can take those
+You know those meeting call transcripts and have cloud code. Like you said build you profiles for each person
+and I think what might be important for you, especially with like a coaching business where your clients are progressing is
+Making sure that you are in some way
+Timestamping the information that you're adding
+To each you know person whether you do that via github
+where where you do a git commit every time you add new information to kind of keep track of what's new or
+whether you even simply
+Just add a new file under that person's folder for every new entry that you make and you and you date it at the top
+And then anytime you want to pull information about that client you can just ask cloud code
+Please go to the folder for this client. Look through all the meeting transcripts over the past, you know months
+And you know learn what you want to learn. So you just have some sort of simple database
+And then a way also to keep track of the timestamps of new additions and stuff like that
+And you can play a bunch of new stuff into that as well
+You know you can plug a dashboard into that where you make yourself a visual dashboard to visualize all that
+if you somehow
+Extract structured data from those transcripts like oh your client, you know ate this much over there
+You know calorie deficit this week or whatever they report back to you
+You know, you can store that in an actual structured database and do analytics on that as well
+So there's you can make it as complicated as you want
+Wow, so Roberto i'm trying to do sort of the same thing you're doing right I got like Mike Mike
+I'm a management consultant. I'm just trying to do different shit moving along keep going everywhere
+Yeah, and yeah, I never thought of this James
+So I really like the idea not that one's better than the other but of a database as an event
+So every interaction with your client in a database bro is an event and that is clear that is in just like that's there's no
+It's clean it's an event this happened with this person for this project on this thing blah blah blah all the columns on this day
+There's all the shit that happened and then that's what these things thrive off of like if you give them that structure
+so so James are you saying that if I had a let's say I got it to create a
+Database to write to because right now the way i'm doing this is my database is all over the place
+It's mcp calls to outlook over here, you know dropbox over there
+I made a folder it for github and
+but I never thought of this is a great thought like I
+Could just get it to create a database to manage the events of the interactions with my clients. No, yeah
+100% yeah Wow, man percent. Yeah, that's how like it's yeah. Go ahead. No, no, no James finished
+I just thought I'm gonna come after
+Yeah, I was just gonna say like one way to kind of avoid
+Like that memory loss is just to store information with the timestamp on it in some sort of way
+Whether that's you literally store markdown file and at the top, you know
+You store the time it was stored or whether it's a database entry
+Which has like built-in metadata of when the entry was made or whether you're using git to git commit new additions
+So that your agent can look back in the git history and see all the changes
+Building in that
+Chronological that time aspect to the information that you're storing in whatever workspace you're working in whether it's a real database or just
+A folder full of markdown files that's built-in memory for your agents. You don't need some crazy memory thing
+You're just associating times and dates with the data that you're storing in whatever form
+So James is that the tree your tree is a database, you know the tree
+We're talking about early obsidian tree
+What would theoretically the that you'd have a database be?
+Keep your tree branches in your leaves. It will all be in a database
+like
+You could I'm trying to think so that that's not the second relational it's a relational database
+Yeah, okay when I talk about the the context tree, I'm talking about markdown files
+But what you're doing with the markdown files is essentially building a relational database with context
+Totally this is what I've noticed
+So this is super interesting that the idea that we're in all this gobbledygook of language and semantic
+Modeling and knowledge graphs and all that stuff, but fundamentally it's it is a semantic model
+It's a it's a relational data fundamentally. It's a relational database. So in terms of how you architect this stuff
+I'm wondering if you architect it this is back to the sweet sweet spot question
+If you architect it you could over architect it
+You can over prescribe and then you can page yourself into a corner if you don't it's held to Skelter leave it
+you're at the mercy of
+semantic matching and
+So somewhere in between there, maybe this is what I'm wondering about
+There's a semantic layer model that's high enough level and then all the crazy shit can hang off of that
+Right, but at least you got some basic structure
+I don't know the trunk and the first set of branches and maybe the second set of branches and after that the twigs
+No way, like that gets too crazy. So so I don't know where the magic formula is for that
+But anyways, this is good thinking. I appreciate this. Thank you
+Roberto
+Check out fellow dot AI
+I was playing today with the
+Claude and I basically copied all the connectors and I put in I'm like like figure out which one I should use and
+I noticed this one. It didn't recommend it, but I think it could help you
+And maybe it has a database. I don't know but just DM DMC. This could be probably the easiest solution for you
+It's called what again Robert? Sorry. Hello dot AI. I dropped it in the chat
+Hello dot AI
+chat buttons look right
+Bottom right. Yeah bottom right low
+Sam I don't know. I don't know nothing about databases lovable works with
+Funnels. Yeah, I mean there's you can write size any data strategy super base is
+You know, you can use any database that
+Fits your use case. I'm not a data expert
+I try to keep things simple and work on things that are simple to be honest
+I do have a question. I know that we're we are, you know deep up in time here, but
+So earlier there was a really interesting thing that you said James about
+Spawning multiple open clause. I have this problem where I have six projects going on six different stakeholders
+and I've been trying to
+come up with a way to
+More or less have conversations about the project
+different conversations about the project and have it sort of
+Extend me. So like for example
+there's a psychologist I'm working with and she is
+Working with me on this project, but I want to ask her a bunch of basic design questions about the
+Information design so rather than me do it myself. I've been playing around with
+Having sort of a for lack of a better word chat bot
+So I'm thinking that if I do it, right I can sort of have
+different instances of open claw manage these conversations and
+sort of
+Sort of coordinate I can write a layer that like sort of coordinates between these conversations
+Is that is that is that kind of what you're getting at?
+A hundred percent. Yeah, that's exactly it. Yeah, because you know, you can do all that with one open claw agent
+But it just gets confusing and it gets bloated. This is too much going on
+But the important thing that you said is that you do want to have some synergy between
+The agents still and so right now what I'm working on is trying to figure out how do you have
+Shared memory between agents, but everything else is all the other context is different different workspaces different skills
+but shared memory and also like a layer for them to chat back and forth with each other with
+But yeah, that's like that's literally exactly what I'm setting up right now is that exact thing for my projects
+Yeah, I just on a side note
+I think it's really funny is like having one open claw is like a big security risk
+But if I have seven I can like really fuck myself in a way
+But yeah, so yeah, it's something to think about the security of of seven or eight
+Different instances of open claw. Jesus, you know, it's just like crazy
+It's bad. Yeah, it's not good. Yeah
+Thanks, that's great. Yeah
+Um
+Are there any credit cards for uh, any of these ai models that's what I was thinking the other day
+Yeah
+Yeah. Yeah. Yeah, there's companies
+I actually I forget the name but there's entire companies that have spun up all these different
+agent services that are just for agents like a computer for your agent a credit card for your agent and also there's a lot of
+Um
+popular crypto projects that give agents crypto wallets because
+Cryptocurrency is much less regulated and you don't have to have a bank
+You don't have to have a social security number to have a crypto wallet, but there are credit cards for agents. Yes
+Yeah
+It's over the summary is it's so over
+It's so over guys. I think we're becoming fucking I don't know not even farmers because that's that's cook too
+Yeah, I don't know what we're becoming but
+Yes, very cooked. All right guys. Well, it's a bit past our time. I think i'm going to call it here
+Um, but amazing to meet all of you guys great conversation today
+Um hope to see you all next week and again any questions that you guys all have
+Um throughout the week, please make a post in the community
+I'll respond other members respond
+Privately dm me if you want as well
+And yeah, see you guys all next week monday 7 p.m. Eastern standard time same time benjamin if you had a question you can stick around
+All right. Yeah. Yeah. Take care guys. Bye everybody. See you guys
+Yeah, just a one quick question. Okay. Yeah, go ahead. Yeah, I want to review like a previous video, right?
+But I need to be on the level two
+Okay, so now the question is can you lower it to level one?
+It's out of us. I can do that article
+Yes. Yes. Yes, I can do that for sure. I can do that for you 100
+Yeah, you know, I also want to say like
+Yeah, okay. Go ahead. I want to yeah, I also want to say like, you know
+Yeah, there's a lot of conversation there. That's why I don't want to interrupt. Okay, but I also in another another group
+Okay, so you know they actually
+Like the stuff you're talking about overclaw, right? It's actually they have something called
+Not sure you heard about this term
+I'm typing right now. It's called harness engineering
+Yes, okay
+Yeah, so that is exactly what openclaw doing right now
+And what happened is not necessarily openclaw. Okay because of the openclaw. Okay, so
+They people are discussing the next three to six months
+Everything will even having claw will change
+so basically you will have a
+24 by 7
+Agent running on on your on your device or on the cloud. Okay, so pretty much like, you know when you have that
+you can
+Um actually manipulate, you know, because right now when we're doing claw code, right?
+So we have one terminal one one instance one context and then we have another one, right?
+But if one closed then, you know, you need to
+Save everything right? Okay. So now with this so you can actually can manipulate multiple
+Instance claw instance
+Yeah, you know, so I think
+I haven't tried your openclaw yet because I haven't bought the machine yet. Okay, but um, but I think
+Maybe in a month or two, I think claw or openai actually open definitely
+You know because that guy peter already worked for them, right? You know, yeah
+Yeah, so we'll see okay. Yeah, but friends, you know, you will lower the level one. That would be great
+100
+Yeah, I tried to watch the last week video. Okay, so I need to look up something too
+Yeah, yeah. Thank you very much
+100. Yeah. Thanks benjamin. I'll do that right away. I'll get that lower for you
+All right. Thank you. All right. Yeah, have a good one
+Okay, you too. Bye. Bye

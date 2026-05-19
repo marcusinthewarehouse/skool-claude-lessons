@@ -1,0 +1,449 @@
+Agent Architects - Live Call Recording Transcript
+Q&A and Onboarding Call
+Date: 4/29/26
+
+---
+
+Everything is... Yeah, I'm going to show this. It's not recording, right? So there's no, like... I don't know if you can see, but Everything is like wired up and everything is over there. Oh, yeah.
+
+Oh, the cable management goes crazy.
+
+Yeah, yeah, it's still over there at the Ole Miss, but... Let's go. I'm a meat freak.
+
+As you should be. That's how you keep things going well, man. Yeah.
+
+Recording in progress.
+
+Might just be you and me today, Robert.
+
+I mean, hey, listen, I'll take it.
+
+Hey, yeah, why not? What were you saying? Sorry, go ahead.
+
+Cortex has been super bugged for me.
+
+Yeah, I know you were saying that. Sorry, I haven't got a chance to respond to your DM yet. I was just going in and responding to everyone today.
+
+No, that's fine. I know you're busy. Um It's been super buggy for me. Even with the M2C1, it wasn't spawning it. The orchestrator wasn't spawning it, and then I don't know. I think something in my setup is not done right or something. Um, So we'll see but I'm waiting for my usage to reset tomorrow. For tonight, I guess. And then I installed something that David said, RTK-AI. But from my research, I saw that it's not the best thing to do because it Basically summarizes bash commands and then Claude can troubleshoot. Right.
+
+So, I don't know if I should have done that or. Not but.
+
+whatever it's all experimentation I actually installed it today too I'm going to test it out and see how that works You know what would be really helpful, I think, for beginners is...
+
+having like a thing with all the slash commands for Cortex and plot code and then saying, okay guys, if you want, you can install this from the marketplace, this, this, this. And I think, I think his name was Trevor. I'm gonna do what he said were to have like graphify main palace and And Obsidian, I think it was. and I'm going to install those. And I also think what would be super important and helpful for beginners would be how to set up like an environment on your computer so it's not raw you know some kind of a container right because i think right now everything is installed directly on my mac mini so if something gets hacked i'm fucked So So something along that would be very helpful.
+
+Yeah, those are both super good ideas. I know I have like kind of some incomplete marketplaces, like the tools and skills classroom, but it's not, that's not even synced up to the core text. Like it's in a bunch of different places. So I think it really would be helpful to have like a centralized marketplace of skills and slash commands and tools and stuff. So that's a really good idea. And yeah, containerizing as well is awesome.
+
+a pretty important thing to do it. It's super easy. It's really not that hard. You should... Look into Docker. I don't know if I'm sure you've maybe you've heard of Docker. Yeah. It's really easy. You just have to install a software package, the Docker software package, and then you can spin up containers pretty easily. Um, Sorry, my phone just making noise at me. Oof, here we go.
+
+You cut out that last part that you hear.
+
+What was I saying? Yeah, so you can do... You can just spin up a container and then that container is basically like gives you a fresh environment that's isolated from your computer and fresh shell and all this stuff. So you'll have to reinstall software packages in that container because it's separate from everything you've installed. Like you'll have to have to reinstall Cortex and all that stuff. Yeah.
+
+So it's kind of its own whole process to do that, but it's worth it long term if you want to keep it separated. and would that be able to have access to my computer and desktop and stuff like that
+
+Kind of, so you can set up the ability to give it like scoped permissions to different areas of your computer. But you have to set that up manually. Like by default, the container is a container and it's separate.
+
+But you can create like... specific allow lists that allow to access certain folders or something.
+
+Are there templates for that? I know that sounds so ridiculous, but is there a curl command that I can just set up and it's going to do everything for me?
+
+Probably. I mean, there are definitely like container template, like that's templates are a huge thing in Docker. Um, I don't know that there would be one that would be helpful to you. But I would look it up. And there should be one for Cortex on Mac. There should be a Docker template for that. But there isn't. I have not made one.
+
+Firefly says, James says that he's going to make a template for Docker.
+
+Yeah, Speaker James says. Is that your Firefly? No. Rich. Yo James. Go ahead man, how's it going? Hey James, how's it going? What's up, so I recently joined your school community and I've been installing and getting used to the Cortex OS. Yeah. And I was going through it And basically, I kind of wanted to access the instances through... Because right now, I have it running on a VPS. So I tried to...
+
+Have Claude helped me out and get access to the actual team of terminal but it kept telling me that it's like using a daemon PT why and Is that like something new that you switched or do you still use like Tmux terminals for orchestrating those agents? Yeah, so it is actually a daemon in PTY now. So the reason I did that is because Tmux could only run correctly on Mac and I wanted people to be able to use Linux and Windows. So the node-based alternative for that is like PTY terminals, which you cannot attach to. That's like the one thing that I had to give up switching from Tmux to PTY.
+
+You can't actually attach to the terminals, which does kind of suck. But yeah, it doesn't work with this current version.
+
+Okay, fair enough. And you're still using the T-Mux, right, on your own personal setup?
+
+No, I'm not. I'm using the Daemon and the Node PTY now as well.
+
+Okay, cool. And did you have, like, any, like... Any suggestions when it comes to, I guess, when you lose those kinds of features that you get inside of the terminal? Do you mainly interact with it using Telegram or... The OS, like the actual UI or...
+
+Yeah, so most of what I do is all through Telegram. I use the dashboard. I check the dashboard at the beginning of each day kind of just to see what happened overnight, look at the tasks board and stuff. And then I also check the dashboard for like specific deliverables and pages that I've custom pages that I've created for myself. But other than that, I do everything through messaging through telegram. It depends. Why, why did you want to access the Tmux terminals?
+
+Honestly, I just feel like I'm kind of used to that and I keep getting like errors, not errors, but like it'll time out because I'm not even using the max plan. I'm kind of on a student budget. So I'll do quarterbacks. Claude Proplan. And I actually ended up today getting it so that I would be able to, whenever my Cloud Pro plan runs out, it'll switch to a Codex instance. Instead because that one's a little like a lot more Giving when it comes to I guess tokens.
+
+Yeah, I But... Yeah, that's been my work around.
+
+Yeah, honestly, I've heard a similar thing. thing for many people and I experienced the same myself, which is like you're used to using cloud code in the terminal and The terminal just feels more interactive. And it does kind of feel.
+
+You can see what's going on, you know?
+
+Right. You can see what tools are being used and stuff. So it is helpful. And when you have errors as well, obviously it's helpful. What I've done to get some, at least peer into what's going on in a little more depth is you can have another agent check another, or you can have one agent check another agent's JSONL transcript, Basically, just what you get shown in the terminal of cloud code is like the transcript of all the tool uses that are being done. So that lets you like look into everything that's exactly happening in a given session.
+
+But obviously, that's not as real time as you would get in the terminal in the conversation. Yeah. But yeah, you do kind of sacrifice a little bit of observability into the agents using Cortex just because it's in Telegram and the UI is if Telegram is not custom built. you know, to show all that stuff. But I'm, I'm really hoping to like kind of rebuild a more cloud code, like UI in the dashboard that shows all the tool calls as they're happening. Cause it is possible. It's just a ton of work to make. Yeah, it would be really cool.
+
+But it's basically like rebuilding the cloud code UI, which is, there's a lot of, as you can see from, if you use the cloud code app in their desktop app, theirs is buggy. It's super buggy. Like even their room is incomplete and doesn't work that well. So it's, it's challenging, but it's worth it. Cause I think a lot of people face that issue. So that's high on the priority list for sure. All right, yeah.
+
+And I had another one regarding like Obsidian, are you currently using Obsidian like for... I guess storing information, things like that? Or do you mainly use some other database or?
+
+So it depends. I actually don't use Obsidian really anymore. Because I think the good part of Obsidian is like... it allows for a really good surface for you to work on and for your agents to work on where you can kind of both, cause it's all Markdown file base. So it's just a good app to have to allow you to like, look at the files in a good way that the agents are working on. Um, but now for like file storage and memory stuff, I just use graphify on like the code bases that, um, are relevant to the agents that I'm working in them with.
+
+Um, and, um, For viewing, I usually just view files in an IDE or in my Cortex dashboard as well. I have like a little deliverables viewing kind a feature that I can just look at the files in there that they deliver and So I don't use Obsidian anymore, but dude, it's honestly still a super good option and it's super like really simple to set up and really easy for agents to use. So if you just want a functional solution, Obsidian, Obsidian plus Graphify too is just like, it's great.
+
+That's a really good solution.
+
+All right. Awesome. I appreciate it.
+
+Yeah, of course.
+
+Question for the embedding. Basically, I ran out of Gemini 3 tokens are you using Gemini at all for the embedding Yeah, that's what I'm using is the Gemini model. Are you paying for it?
+
+Yeah, it's really, really cheap though for me. Um, Yeah, it's the Gemini embeddings to model. And it's super duper duper cheap. Like... fractions of a cent per day max for me.
+
+Okay, I just need to update my keys then.
+
+Yeah, you just need to connect a billing account, I think, and then you'll be fine. Okay.
+
+And do you use anything for um if you're doing uh videos do you use gemini for viewing videos.
+
+I actually don't. So what I do for videos is I usually just have, um, I have the agent scrape the video transcript with... Just to get the transcript, but that does like lose some video information. So using Gemini is probably the best solution, honestly, for video stuff.
+
+Cool, okay.
+
+Yeah, I use Gemini for quick stuff, but if you want to operationalize stuff and make a workflow using FFmpeg to just take out different frames of the video, it can analyze those. So as long as it's not like... a bunch of stuff happening really fast. I've had some good luck just breaking down and analyzing videos by just taking specific frames, like every other five or something like that. Okay.
+
+Yeah, I'm more of, because I'm going to be making ads, hopefully. In very big quantity. Video ads and so I just wanted to see. how that would work because I want to send the ad and say hey recreate this but if it would in advertising if it's like 20 seconds it has to be a very like two seconds or every one second or something so that's why I was I saw that Gemini came out with Gemini live so if they have that they probably have some kind of a model that actually watches videos Yeah, I think the...
+
+I'm pretty sure the Gemini, Flash, and... Um... The Gemini Pro, right, is the big models. I'm pretty sure they both... And I think they're all multimodal for video and audio. So I think they can all interpret video and audio. I'm not mistaken. I haven't used a Gemini model in so long. That's not good.
+
+I literally just use it for like, if I have a bunch of different file types that I want to just extract stuff from, because it's honestly the best for that. But yeah, I don't really use it that much, as much as I should.
+
+I know it's crazy. Those like the memes of like, the different models be like from the different model companies being released and like, Oh, it's so over. We're so back. It's so over. We're so back. It's so true. Yeah.
+
+It's so true. It's a back and forth. Yeah. Um...
+
+I am. Huh? Yeah. I was following ChadGPT 5.5, but I'm not going to sign up and pay $200 right now.
+
+It's good. I think it's really good at like... like, putting together production level examples and plans in specific areas. If you do it, and then you can have Cloud actually implement it. I found it's like really good at like making sure all the bases are covered when you're like planning like shimas and stuff like that um It's really good, but... carrying it out, I've had some good, some bad. So I tend to just use it where I know it's good for right now.
+
+I tested the image to model James I just saw you reacted to it. Yeah, it's funny. I don't know if you guys are but that's kind of funny the picture I created with it, I dropped it here in the chat. Yeah, it's so funny. So I thought it was kind of funny. And it's amazing, honestly.
+
+It is, yeah. That picture is so funny. It's crazy. The text is so ridiculous, man. Like that text is almost completely perfect Snapchat caption.
+
+Yeah, I told it to exactly that snapshot caption which is now this thing that turned into a bitch. I'm surprised it even put a bitch in there.
+
+I know. That's good. Yeah. Do you see the, that it can like generate scannable QR codes? That's so crazy.
+
+Yeah. Wait, that is actually crazy. I didn't know that.
+
+So crazy. You can send it a picture of a product and ask it to generate the QR code for the product. That's the link, and it works. So crazy, man.
+
+But it has to be like... already existing Oh, you mean the QR code, not the... Not the barcode, yeah.
+
+No, yeah, it's not the barcode. Yeah, it's like, I think if you send it like a link to Amazon or something, you can just like turn it into a QR code that works.
+
+I saw some guy created a dice with like four or three, I think it was three different QR codes.
+
+Oh yeah, that's crazy. That was crazy. Yep. Another new model. Have you guys played with Higgs field at all?
+
+The seed dance is crazy. I've played a bit with-with some of those other models on Higgs field. But the Seed Dance one was really impressive, like what it could do. It's ridiculous. It's very close to... very close to you know... Being indistinguishable. We'll see you, Robert.
+
+two or three sentences with whisper flow.
+
+Oh my gosh, it's beautiful.
+
+Thank you, thank you so much.
+
+What was the prompt for that?
+
+A woman walks into like a brand new remodeled kitchen, flashes before and after of the kitchen, then thanks the team, something like that.
+
+Yeah, it looks like one of those home renovation shows.
+
+Yeah, just the last part kind of gives it away, but you can kind of cut it and then do some kind of B-roll. But it's bananas, but it was so expensive. It was half of my subscription for Higgs field. I think it's like $8 per video for 15 seconds. That's crazy.
+
+Wow. That's crazy. That's insane. That's the only thing about Higgs field. It's so expensive, man. I know someone released an open source version of it, so I might try to use that. Guys, see this video that... I made in with C dance. I posted a, I posted a reel about it, but it's so crazy. Let me see. Okay. What is this? So this is a video that I... I basically gave a source video from my Instagram with like captions and heading and everything and prompted a new script over it.
+
+Let me find a good one. Did you create this UI? No, no, no. This is Hey Jen. Okay. This is Adrian. Let's see. Maybe this one. No, this one's not as good. Yes. Some of these are crazy.
+
+Should I tell you to give you like a Chad jawline and that crazy filter with eyebrows?
+
+A giga Chad jawline? So, okay. Can you guys see this still or no? Yeah. Yeah. Okay. I have 40 Claude code skills installed. Here's the curated collection. I would start with, if I was doing this again from scratch, you've seen the 10 million views skills list. It is a great list of skills.
+
+Not a system. Ingredients are not a meal. I've built in 10 skills that hand off to each other, cover different parts of the workflow and get out of each other's way.
+
+I have 40. Yeah, yeah, she's great.
+
+She has some crazy examples.
+
+like of her on her, like on her YouTube that are actually AI generated. yeah and she shows you basically how to create this in bulk yeah yeah well there's like i saw there was like a batch option there too which is cool Yeah, I think maybe the maybe me using a source video with captions like messed it up or something. But the only one bad thing about those C dance videos is like the words were mispronounced.
+
+Some of them, which like, is an obvious giveaway. Yeah. But I think it's really close, like 95% there to being able to like actually do that, which is kind of crazy. Yeah, Sabrina is awesome. Have you guys ever used Blotato?
+
+I haven't used Blo-Tato before. But I know she talks a lot because she made it. Yeah. But I've never actually tried it. Have you?
+
+I use it actually. Yeah. I use it to post most of my stuff. Yeah. It works great. It's super useful. It's basically like, um, It's basically just like a one-stop shop for social media posting. So it like integrates all the social media APIs into one API. So you can like programmatically post to TikTok, LinkedIn, X, blue sky, Instagram, YouTube, everything. Yeah. Yeah. And it works well.
+
+I just use it for posting. I don't use it for, there's like a bunch of AI features in there that generate content.
+
+And I haven't used those, but I just use it to post stuff and it works really well.
+
+Yeah. Well, yeah, the APIs can be tricky when building, like, schedulers for posting. Like, before AI was a thing, I had to use, like, stuff like Hootsuite and stuff that... you know, did it for you, but... But I didn't actually know there was like... generative AI stuff in Bloatata. I thought it was just like a scheduler.
+
+I think that's what it was originally, but I think she like overlaid a bunch of generative stuff on top of it to make it like more of a one-stop shop. And obviously so she could charge more for the subscription.
+
+Yeah. How much is it? Like 30 bucks?
+
+Yeah, I think it's like $29 a month. It's not bad. It's not bad. It saves me a lot of time. Like that posts a lot. I post across a bunch of different platforms. So I would end up manually posting, pasting the caption and like, you know, if you do it every day for four pieces a day, you're cooked. Yeah.
+
+Being able to schedule them is really nice too.
+
+Can you talk a little bit about your your workflow because I got my props ready or starting to shoot content.
+
+Oh my God, that's awesome.
+
+I think I showed this to Sebastiano. But yeah, I'm going to go. Not like this mic. So I have a double sided tape over here. I don't think you see it, but right here. So I'll just like. put it on and then I'll talk and people are going to think this is the actual mic and they're like, oh, where can I get this? I think I'm going to get more views because of this, but what's your kind of workflow where you shoot content because i was trying to see if there's like a one app that i can just like shoot it natively in the app and then it can post I saw CapCut kind of does that, but...
+
+I don't know what you use.
+
+Yeah, so I honestly don't know... like on the spectrum of advanced workflows for this stuff, I don't know where I fall. I think honestly not super advanced. I feel like, I'm probably like middle of the road, but I'll tell you what I do. So I have like some daily automations that run that scrape like for sources, basically like news sources, my competitors, what they're posting, trending GitHub repos, stuff like that.
+
+Just, you know, you can substitute that in for sources for whatever stuff, whatever content you're making. And I have, um, kind of an agent summarize all of that type of stuff based on like what it knows about, you know, my business, the type of content I posted previously, my voice, all that stuff. And that's like all in the skill. And so it kind of filters the ideas. And it gives me, I think it gives me six topic ideas and I filter those down to four. So I like choose two that I don't want to do.
+
+And then once I have those four topic ideas, those kind of get more like they go through a research phase where we do a bunch of research about them to make the video, right? Yeah. After that research, I have a skill that makes scripts from those topics. And that basically just takes the research and the kind of buzz around the topic, formats it into my voice and the way that I make videos and does like a general script outline.
+
+I almost never really follow them, but it's just like, for ideas of things to get in there basically. And then I also, for like those many chat automations that I do on Instagram, When I have like a deliverable, I also have a skill that like takes the research and turns it into a deliverable and like sends me the live link so that I can just post it into a many chat automation easily. And it's already built based on the topic. Okay.
+
+So then I have four scripts, um, that are from the four topics I selected, maybe a deliverable for one or two of them for many chat. And then I actually get to like recording and posting. So then I go through them one by one, the scripts. And I record in TikTok. So I just open TikTok on my phone. I record. Um... the one video, I write the caption with the hashtags and I copy that. onto like my phone clipboard or whatever, I just copy, select it and copy it. Then I post to TikTok.
+
+And when you post to TikTok, it automatically downloads the video into your photos app on your phone. So then you have the original video from posting to TikTok automatically. Then I take that video link from my photos, or not the link, the video file, and I send that to one of my Cortex agents with the caption. And it uses Blotato to post the video and the caption to everything else. So it posts to TikTok, Instagram.
+
+X and YouTube shorts, like all in one pass from that. And that's one short. And I just do that again for all the other shorts. So I record in TikTok, get the video downloaded, and then send it to an automation with Blowtato that posts it to all the other socials.
+
+That's very cool. Okay, this gave me some good ideas.
+
+Good, yeah. Is this gonna happen? Not really, honestly. I use Haiku models for like the first initial research steps because it pulls a bunch of data. And then as the steps get a little more complicated, I think the research... phase is all with haiku models and then they condense down like the best topic research. And then I switched to sonnet models for like the thinking and the topic filtering and that type of stuff. And it's not too bad, honestly. And you could, I'm sure, token optimize it.
+
+And I scraped a lot of sources too. The AI space, I feel like, is particularly, like... you really need to have high data bandwidth to keep up with shit. So you need to scrape a lot of different stuff every day to really have your AI have any idea what's going on in the AI space. And even then, it's still not that great. So I think other spaces will probably be better or easier, less data required per day.
+
+i was waiting i went to the doctor sitting with my wife and while i was waiting i was asking chad gpt to give me a comparison explain carpetis wiki uh graphify man palace and then something else and it's like man palace is a human something uh remember i don't know memory system for humans or something i'm like no that's actually for yeah and it was like no it's not it's arguing with me and i sent him the i sent the github Oh yeah, you're right.
+
+That's really cool. If you can maybe shoot a video or maybe share that somehow, I think that would be also very valuable for people who wanna make content. 'Cause I wanna start doing stuff about marketing Okay. I think that will be very helpful.
+
+Yeah, I think I might honestly release like a... the beginning of a marketing course because that's what or not marketing course but like a This type of thing, like the AI automations that I use to produce content and stuff, because like almost everyone wants to know that and wants skills for that and It would just be useful. So that's a very good idea. Yeah, the memory palace is actually originally a human memory technique. That's probably why I thought that.
+
+The memory palace is what fucking Sherlock Holmes uses to remember everything. And I guess... Who's the woman who developed Man Palace? She's a famous actress.
+
+Oh, she was the girl from Fifth Element or something. Yeah.
+
+A Soviet actress. It has like 5 million followers. I forgot her name.
+
+Yeah, I know. I forget. But yeah, I guess she adapted that concept to AI, which is really smart. And it does basically follow that concept of like rooms and physical locations to represent ideas, which is really cool.
+
+Somebody, It was very technical person from the group, said he was using Supabase poor memory. Have you guys tried that?
+
+I mean, it's common if you're embedding in a vector database and stuff. And some people do hybrid, where it's a little bit of both. But it honestly depends on - The volume. for the most part of whether or not it's worth it. Um... And like how you use it, like usually big companies, if it's like a general knowledge base will probably want like a database. But if it's like personal knowledge and like you prune and manage and like maintain that knowledge base, then.
+
+Like the obsidian works fine. too. Oh, no. It just really honestly also depends on how you like organize your stuff like I'm working on I my own but like having kind of like you said James like a capture mechanism because I'm always just like ingesting stuff and And processing that takes more time than actually saving it. So I have a little pipeline that also uses a tool that essentially just copies the entire page and stuff.
+
+And then I have Claude go in extract what I want from it, because sometimes I'll add little notes saying what I want to use this for and what it's related for. like why it's interesting to me and then it'll like add the right tags and like organize it and like you know put it in my system. Yeah.
+
+Yeah. Obsidian is good for that. Um. Yeah, I haven't used Supabase for my personal knowledge base ever. I just haven't found the need to do that, but I think it is more production level. Like you said, if you want to use it in a business or you want multiple people to use it, having it in a cloud is probably much better. I mean, you can use Supabase locally too. You might as well. Yes.
+
+No, I use Superbase for production level. I think the good thing about Superbase would be, well, basically it's more like a database, but it actually comes with the authentication. Okay, because usually if you try to build a web app, right, so you need to build your own authentication, but they actually provide the whole module. So you actually save a lot of time. Yeah.
+
+Yeah, so if you need, if you, like Robert, if you have other people that are going to work on the database that you want to authenticate it on, it might be worth it.
+
+No, not really. I mean, I wanna learn how to crawl before I run, you know what I'm saying? Yeah, that's right. I just get these agents, Making ads first.
+
+Yes, sir. What's up, Josh?
+
+Hey, what's going on guys?
+
+How's it going, man?
+
+Yeah, good. Sorry to barge in so late.
+
+I just always get these emails at the last minute and end up halfway through. No worries at all, man. I sent the email extra late today, so that's kind of partially my fault at least. I sent it only a few hours ago. Sorry about that. Now, it's super interesting. I installed Obsidian. I haven't really done anything with it yet. So just right off the bat, I was like glued to what Sebastiano was talking about.
+
+Yeah, well, the fall for that change, I kind of showed it's still really messy right now because I'm still deciding on some architectural decisions, but I was building an observability layer for Cortex because there's all these mempalas, stuff like that, different frameworks. And it's really hard to evaluate whether or not it's actually making a difference in terms of like, how it's like performing and how you're using it and like all that stuff, especially with different agents and organizations.
+
+let me see if i can share my screen here let me see if i can share my screen here let me see if i can share my screen here yeah Hello. How the hell do you share this?
+
+You should have access, but let me know.
+
+There it is. Okay. Yeah. I see it. I was just looking at the wrong place. Bye-bye. Yeah, can you see it?
+
+Oh, yeah, dude.
+
+So this actually splits up like-all your, like, the different types of, like, tasks and stuff, how many turns and, like, the cost for all of it. You could break it down by, like, project, eventually by agent, so, like, you can see if they're doing what they're supposed to. supposed to be all like Joel Downable There's not much here because I had to kind of reset the volume. And I did a reinstall to the native installer for Cloud Code, so the history is not quite there. Um, But it has like...
+
+the complete breakdowns, your leverage. Because there's a lot of skills and stuff that are language focused. So if you can tell that you're working in a certain language, you can give agents or certain workflows specific tools You know for that Um... that you can do, which is messing around. You can... Here I have an evaluator. So you can actually-and I was thinking of using this with the auto research skill that's embedded in Cortex.
+
+but you can create experiments. So either by project path or time window, And so if you have like workflows or like you're trying to see how efficiently you like an agent is like working through something, it'll actually track it and like tag it for you. So you can do like, You can do like harnesses, skills, like tools. you can tag by a date frame. And so it just really helps figure out and measure the actual impact of what the changes are doing. Um...
+
+So you can see a bunch of different stuff. Here, it kind of also gives you the turns. And I have a one-shot metric. So based on the retries and stuff like that, Um... it'll like if it does it and like One shot like. Most times, like I forget the exact number I said, it'll be like a one shot. So like, it's just kind of like an indicator of like how well it's doing without like a back and forth. Right. Align.
+
+Where was it? There's so much here. Okay. Oh, yeah, and then in this one for, like, Obsidian... It kind of tracks like how well like the dead wings any like orphan notes and It uses nHop's depth, so you can see... you can kind of check after it like looks for stuff if it missed any notes it should have gotten within like a certain radius of the file that it did reach so that you can kind of like fine tune and like say like okay well why did it miss this that's so cool So you can see the reads, the missed neighbors, the thrashing rate, which is basically any file that it rereads a lot which is just like another indicator like the top red nodes and he's like the top skipped and It doesn't have anything right now because it's not hooked up, but...
+
+you can kind of It helps you prune and manage and optimize your tags and all of that. So, and that's optional, but yeah, so like... this I think would help a lot in terms of like being able to experiment and mess around. And you can even have the Cortex agents run experiments using the data that this collects so that it doesn't have to do it itself. because this is all so far just scripts. So it doesn't cost anything to extract. Right.
+
+So, you know, all... I don't know how you stop this.
+
+That's so cool, dude. Yeah, that's like... That's like the... This is like the advanced version of the analytics page that I was trying to create in Cortex that I got. I got a little bit of usage and task throughput. That was about it. Because that exact loop that you're talking about with being able to experiment with different things and have a self-improvement loop around that was my exact idea.
+
+Adding the analytics page and the experiments page in Cortex was like, you need the analytics to measure the success of agent behavior. And then you need some sort of scientific method esque loop to have the agents optimize that. And at the backbone of that is the analytics. And this is much more robust than my, the, the ones that I was collecting. So I love this super cool.
+
+Yeah. And let's just use it like Grafana is like free and it's on a Docker volume. So I know we had talked about like scaling, being able to just have it be available to everyone.
+
+So this was the easiest.
+
+So you can host it locally or you can even have it, I think like Grafana has a fairly generous like free tier. It's just that they only keep the data for like two weeks but if you like If you have a process that goes through that data once a week or two, then it's not as much of an issue. And I'm still kind of making some bigger architectural decisions. This data right now, is actually all from the JSON-L because But the reason I have it set up like this is because you could also...
+
+hook up the OTEL data, the telemetry data, so you can have both. Right and it's in one place um so if you do have like a book business with like a business Clod account or whatever you can still have your personal JSONL and the OTEL. The reason I wanted the JSONL is because it could retroactively fill the data. Because OTEL, you only get the data as soon as you start it. Right. There's no... there's no going back. So you have to be okay.
+
+Eventually they'll line up, but you have to be okay with it building out for a bit. Yeah. So I want to have like, both options. And it's hooked up to like The pricing is hooked up to the Elulang White like live pricing. So it'll change and it also pulls like the exchange rates so you'll be able to like for the people that are like in the netherlands and stuff they can like they don't have to use like the u.s dollar they can use whatever there's no way you thought you know they want That's awesome. I got that idea online.
+
+And then apparently there's like actually a good amount of just like free APIs just for like the exchange rate data that's like out there. Yeah. But... It's kind of just like building onto that.
+
+Have you found a reliable way to... get the usage limit data, like not the token spend, but the actual Cloud Max plan usage limit data, like through API. Yeah.
+
+Yeah, so actually, so the, what I showed you there had the usage data. But what I did was I actually... in the status bar, I just piped it over to this. Oh, so it's it uses whatever you have in your status bar you can have available in here. So you can actually have even more data if you want. But I just have it on my status line, whatever I want, which usually includes the usage rates. But it just pipes it to like a temporary file when before it gets ingested by this and then this will save it to Um... to a database and it has a Victoria metric.
+
+like back into it too. So like, I chose that just because of the compression rate for time series. Data for that is a lot better than like prometheus so it allows you to be on me You're over my head now. It basically is just like it... it allows you to keep data for longer without it taking, 'cause like if people run this locally, I didn't want it to take like a huge amount of space. just for this.
+
+It shouldn't be that much, but I still wanted the ability to keep... at least one to three months without really having to worry about it. Normally the way we would...
+
+Normally the way we would try to attack something like that is over the short term, like a couple of days, you're probably interested in very granular events. But then once it gets past a certain timeframe, you would then just kind of like average everything out for a period. And so you're not keeping discrete data points, but you're keeping just like a general trend. And then you don't have to keep like the exact data items.
+
+You can just keep a summary essentially for like longer time series, if that sounds right.
+
+And then you can keep it like forever and compare this year versus last year or whatever.
+
+you And I was thinking about it because I was honestly like this data actually goes into the same volume as the telemetry. So it has a unified schema. If you want both, you can have both. Like I can pull up down to like whatever specifics that the telemetry gives. But I was thinking of having the data that I did have from the JSON-ELM like a separate like database potentially because time series databases have their own quirks, but If you have an irregular database, that also means that any query for a dashboard that you have is essentially like a new SQL query.
+
+So depending on how much information you have, it could just slowly take longer. And it was a question of... Well, if it's JSON, all data is going to be personal data, but I still wanted the the ability to have the hotel data in one place. So it was kind of like a... Do you want it... to be able to hold... a bunch of users data as well? Or like how long do you want to like, you know, hold on to that data and like, 'Cause like a sequel career right now for like me, it probably won't take that long because it's not that much data but I wanted to be mindful of like, I don't know, somebody who might have like a lot of it where that starts to matter.
+
+but you can have live data too. I think this is like on like a heartbeat like timer just so that Because not all this information needs to be updated live. So it's just less on your computer. Um. But that's kind of like... The idea of it and then honestly like the evaluations and stuff like that you could customize it to whatever you have set up. It doesn't even have to be Obsidian. It could literally just be any file system. Um...
+
+But that was kind of like the idea because I think that would give a lot of people the ability to start experimenting and exploring with different things to see what actually works in terms. And this also supports Codex. It supports right now the open routers Um... And yeah, I think that's it for right now. Oh, and cursor, except cursor doesn't have as much information for some things because they don't, they just don't have it in like their JSON and on stuff.
+
+So, but if you hook up the telemetry, they'll, if they have it, you know, it'll be there. It's just I haven't really used it. cursor that much, so I'm not actually sure what's available there.
+
+What is telemetry?
+
+It's basically just like usage stats. It's kind of like the odometer on your car and like... just like your historical usage of it.
+
+And what is Altel? Altel is like the session data.
+
+Yeah, so OTEL is just short for Open Telemetry. It's a standard for this type of information. It's mainly used for debugging, which you could also use to debug Like when Claude went down, my API error is just spiked. but Uh... But yeah, it's like just any telemetry data, but... the data that you get really depends on like the provider and like what they actually give out. Go Google. And then there's a debug mode because some of the telemetry environment variables like by default are off because they just create an insane amount of data, which was another reason for the Victorian metrics for the compression.
+
+So Wait. all this data is without those environment variables, but I put in a button that will enable it. And then when you restart your sessions, it'll put those environment variables in your settings file for you. And then it'll start collecting. so that you don't have to really mess around with trying to figure out which environment variable you need to turn on.
+
+That's super cool. Yeah, if you ever... get those scripts at a place where you're comfortable sharing them, let me know. Cause that would be super useful for cortex to have those in the analytics page at the very least.
+
+Yeah, that was cool. I was still kind of hacking away at it. I had to be a little creative with the status line bridge, because even in the telemetry data, they don't give you that. It's just in the status line. It has a bridge file, and there was a little marker there that tells you if it's healthy or whatever. It's broken, so that at least you know. But yeah, I'll definitely share it once... Once it's a lake. more usable spot.
+
+I just had to like... That'd be great. Test it and like make some decisions. But if there's like... Any ideas or something that you have that would be cool to put in it? I'm open to trying to see if I can do it. 100%.
+
+Yeah. I mean, it looks like you had everything and more on there already, but if I think of anything, I'll let you know. Yeah.
+
+I mean, a lot of this was just... regurgitating what can I do with this? For some of this, I just had Claude make something. You have all this information. But I got to kind of trim it down to what actually matters. And then so like I have different dashboards, but I'll provision them so that they're pre-built with the queries for everyone and then You don't have to worry about like creating panels and querying it.
+
+And then ideally, because grafana now is also supports like uh git um you could keep your dashboards in github and edit them there and then they'll be synced with these dashboards so that you just have like a version of it online that's being used and then you won't have to worry about, you know, the dashboard JSON file is actually getting deleted.
+
+Right. That would be good. Yeah. Yeah, that's sick, dude.
+
+But yeah, all these will be customizable.
+
+You can add or create whatever dashboards and panels you want. But yeah, I was like, this is already built, so I don't have to like...
+
+Rebuild stuff. Yeah. Yeah.
+
+Steven... How's it going, man? I saw you just joined up. I'm not sure if I think I've think I recognize your zebra logo. I'm not sure, though. I don't know. Have you been in a call before?
+
+I've not been on a call before now.
+
+Oh, okay. Well, how's it going, man? Nice to meet you.
+
+Nice to meet you too. I'm the guy who, before you released Cortex, I did the Windows version. of the uh okay yes yeah so i i know you went with the uh the linux um the win linux uh kind of uh in between but i did a native windows port back then so i'm trying to figure out which one's better have you used both No, not yet.
+
+You're using your native Windows version? Yeah. Yeah, I have been. That's awesome. How's it been going?
+
+It's fast. It's smooth. It works very well. But I'm actually was planning. I just ran out of sessions. So I had like a little break. So I didn't realize this call was like jumped on. So I was actually planning on installing the full. the full version as is just to start playing with and compared to two.
+
+Yeah, you should. We've added a bunch of stuff on top, like in the dashboard and some stability fixes and stuff as well. So it probably will be in better shape now than it would have been if you downloaded it a few weeks ago. But I'm interested to see how it compares to your native Windows version and if there are big differences. There are big differences.
+
+I had a serious cloud mishap this week where it somehow in the middle of working, my entire cloud environment got erased. So I had to like try to bring it back with a VSS It was a mess. The majority of the files were corrupt. I'm in pain. All my workflows are gone. So it took me two days to bring it back, and I lost about a month's worth of work. And all my backups just failed. It was just miserable.
+
+Oh, I'm so sorry, dude. I'm so sorry. Yeah, that's like a worse nightmare right there. It pretty much is, yeah.
+
+Can you find out what happened? No, no, Claude had no idea. I was... It was a Saturday night. I was heading out to a party, had a client with an emergency website issue. I fixed it. And somewhere in between, it just decided to erase my entire environment, all my skills, all my businesses, all my clients, everything.
+
+Oh, my God.
+
+I saw similar posts on Reddit where it deleted somebody's, some startup's whole database.
+
+I saw that, yeah. Geez. Yeah. I found I need to be really careful when I tell it to refactor or make the system more efficient or something because it'll say, oh, I found 87 gigabytes that we don't need. And it'll just start deleting files. Yeah. Yeah. Yeah. Yes. I was able to recover it though. I'm sorry to hear about your situation, Steven.
+
+Yeah, I have no idea how, like, it's a full reconnaissance, like the session survived. So there was no indication anywhere why that happened or how that happened. And I have no idea. It is very strange, but it was very specific. It only attacked my cloud directory. So like Luckily, I had some stuff in my super base and all the sessions and memories were actually in a in a sub directory, but like all my skills, all my lessons, all my other type of memory, like all my work files, it was just painful.
+
+Oh yeah. That's brutal. Thank you.
+
+Bullshit. I mean, it's not nearly as bad, but... mug doing this project thing because it I to have the environment variables connected. And I found out this is more of a quirk of Docker, but it deleted my settings.json file. Yeah. And I was like, uh, Yeah, that's never a good feeling.
+
+It was a freshman soul.
+
+Do you guys use...
+
+some kind of IDE on top of like, are you using anything as an IDE that clouds on top of and use that and codecs and all that stuff? Or are you just going straight into cloud code?
+
+i if i'm working on like a singular like project or like software that I'm building I generally do it in a dev container so that-because sometimes I'm trying stuff and installing whatever. And if I do it, then it's like ephemeral and like it's not on my host computer and I can like share it more easily because I'll know it works on whatever computer. But it's If it's not late. a full-on project like that, then I tend to just use my terminal to do most of it because it's easier to have it look through other files and stuff and directories if I need to because it won't be able to inside the containers. OK.
+
+All right.
+
+I would stick like cursor or VS or anything like that. Yeah, I just use VS code because that's what I'm familiar with. But-Yeah. Me too.
+
+Yeah, I used... Sorry, go ahead, Ben.
+
+Yeah, I just wonder, like, you know, you, okay, because I'm coming from software engineer background, right? But did you guys said, the way how I do it is like, how do I prevent like such a disaster happened, right? I actually, I built everything with, It's supposed to be three level, but right now I do two. So, you know, like when I'm at work, right before, you know, usually be like a development, staging and production, right? Okay. So right now I only have development and the production, okay?
+
+You know, so for my cloud code, I only give access to the development. I never give access to the production. So there is no way, Cloud Code, you will be able to delete My production database. even the instance on Vercel or even the GitHub, it doesn't even have the access to the, so I have a different branch, right? So, you know, I branch for the development branch and then the integration branch when they cut the VDs, you know, but the COCO does not you know, really have access to the, even for the production GitHub, only for the development branch.
+
+You know, so if I really need to move, you know, the call from development to the production, right? So, the cloud code is only able to create the PR, okay? So this is the way how it went. Basically what I try to say is like, you know, we can't really give a full complete access to the cloud core. It's too dangerous.
+
+Did you do that with a hook? Like how do you how do you block it off?
+
+How do I block it off? No, you don't even need the hook. You just don't give them the access.
+
+For example, let's say you...
+
+I think the East... You're talking about on which environment?
+
+For the GitHub or you're talking about Well, just like how do you have it just working in dev and not able to access staging? I have the same three, and like Cloud Code is always confused about which one to use, and I make hooks so that it can only read from the other servers, and then it says it can't read it because of the hook, and then it gets around the hook and writes it anyway, so it basically asks me stupid questions and gets around what it's supposed to not be able to do, and then also pretends that it can't do stuff.
+
+should be able to do, which is read-only. And I have no idea how to actually isolate those environments so that it can't physically use it. It's all on the same hard drive on the same system. Is that the issue?
+
+Depends, depends on what, What kind of application do you try to build?
+
+So for example, I'm building a web app, right? Okay. So pretty much, you know, the code is actually all in GitHub, right? Okay. So, so we know what happened is I will have a development branch. So I have the same repo, but I will have development branch and then the main branch. You're using branches in GitHub then, okay.
+
+Basically, what happened is the GitHub and Vercel are pretty good. When you update the code in the main branch, Vercel will automatically detect and then it will create a new view. So actually you even have a different view so you can see the changes on the website. So what happened is, okay, so what I didn't do is I didn't put any Vercel CLI or MCP directly from Cloud Code to the Vercel. So you block that. So you want the deployment, you actually let the Vercel handle it.
+
+tech to keep your main brand change. Okay. You know, And also I find out about the environment variable. So this is something like even the clock will tell me. So I suppose, okay, so I need to enter all those variable into the other cell. the biggest, okay, but there are so many variables, okay? So I actually, I create a file, to put in all the information. But I accidentally made a mistake. I created a file inside my folder, the cloud folder. So basically, the cloud basically tells me, oh, they actually detect some of my keys. So they tell me it's not safe. So I need to rotate all those keys. So what happens is if you need, because I want to create a file so I can upload it to the Vercel.
+
+you do something like this where you make sure The file is never ever created inside the folder. Because Cloco is able to read everything inside the folder. So you have to do it from outside. Okay, so... Mm-hmm.
+
+I have to create the file without cloud code and put it in a different file that it can't access. But it can read or no? I'm sorry, I'm a little bit... It's two o'clock in the morning here. I'm a little bit...
+
+No, no, no. So the way how we do it is like we, okay, I'm talking about Cloco CLI, right? Okay. So even if you're doing a co-work, the same thing, right? So you, every time when you try to do something, right? So Cloco would ask you like which folder you want to work on, right? So that is the number one thing. So when you give the access to Cloud Code about the fold-out, so basically anything you do inside the fold-out, it will know.
+
+So if you have some kind of secret password key, make sure if you need to put it into some file, make sure that file never ever inside the folder. Because Kaka would know. Yeah.
+
+I hope we didn't hijack your call, James.
+
+Oh, no, not at all. Not at all. This is exactly what it's for. And I agree. Yeah, I think it's kind of... I don't know. It's a little bit normalized. Like, Cloud Code, the way that they suggest that you manage secrets when using Cloud Code is put it in a .im file, which... changes nothing about what cloud code can see. It can still read those secret keys and they still end up in the JSONL transcript.
+
+So, So technically, anytime you like Ben said, anytime you have keys exposed in a in a really in a file on your computer, that's not, you know, containerized in any way. Cloud code can access them pretty much. I forget what we were talking about before that. But yeah, that. It's good advice, honestly, to keep that in mind, especially if you're pushing things to production, other people are using them, a lot of people know you online, etc., etc.
+
+Good to keep in mind. I sadly do have to cut the meeting short. It's that time. But we will meet again next Monday, 7 p.m. Eastern Standard Time. And then again next Wednesday as well. So nice to meet you, Josh and Steven, on the call. It was really nice to get to talk to you guys and good to see everybody else as always. And I will see you guys next Monday.
+
+Thanks. Have a good one, guys.
+
+You too. Take care.

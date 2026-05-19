@@ -1,0 +1,63 @@
+{
+  "course": "OpenClaw Fundamentals (3/3/26)",
+  "slug": "da68c6be",
+  "lessons": [
+    {
+      "order": 1,
+      "date": null,
+      "title": "1. What is OpenClaw? (Mental Models)",
+      "section": null,
+      "file": "01-1-what-is-openclaw.md",
+      "id": "6b91b06d809840629bb78940aabb8b65",
+      "videoId": "724e6fbf52e34e85852fabc6ee7ba801",
+      "resources": []
+    },
+    {
+      "order": 2,
+      "date": null,
+      "title": "2. Why a Dedicated Device",
+      "section": null,
+      "file": "02-2-why-a-dedicated-device.md",
+      "id": "98f852a2fb3b4916865a44d738a3f162",
+      "videoId": "5faef9b62ad44ae1828bdf4ea48dfbdb",
+      "resources": []
+    },
+    {
+      "order": 3,
+      "date": null,
+      "title": "3. Install & Onboard",
+      "section": null,
+      "file": "03-3-install-onboard.md",
+      "id": "d986801219124156833736043138fea7",
+      "videoId": "05cf2f73fe3842b0a04a441c3c5b05a2",
+      "resources": []
+    },
+    {
+      "order": 4,
+      "date": null,
+      "title": "4. Security Lockdown",
+      "section": null,
+      "file": "04-4-security-lockdown.md",
+      "id": "4e092fb1d44240219732465f60a40ee5",
+      "videoId": "eebdd78e03e048989c4a674ade1b3e93",
+      "resources": [
+        {
+          "title": "Security Lockdown Cheatsheet",
+          "file_id": "45c7a2c79f684090b89605b1c0c7a8d4",
+          "file_name": "04-security-lockdown-cheatsheet.docx",
+          "file_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "date": null,
+      "title": "5. Your Workspace",
+      "section": null,
+      "file": "05-5-your-workspace.md",
+      "id": "bf6c0994daf84d01bedd6314122e68b3",
+      "videoId": "0d6f21571e36417f8c1ee7f391bc3758",
+      "resources": []
+    }
+  ]
+}

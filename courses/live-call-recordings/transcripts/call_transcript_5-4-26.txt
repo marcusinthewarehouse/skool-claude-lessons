@@ -1,0 +1,206 @@
+Agent Architects - Live Call Recording Transcript
+Date: 5/4/26
+Title: AA Think Tank — Advanced Member
+
+AA Think Tank 5/4/26 — Meeting Transcript
+Agent Architects Community Call — May 4, 2026
+
+So it looks like it's working.
+
+Yeah, I think I might have accidentally... Made like two meeting links for today.
+
+I just saw the one on the post. I don't know if there was another one. Yeah, it was weird. It said success at the end and I had to keep reloading it and I had to actually reinstall Zoom. Weird. Okay. But you guys clicked on the link from the post, huh? Yeah, I think it's this. And then I think I clicked on it before you got on or you were using it. It said that you were in another meeting and then eventually just self-reloaded and then I got in.
+
+Yeah, it's super weird. I don't know how that happened. I think I started twice or something. Mm. Sorry, it seems to be working.
+
+Recording in progress.
+
+Always the small stuff. It is. I know it took me like three calls in here for it to ever, for me to have it work correctly. Yeah. Great. What's up, Rich? How's it going, man?
+
+Yeah, first time I've actually joined one of these calls. How are you guys doing?
+
+It's good to have you. Nice to meet you.
+
+Why do you make it? Yeah, but I'm based in, I'm English, but I'm based in Vietnam. So it's like the other side of the world. So I'm, Tuesday morning for me.
+
+Wow. Yeah, that's crazy. I actually spent, um, I spent three months abroad in Thailand. I didn't, uh, didn't get over to Vietnam. Sadly, I got to Cambodia, but I really wanted to do the hog young loop and all that stuff. Um, yeah. But I didn't get there, sadly. Hopefully one day I'll go. Would you recommend living in Vietnam?
+
+100%, yeah. I mean, I've been living here nine years. It just has a very easy pace of life and awesome food, awesome people, good sun. That's the key thing. Definitely recommend Vietnam. Just come visit. Hasang Lu, really good. Just be a bit careful if you don't drive motorbikes. It's a little bit dangerous, but you can rent a Jeep now and they just drive you around in a Jeep. It's pretty cool.
+
+That's super cool, yeah. I don't know if I would be able to drive my own bike. I tried to drive my own bike when I was over. on an island and almost killed myself like three times.
+
+which was not good. I'm glad that didn't happen. Yeah, me too. It was a fun, it was a fun adventure.
+
+you So Rich, what's your background? What do you use AI tools for? All that good stuff.
+
+So I was...
+
+I come from like a brand and marketing background, work for some pretty big clients. So like Disney, Cola, some big agencies. And we shifted a little bit more into innovation solutions because I love XR, like I'm a big VR, AR guy. And then we started developing our own AI tools to help with production. So the 3D rendering, visual effects, loads of stuff like that.
+
+with what we were building. And they were like, "Oh shit, that's really cool. "What you can do can save us so much time." And I was like, "Oh, do you know what? There's something in this." And then I started seeing your content and I was like, "Oh, shit, there's a lot of other people kind of thinking the same way, you know, with different systems." So, yeah, I'm now building more of an internal OS in general. I call it Ghost Orchestra.
+
+and it's to operate the whole business. And then I'm also now doing it for some clients. So clients are in the lead generation space, SEO, some guys got like IT solutions consulting. So it's just really a way they can, have a bigger impact with a smaller team. So they're having about three people on their team, but they can output 30 people's work basically.
+
+So yeah, that's really key. Like, well, I'm keen to learn more about like what you guys are doing. Oh, that's sick.
+
+Yeah, I would love to talk to you more about that. I've been experimenting a bit more with... some basic video automation, which Doesn't tend to work that well depending on what you're trying to do. but I've had a few clients that do simple recording themselves type stuff. So I figured that would be like a decently like good starting place because there's not a lot going on there. But I also do go-to-market engineering and lead generation and stuff. So we can definitely bounce ideas off.
+
+Yeah, definitely.
+
+I do lead gen two. in the local businesses and stuff. So... We can all connect and kind of geek out. Amazing.
+
+Yeah, yeah. Great to meet you guys.
+
+Yeah, on that note, also an announcement that I was going to wait until some more people joined to make, but I'll make it again later, is that I think I talked about this last week, but this week we're going to start having... Having member hosted calls. So if any of you guys ever want to get together with a group of like minded people that you meet in the community in one of these calls, and if you guys ever want to schedule like, let's say a lead gen automation call where you guys is all are specifically talking about the automations that you made surrounding lead gen. And one of you guys wants to be the host for that meeting. All you have to do is just host the zoom meeting and, um, we can pop it in the calendar on school.
+
+Um, and you can open it up to the whole community to join and can be as formal or informal you want, whatever you want to do. Um, but that's something we're going to do in the future now is like member, member led calls. So if you ever want to do a member led call, If people are interested, DM me, whatever you see fit, and we can get that on the schedule and you can do a recurring call if you want to do it every week, every two weeks, every month, or just one off completely up to you. But we're going to do that from now on, which I think will be really cool to see what comes out of that. Cause I know a lot of people have like-minded applications for all this stuff.
+
+So yeah, let me guys know. Let me know if you guys want to do that. That would be super cool. Yeah.
+
+I volunteer, Sebastian. What's that?
+
+I'm all in here, Sebastian. I feel like your audio is muted. Yeah, your mic. Not muted, but like really dampened.
+
+Yeah, something happened.
+
+We're underwater. Yeah. I think he said I volunteered to host it. I think that's what I heard. No. I said no. Okay, no. Let's push the reason.
+
+I also, I don't know if you guys saw before you joined, but I also just announced the, a new Mac mini giveaway for this month. So we're doing a Mac mini giveaway, a little bit of an upgrade from last month. We got the five 12 SSD hard drive, 24 gigs of memory. And so to get entered into that giveaway, you just have to reach level four in the school community and you get points by just getting likes on your posts in the community. So if you make a post, people like it. Every like is one point. I think you have to get 65 points to get to level four. And you have until June 1st to do that.
+
+There's also a 30-day leaderboard. And if you get in the top 10 of the 30-day leaderboard, you get an extra entry into the giveaway. So some incentive to... get chatty in there. And yeah, so on June 1st, we'll do a giveaway on the live call and see who wins. who comes out with it this time. Robert got the last smack, Mindy. Has been hacking away on it over there.
+
+You're giving more shit away?
+
+I'm giving more shit away, man. Gotta keep giving back.
+
+What up, Rob?
+
+What's up, Rob? You look like you're chilling, man.
+
+Seriously.
+
+I just had a sauna. It's fucking super chill. Sauna's down here, guys.
+
+Wow. That looks amazing.
+
+Guys, come on by, man. Work on some AI shit.
+
+Claude, buy me a plane ticket.
+
+How's it going, James?
+
+It's going. I haven't seen you in a minute, man. It's been going good. Lots of stuff going on. The space is ripping forward as always.
+
+I'm getting in on Cortex now, finally.
+
+I'm excited to hear your opinions on that. And yeah, I want to give you a call also later this week and chat with you about it. But yeah, Rich was actually just talking about as well how he's kind of trying to make a business OS and, you know, uh, build that out for his clients. And I think that's kind of what a lot of people are doing in the space generally now, but in, in this community as well, we're kind of building out those OS type things and then figuring out how to productize that to their clients is like, there's probably 10 people at this point in the community doing that with cortex.
+
+Um, yeah, there was, uh, uh, what was it? Uh, somebody, uh, I can't remember the guy's name. It was... He's doing Remember you pointed him to me? What's it called? BizBrain.
+
+Oh, yeah. Yeah, he actually– I haven't spoken with him– in a little bit. I'm not sure if he's still in the community, but yeah, he was making that as well. Yeah. Yeah, and that was really cool as well. It's a very common theme right now. A bunch of other people in the AI space I see posting about their Cloud Code OS or Agentic OS as well. And so it seems like that's where things are heading. And that's where all the big model companies are heading as well. So...
+
+You know, they're building out all the infrastructure for that stuff. As well. So we'll see if Cortex survives that stuff. It'll be interesting. Exactly.
+
+Cause that's how it all works. Like everybody takes their kick at it and then something survives. And in the middle of it all, I feel like I'm trying to just stay as agnostic as possible. So I don't have to fucking redo all my, my shit, whatever my, my, My shit is dude, is this so crazy trying to keep track of your shit with all the changes every fucking day there's something still new and, but it seems to be settling down so I'm gonna jump in on on cortex and I'm going to give it a run.
+
+I'm excited to hear what you think of it.
+
+Yeah. I got, I got, you know, Nate Jones. Yeah. So I got his open brain going with like a super base that just tracks the transactionally my, my, I check in my thoughts and, But it's not doing obviously any workflow or anything like that. But now I want to actually use your stuff for the persistent memory and I still see myself screaming at it in caps even today like, "What the fuck are you doing? Did you not listen to what I said?" I mean, all of us must do this, right?
+
+Do we all do this?
+
+Oh, yeah.
+
+Like, what the fuck are you doing? Did you not just fucking hear what I said?
+
+That's horrible.
+
+Are we all doing it?
+
+I would never. I'm much, much more evolved. No, I ask it like, are you fucking stupid? You're asking me to do things. I'm telling you what to do. You're telling me shit. I'm just going to tell you to do that shit that you just told. Yeah. I'm not crazy.
+
+Have you seen the studies on that about the papers where they talked about how it actually responds to the negative context versus positive context?
+
+So I have for this last week spoken to it like it is my child. I'm trying to give it emotional intelligence. I'm like, hey, great attempt.
+
+That was wonderful. It was a little off point. I was kind of trying to go this direction. So could you just do that one more pass but focus on this? And I don't know if it's made a difference or not, but I'm happier. I haven't tried.
+
+Okay, I haven't tried that but I've tried like I've noticed like cursing it does work a lot and then one time I I did it and then it automatically enabled like the memory thing that's like built into it and I was like, oh no. Yeah. Do you guys think...
+
+It would help if you built in like crazy insecurities into its CloudMD.
+
+Like this guy saved your life. You owe him everything.
+
+I have read... A paper the other day that was talking about if you tell it it's an expert at something, it gives it a false sense of it lies more because it thinks that it is telling you the truth because you told us an expert. So it is better to prompt you are a novice. Double check this before you send it and make sure it's right and that it's less confident in its answers. And that has actually worked for me. And it was one of the ways I caught a mistake that I made where I built a sandbox, but we were building outside of the sandbox.
+
+I broke Snap CLI. That sucked. And then I realized it was like, hey, whoops. And I went back and found a whole bunch of other places where we weren't actually building in the sandbox. So we have a bunch of halfway built shit on stuff that I'm actually using live. And I've been spending the last 36 hours crawling through it trying to find it all, which has been real fun. So that would be like a Dunning-Kruger skill.
+
+Like you ever heard of the Dunning-Kruger effect? Yeah. Right? It would be like a Dunning-Kruger skill, which is like, dude, you're not actually that smart. I know it sounds like it, but you're not. So double check yourself. And that's what I found really interesting, James, about your– You talked about on one of your Insta posts, like memory, like a cascaded hierarchy of memory. Yeah. where it never forgets. So when I saw that, I was like, okay, fuck, I gotta get in this quarantine. I gotta do this.
+
+So James, is that gonna work for me? Like...
+
+It might. I mean, I think memory is still one of the bigger issues with cortex. So you're probably still going to struggle with it. That memory system that you're talking about, I think it was actually from... like a separate video. I'm not, I don't think that's, or that is not in Cortex. Cortex is like the memory system is much simpler. But right now I'm working on a member suggestion actually for memory, which is using Graphify plus mem palace to give each agent better memory and give the whole system better memory. And so I've been using that for the past like 12 hours now, and it seemed pretty good.
+
+I feel like it's much better than the system that we've been using, pushing an update for memory soon, but I encourage everyone to experiment with different memory methods because there's a thousand different memory tools out there. Like there's so many. And I, I've never used a single one of them where I felt that it was perfect or that there was nothing that could be improved upon. So...
+
+How do you feel like the mem palace compares to like other ones like the traditional like LM wikis or some of the other ones in terms of I mean 12 hours might not be enough to like really figure that out but I feel like the working memory, like the more...
+
+episodic memory closer to when you're talking to it is better with Mempalus. Which makes sense based on the way that MemPalace works. It's very like... conceptually boxed and I don't know, like that just makes sense to me why that's better for the long-term stuff. I just can't tell 'cause I've only been testing it a little bit, but for that kind of like remembering things that we've worked on throughout the day or in the past few days, if we have documents about it, I felt that has been better. Although that might also be because of Graphify, I added them in together.
+
+So I'm not sure what effect came from which tool. No. But yeah.
+
+So I've used graph of...
+
+So I use Graphify. I'm a big component of it. But I use it with the Claude MIM. I didn't use Claude, whatever, MIM Palace. I looked at both of them. And at the time, my agent was like, hey, this palace, we need to watch it. But it's a little too new. I found like three bugs. Let them work on it. Let's look at it in a month. And so it's got to be the latter. Because if that was the case, I would have that problem. And my problem isn't memory being there. It's them going and retrieving it.
+
+My orchestrator wants to make assumptions without verifying the memory. It'll go back and be, "Oh, you're right. This was here. I didn't look." That's my problem that I've had. I don't know if that's because we were at a 72-hour rollover because suddenly the next day, the next morning, it was a lot better. I don't know if those are related or if there was something else. But So I would... I would say that it's not Graphify.
+
+Off of that.
+
+Yeah, that's fair. I think it's really hard to know, honestly, what the best solution is. And it does take a long time, especially with a complex system like Cortex. it's really hard to like test it and even determine like, is this even better? Yeah. But like you said, David, I think it's a lot about strong prompting because recall is really the hardest part. Storage is not that hard. There's a bunch of different good methods to store memories.
+
+recall is really hard. You need really strong prompting to make sure that the agents are recalling very often. And then there's also the token consumption versus memory quality handoff, because if you have your agents checking memory all the time, they're going to check when they don't need to check. And if you give them the decision to choose when to check, they're not going to check when they should check. So it's, you know, it's always... Yeah.
+
+I found it like a balance between like... a system that just makes navigation super efficient so that it saves on those tokens. And then I've also been playing around with hooks where before starting a task, it'll just ask it like... Or did you check this first? And like... verify, which you know, does lead to like, potentially needing to check too much. But if your memory system is efficient enough, it might be a trade-off that's worth it.
+
+So I've been trying to play around with that to see you know, where the effort should really go.
+
+That's hilarious. I literally, like three days ago was the same thing. I was like, if we put the hook before... It's just funny to me how many times I jump on this call and we're like, yeah, we're thinking the same thing. You did that. Dang it. I wish we had like a, don't waste your time. I'm going to do this. Yeah.
+
+But the problem also like I found was because... I've also been looking at kind of like if you guys remember like how they're like anthropics like source code leaked And the way that... Claude. read stuff there are hard limits so depending on what you're looking at it just outright won't look at it so i've been trying to like build in some checks just in case because sometimes it'll just grab through stuff or just look through stuff but if it's over like 2000 characters along or something, it just truncates it like completely.
+
+and it's a matter of like, being able to identify that. I recently put a hook to to try and like address that problem because sometimes like If you're retrieving a memory that's just a bunch of documents or one long one, it might not just look at everything. It's checking and you see it go through that file path, but it's not actually reading what it's supposed to. And recently I've been doing a lot of work with really large knowledge bases, and I've seen that become more and more of a problem.
+
+Fuck, it's lazy. Dude, it's like I'm just imagining me doing that and being like, oh, fuck. Did you look at it? Yeah. Technically. I can't believe how much... It mimics human behavior. We just give... Yeah. All right.
+
+And that's the problem.
+
+We keep treating it like it's human. That's how you would program a topic. Yeah. Well, that was one of the things that I think is a dilemma is if you do what I did, where I trained so hard for efficiency of focusing on token efficiency and consumption, then you get to the point where now it's like, hey, we're focusing on recalling and doing this, what still has efficiency. the efficiency mindset, which makes sense that being efficient means I'm going to glance at it, but I'm not going to read it all. I'm trying to move through there just like a human would.
+
+If you preach efficiency, you're going to glance, but in the back of your head, you're thinking, I've got to do this with the least amount of token consumption possible. It makes total sense. If that's the attention that you give to the world, That's what it will return, right? Which is very human. If that's the way that you look at it, it's just going to look at it that way. It's crazy because I remember when I first started all this, I remember with OpenClaw doing this hours of psychoanalysis, just going like, this is the kind of person I am. And it being like, oh, I know who you are. And then me actually believing, oh, fuck it, it knows who I am.
+
+This is going to be fine. Everything's going to be fine. And then realizing, no, it's not. I just don't know how to audit. How do I continuously audit this thing. So I know what it's thinking and what it's coming up with. And I don't think, I don't know, James, is there an answer to that? Like the, the verifiability of any given thought. Okay. You just had that thought. How can I verify how you came up with that thought?
+
+There's kind of a method. I mean, the method that I use, it's not, I wouldn't say you can audit their thoughts really, but you can at least audit their behavior and you can do that by, um, reading the session transcript. Yeah, you can read the session transcript and there are skills. I have a skill in the tools and skills course in the classroom. That's like a skill course optimizer. And it basically like you point it at a session transcript that just used the skill that you're interested in. And it will go in, it will read the skill. It will read the session transcript and see, okay, the agent called the skill here. So it was triggered by this prompt.
+
+It followed the steps here. It didn't follow the steps here. Let's go back to the skill, optimize the skill, run it again. And let's keep auditing that. So you can have some sort of like, that's where you get some observability is in the session transcript. and obviously, like, with something like Cortex, in, like, the Daemon logs and, like, the logs, but... And you can't really see into their thoughts other than unless you're doing like model interpretability stuff, which like is not really realistic for us to do in our day to day setups.
+
+But Anthropic does a lot of interpretability stuff where they like look into the activation of the neurons of the neural network as it's making decisions and try to see what it's actually thinking. But yeah. I do a lot of this session transcript auditing when I'm really trying to like test a new feature in Cortex or something. Because otherwise you're totally blind to what happened. It's a total black box.
+
+Yeah.
+
+Actually, James, I had mentioned this to you. There's this guy Matt Pocock? Yeah, I remember. That's his real name. Okay, so that's his real name. So he's got this really interesting skill, it's called Grill Me. And when he runs Grill Me, so Liam... So my son Liam is sitting here with me and he has run it. I haven't run it yet. But he said it grills the shit out of you and it grills the shit out of you to create not just a linear, like when you use GSD, you go through this, it assumes that, oh, design is a linear thing and I will have thought of everything and then we will do everything and then it will be done. But while you're doing everything, you go, fuck, I forgot.
+
+I didn't realize this. The grill me, this guy's grill me skill, it's like a tree branch comes down and covers absolutely everything. And then after it does that, it does a PRD. So it'll do the PRD after that and it apparently is quite thorough because this guy has got a software engineering background. He's sort of coming at it from a different angle. He's not working on an OS or he doesn't have like any kind of, it's just, it's all skill based, right?
+
+It's not solo dev vibe. Oh, fucking you talk.
+
+It's not about solo dev vibe coding. He's like a real engineer and this is about like how do real engineers Thank you.
+
+air quotes, like software engineers actually use AI to expedite their velocity. So it's basically like brainstorming like from superpowers, but it's like, the idea is not like, Hey, you just run a skill or run a command and you walk away.
+
+This is the total opposite of that, which is like, no, no, no, I'm an engineer. I need to be involved to create production code in large organizations or with teams. It's like you're using Jira, you're using GitHub issues, you're using that kind of infrastructure, which is totally the opposite. Well, maybe not the opposite, but just the antithesis of GSD and superpowers, which is like solo dev stuff, you're on your own. Run your own OS.
+
+Like the memory problem becomes very different in those two environments, right? So anyways, I've really enjoyed build me all to say as I've been using it the last two days I feel like it doesn't push for a plan too early. Like it doesn't, it feels like agnostic. Like it's not trying to, okay, you ready to implement this?
+
+It's like, no, we haven't got through the...

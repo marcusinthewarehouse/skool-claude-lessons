@@ -1,0 +1,78 @@
+Choosing the Right Model
+What This Lesson Covers
+When to use Opus, Sonnet, and Haiku — and how to switch between them.
+The Key Insight
+Using the same model for every task is like using a sledgehammer to hang a picture frame. Different models excel at different things.
+Meet the Models
+
+Model
+Strength
+Best For
+Opus
+Most intelligent, deep reasoning
+Architecture, complex problems, multi-file coordination
+Sonnet
+Balanced workhorse
+90% of coding tasks — features, debugging, refactoring
+Haiku
+Fastest, lightweight
+Quick questions, syntax help, explaining code
+
+Default to Sonnet. Escalate to Opus for hard problems. Drop to Haiku for quick wins.
+How to Switch Models
+
+Command
+What It Does
+/model
+Shows selection menu
+claude --model opus
+Start session with specific model
+
+Switching is instant. Your context stays intact.
+
+Note: Switching mid-session re-processes your history (costs tokens). Better to start with the right model.
+When to Use Each Model
+
+Haiku
+	•	"What's the syntax for X?"
+	•	Formatting code
+	•	Explaining a single function
+	•	Quick sanity checks
+
+Sonnet
+	•	Building features
+	•	Debugging
+	•	Refactoring
+	•	Writing tests
+	•	Documentation
+
+Opus
+	•	Architecture decisions
+	•	Multi-file coordination
+	•	When you're stuck and Sonnet isn't helping
+	•	Complex reasoning across large codebases
+Opus Plan Mode (Best of Both)
+Want Opus-level thinking with Sonnet-level speed?
+
+	•	/model → select opus-plan
+	•	Opus handles planning (Shift+Tab to enter plan mode)
+	•	Sonnet handles execution
+	•	Smart thinking + fast implementation
+Quick Reference
+
+Situation
+Model
+Quick question
+Haiku
+Building a feature
+Sonnet (default)
+Debugging
+Sonnet
+Architecture planning
+Opus or Opus Plan
+Stuck on hard problem
+Escalate to Opus
+Complex feature
+Opus Plan (plan + execute)
+What's Next
+You now have the foundation: how Claude works, session management, and model selection. Next module: configuring Claude's behavior with CLAUDE.md files and custom commands.

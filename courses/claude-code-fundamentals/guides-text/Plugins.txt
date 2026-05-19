@@ -1,0 +1,150 @@
+Plugins
+What This Lesson Covers
+How to install, create, and share plugins - bundled packages of commands, agents, skills, hooks, and MCP server configs.
+The Key Insight
+Plugins are npm packages for Claude Code. Instead of copying files between projects or explaining where things go, you bundle everything together and install with one command.
+WITHOUT PLUGINS:
+Copy commands/ → teammate's .claude/
+Copy agents/ → teammate's .claude/
+Copy hooks/ → explain configuration
+Copy .mcp.json → merge MCP servers
+Hope nothing breaks
+
+WITH PLUGINS:
+/plugin install my-toolkit@our-marketplace
+Done.
+Plugin Structure
+my-plugin/
+├── .claude-plugin/
+│   └── plugin.json       ← Required: metadata (only this goes here)
+├── commands/             ← Slash commands (.md files)
+├── skills/               ← Skills (folder/SKILL.md structure)
+├── agents/               ← Subagents
+├── hooks/
+│   └── hooks.json        ← Hook configurations
+├── .mcp.json             ← MCP server configs
+└── README.md
+Important: Only plugin.json goes inside .claude-plugin/. Everything else lives at the plugin root.
+The plugin.json Manifest
+{
+  "name": "my-plugin",
+  "version": "1.0.0",
+  "description": "What users see when browsing",
+  "author": { "name": "Your Name" },
+  "keywords": ["search", "terms"]
+}
+The name field becomes the namespace - skills appear as /my-plugin:skill-name.
+Creating a Plugin
+Ask Claude to create one:
+Create a plugin called "quick-test" with a /test command that detects the project type and runs the appropriate test suite
+Claude creates the structure, manifest, and command file.
+Test locally:
+claude --plugin-dir ./quick-test
+Then try /quick-test:test to verify it works.
+Sharing via Marketplaces
+A marketplace is a Git repo with .claude-plugin/marketplace.json:
+{
+  "name": "Team Plugins",
+  "plugins": [
+    {
+      "name": "quick-test",
+      "description": "Run tests with coverage",
+      "source": "./plugins/quick-test"
+    }
+  ]
+}
+Push to GitHub. Team members add it: /plugin marketplace add your-org/team-plugins
+Installation Scopes
+Scope
+Who Gets It
+User
+All your projects (default)
+Project
+Team (committed to repo)
+Local
+Just you, this repo
+Managing Plugins
+Command
+What It Does
+/plugin
+Browse/manage UI
+/plugin install name@marketplace
+Install
+/plugin disable name
+Disable without removing
+/plugin uninstall name
+Remove completely
+/plugin marketplace update
+Refresh listings
+Quick Reference
+Pattern
+Usage
+/plugin
+Open plugin manager
+claude --plugin-dir ./path
+Test plugin locally
+@claude-plugins-official
+Official Anthropic marketplace
+/plugin-name:command
+Namespaced command format
+Try It: Install a Plugin
+Install the frontend-design plugin and see the difference:
+/plugin install frontend-design@claude-plugins-official
+Then try this prompt:
+Create a landing page for a productivity app called "FlowState" with a hero section, features grid, and pricing cards
+Notice the stronger design opinions - better typography, spacing, and visual polish compared to default output.
+Available Plugins
+Official (built-in marketplace)
+Plugin
+What It Does
+frontend-design
+Stronger design judgment
+commit-commands
+Git commit/push/PR workflows
+code-review
+Multi-agent PR review
+security-guidance
+Warns about vulnerabilities
+ralph-wiggum
+Autonomous coding sessions
+hookify
+Create hooks from plain English
+feature-dev
+Guided feature workflow
+Code Intelligence (LSP)
+Plugin
+Language
+typescript-lsp
+TypeScript/JavaScript
+pyright-lsp
+Python
+rust-analyzer-lsp
+Rust
+gopls-lsp
+Go
+External Integrations
+Plugin
+Service
+github
+GitHub
+linear
+Linear
+figma
+Figma
+notion
+Notion
+slack
+Slack
+sentry
+Sentry
+Community Highlights
+Plugin
+What It Does
+Firecrawl
+Turn websites into LLM-ready data
+Context7
+Real-time library documentation
+Playwright
+Browser automation
+What's Next
+This completes the Extension module. You now have MCP servers, skills, subagents, hooks, and plugins. Next module covers advanced orchestration patterns.

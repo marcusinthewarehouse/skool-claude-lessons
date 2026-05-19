@@ -1,0 +1,101 @@
+Setting Up VS Code + Installing Claude Code
+What You'll Learn
+In this lesson, you'll install VS Code (a free code editor), then install Claude Code inside it. By the end, you'll have Claude Code running and ready to use.
+Prerequisites
+	•	A computer running macOS or Windows
+	•	An Anthropic account — sign up at claude.ai or console.anthropic.com
+Step 1: Download VS Code
+Download: code.visualstudio.com
+
+	•	Click the download button for your operating system
+	•	Mac: Open the .zip, drag VS Code to Applications
+	•	Windows: Run the installer, follow the prompts
+Step 2: Open a Project Folder
+	•	Open VS Code
+	•	Go to File → Open Folder
+	•	Create a new folder (e.g., "my-first-project" on your Desktop)
+	•	Select that folder
+
+This folder is where Claude Code will work. It can only see files inside whatever folder you open.
+Step 3: Open the Terminal
+In VS Code:
+	•	Mac: Press Cmd + ` (backtick) or go to View → Terminal
+	•	Windows: Press Ctrl + ` or go to View → Terminal
+
+A terminal panel will appear at the bottom of VS Code.
+Step 4: Install Claude Code
+Official docs: docs.anthropic.com/claude-code/getting-started
+
+Copy and paste the command for your operating system:
+
+Mac / Linux:
+curl -fsSL https://claude.ai/install.sh | bash
+
+Windows (PowerShell):
+irm https://claude.ai/install.ps1 | iex
+
+Windows note: If you get an "execution policy" error, run this first:
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+Step 5: Run Claude Code & Authenticate
+In the terminal, type:
+claude
+
+What you'll see:
+	•	Theme selection — Pick dark or light mode
+	•	Account type — Choose "Claude App" (subscription) or "Anthropic Console" (API)
+	•	Browser opens — Click "Authorize" to connect your account
+	•	Return to VS Code — You'll see "Signed in as [your email]"
+Step 6: Verify It Works
+At the Claude Code prompt, type:
+hello, who are you?
+
+If Claude responds, you're all set!
+
+To exit: Press Ctrl+C or type /exit
+Option A: Keep Using the Terminal
+You can continue using Claude Code directly in the terminal. See the Terminal Input Tip section below.
+Option B: Install the VS Code Extension
+If you prefer a visual panel instead of typing in the terminal:
+
+	•	Click the Extensions icon in the left sidebar (or press Cmd+Shift+X / Ctrl+Shift+X)
+	•	Search for "Claude"
+	•	Find "Claude" by Anthropic
+	•	Click Install
+
+Extension link: VS Code Marketplace
+
+Note: The extension requires Claude Code to be installed first (Steps 4-5 above).
+Terminal Input Tip
+To type multi-line messages in Claude Code:
+
+Terminal
+Shortcut
+iTerm / Warp
+Shift + Enter
+Mac Terminal.app
+Option + Enter
+Windows Terminal
+Shift + Enter
+Any terminal (fallback)
+Type \ then press Enter
+Troubleshooting
+
+"command not found: claude"
+Add the installation directory to your PATH:
+export PATH="$HOME/.claude/bin:$PATH"
+Then add this line to your ~/.zshrc (Mac) or restart your terminal.
+
+Browser doesn't open for authentication
+Copy the URL shown in the terminal and paste it into your browser manually.
+
+Windows: "execution policy" error
+Run this command first, then retry the install:
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+Extension not working
+Make sure you completed Steps 4-5 first. The extension requires Claude Code to be installed.
+Resources
+	•	VS Code Download
+	•	Claude Code Official Docs
+	•	Claude Code VS Code Extension
+	•	Anthropic Console (API access)

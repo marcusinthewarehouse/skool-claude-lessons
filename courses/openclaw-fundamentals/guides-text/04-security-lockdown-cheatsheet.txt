@@ -1,0 +1,94 @@
+OpenClaw Security Lockdown
+Quick Reference - Copy & Paste Commands
+Replace YOUR_TELEGRAM_ID with your actual Telegram user ID.
+
+Get Your Telegram User ID
+	•	Open Telegram
+	•	Message @userinfobot
+	•	Copy the number it replies with (e.g. 123456789)
+
+1. Lock Gateway to Localhost
+openclaw config set gateway.bind "loopback"
+Protects against: Remote attackers accessing your control plane on port 18789. Only processes on this machine can reach it.
+Costs you: Can't access the admin UI from other devices. Telegram still works (it uses polling, not direct connection).
+2. Enable Docker Sandboxing
+Requires Docker to be installed and running.
+openclaw config set agents.defaults.sandbox.mode "all"
+openclaw config set agents.defaults.sandbox.scope "agent"
+Protects against: Malicious code accessing host filesystem, network, or other processes. Each agent session gets its own isolated container.
+Costs you: Docker required. Slower command execution (container startup). Can't access host apps, hardware, or devices from inside the sandbox. Higher resource usage with per-agent containers.
+3. Restrict Commands to Allowlist
+openclaw config set tools.exec.security "allowlist"
+openclaw config set tools.exec.ask "on-miss"
+Protects against: Prompt injection, jailbreaks, and destructive commands. Only pre-approved binaries can execute.
+Costs you: Bot pauses on new/unknown commands until you approve them. Training period at first where you build the allowlist organically.
+4. Lock Telegram to Your User ID
+openclaw config set channels.telegram.dmPolicy "allowlist"
+openclaw config set channels.telegram.allowFrom '[YOUR_TELEGRAM_ID]'
+Note: Your ID is a number, not a string. Use [123456789] not ["123456789"]. For multiple users: [123456789, 987654321]
+Protects against: Strangers messaging and controlling your bot. Messages from unknown users are silently ignored.
+Costs you: Must manually add Telegram IDs to share bot with others. Every new person requires a config change and restart.
+
+5. Restart and Verify
+openclaw gateway restart
+openclaw security audit
+openclaw gateway status
+gateway status should show 127.0.0.1:18789, NOT 0.0.0.0:18789
+Send a message from your phone to confirm Telegram still works.
+
+Managing the Exec Allowlist
+The allowlist builds itself. When the bot tries an unknown command, it asks you. Approve it and it's added automatically.
+Manual management:
+# Add a command
+openclaw approvals allowlist add "/opt/homebrew/bin/rg"
+
+# Remove a command
+openclaw approvals allowlist remove "/opt/homebrew/bin/rg"
+
+# View all approved commands
+openclaw approvals get
+Or manage visually: Control UI > Nodes > Exec approvals card
+
+Security Profiles
+Maximum Security
+openclaw config set gateway.bind "loopback"
+openclaw config set agents.defaults.sandbox.mode "all"
+openclaw config set agents.defaults.sandbox.scope "agent"
+openclaw config set tools.exec.security "deny"
+openclaw config set channels.telegram.dmPolicy "allowlist"
+openclaw config set channels.telegram.allowFrom '[YOUR_TELEGRAM_ID]'
+Bot can chat and analyze but can't execute anything. Good for sensitive environments.
+Balanced (Recommended)
+openclaw config set gateway.bind "loopback"
+openclaw config set agents.defaults.sandbox.mode "all"
+openclaw config set agents.defaults.sandbox.scope "agent"
+openclaw config set tools.exec.security "allowlist"
+openclaw config set tools.exec.ask "on-miss"
+openclaw config set channels.telegram.dmPolicy "allowlist"
+openclaw config set channels.telegram.allowFrom '[YOUR_TELEGRAM_ID]'
+Bot works within guardrails. Asks permission for new commands. Good for most users.
+Maximum Agency
+openclaw config set gateway.bind "loopback"
+openclaw config set agents.defaults.sandbox.mode "off"
+openclaw config set tools.exec.security "full"
+openclaw config set tools.exec.ask "off"
+openclaw config set channels.telegram.dmPolicy "allowlist"
+openclaw config set channels.telegram.allowFrom '[YOUR_TELEGRAM_ID]'
+Bot can do anything instantly. Only for experienced users who fully trust their prompts.
+
+Optional: Network Isolation
+Put your OpenClaw machine on a guest WiFi network:
+	•	Disable "allow guests to see each other"
+	•	Disable "allow guests to access local network"
+	•	Use WPA3 or WPA2 encryption
+Prevents a compromised bot from reaching other devices on your network. Skip if you want your bot to interact with local devices.
+
+Security Checklist
+	•	(Optional) Device on guest network
+	•	Dedicated user account (not admin)
+	•	Gateway bound to loopback
+	•	Sandbox mode enabled (Docker)
+	•	Exec set to allowlist with on-miss
+	•	Telegram allowFrom set to your ID
+	•	openclaw security audit passes
+Run openclaw security audit anytime you're unsure.

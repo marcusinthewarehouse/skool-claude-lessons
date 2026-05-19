@@ -1,0 +1,31 @@
+{
+  "course": "Fully Autonomous Development Framework",
+  "slug": "5e51e7e0",
+  "lessons": [
+    {
+      "order": 1,
+      "date": null,
+      "title": "Fully Autonomous Development Framework",
+      "section": null,
+      "file": "01-fully-autonomous-development-framework.md",
+      "id": "f69d6d1ff4b14a50adb0826230d07229",
+      "videoId": null,
+      "resources": [
+        {
+          "title": "M2C1 Skill",
+          "link": "https://github.com/grandamenium/m2c1"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "date": null,
+      "title": "How to Use It",
+      "section": null,
+      "file": "02-how-to-use-it.md",
+      "id": "71d40465ac574f03a2e44de018bb3200",
+      "videoId": null,
+      "resources": []
+    }
+  ]
+}

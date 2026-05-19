@@ -1,0 +1,15 @@
+# CortexOS - My Way
+
+**Created:** 2026-04-08
+**Upvotes:** 5
+**Comments:** 6
+**Labels:** a0911536a194428a955f273e8f9584a6
+**Post URL:** https://www.skool.com/agent-architects/cortexos-my-way
+
+---
+
+Hi everyone. This is my first post in this Skool community, and I just thought I would share some of my learnings using Cortex OS for the last 24 hours since it launched. Thank you again, James, for all the hard work you put into this. It's a phenomenal product, and I am happy to continue working on it.
+
+Please note that I have no technical background, but I'd like to consider myself a pretty good vibe coder and very good at taking information in from lessons and applying it to improve my processes. I just thought I would share how I've been currently using Cortex OS to manage my business.
+
+[ol:1][li]I installed Cortex OS.[li]I installed Obsidian.[li]I indexed Obsidian using my entire Claude chat history to be broken down into the relevant sections and subsections in a wiki style for faster light weight context retrieval. If anyone wants to learn more about that, please feel free to shoot me a message, and I can send over a document that helped me design that.[li]I then, during onboarding, when asked about the knowledge base, installed the Obsidian CLI and connected that up so as to act as my knowledge base hub for all my agents and sub agents to refer too \(preventing me telling all of them the same information over and over again\).[li]I then created employee agents as recommended by the onboarding process, and more for sales, customer success, security, revenue operations and business operation, but also included a new one called "the librarian" \(8 in total\). The librarian is an agent that receives all conversations from my other agents. Before they compact or close, it then adds and edits my "brain folder" \(where my obsidian is linked too\) and the MD files within to include more context and more conversations to that Obsidian graph so that my brain gets bigger the more I use it. Also, all employees have skills installed that were downloaded from skills mp .com \(I dont want to link in case of security\).[li]I then installed a plugin called claude-mem, which automatically records what each agent does during every session and builds a searchable memory database. I configured my agents with a 50% context window protocol — when they reach 50% of their context limit, they save their current state, generate a session summary, and perform a hard restart. On the fresh restart, claude-mem automatically injects the accumulated knowledge from all previous sessions back into the agent, so it picks up right where it left off without context degradation. This works alongside cortextOS built-in knowledge base and memory files, giving agents three layers of persistent memory. I did have to patch the plugin source code to fix an upstream bug where session summaries were being generated in the wrong format. Happy to walk anyone through how we diagnosed and fixed that.

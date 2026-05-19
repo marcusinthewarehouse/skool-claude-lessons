@@ -1,0 +1,138 @@
+Subagents
+What This Lesson Covers
+How to use subagents to keep your main context window clean so you can orchestrate complex, long-running tasks.
+The Mental Model
+Your main conversation has limited context. Every file Claude reads, every search, every tool call - it all accumulates. At 80% capacity, Claude starts degrading.
+Subagents solve this by running work in separate context windows and returning only the results.
+
+WITHOUT SUBAGENTS:
+Main: [Prompt][Search][Read 20 files][Analysis][More searches][Answer]
+      |___________________ ALL TOKENS STAY ___________________|
+      Context fills up → Quality degrades → You start over
+
+WITH SUBAGENTS:
+Main: [Prompt][Delegate].......[Summary]......[Delegate]......[Summary]
+Sub1: [Search][Read files][Analysis] → DISCARDED
+Sub2: [Different search][More files] → DISCARDED
+      Main stays clean → Can orchestrate indefinitely
+
+The main agent becomes your orchestrator. It stays lean, coordinates work, and delegates heavy lifting. This gives you leverage - one clean context window directing many workers.
+
+Think of your main conversation as a conductor, not a player. It:
+	•	Breaks complex tasks into pieces
+	•	Delegates each piece to a subagent
+	•	Receives summaries back
+	•	Decides what to do next
+	•	Chains more subagents as needed
+The subagents do the actual work and their verbose context gets discarded. Only what matters comes back.
+Built-in Subagents
+Claude Code includes three built-in subagents:
+
+Subagent
+Purpose
+Explore
+Fast codebase exploration - find files, search patterns
+Plan
+Design implementation approaches before coding
+general-purpose
+Full capabilities - read, write, run commands
+
+general-purpose is the workhorse. It can read, write, run commands - anything - in its own context. Chain multiple general-purpose subagents for complex workflows.
+Creating Custom Subagents
+Using /agents (Recommended)
+/agents
+Select Create new agent → choose scope (user or project) → generate with Claude or write manually.
+Where Subagents Live
+
+Location
+Scope
+~/.claude/agents/
+Personal - available in all your projects
+.claude/agents/
+Project - commit to git for team
+
+Project subagents can be committed to git for your team.
+Configuration Options
+
+Field
+Purpose
+name
+How you reference the agent
+description
+When Claude should use this agent (include "use proactively" for background)
+model
+Which Claude model (sonnet, haiku, opus)
+tools
+Which tools the agent can use
+Foreground vs Background
+Foreground (default): You wait for completion and see permission prompts.
+Background: Runs while you keep working. Press Ctrl+B to background a running task.
+To make a subagent run in background automatically, include "use proactively" in its description.
+Example: Code Reviewer Subagent
+If you find yourself delegating the same type of work repeatedly, create a custom subagent with a specific role.
+Creating the Code Reviewer
+	•	Run /agents in Claude Code
+	•	Select Create new agent
+	•	Choose User-level (available in all projects)
+	•	Select Generate with Claude
+	•	Enter this description:
+A code reviewer that checks for quality, security, and best practices.
+It should run git diff to see recent changes, then review the modified files.
+Organize feedback by priority: critical, warnings, suggestions.
+Include "use proactively" in the description so it runs in background after code changes.
+	•	For tools, select: Read, Glob, Grep, Bash
+	•	For model, select: Sonnet
+	•	Save the agent
+Using It
+Use the code-reviewer to check my recent changes
+The reviewer runs in its own context, returns findings, and that context is discarded. Your main conversation stays clean.
+Because the description includes "use proactively", Claude may also trigger it automatically in the background after you make code changes.
+Orchestrating Complex Workflows
+The real power comes from chaining subagents - whether in parallel or sequence - to accomplish tasks that would normally exhaust your context.
+Sequential Chaining
+Each subagent completes before the next starts. Main agent coordinates:
+I need to refactor the payment module:
+
+1. First, use a subagent to analyze the current payment code and identify patterns
+2. Then use another subagent to research best practices for payment processing
+3. Then use a subagent to implement the refactor based on those findings
+4. Finally, use a subagent to run the tests and fix any failures
+Parallel Execution
+Multiple subagents run simultaneously for independent research:
+Research these three areas in parallel using separate subagents:
+1. How authentication currently works
+2. How the database layer is structured
+3. What the API patterns look like
+
+Then synthesize the findings and propose an architecture.
+Three subagents run at once. Main context stays clean while gathering broad information.
+Long-Running Workflows
+For complex features that would normally exhaust your context:
+Build the new notification system:
+
+Phase 1: Use a subagent to design the schema and create migrations
+Phase 2: Use a subagent to implement the backend service
+Phase 3: Use a subagent to add the API endpoints
+Phase 4: Use a subagent to write tests
+Phase 5: Use a subagent to integrate with the frontend
+
+Coordinate each phase and handle any issues that come up between them.
+Your main context orchestrates the entire feature. Each phase runs in fresh context. You can keep going indefinitely.
+Quick Reference
+
+Pattern
+Usage
+/agents
+Create/manage custom subagents
+Built-in: Explore
+Fast codebase exploration
+Built-in: Plan
+Design implementation approaches
+Built-in: general-purpose
+Full capabilities in separate context
+Ctrl+B
+Background a running task
+"use proactively"
+Auto-run in background
+What's Next
+You've learned to orchestrate work across multiple context windows. Next lesson: automating workflows with hooks that respond to Claude's actions.

@@ -1,0 +1,88 @@
+How Claude Works
+What This Lesson Covers
+How Claude explores your codebase, and how to write prompts that get results on the first try.
+The Key Insight
+Claude doesn't have your codebase loaded in memory. Every session starts fresh with zero knowledge. When you say "fix the login bug" — Claude has to go hunting. Vague prompts force Claude to explore blindly.
+Claude's 5 Core Tools
+Claude uses the same approach you would if dropped into an unfamiliar codebase: search, read, then edit.
+
+Read-Only Tools
+Tool
+What It Does
+Like...
+Glob
+Find files by pattern
+find . -name "*.ts"
+Grep
+Search file contents
+grep -r "function"
+Read
+View file with line numbers
+Opening a file
+
+Write Tools
+Tool
+What It Does
+Edit
+Modify files via string replacement
+Bash
+Run shell commands (tests, builds, git)
+
+The chain: Glob/Grep → Read → Edit
+Why Specificity Matters
+Every vague word in your prompt = more searching. Every specific word = Claude jumps straight there.
+
+Goal: Context density — the smallest set of high-signal words that tell Claude exactly what to do.
+The Framework: Target + Scope + Constraints
+
+Component
+Question
+Example
+Target
+What outcome do you want?
+Fix bug, add feature, refactor
+Scope
+Where should Claude look?
+auth.py, validate_credentials()
+Constraints
+What should NOT change?
+Don't modify tests, use this library
+Bad vs Good Prompts
+
+Bad Prompt
+Good Prompt
+fix the login bug
+Fix the login bug in auth.py where users get 500 error when password contains special characters. Fix in validate_credentials function. Don't modify tests.
+make it faster
+Add 300ms debouncing to handleSearch in SearchBar.tsx
+What You Can Skip vs Must Include
+
+Claude Already Knows
+	•	Language syntax (Python, JS, etc.)
+	•	What common libraries do
+	•	Standard patterns
+
+You Must Specify
+	•	Which file has the problem
+	•	What the symptoms are
+	•	Your preferences
+	•	What should NOT change
+Technical Terms = Free Compression
+If you know the technical term, use it. One word can replace an entire sentence.
+
+Instead of...
+Say...
+"make it not run too many times when user types quickly"
+"Add debouncing"
+Quick Reference
+
+Component
+Ask Yourself
+Target
+What do I want Claude to do?
+Scope
+Where is the problem?
+Constraints
+What should stay the same?
+What's Next
+Now that you understand how Claude works, you'll learn how to show Claude what you see — using screenshots for visual context.

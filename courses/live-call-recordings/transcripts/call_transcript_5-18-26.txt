@@ -1,0 +1,559 @@
+Agent Architects - Live Call Recording Transcript
+Date: 5/18/26
+Call: Advanced Member Think Tank
+
+---
+
+How's everybody doing this fine Monday evening? It's Tuesday morning for me. There you go. What time is it for you? Like 9 a.m.? Making coffee. It's, yeah, 9 a.m. That was a good guess. I'm off to work to work with the kiddies. That's fine. Yeah, no, it's fun. It's about, uh... I do some work. I talk to the AI while I'm driving, do some vibe coding while I'm driving.
+
+Nice. There you go.
+
+Don't add ChatGPT to your CarPlay. You can get a little carried away there.
+
+Oh, really? Do they have chat?
+
+Yeah, they have it. You can add chat to your CarPlay and just talk, talk, talk, talk. It's actually kind of nice. For like, especially for ideas, you know, like I like to use ChatGPT just the regular chat for just high level ideas before I actually want to bring them over to the agents, break it down and kind of, now I know how I want them to decide, can we use this or we can not use this? I don't want to give them all that outside fluff. So I drive a lot anyways, driving from property to property and I use that time to just flush out all the ideas I get from watching James's TikToks.
+
+Yeah, especially for yappers like us talking to ChatGPT or like a voice AI to like brain dump everything, you know, get the bad ideas out of the way, good ideas out of the way. I do that so often, like every walk that I take, that's pretty much what I do or listen to music when I feel like I need a brain break. But yeah, it's such a good move. Something that I've got it in my dashboard. I've got a dial my agent button.
+
+And I connected the latest update, the voice that OpenAI put out recently, and it's just instant. There's no delay and it sounds really good. And obviously it's my agents that have access to all of my, you know, back on my Mac mini. So I think it would be better just to do that. But yeah, it's like, yeah, the audio is really good. So I've added that to all my agents inside of my dashboard now.
+
+Is this the API that can make tool calls? Maybe. Maybe. I've forgotten the name of it, but it was a recent update they did with voice. The real-time voice? Yeah, real time. That's it. Real time too, I think it's called. Yeah, it is real time too. Yep. And it's sick. It's really good. And it's good because I was just shipping my first install from my first client with the dashboard. And it was just yeah, it was just perfect timing that that came in.
+
+Does it have like a cost? You know the cost?
+
+There is a way to upgrade. Yeah, like that's one. I'm just in phase one where it's like an estimate cost. But I can also set up a little meter where it's an exact cost as well at some point.
+
+Yeah, I'd love to switch that. Right now I'm using Telenyx. Hey, you're from Australia, you know Telenyx. Yeah. So I use them and they have their AI voice where they set it up and you can, right now I use Kimi K2.5 for my phone and tech phone voice and go use their voices because it comes out to about, depending on what voice you choose, it's five to eight cents a minute.
+
+Yeah, well, this was... It's not bad. It's not close to two, but...
+
+Yeah. Yeah, I think this is around about six cents per minute. Oh, that's nice. Which is actually not too bad, actually. Yeah.
+
+So I just had one. One of my newest updates is I'm trying to do like a little news, like a personalized news show for me every morning, like seven, eight minutes, you know, instead of reading everything.
+
+I think, I feel like it was one and a half cents a minute for the real time API. is what I thought I saw it at now. So David, give it a check. It might be, you might be saving a lot.
+
+Well, I think, well, there are a couple other things that factor into that. It's a five to eight cents a minute too. Okay.
+
+But, I mean, voice messaging is also just really good. If you have your news digest, you just have to get your agent just to spin you up a voice note. I'm just listening to that. That's super cheap.
+
+Gemini's got some good voices for that too. Just for like the voice text. They're free. Or super cheap if not. Yeah, yeah.
+
+Before I get too deep in our sidecar there. Has anybody realized that, I just realized this, Gemini, you can use Google Voice now through your Google Workspace and they will make phone calls and text messages through Google Voice with Gemini? So I haven't gone down that rabbit hole, but I thought about that instead of Telenyx and some of these other options is if you needed to actually make phone calls and text messages, you can actually go Gemini through Google Voice and make phone calls, receive texts, do everything. And I was like, that has to be significantly cheaper than having to go through your 10DLC and all that stuff.
+
+Google Voice doesn't make you do that. I use it right now in my business to filter through tenant calls and screen them. And I was about to migrate that over. But now I'm like, maybe I can find a better way using Gemini because it's pretty dang good on the voice and stuff and keep that go through Google. But I don't know if anybody else had seen that or played with that. You didn't have to get like A2P compliance through Google.
+
+No.
+
+Mmm. Isn't that something that's only with texting versus calling, right?
+
+Yeah, it's only going to be SMS for A2P itself. Yeah.
+
+That is a pain in the ass. I hate dealing with that crap. Yeah, it's...
+
+It got even harder in the past few months. But wait, David, did you say you were sending text, like text messages too though?
+
+I haven't gone through all the way with it. My agent said it's possible. I've played with it some. That's why I was asking if anybody else had gone through, but I know that they've connected them. And the Gemini agent has access now to Google Voice. So if it has Google Voice, then it would also, and it has the text message. I haven't connected. That's why I was asking, because right now I'm using Telenyx and going through there and I had to get compliant and then do all that fun jazz and all of it.
+
+Where do you access that? Just in the Gemini agent? Like... Where do you see that? How? I went through and asked Gemini, the agent, like the chat was like, okay, hey, I saw this on TikTok somewhere that this has been released. Where is, is this true? Yes. And I was like, when did that get released? And I don't remember what it said. It was fairly recent. And I was like, let me verify, let me verify. And I was like, shit, holy crap. Like this was a couple of days ago.
+
+And I was like, man, I was like, this could have saved me a ton of time. It would have made it way worth spending all that time trying to get into Codex. Because it's much different trying to get Gemini into my Cortex than Codex and other things. The Hermes agent is probably easier than Gemini based on the way they are structured.
+
+Yeah, I don't think the Gemini, like the Gemini CLI SDK whole like universe is much less mature than OpenAI's and Anthropic. So it's, you'd, I think you'd have to do the like original way that we were doing it with Claude code where you're kind of putting it in a PTY terminal and entering code text manually and it's a whole nightmare. So, um, yeah, honestly, I've been thinking for that on that note. Um, I've been thinking about, um, just using OpenCode to get access to Gemini and stuff like that.
+
+I don't know if that, um, would be better than just using the Gemini CLI or whatever. So maybe that can be A/B tested. We'll see. Had some really interesting PRs on the Cortex repo this week from someone that was trying to make like a page to represent the visual divide between your private repository and the upstream repository. Was that someone that's in the call? No. Well, that was a really good PR. That was really cool.
+
+So that's really nice if you have any issues between your ability to control your private repo versus the upstream repo and accidentally pushing things or not understanding the divide. That's a super helpful addition. And a bunch of other additions, I'm going to make a post about some cool changes that I've been merging. Sam, I merged your changes for the Telegram Acknowledge emoji, acknowledge the heart, the thumbs up. I love that. Such a good user experience upgrade.
+
+That was really cool. And I think Sam, did you submit skills with that as well?
+
+I hope not. So there was several things. We're talking about PRs. Yeah. All right. If I did, that's a mistake. If I'm being honest, so there was a few things where I submit some screenshots. I do this a lot. I'm on the road. I like submit screenshots. And I noticed that it was always crashing when I did that. So I think it was a GPT Codex recommended a bunch of PRs. And that's how that happened. So it's not, that's on me. If there's like a bunch of skills, I don't know if the skills are like my, probably all my API keys, right? Yeah.
+
+All of them. No, you're good. You're so you're totally good. No, you know, it's like, I have all my agents go through everything like with a fine tooth comb before anything gets merged. And like every other PR has a bunch of bullshit in it. So it's like totally fine. And like, including my own, like, you know, sometimes I just, I'm like, Oh, There were some of my personal skills that ended up in there, but you know what?
+
+You can set the workflow. If you see a Sam PR, just put that shit right in the trash.
+
+No, dude, I really like the Telegram edition. That's something I've been wanting. I've been wanting to focus a lot more on the Telegram interface. There's so many things that could make it better. Yeah. It's just like there is something.
+
+Yeah, sorry. There is something that I want to just slip in here. That's, I guess, kind of an interesting use case. So I've been collaborating with a few different people and those just form three cats. That's kind of the way that they're going. So it's me, the client, I'll call them a client, but it's usually a collaborator and an agent, a cortex agent, beautiful, magical experience. One guy that I'm working with, an old friend of mine is a financial guy. He's in Italy right now.
+
+I wake up to like all of this, this collaboration between him and the agent and he cannot believe it. Like he cannot believe like, so that's how I've been using it. Some of those, The PRS came out of the sort of crash patterns, but it's getting a lot more stable. And then I also, just like a lot of you guys, I went and got GPT and Codex and have, I'm in the OpenAI family now. So there's a lot of There's a lot of more complexity, but makes it simpler for us. But the setup is a little bit more complex now.
+
+But anyway, thanks for all your work in the last couple weeks. It's been really good for me in doing that structure in particular. It's been good.
+
+Yeah, that's such a cool use case. I mean, like multi-user group chat type stuff, I think is like the next big unlock for this system. And I'm working on stuff for that as well to make that more standardized, you know, better security stuff around that just in case, you know, you never know what's going on. And scoped permissions and stuff like that for different people working together, different agents working together, all that stuff. So that'll be really cool.
+
+So cool to hear. I can only imagine how awesome that is. Like a group chat with an agent that between you and your client that sounds very cool yeah and do another thing he's a financial guy right he has no idea the kind of stuff that we're doing here and it just blows his mind because like he said that somebody said i do ai and he says now no you don't based on what he's seen and i think it's like it just speaks to the opportunity i think in this uh the, the geeky people here, um, about what we're doing here, all these, all of y'all.
+
+So.
+
+I know, right? It's huge. Um, um, I think David had his hand raised. You want to go ahead, David?
+
+Yeah. So, um, All righty. Quick question before I get started. So you were talking about the upstream repo and then having your own private. What's your kind of standard set of that? Because I'm literally dealing with that problem right now of trying to figure out how not to leak stuff in, especially when I'm, well, I'll talk about what I'm working on because I actually made a lot of progress on the stuff you and I were DMing about.
+
+Let's go. Yeah, could you just kind of walk me through what that just repo structure looks like?
+
+Yeah, sure. So there's like a couple different aspects to it. So I guess, yeah, fundamentally whatever branch you have checked out is the code that's running you know, on your computer. So if you have, that includes repos. So if you're, if you have two set, you want to have two separate repos, right? So you have the upstream that's shared by everybody. Obviously you don't just want to always check that out, make changes and then push changes to the upstream because everyone has them. Then you want to have your own, want to be able to have your own version. So you make a separate remote repo in GitHub, right? So that you can really, the point of that is just so you can have a remote version of it that you're backing up your system to.
+
+Just keep it all local, but you want to have a remote version as well. Keeps the mental model a little bit clearer, right? So I would say 99% of the time when you're working, you should have your private repo checked out. And be making changes on that. So it's easy. You can just make a PR to your own private repo and merge it. And then you have all that, all those changes isolated. And I would say then The times that you might want to check out the upstream repo are when you're pulling things or pushing things to the upstream repo. And you don't even necessarily have to check it out to do that. But if you're like working with the intent of doing that, you can make that intentional decision to do that.
+
+I would also say that for the upstream repo, there are just things that you can fully git ignore and that are built into your git ignore file when you download it. orgs folder is completely git ignored because that's all your agents all your custom skills that's all git ignored by default and you can make conscious decisions to add stuff to that file as well just for extra security you can add like git hooks in there to make sure that you never you know put edits from certain files to the upstream repo. That's all stuff you can do. And I'm slowly building all that stuff in so that it's super easy and obvious for the agents, which are making the PRs, you know, most of the time anyway.
+
+And for the people doing it also. But to be honest, dude, it's confusing. Like it's, it gets confusing because there's changes to the upstream. Yeah, it's confusing. So I, um, I knocked out the Node 24 upgrade.
+
+That was actually pretty straightforward compared to other worlds I live in when I got to deal with that migration, especially going from node 20 to 24. You're hopping basically two major releases and that's a big uptick. So I've got that one sitting on deck and then for everyone else just to keep it all, just to explore, sharing the context of what we're talking about. So I'm trying to get Cortex OS to deploy in AWS.
+
+and then have that be my Mission Control Center that then sits on top of a bunch of AWS Bedrock agents. I don't know if I'll go with Bedrock, they're a lot more expensive than rolling your own, but for now just to get some reps on AWS Bedrock, that's kind of where I'm going with it. Well, a big issue with this is that using a file back storage is not gonna be the best thing.
+
+And so there's a stub in there that James had put in that was talking about using Supabase and having a bus adapter created to do all that. And so I'm in this particular solution, like I'm in an AWS shop, and I've got an RDS cluster there. So what I'm actually writing right now is a generalized bus adapter that would give you the option to configure, like it'll go default with just a file back storage.
+
+but it allows you then either turn that off and go with Supabase and I'm adding Supabase, GCP, AWS RDS, and then just Postgres in general.
+
+And there might even be a SQLite when it's in there. I got to go back and see how much stuff I was able to get through last night. But the idea is that you at least have the ability to configure what type of backend storage you want. And then I'd love to see this thing run in a variety of different cloud providers, which is like for some below, I use GCP. For my day job, we use AWS. But that's the mindset that I'm trying to build out right now.
+
+you having having Cortex OS run inside of an ECS Fargate task. So having that containerized and then basically do the deployment. I'm pretty close to be able to getting it to attempt the deployment.
+
+The reason why we want to start off with that branching strategy is that we use BuildKite. It's very specific to how the remote repositories and triggering those builds. So I want to be able to do a merge and then it'll just auto fire the build and BuildKite and then manage all the deployment stuff into AWS. So I'm really excited to get this thing working. The Cortex OS is going to run in a private network. And so we're a Cloudflare shop. So I've actually got Cloudflare access, which is, If you guys are doing stuff at home, you can get on Cloudflare for free and you can get access. What it'll do is it'll basically do a zero trust authentication for you and allows you just to connect into private stuff.
+
+I use Cloudflare.
+
+Yeah, I love it. The Terraform provider is super easy. But I'm really excited to do some show and tell as soon as I can get this thing working. I was trying to get it done over the weekend, but it was a lot. It turned out to be a lot. My diagram, um I want to pull my hair out because it's like 20 different components and I'll post it here at some point in the next day or two in school. But I'll let you all know how it works out and the lessons learned.
+
+Yeah, I'm excited to see Cortex running.
+
+than I do, so I'm going to need anyone's advice that has that. Because I think the future of like what Sam was talking about doing, where you're able to have, you know, potentially multiple users and multiple agents collaborating in group chats is, for that to be a scalable concept in Cortex, it has to be cloud hosted. There has to be authentication at every layer scope permissions that every layer.
+
+So there's like a ton that needs to be added to it to bring it from, you know, a vibe coded open source thing in the community to like a scalable infrastructure. We can all use sell to people in good faith, all that good stuff. So we should definitely talk about that.
+
+And yeah, definitely, man. I, so I've been a little MIA because I, I just wrapped up my, an AI engineering bootcamp from data expert. I am Zach Wilson. And so for my capstone, I built, I'm trying to build an AI wizard and, My main company I'm trying to build myself is called Seven Below. It does compliance stuff. One of the core things that I learned over the six weeks was all the tenant isolation, the security elements to it, and then how all the middleware and the guardrails all get built out. I started drinking the LangChain, LangGraph Kool-Aid.
+
+Some people disagree with that. Some people use Roll Their Own. Everything you just said, James, in my mind, it starts thinking about all the different isolation points and then the guardrail points. And then how are you making sure that you're just, you're never going to get pwned and you know, guardrails, guardrails, guardrails is one of the Zach's biggest things. And, Still learning a lot. I'm doing streaming right now with my chat bot and it just dies.
+
+nothing happens. And there's, and I got LangFuse set up. So I got a lot of traceability, tracing and observability running. And it just, there's just nothing. It just shits the bed and stops. So as an operator, that's the worst scenario because you have no, no idea what's happening.
+
+Yeah. David, what was the course you said you, you took there where you learned a lot of stuff? Yeah.
+
+So, so Zach Wilson, he has his own like, training company is called Data Expert IO. And he's never got an ego, but when you've done Meta and Airbnb and Netflix and you've been one of their main data engineers, you probably get a little bit of an ego going. But yeah, it's three grand. It's not cheap. I'm definitely glad I did it. It's five weeks of pretty intense lectures and homework and stuff. And then you have a capstone project and And so it's about a six week course, but I learned, I learned so much in that period of time. I still don't even know how much stuff I learned.
+
+There was just, you just basically turn onto a fire hose. So I highly suggest, I highly suggest it if you can afford it. Cool.
+
+Thanks. Yeah.
+
+I know I saw some hands pop up in there during that conversation and they all went down.
+
+Yeah, I was kind of going to chime in there. I just didn't want to like beat it at a horse, but I've been pretty heads down and away from the group for a couple of weeks just because I'm doing something similar.
+
+I'm kind of trying to convert everything onto like, like just different cloud fair tool tooling so I could have it all connected on cloud and have agents kind of access the same data on cloud. And I'm kind of trialing my, My own cloud build out like for a client with all of his database too. So I'm looking forward to some stuff on that. But one thing I'm really interested in doing is, like using Cloudflare workers like as these tools directly.
+
+So as like, all of these LLMs are kind of fighting. Like it's not even going to necessarily be a skill that needs to be used across these agents, but just a connection into Cloudflare where all those tools will be used and potentially even like stored in D1 databases.
+
+So freeing up context windows and kind of something around that. So love the other Cloudflare mention. I'm a huge Cloudflare guy. if you're looking for like the backend storage stuff, so depending on if you just want persistent storage, versus session storage, right? Because that's more in flight. It's a little bit more, it's going to be more volatile, but it's, you know, it's like, it's TTL, if you will. It's just, it's going to be a lot shorter than what you're serializing, you know, long-term storage, like context being stored long-term.
+
+You might want to check out the LangChain, LangGraph stuff, because they do have an entire pre-built just library and database structure for its checkpointing. Talk to me in two weeks because I'll have a lot more reps on it. But the whole concept is just that session checkpoint data and then how it's automatically stored. And they have an entire library that just sits on top of it for your middleware.
+
+Yeah, I mean, it sounds a lot like what I've been trying to dig in and do myself, which is very hard. So I'm definitely going to take a look into that. Don't reinvent. I've been doing this a lot of time. If someone built the wheel, go use it. This is where I differ from one of my other AI coaches. I work with Roman Coleman. He's 23. He's all about building himself. And I'm 50, and I'm like, fuck that, man.
+
+If this is what Google is using and there's already a library to do it, Yeah, I'm good. I don't want, I spend your time on building your other stuff, not reinventing that well, but yeah, I figured that might help you out, man.
+
+Okay, go ahead, Jeremy. Hey, guys. I joined the community a while back and just haven't hopped on these calls. It's been awesome from what I've been hearing so far. I'm a CPA, and I feel like I'm way ahead of all my friends out there that are doing this stuff. the past, what is it? 30 minutes. I'm just like blowing away, like what you guys are building. So glad I'm, you know, part of this community. Um, my question is, so I get, I'm a contract worker.
+
+I go, I don't have the gigs, uh, but I get placed on gigs and I go in there with these PE companies are trying to, uh, automate their, their finance or we're just, I'm just helping them. fix their bookkeeping, accounting, because they don't have an accounting department. My problem is I can do AI stuff. I understand what's going on and how to pull it all together. But... I can't I don't want to set them up and then I get no royalties from it, no ongoing support. And then also who's going to be supporting it going forward because it's not my relationship.
+
+I could maybe carve out a piece where it becomes part of my LLC, but... I mean, yeah, that's the part I can't get my head around because I could set them up on my stuff, but then it's tagged to me. What should not compete look like? Um I guess I just couldn't, I don't really think, I don't have a non-compete with them, but it would be, I wouldn't wanna sour the relationship. Can I ask you a question?
+
+Just go in and fix one little thing and then go back to your employer and cut them in on it.
+
+If you want something residual, your employer would love it, but the right way to do it is to pay them out on it too because it's really their client and you're just finding more business for them that you're keeping something. Or that's the way I would approach it. Yeah. Okay. Or can you not offer CMA?
+
+Can you not offer your services just as a recurring service to the employer?
+
+That's what I'm wondering. That's what I would do.
+
+Because they're paying me for my knowledge. They're paying me hourly to come in and fix the accounting stuff. So I kind of am doing it. I have this knowledge that it's hard to separate myself from...
+
+It's almost like, can you basically tell your employer that, "Hey, in these worlds, when this work is delivered as an hourly one-time thing, then your client is not getting the best service." because now they might be stuck having to work on things later. So it's almost like help them frame it differently. Yeah. Okay. Yeah. We'll keep you on retainer for like... Who keeps you on retainer for that?
+
+1500 a month. I mean, so if their accounting system goes down, they know who to talk to.
+
+Exactly. Exactly.
+
+Yeah, no, I like we set it up like it goes and then they hire a CFO and an accounting team, we leave. And so they have the they have it, they have an accounting team and I'm done. Like I set it up for them.
+
+Their Sage QuickBooks, whatever is working.
+
+Jeremy, are you talking about using the Setting up a system for them like Cortex? Are you talking about just your AI knowledge in general? What are you? Yeah. Maybe I maybe I understood you're saying I missed it. What are you leaving behind, so to speak, that you want a royalty on or some type of payment that they're going to be using?
+
+Yeah, so let me step back a little bit. So I drop in like kind of like a SWAT team for accountants. We go in and we fix their accounting system. I'm using Some AI stuff on my own. I'm using my personal Claude.
+
+I'm like, hey, I got to reconcile this bill or whatever, and I reconcile it. Cool. It's all set up. But I want to do it more ongoing where I see a problem. I don't want to give them access to my AI. They have to like use their own AI cloud or whatever and then I tell them how to build it and then I leave. But like Who pays for the ongoing stuff? Who's going to keep me going? Yo, Gary, let me interject here. So
+
+If you're offering a one-time case use, and you fix a problem and the problem goes down, You don't want an ongoing you know, in the pocket fee. You want to maximize your hourly fee. Mm-hmm. So That hourly fee is obviously a minimum one hour. Most agencies are going to charge a minimum two to three to four hours, and then you'll work within that swim zone. But what you want to do is you're looking at You're looking at lawyer hourly fees. Oh, yeah.
+
+You know, you're looking at $150 to $250 an hour. You know what I mean?
+
+Yeah.
+
+Fuck, man. But that's also easier to swallow than a than a $1,500 a month. retainer fee where there's a month gone by where you've already swallowed the problem. You know what I mean? You've already solved the problem. There's not a problem for weeks. And they don't feel like they're paying for something that they're not getting. Gotcha.
+
+So when I set up
+
+Yeah, I mean, solve the problem as efficiently as you want, but compensate yourself. Because you got to look at it like we're in a zone where like It's like point 5% of the population is solving these problems. You know what I mean? And look at it. the same way a lawyer would. And think about the amount of lawyers there are in this world. Lawyers, CPAs, problem solvers in general. You know what I mean?
+
+Like whatever your Claude account is, Costs. Multiply it by 20. Yeah.
+
+Okay. But then there's a whole other way to think about that.
+
+Hold on, hold on, guys. Hold on, hold on, hold on. Can I just finish what I was trying to do there for a second? Yes. So I think we're all extrapolating our own version of what you're trying to say. And so either you're trying to figure out how to charge a fee and come back in on a traditional retainer fee, that can solve problems and just charge them a retainer per month? Or are you trying to give them access to something in AI? And that's what I was confused by, where you just talked about, I'm using AI, and you said they're going to have access or have the ability to use something. What is that that they're going to be able to use?
+
+Because if it's a software or something like that, that you have, quote unquote, I'll say software agents, whatever, they're going to want to be either a community, like what we're in now, where they pay a monthly fee to get access to you for when their problems arise that they want to solve themselves and they fucked it up. then they're coming to you, but you already have that ongoing, warm, fuzzy feeling that's not, I'm the guy you call when you, you know, and it's going to grab you by the balls and be like this, like there's just different ways to do it.
+
+And I just, I don't know what you were trying to, how you were positioning that from the start. Both of those answers, everything can be true. There's a bunch of different ways to do it, but It depends depending on what you were trying to establish from the start. And I guess I think, yeah, smart man, smart man.
+
+Let me give you a really good example here. And yeah, this is what I'm struggling with is like, I get their data, I reconcile it, it spits out a journal entry for me, right? And I use Claude to figure that out. I use my own Claude to figure that out. If I go away, They don't have that and they don't have their own Claude set up or whatever. I would just basically give them the skill. But if I give them a skill, then I'm not getting compensated for that. in perpetuity, you know, man, that's what I'm trying to figure out.
+
+Like, how do you like, everybody has access to a ranch, uh, to a wrench and an impact socket, uh, and this and that, but nobody's a mechanic.
+
+You know what I'm saying?
+
+Like you're looking at You're looking at shit from the wrong perspective Like Like You gotta assess shit at the problems that you solve.
+
+And you should be trying to solve problems long term.
+
+So therefore, you should not ever be trying to be on retainer.
+
+It should be high hourly income.
+
+it should be provable and it should be culpable, meaning that you should offer some type of warranty on the solutions that you solve.
+
+And sometimes problems don't solve.
+
+The way that you want and you go back on warranty.
+
+and you work for free.
+
+You know, so sometimes you're making 300 bucks an hour. Sometimes you're making zero dollars an hour. Mm-hmm.
+
+If you amortize the cost of that warranty over months, then you have a service plan. Yeah.
+
+Guys, I just want to jump in and say something to Jeremy.
+
+Jeremy, I think what you're looking for is a next point of ascension for the client.
+
+Basically, okay, I deliver this based on this, what is the next problem they're going to have once they successfully have my product? Because we are problem solvers. What you're doing is the medium. So what I think is you should find whatever the next high ticket problem it is connected to what you're doing and try to ascend your clients down to that. And if a CFO comes in, figure out how to make them look good, because they're going to keep you around.
+
+And also from my understanding is you use your own cloud. I feel like if you create some kind of a knowledge base or a database or something like that, and you license access to them, then you will be more sticky and you will be kind of the middle layer the translator type of layer. for that. So I think that is probably what I would do if I was you.
+
+Yeah, that's kind of the crux. I do a lot of land and expand. We go in there, the SWAT team, and we're there for one project. We end up being six months. They love me because I am sticky. But it's like, who's paying for the Claude afterwards? If I leave, my Claude goes away. And they have nothing.
+
+So set it up initially for them, do it through their own account. Yeah. and then you charge based per per seat or whatever c-suites especially these big enterprise companies um you know for us you know five ten thousand dollars a month is a good amount of money you know and um But some of these people and it's just a line item on the, you know, in terms of expenses. Look, as far as your Claude account goes, I come from a background of contracting, probably along the lines is David Hunter. You know what I mean? Like you bring in the tools, You solved the problem. you charge an hourly rate That correlates to all of your experiences individual problems that solve the problems. So What you try to do is you try to solve long-term problems You warranty him. to the best of your ability, but callbacks are always going to be callbacks and they're going to be charged based off of what breaks in the future.
+
+I would also say I'm kind of biased, obviously, but I think the way I look at a lot of those types of relationships, especially when you're using AI, is that a lot of business owners that I've talked to don't really understand. They know AI can do cool stuff, but they don't really understand what it can do or how it works. So if you're using AI to deliver to your clients. showing them or being really transparent about the fact that you're using AI to deliver the things that you're delivering to them and maybe being a little sneaky or a little coy about, you know, telling them the things that you know are possible with AI in their job as well, getting them to become curious about it, and then helping educate them about it if they want to start using it for themselves in their own business, or maybe they want their employees to start using it or something like that. And so then you get this kind of dynamic where you're delivering a product, but you're also educating them on how they can kind of continue to grow from your knowledge. And then you become, I don't know, somebody kind of mentioned this, but then you become a long-term resource because they know that you know more than them and you gave them a skill they didn't even know existed before.
+
+And they want to keep you potentially on retainer to be someone that has domain specific knowledge about their business and knows how to supercharge their workflows with AI or can at least help them do that. And the number one thing that drives that forward as a retainer AI changes like every, you know, every hour and there's a new thing every hour and there's a new way to leverage it every hour. And that kind of gives you a lot of, future business obviously I'm biased because that's kind of what I do but I'll put it like this Running agents.
+
+is like running a concrete crew or a construction crew. And as a Mexican, I will tell you this. Running AI is like running a team of Mexicans that changes languages every six weeks. Yeah, that was a good point. I'm going to need that on a t-shirt I mean it's like that you know what I mean It's like a team of indispensable employees that are Both hardworking, and have a high turnover rate. You know what I mean? So you have to be able You have to be able to translate to the customer.
+
+My Mexicans go nowhere.
+
+You know what I mean?
+
+And that's exactly the reason to charge a retainer.
+
+Completely opposite.
+
+I agree with both sides of this coin. I think your retainer fee
+
+No, no. I I rebuke that because that's not why you charge a retainer. That's why you charge an upfront fee. You warranty the work that you did. And then you charge callbacks.
+
+I mean, this is all different ways to run a business. I was able to sell my last business.
+
+None of these are wrong. They're all right.
+
+It depends on how you want to implement it. You can do both of these is where I was going with that.
+
+You can have a callback for the service you delivered. You can have a retainer for access to your skills and knowledge and the ability to.
+
+Okay, thanks. Can we maybe, let's step back to a hand raiser. raise it's a great thing that we have in zoom let's let's have our hand raised robert Go away. You earned it. You have your hand raised.
+
+Question, okay. So when do you guys decide to build a software for whatever you're doing? And when do you just decide to run it through cloud? And when do you kind of mix both? I guess you can mix both, but my question is more software versus AI.
+
+agents running through cloud code.
+
+I'm asking specifically for my use case for marketing, running ads and et cetera. That is kind of the main challenge I'm starting to see. I don't have enough visibility in what's going on. And I'm telling my agents in Telegram, but I think that's like probably the Not the best. UI for me to run marketing. So that's kind of my question is how do you decide?
+
+That's like such a good question.
+
+Go ahead. Somebody was going to answer?
+
+Yeah, I thought I heard someone.
+
+I just said, how do you fight?
+
+All right. Can you say the question again? I heard Yeah.
+
+Yeah. Yeah. Yeah, so I was saying, when do you, Wes, maybe you're probably the best guy to answer that. When do you decide when to run agents, you know, either locally or VPS, whatever, you know, or when do you decide to build a software? for your work because I feel like software is much friendlier. I guess it's not as agentic, but you can build Cortex into a software. I'm assuming you can build some kind of a front end to it and maybe I'm sorry, the guy in Australia, I forgot his name.
+
+It says AV, but I know your name is Sean.
+
+Yeah, that's me, man. Yeah, yeah. I was gonna say, like, I
+
+Sorry, you can go first.
+
+I'll just, yeah, because that is what I've been building. I've been building a nice friendly software using Cortex. And what I do and what I've sussed out is I just, I onboard by discovery call using AI and then it extracts all the data from the client and then I give them a plan and then I build them out the workflows that are the most painful points for them and then that gets uh that'll be the first jobs of the agents that i deliver inside of my um uh client portal app and uh That would be the boarding process there and then so all the information is like attached to them and then that's in the cloud that I would manage and that my agents would manage so if there was any problems I could literally just send my agents off from my phone into the cloud to fix any client problems on the go. So that way it kind of makes it sticky, but like, I was a bit dubious about being a tech support, but then after working out with my agents, it's actually, you know, it sounds like it's not going to be too much of a drama because they're going to be able to have access and, you know, So, yeah, they have their own cloud portal and then the agents themselves are specifically designed for their use case and also the dashboard itself.
+
+is specifically built for their use case and I give them the features that they need in their business. So that way it kind of, You're kind of customising you know, the AI experience for them in a friendly kind of manner as well. So making it more of a, you know, less confusing. And then over time, you can just basically just keep giving them information about how to Hi. how to grow with that experience and keep working with their agents. And then I can also keep adding new agents or new skills.
+
+And that's a price as well that I just keep adding in over time as they grow. SoIt's literally hands off. I figured out a way where it's just hands off for them. I would use my cloud subscription or my AI subscriptions. I'm thinking more so now. I'm just making it less friction for the client, but more wow sort of factor. Yeah, that's where I'm at with it. Yeah. Yeah.
+
+Robert, I was going to say, I like
+
+anything that I have Claude or any AI do for my clients, like I started all of this and go high level before I started, you know, a lot of the agentic workflows and having agents work for me.
+
+So I've kind of been like having any of the work they do get stored and either go high level or in like a D1 database of some sort. That way I can always like, you know, pull what's fresh specific for a client. But I guess for your question specifically, like, What? access to the AI tooling that you're using does the client have access to? Are you wanting them to be able to have a portal to access what you're doing?
+
+Are you looking for a way to display ads for them to review?
+
+Yeah, so there's several things. First is the data. So I'm assuming the data can be just piped through like some kind of CLI script or even workers or even N8N. So first would be reporting. Second would be this thing that I've been talking about that I've been trying to do is a creative testing map where it's going to be a giant matrix where I can comment on things and then tell the agents to iterate on this.
+
+And then the next level of that would be creatives. So each creative I'm going to comment Figma style, and then it's going to regenerate it. And in the last
+
+I actually just did this.
+
+This is funny. Like for my business partner to review because he's very non-technical. He's the capital for all of the solar leads that I generate. And now we're going to be starting with insurance leads too, which are mainly meta-focused. But once again, I just need a Cloudflare stack because Cloudflare can instantly push pages. And then I actually took inspiration from the way Codex. I love the way Codex can open up the website and make changes.
+
+Type right in there and you can even click down to the actual code box and text box to make changes. So I kind of have something like that where they can pin and click and then my agents can actually see where the pin and click was and make updates based on what my business partner wants for the leads.
+
+So basically you developed a front end website so that your agents can use the website to do the work. Is that right?
+
+Yeah, that's why I love Cloudflare is because HTM, like I've actually been seeing some stuff too kind of moving away from Markdown and into HTML because it can be so much more reactive. And with a $5 Cloudflare subscription, you get 100 pages, meaning you can make up to 100 pages. And then you can make one page your page for something specific and then tab it out, tab it out, tab it out. And you can actually connect Cloudflare workers to that, which is where you get the databases and whatnot. So it kind of becomes a front end and a back end.
+
+Okay.
+
+We got to talk about that. Me and you. Yeah.
+
+Sorry.
+
+I know you've been, I know we were talking like two weeks ago, but I was, I was trying to do brain surgery on my agents while working on them.
+
+And it was just such a bad idea instead of making a sandbox environment, but I'll listen to myself next time. I hope.
+
+Okay. I feel like I'm starting to understand when to do it. Or else even Anthropic wouldn't come up with cloud design. I guess there is a visual layer to all this stuff.
+
+I've been trying to lean towards Cloudflare because I know AI is going to do what Uber did and they're going to get us all nice and comfortable and it's already starting to happen. They're pulling stuff away. They're pushing its API. The billing is going to get crazier and crazier.
+
+I feel like you guys are missing the point. everybody here is trying to sell to A customer. You got to look at it And I may be wrong, but I'm talking about From. And I I'm heavily from a construction background. I've done a lot of programming before AI and after AI. was prominent and you guys are selling to customers That don't want to learn this shit. They don't care. They want results.
+
+And you have to realize like, THE RESULTS ARE are the only thing that matter.
+
+So like, you have to You have to push the results and hide the actions.
+
+You have to push what's going on Be as transparent as possible, but you have to keep some cards up the sleeve That was more for me personally to deliver the actual work. I think that's what me and Wes were talking about.
+
+We're kind of saying to not make it some big AI thing. What I actually try to do is I try to make it as easy as possible. I work in home services businesses. Of course, I'm not going to have them trying to dig into the back end of an AI. So I send them a website they can click on their phone and they click where they don't like something and write a little note. visibility into their ads or some of them do at least.
+
+Yeah, you have the stats up front. But the back end doesn't matter if it doesn't work.
+
+Yeah, but it matters to us. So there's no point in reviewing that.
+
+And if it does work, there's even less point in revealing that. You know what I'm saying? Because then they just go do it themselves.
+
+I think you're mixing up what we're talking about for our own knowledge versus the customer knowledge. At least for what Robert and I were just talking about. Yeah.
+
+Yeah, yeah, I get it. You're trying to keep track of what you're doing. Yeah.
+
+Max, you want to go ahead? Yeah, sure. My question's a little bit more simple, but still really valuable to me. So over the past couple of days, before I build anything, you know, when I'm building, it's really specific, right? It's a really long plan, got 24 different segments. I'd say each plan is around like 1500 words, right? You know, one per session, right? And And my biggest question is how can I create clean code once I actually utilize the plan, right?
+
+it's not bloated in a way. Is there a specific technique or skill that you would recommend? Also, same thing with debugging. Often when I try and debug it, just writes debugging code. for the things I'm trying to fix, which are more simplistic. What I'm trying to avoid here is before I go ahead and implement my plan, my massive plan, I really want to make sure that this is clean code and when I'm debugging it, it's a simplistic fix instead of writing more and more code on top of initially what I'm supposed to create. Thank you.
+
+Those are super good questions, dude. Those are at the fundamental base of pretty much doing anything with AI, especially code. I'll just say my two cents. I'm sure everyone in here has an opinion on that. So I would say, I don't know if you've looked into frameworks that break big plans down into smaller plans or tasks like get shit done or my M2C1 skill or something like Paul. There's a bunch of different things.
+
+systems that are designed to kind of do exactly what you're talking about, which is like, take a really good plan that, um, might have a ton of words and actually have a system to manage all that context in the agent context windows that you're using to write the code for a super long period of time and to keep track of all the outputs. So I'd recommend looking to something like that for actually managing those big plans.
+
+And then in terms of like debugging and bloat and like slop, I would say try to set really good development standards for the entire project in whatever manner you're going to do that. Maybe it's a CLAUDE.md file or, you know, maybe it's in hooks to actually prevent things from happening. Maybe it's in skills, but some way engineering the, basically the agentic coding environment of your agents that are going to work to tell them to have, you know, test-driven development, specific workflows, specific, you know, Git workflows so that you're managing your Git correctly and in a clean way.
+
+When you're writing debugging code, make sure you're removing that debugging code after it's written, after the bug is solved, all that type of stuff and keeping track of things and external documents to make sure that you don't re-encounter bugs that you've already encountered. And Yeah, I would say those are like the basic tidbits, but that's kind of the problem with using agents in general for anything is most people that use them, I don't think really think the way that you're thinking, to be totally honest. And I think there's a few people in here that do, but I think a lot of people when they're using agents to code only care about a result and they don't care about the code.
+
+They just forget about it and trust that it works, which is obviously terrible. It's not good.
+
+If you're trying to make something that's secure and production level, you can't do that. I do it all the time for my own stuff, of course, as I think everyone does too. But if you want it to be really good and secure, setting up systems and models, mental models can be good. I know I'm sure a bunch of people, yeah, Ben, go ahead.
+
+We can't hear you, Ben.
+
+Nothing. Yeah, now we're good.
+
+Yeah, I think there is only two routes, okay? So I'm a software engineer, right? So I can pretty much, you know, when I plan, so I can tell specifically, you know, the spec, the stack, how to build it, okay, and then tell the agent how to build it, okay? But I can tell you, okay, if you don't have this knowledge, okay, so I would recommend like, you know, you know, you rise with the agent and then you die with the agent. Okay. This is what I, this is what I try to say, right? Okay.
+
+Because if you don't have the software engineer background, right? You know, that would be very difficult to do. Okay. And that takes years to learn. Okay. But I would rather like, you know, okay, if I don't have the background, right? Just trust the agent, right? And then of course, you can using all those get shit done, you know, and also I highly recommend to create a unit test. Okay.
+
+If you change anything, it will break the application.
+
+So I would say like if you are not technical, then you have to trust the agent. Okay. It doesn't be honest with you. You know, I have tried to look at other people who actually using, you know, Claude, Codex, lovable, you know, like whatever they had credit, right? And then just using the same repo and build, right? And they actually built a great application, okay? But I spent two weeks, I couldn't understand the code, okay?
+
+Because it was like, it comes with like so many different styles. It seems like each brand, they have their own way to do things. What I try to say is if you cannot go technical, yeah, then just fuck it. Okay. Let, just let the agent do. Okay. Until we die. you know and hopefully you know they improve the technology in a year or two and then we won't have this problem Yeah. Yeah. No. Do you disagree, Rob?
+
+Yeah. Yeah, I totally disagree. So, I don't trust the agent where it's shit ever, anytime, ever, never, ever, never, ever trust the agent ever. And I, all I can do is verify.
+
+And when we get into verification, we get into a whole human world that's got nothing to do with technology or agents about what is observably verifiable. Simple. And that's semantic language. So if I say to an agent, I want to live in a cool place in the woods, blah, blah, blah. And it's going to be so awesome. And when I get there, I need you to measure me getting there. What are the things I'm going to see when I'm there?
+
+Well, And ironically, one of the things you're going to see are the number of trees around you and the proximity to your house. But you'd never think to come up with that to tell an agent. That's how I know I've met my goal. So I don't ever trust the agents. I think I trust the agents to do their, I call it their left hemisphere job. because the brain has a left and a right hemisphere. The right hemisphere is in charge of why we're doing shit.
+
+The left hemisphere is in charge of like, let's do it right. And I think when we get into all this agent talk, we keep talking about and we get lost in Doing it right. and we don't focus on doing the right thing. What's the right thing that you're doing first? And then are you doing it right? And I think the agent and all the coding and all this stuff needs to focus more on making sure that we're focused on doing the right thing first.
+
+and then doing it right. But when you get all caught up in, is it doing it right? And you're not at all focused on, are we doing the right thing? You're completely lost. And I think there's something to how do we get the agentic OS, and I'm actually thinking of Cortex OS, James, and I'm thinking, it's not a technical thought, but it's a thought of that thing needs to know why we're doing shit first, right?
+
+and then how to do it right second. And why we're doing it first has to do with everything that's not technical. Why are you guys here? Why are we here? what are you trying to do? And how do you know that you've succeeded in doing it has nothing to do with the technology. It has nothing to do with AI. It has nothing to do with anything. You should be able to tell me in a bar if I'm 18 years old, you should be able to tell me plain and simply in verifiable, observable language why why you exist, what you're trying to do.
+
+After that, we can get into the how to do it and all the technical stuff. And so I'm completely what I'm completely obsessed with is Trying to get, how do I get Cortex OS focused on why it exists? Why is it here? And what is it going to do? And how is what it's going to do going to topple a domino that's going to go and topple another domino and make a bunch of shit happen that I want to happen? And I got to do a bunch of activity down here at the lowest level to make the activity create an output.
+
+which is meaningless. This is this other conversation we were having about clients don't give a shit about all that other stuff. They just care about outcomes. So I, so fuck, they don't care about my activities. Like, fuck, I got to do a bunch of activities. They're going to make a bunch of outputs happen. They don't give a shit what those are. My activity is going to tip the domino. Outputs are going to happen. That's going to tip a domino. This is a fucking outcome going to happen.
+
+That's what they care about. And they don't give a shit about anything under the hood. And how do I get the AI to understand the relationship between the activities, the outputs and the outcomes? How do I get it to do that in a conversation?
+
+And then get to the technical shit and then get to the, it's not doing it right. It's fucking going the wrong place, but yeah.
+
+But where I started with all of this was I do not trust at all. I definitely do not trust the IAEA unless I verify the outcomes.
+
+I verify the outcomes. If I can vary the outcomes, I verify them. I'm human. I get to check it. I'm good, but I don't ever trust it.
+
+Exactly. We're in a field where you second guess yourself.
+
+Until you stop second guessing yourself.
+
+And that's the outcome that you provide to the customer.
+
+No, but that's exactly No, actually, I agree with Rob, right? Okay, yeah, we cannot fully trust the agent. But the thing is, who gives the input to the agent, right? Us, right? You know, I know the technical and then you know the business, like, you know.
+
+So this is the part, right? You know, so let's say I'm really, really good at certain technical stuff, right? But another people doesn't really know about that, right? And some other people know the business, right? I think this is the most difficult part. telling the agent what to do, right? But you need to Tell them from the beginning, okay? To do what it's supposed to do, right? But I'm talking about in terms of like a software engineering, okay? Those are the things it actually requires people have studied and worked on many years in order to come up there.
+
+input. So maybe, I guess maybe in two years from now, maybe I don't know, my Claude come up something able to absorb all our knowledge. And then now the agent will be smart enough to know. I can give you one more example. Let's say I'm using Cortex AI to build something. So I tell it it's wrong. And then when I do it again, it knows. It won't, repeat the same mistake again. Okay. Yeah. So, I don't know if there is like easy answer. What I can say is you can also treat this like, you know, it's your advantage, right? Hey, I know, I know this. Okay. I am an expert on something. Okay. If you want my, you know, if you want my system, you pay me, right? And I build it for you, right? And then at the same time, you keep this. Then whatever the knowledge, right? You just shield it.
+
+Don't let the customer know Right. Okay. You want paint the wall? Okay. Yeah. Paint the wall. But I will not let you know where I get the paint. Something like that, you know. Yeah.
+
+I would say to circle back to what Max was talking about as well, but you guys both bring up two super good points. The first of which is that, you know, like everyone knows, AI will claim to know something and won't know it. Or will be confident about something and that it shouldn't be because it's trained to be confident. So the only way to get an AI, like Rob is saying, to actually do something correctly in the real world, you have to have a deterministic validator that actually validates the agent's output in the real world, which for software is like unit tests, integration tests. So like what Ben was saying, that's a great way, especially to keep going through a large project, to keep adding testing in a specific way to all the different features and all the different functions that you might add in your software.
+
+to write unit tests to not overfit the test to the software. 'Cause the agent wants to, even if you introduce tests, the agent wants to pass the tests. So it might write easy tests. So you have to, you know, testing like that is a really good way to validate things. So that's number one. And then thing number two that you guys are talking about is intent, purpose, and like large intentional decisions about projects. And I think that's something, in my opinion, that can only come from humans.
+
+your intent into the agent's context in some way until you feel the agent reflecting your ideas back at you or else it's just not going to get it. And it's not going to get it. And there's key points in any project that you have to do that in. And so that's the same thing with big architectural decisions is like you as the human need to understand some of those things. Some of the really big architectural things like what services am I deploying the software?
+
+You need to understand how that's going to work because the agent just isn't like aware of, it gets to a certain level of awareness and it just can't go past that. You know, it's not going to think about, oh shit, actually, you know, all my API billing for this software is going to be more than this customers I'm selling it to are going to be willing to pay. It's not going to think at that level of abstraction in your life.
+
+It's only going to go so high. So you got to be aware of those big decisions about what you're, what you're doing before you set it off on an autonomous loop to just loop Your plan.
+
+And James, what you're talking about are human things that have existed eons before AI, which in project management are established the scope of your project. Right. Right. It's got, it says no technology involved in any of this stuff. Yeah. It's there's nothing. It's, it's not AI at all. It's what do you want? And can you describe what you want? And when I find, when I bring AI to my clients and I go, I go, God, I go here, here's a genie in a ball, rub the, rub the, rub the lamp and the genie's going to come out. And they're like, Oh fuck. Oh my God.
+
+It's unbelievable. I fucking asked for, I can get anything I want. And I just watch it all. It's hilarious. You ask for, I watch them ask for what they want and then I watch the AI overwhelm them with all the shit they didn't know that they didn't know when they asked for what they wanted and they can't fucking handle it right they can't deal with one wish they can't deal with the one wish so Like, fuck, oh my god, I can get all that shit, but I gotta think about this and I gotta do that and I gotta
+
+And it comes down to people don't know what they want. They actually don't know what they want in terms that they can articulate what they want in observable terms, words, measures, outcomes. They don't know what they want. And the AI forces them into this, like, and it forces them and then it walks them down, backs them down into a corner of like, you don't know what you fucking want. And you can't fix that.
+
+AI can't fix a human that doesn't know what they want. It's unfeasible. And a human has to fix that. Let me psychoanalyze you. Like, just let's slow down. Okay, let's go. Okay, what? I know you said you wanted the world to be a better place. But what did you mean by that? Let's break that down, right? Because that's the kind of shit they say. Executives say word salad shit like, well, we need operational efficiency and we got to get all the low-hanging fruit handled.
+
+And it's all bullshit stuff. And you got to unpack it. does not know how to unpack that shit. A human knows how to unpack it. AI can help the human unpack it, put it away, square it away, and then deal with it later, right?
+
+Well, I think a lot of the perceptions of AI are Are that you're this one person army and you're going to solve all these problems on yourself when it only compounds the need for a team to of people. with AI at their back. Like, All of this need for like. oh, I'm just going to be a one-person team. It's only blocking you from a bunch of other motherfuckers with their own AI teams. There's going to always be a need for a team.
+
+Like you're going to need you're going to need multi-human input. input at any given point. Oh, totally. You're always going to need that. Yeah.
+
+AI is a car. You need a driver.
+
+And I look at I look at AI as a hallucinogen that you need to be able to filter so that you can interact with reality. You need to be able to interact with people and you need to Learn how to interact with people in a team setting. Otherwise, you're just out there you know, create in your own world that, has no basis on other people.
+
+Yeah, I want to go. I want to hear what David had to say. He's had his hand risen for a minute.
+
+It's all good. It's been entertaining to watch you guys talk about this stuff. So, Max, I've had a lot of experience of dealing with long-term marathon projects. I've had a lot of conversations, a lot of rants with James over DM. I've tested out GSD. I've tested out Paul. The one thing I will say with no matter what framework that you're going to end up going with, and that might even be just some expect kit, right?
+
+You're still going to run into one core issue with Claude where What happens over time, especially when you're just yoloing through just a shit ton of code and specs, and you're just driving 10,000 miles an hour, your CLAUDE.md files are gonna start getting stacked up with content. your spec files are going to start growing in size and just more content. You're going to hit a point where there's just so much data and just understanding how the directory structure of the CLAUDE.mds, how all that memory stuff gets ultimately rolled up into Claude, you will hit points where no matter what, you're just gonna be having this poisoning experience.
+
+If you listen to what Boris Cherny talks about where he'll just nuke his Claude and Nephile every eight days, whatever that cycle is, you have to be aware of how the memory system works of Claude. and then be proactive in pruning this stuff back. Right. Because think about like a bonsai tree. You're going to be sitting there pruning this thing for its, you know, forever because it's constantly growing. And I had to learn this stuff the hard way where, you know, I just thought, oh, it's GSD.
+
+This is great. And then all of a sudden, you know, about the 20 phase marker, it just shit itself. And I'm talking all kinds of random crap like, hey, move this bug over this button over here on this one page. And instead it's creating a Redis, you know, cluster in AWS. or in GCP. And so it's, there's, there's this stuff that has to be just constantly kind of monitored. I'm trying to come up with a better system without doing it. But the reality is, is just use the human half has to be aware of that stuff.
+
+If you want to talk more Max about getting started and some of the other things, I'm more than happy to hop on a call or, or just chat with you. I can definitely give you some guidance on some of the skills and things that you can use to kind of help triage some of the stuff that everyone was just talking about. The reality is that you have to know how to test this stuff. You have to know how to do evals and then try to get it just to be as deterministic as it can. Because the reality is these are non-deterministic systems, right? It's all semantics. And so you're never going to get 100%.
+
+in an LLM. So how can you manage that 85 to 95%? And sometimes it's good and sometimes it's bad. Yeah, hit me up in the community, man. I'm more than happy to help you, Max.
+
+Yeah, it's also that great advice, by the way, David. It's also important to realize that like fundamentally all these systems, GSD, Cloud Codes Native Memory, CLAUDE.md are all wrestling with the limitation of the context window of the AI model. And you just can't, solve that problem. It's a limitation. It's only as big as it is. There's a certain it's hard to define this point, but like David was saying, at a certain point, you have so much data that to get the relevant points of data into one context window, the amount of compaction loses granularity of the data and your agent won't understand everything as much as it needs to. So that's just a limitation of it.
+
+You can get really good outputs, but I think what David was saying about Boris compaction kind of purging his setup very frequently is a good method when you're working on a really complex, large code base because you can't manage all the context. And by trying to, like Wes was saying in the comments, you're going to just lose track of what's going on. You're going to be trying to manage too much context and it's going to get poisoned and your agent's not going to know what's going on.
+
+So I think clearing and accepting the limitations is, It's kind of the best philosophy.
+
+So James, that's why I'm obsessed with The idea that the AI needs a relational model like an actual data model. I'm not saying it's right. And I'm not, I'm not saying I'm right. I'm just saying I'm obsessed with that. I'm obsessed with the idea that it has to have a relational model. And if it doesn't, I don't trust it. I don't care. If I cannot see, touch, feel, and look at the relational model that it's referring to as a ground truth to tell me something back, I don't trust it.
+
+Period. And that's my way of working around that that idea that you're saying, which is true. It's like a trade-off, right? It's like, If you're going to, if you want the ease of just working with something that works semantically, if you want the ease, it's going to be limited. And that's why I'm obsessed with trying to lock into a data model And again, I'm not saying this is right. I just say, if it's not in the data model, I don't trust it.
+
+I just don't. Rob, what you're getting at is really fascinating, honestly, because I think You can view You can view the neurons of the neural network of the AI as a hyperdimensional relational data model, basically, of concepts that it's thinking about.
+
+I want to be able to do that.
+
+Basically, what you want to do is you want to be able to audit the ideas.
+
+How did you come up with that thought? Yeah.
+
+It's a thing that AI companies are doing called anyone know the word for this? Oh my goodness, where they're auditing the firing of the neurons in the LLM as it's working. Anthropic is really big on this. Their research team is really big on this. Oh, it's slipping my mind, guys. I'm going to kick myself when someone Googles it. Um, Mechanistic interpretability. There we go. Okay. that the agent understands by seeing it in a relational database. It makes a lot of sense, honestly.
+
+It's a basic non-technical concept that if I can't see it, if I can't see what the AI can see to have come up with whatever it came up with, then I'm out. Right? If I can't fucking see, how did you come up with that? If you and I were having a conversation and it wasn't even a debate, it's just like, oh, you think this way about this. You would explain it to me. And if I didn't understand it, you'd write it down on a napkin on the fucking table.
+
+And I'd be like, oh, look, circle, arrow. Fuck, I'd see.
+
+I would see what you're thinking. I fucking, I can't handle that. It just disappears, fucks off and comes back with some kind of answer. And it, sometimes it makes a lot of sense. The answer was like, Oh my God, that's very, Oh, look how it rationalized. Oh my God. That's so brilliant. Where the fuck, where's, I want to audit that. Where's the shit. How did you come up with that?
+
+Where are the authoritative sources? Where did you get that idea that this can become that and that?
+
+And I don't think that if you're selling shit to clients in my business, I'm a management consultant. I sell thinking to clients, right?
+
+So I can't just like pass that shit on and go, and then they come up with this. Oh fuck. I don't know. My fucking open Claude came up with it. I can't do that, man. So to me, there's a, there's a litmus test that the, that it has to, it has to meet. Basic. And, and the very basic is I need whatever you can see that you came up with your shit with. I need to see what you came up with your shit with.
+
+You can't do shit behind a curtain.
+
+If you do shit behind a curtain, I'm out. I can't sell that.
+
+And so I really need to, and that's why to me, I'm obsessed with this whole deterministic right now. It's a data model, maybe something, uh, I'm not even technical, but like I, I, I, I embed shit in data models and then I, I use those as ground truths and I go back to AI with the model.
+
+And I give it the model and I go, dude, you cannot go outside the rails of this. And this is this is it like like you can't invent shit. So if you're going to come up with any kind of cool idea, thought, whatever, no problem, here are the guardrails. I'm not just letting you... And we were talking about this earlier, the idea of DevOps, how do you know when to let your AI go kind of wild, LLM, figure shit out, because that's very important, because that's creative, that's innovation. but innovation is risky.
+
+And when do we lock down an innovative outcome that is reliable, that we can import it and adopt it as an operational truth? How can AI help us do those two things? Yeah.
+
+That's a great point. Wes? Yeah, I'll be quick here 'cause I know we're getting, Late past time too, but I think one of the reasons I relate so much to what Rob's saying as far as the distrust towards AI goes is because in, gosh, it's probably like 2024, I let ChatGPT convince me for two weeks that it was doing all of these cool things behind the scenes when it was 4.0 and it was really good at talking, but it actually had no agentic ability or much reasoning.
+
+And I was so mortified by it. or be able to recover from that. But the hallucinations are real and it's just good to have the validating factors. And I like what Rob said. What did he say? The litmus test. I think that's a genius to have like that threshold that you can integrate into all of your bots. So like they'll know that they have to kind of reach that level of proof.
+
+It's human. Yeah. It's human. That's human. It's observable language. If I can't see the shit you're saying, I'm out. Rob, you totally hit it on the head, man. Anthropic was down a couple weekends ago, and so I just shifted to anti-gravity, and I was doing some pretty serious overhauling in my project and my application. And I'm really good at planning and making sure all that shit looks good. Anti-gravity went off and did its thing.
+
+I spot-checked it. So I said, okay, all right, all these things look good. Then I went on to project two. I went on to project three. Wrapped up the weekend. It's about 2 o'clock in the morning, Monday night. Sunday night, Monday morning. And I just went to do a smoke test and none of the core functionality worked. Oh my gosh. So I went started then really opened up the, you know, pulled up the hood, started digging in through the engine.
+
+So what had happened was, um, Anti-gravity did about 65%. And then just shit the bed. And then when the end-to-end tests and the unit tests and the integration tests all ran, it's exactly what James said, where it went in and fixed the test, but didn't fix the bug. So everything went, but it looked good. And then because this was all core level database changes, projects two and three that stacked on top of that, the whole thing just dominoed.
+
+And I just, all I wanted to do is just take my laptop and just fucking turn it into wall art. You know, so my point is like that, even when you spot check certain things as I did, it's still, it's still, this wasn't enough. And, you know, if I look at how much output I'm getting from AI, it's great, but there's going to be consequences. And sometimes that's kind of just, you got to pay the piper and you just, you know, it's going to go back. Yeah.
+
+You just hope it doesn't delete your production database. My favorite one is leaking all your secrets. That's fucking awesome. Hooks, hooks, hooks. That's what James taught me a long time ago. Knock on wood. Actually, before I shut up, we just rolled out hooks consistently at my day job across all of the engineering fleet. We're a Mac shop, and I don't know how you solve this on Windows, but one of the interesting things I found from one of my junior guys was we're now deploying all the hooks to prevent reading your ZShell file or Git commits and that type of stuff using P-list entries and using a P-list approach.
+
+So most people just use Python because it's cross-platform or they're just Bash, but I just thought the P-list approach was I would have never thought about that, sense on a Mac. So
+
+All right. I got to run, guys. Awesome talk. Appreciate everything. And, Max, suit me up.
+
+Thanks, David. Have a good one, man. Yeah. Yep.
+
+Yeah, James, this is an awesome This is an awesome group. Thank you.
+
+As always, great conversation. We got a little out of hand midway through there, but we pulled it back together, which is great. For people who are here that are new, I don't know if anyone new is here still. or just recently joining. We have now calls on Wednesday that are more Q&A focused and people who are really trying to get up and running with the tools to build their own projects and to deliver to clients as well. So that's a little more structured and focused if you guys want to join that. And yeah, I'm going to call it here, guys. I do have to go. But yeah, Ben, if you want to have a final word, go ahead, man.
+
+No, just a quick one. I came in late. So did you guys discuss about any conclusion what we will do with Cortex OS based on what will happen on June 15?
+
+No, we actually haven't talked about that yet, but I'll tell you guys now and I'm going to make an announcement as well. So because of the way that Cortex uses Claude code, it is technically not against TOS.
+
+you the actual like programmatic way that Claude code is used but in the kind of semantic way they describe a violation of TOS in their you know in their in their terms of service it it kind of counts but the way that we're doing it technically is not defined as one of the ways that violates TOS so it's a gray area essentially the good thing is is that Codex doesn't care at all. They want you to do it.
+
+So I think we'll probably end up transitioning the default to be Codex agents. We're still going to support Claude Code agents, of course, and you can make that decision for yourself if you want to potentially risk your account. Basically, for Anthropic to censor your account in any way, they would have to actually be monitoring the usage behavior of your account. Not the, not the, the service method. Like, you know, they're not going to see you as using it through the agent SDK or using your OAuth token in a way that's not allowed. The way we're using it is in interactive mode. It's just like a human was using it.
+
+What they will observe is, oh, this dude is somehow running 11 interactive sessions, hours a day, that's suspicious and probably, you know, not the way we want them to be using it. So that behavior looks suspicious, you know, that's bad. So if they're monitoring accounts that way, which I don't know if they are, then it could become an issue. Long story short, Codex will become the default. Claude Code will still be allowed.
+
+And we may at a certain point add a, add an adapter for the agent SDK itself so that you can use those extra credits, you know, with TOS. It just won't be on your subscription plan. It will be with those extra programmatic usage credits. But for now, Codex has the fault agent. I'm not sad about it, honestly. Codex has been performing better for me than Cloud Code recently. Anyways, at least, you know, my human bias is telling me that that's true, so I'm going to believe it.
+
+And yeah, so that's the conclusion on that front. Yeah, if anyone has any questions about that, make a post in the community. I will also be making an announcement post about that and hopefully shipping those updates to all the templates and shipping some sort of migration. There's just a few things that need to be migrated between using a Codex agent and a Cloud Code agent. And it's mostly in skills, like the things that, you know, the tools that are spoken about in skills.
+
+Cloud Code has some that Codex doesn't, But the migration process is pretty seamless other than that. So I'll be pushing that stuff soon and I'll make announcements about it. I'm also going to make an announcement about Just new changes in Cortex, new things that have been shipped this past week, as well as the future of the system and the future of the community, kind of all those things together. So stay tuned for that.
+
+And if you have questions about the products you guys are working on about Claude Code, Codex, agentic orchestration, productizing AI, all that stuff, join the Q&A call on Wednesday. And if you're new to the community also, or you just want a refresher, we can do an onboarding in that call as well. I can walk you through the modules in the community that we have here and all that good stuff. Otherwise, everybody here, please take care. It was really good to talk to you guys as always.
+
+And hopefully see you guys on Wednesday, if not Monday. Peace, guys.

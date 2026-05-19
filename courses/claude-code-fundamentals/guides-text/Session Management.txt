@@ -1,0 +1,89 @@
+Session Management Mastery
+What This Lesson Covers
+How to manage Claude's context window, undo mistakes, and pick up where you left off.
+The Problem
+Everything you say + everything Claude reads fills up the context window. When it's full, old content gets pushed out — Claude forgets. Performance degrades before it's completely full.
+
+Key insight: Context is finite. Manage it or it manages you.
+Giving Claude Context Efficiently
+Text vs Screenshots
+Most bugs: describe in words. Visual bugs: just show Claude.
+
+Use Screenshots
+Use Text
+Layout bugs
+Logic bugs
+Styling issues
+API errors
+Console errors
+Build failures
+Design matching
+Data problems
+
+How to Paste Screenshots
+	•	Cmd+Ctrl+Shift+4 to capture a region
+	•	Ctrl+V (NOT Cmd+V) to paste into Claude
+	•	"Image 1" indicator appears — Claude can see it
+
+Pro tip: One screenshot replaces a paragraph of description.
+The Five Session Commands
+
+/context
+Check your context — see how full the window is.
+	•	Shows percentage of context used
+	•	Compact at 50-60%, not 90%
+	•	Run frequently during long sessions
+
+/clear
+Nuclear option — wipes everything.
+	•	Use when switching to a completely different task
+	•	Old session recoverable via /resume
+	•	Don't use mid-task (you'll lose context)
+
+/compact
+Surgical — summarizes conversation, keeps key context.
+	•	Use at 50-60% context (don't wait for 90%)
+	•	Can guide it: /compact "focus on the auth changes"
+	•	Creates a branch — original preserved
+
+/rewind
+Undo mistakes — rolls back conversation AND code changes.
+	•	Shows checkpoints with file change indicators
+	•	Three options: restore code only, conversation only, or both
+	•	Quick trigger: press Escape twice
+	•	Lost if you /clear or /compact
+
+Resuming Sessions
+Command
+What It Does
+claude --continue
+Picks up most recent session
+claude --resume
+Choose from list of past sessions
+/resume
+Same as --resume, from within Claude
+/rename "name"
+Name a session for easy finding later
+Healthy Session Habits
+	•	/compact at 50-60% context
+	•	/rename sessions you'll return to
+	•	Escape-Escape when Claude goes wrong
+	•	/clear only when switching projects entirely
+Quick Reference
+
+Command
+When to Use
+/context
+Check how full your context window is
+/compact
+Context filling up, want to keep working on same task
+/clear
+Switching to completely different task
+/rewind
+Claude made a mistake, need to undo
+Esc Esc
+Quick access to /rewind
+Ctrl+V
+Paste screenshot for visual context
+What's Next
+Now that you can manage sessions effectively, you'll learn how to choose the right model for different tasks.

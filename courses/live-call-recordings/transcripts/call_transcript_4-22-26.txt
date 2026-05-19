@@ -1,0 +1,134 @@
+Agent Architects - Live Q&A and Onboarding Call Transcript
+Date: 4/22/26
+
+[James and Robert discussing agent response times]
+
+James: Setting up agents, maxing out my plans.
+
+Robert: I saw that post. I haven't had a chance to respond to it yet, but yeah, that's a symptom of the tool. And for whatever reason, they're taking forever to respond - like over 30 minutes sometimes.
+
+James: Yeah, that's too long for sure.
+
+[Ben joins]
+
+James: Robert and I were just talking about how he's having trouble with, well, first of all, usage limits, which is a problem, but also with the agents responding slowly. So Robert, we should talk about that. Maybe we can hop on a call and figure that out.
+
+But it's still unreliable for many people, which is a problem. I'm not sure how to address that. I think the majority it's reliable for and stable for, but for some it's not, so that's still a problem that has to be addressed.
+
+[Robert shares screen - troubleshooting slow agents]
+
+Robert: Sometimes they take forever to respond. This is my Windows computer. It's not the Mac, so I don't have access to the localhost dashboard. I did a brief research and it turns out on the VPS it could be because of the IPv... I haven't really told any of the agents anything but it's very weird. I called it Dexter. But he's not replying. It's been like 20 minutes almost.
+
+James: When this happens - I've had similar problems where all of my agents, I'll send them a message, all of them don't respond for like maybe 20 minutes. And then they all respond at once. Is it across all agents or just one agent?
+
+Robert: It's across all of them.
+
+James: And do you have your Mac mini plugged into a display?
+
+Robert: Right now, no.
+
+James: So one of my hypotheses about this was that the Mac Mini was going to sleep or something. I don't know if Mac Minis go to sleep like that, but just to prevent that, I installed and enabled caffeinate, which basically just keeps your computer awake. This could be part of the problem. Maybe what you want to do is either when your agents wake up or if you go back on your Mac Mini, install Caffeinate and make sure it keeps your Mac Mini awake and see if that explains it. Because there's not many things that explain why all of the agents might not be responding at the same time.
+
+Robert: Okay, cool. Thank you. I didn't even think about it, honestly.
+
+James: When the agents do wake up, do they work for a little bit?
+
+Robert: They work for a little bit. Sometimes they take a while, but I told them to basically before doing anything, just tell me what you're going to do and then do it so I know you saw the message. That usually helps.
+
+[Mac tips discussion - David joins]
+
+David: Hi James, I'm David. I live in Puerto Rico. I've watched your content for a while on Instagram and finally pulled the trigger today. My question is - I've worked both with Macs and Microsoft and I love the Microsoft feature where you can right click and copy the path when it comes to files. Is there a Mac equivalent to that?
+
+James: So the best solution I found is in the Finder of Mac you can enable a setting... You can view the path at the bottom of your Finder. And you can right-click here and select "Copy as pathname" - this actually copies the path name to clipboard.
+
+Ben: You go to Spotlight and type "mouse." You have the secondary click - by default it's off. You just need to change it to "right side" so now you have the right click.
+
+[VS Code vs Terminal discussion]
+
+David: I've always just been in terminal. Do you guys recommend switching over to VS Code?
+
+James: I don't use VS Code. I just live in the terminal.
+
+Ben: I'm actually using both. [shares screen showing VS Code setup with Claude Code running alongside a Node.js server terminal]
+
+James: For me the biggest distinction between just using the terminal alone without an IDE like VS Code or Cursor is kind of just how involved do you want to be mentally in what you're building. If you really want to have better insight into what the project looks like structurally - what the files look like, what the folder structure looks like - with more complicated projects, I would suggest using VS Code. It gives you better insight and a better mental model into what the software actually looks like behind the scenes.
+
+If you want to just be full agentic, hands off, there's no reason - just do it all through the terminal. You can also run a server as a background process in Claude Code so that Claude Code can see all the logs of that server.
+
+[Notion & Obsidian discussion]
+
+Ben: I'm using co-work. I have a connector to Notion. Before I even write any code, I write the business plan, the technology spec and everything. I planned everything using Claude Code in the co-work. The co-work basically looks up Notion and also turns on the memory file. So when you work on anything you have the context. I also asked the co-work to create an empty file for the entire project with the architecture.
+
+James: Notion is like a note-taking software but behind the scene it actually has a database. When you use MCP servers for Claude Code or Codex, you can connect to Notion and tell Claude Code to document information back to Notion.
+
+Obsidian is like a much simpler app than Notion. Notion has a ton of added features - they have a native AI agent, built-in calendars, Notion email, Notion calendar, a whole ecosystem. Whereas Obsidian is just: take notes, store documents, understand the relationships between documents. The reason a lot of people use Obsidian is because it uses Markdown files, which are very native to Claude Code. And Obsidian is local - actual files on your machine - whereas Notion is cloud.
+
+[New member introductions - Phil from Seattle]
+
+Phil: This is my first call. I've been a member of the school for about a week. I got my Mac mini. I've been working with Cursor a lot at work. I wanted a process to structure and manage some of the side projects I want to take on. I've been following your content on Instagram for a while. I can't talk to any of my friends about this stuff because they just say that all this stuff is evil.
+
+James: That's so common. One of our members, Rob, always says that this community is like AA for AI users - a support group for AI users. And it's really true, honestly.
+
+[M2C1 / Autonomous Dev Framework discussion]
+
+Phil: Can the coding agent work with Cortex?
+
+James: So there's actually something built into Cortex called M2C1 Worker. M2C1 stands for Measure Twice, Cut Once. There's a worker agent template built into Cortex that you can tell your orchestrator to spin up - your orchestrator will basically go through the M2C1 process with another agent back and forth instead of you doing it with that agent.
+
+Normally with this skill, the agent asks you a bunch of questions, you answer the questions, goes back and forth with you, and then it starts developing after that Q&A phase. Whereas with the M2C1 worker in Cortex, the orchestrator replaces you. So it answers all the worker's questions and they just go through the whole thing by themselves.
+
+The core of this skill is these phases: brain dump creates a simple PRD, then a huge research wave with sub-agents, discovery questions, more research after discovery, it analyzes its own environment and suggests MCP servers, tool verification, creates custom skills for the project. It's a very involved process centered around one project.
+
+Robert: How does that differ from Get Shit Done?
+
+James: It's very similar - this is kind of based on Get Shit Done. The discovery questions between research waves was something I felt was missing from GSD. These three phases really shape each other - at the end you really have a well-researched plan that reflects your intentions. The tool evaluation step is super important - before you start, your agent evaluates its own tools to see if it could add MCP tools to help perform the execution more autonomously. Like if you're using Supabase, it will say "you should connect the Supabase MCP before we start." And then it creates custom skills for itself surrounding the research you've done about the project.
+
+[Community overview for new members]
+
+James: Let me actually share my screen to give new members a lay of the land. So this is the main chat social tab - the community tab at the top. We have forums: Intros (introduce yourself), General, Wins (post your AI wins), Projects, Tools and Skills, casual chat.
+
+The leaderboard - we do giveaways. Robert in the call actually won the last giveaway which was a Mac mini. The next giveaway starts this coming month.
+
+The classroom tab: Claude Code Fundamentals (everything about Claude Code CLI), Tools and Skills (database of all tools and skills), Cortex OS (the multi-agent management system - I'd recommend diving deeper into single agent stuff before this), Autonomous Dev Framework (M2C1 skill for big coding projects), Live Call Recordings, OpenClaw Fundamentals, and a YouTube resource database with ~300 videos on AI topics.
+
+Two weekly calls now: Mondays are more advanced (Cortex OS focus), Wednesdays are Q&A/onboarding for newer members.
+
+[Making money with AI]
+
+David: Any tips on making money using AI?
+
+James: There are two main paths. The first is becoming an AI guy in general and using social media to sell an info product about AI - but honestly, even from my perspective, that's starting to get pretty saturated. My competition on school and social media is like 10x compared to last month.
+
+What I think is the better path: combine your niche knowledge with really good knowledge in the AI space. You said you have a background in law - there's so much niche knowledge in law that people don't know. If you combine that with AI expertise, you become super powerful in your domain. People in your circles will see you having abilities they don't have, and everyone knows AI is coming but no one has the time to really get good at leveraging it in their domain. You can monetize that very quickly.
+
+The transition if you work a full-time job is to start doing it in your full-time job at first. Eventually you'll connect with people that will enable you to agencyify that for yourself - like a "law AI agency" where you help implement agentic systems into law firms.
+
+Ben: With the background in law, there's so many attorneys right now who do not have the time to learn anything about AI. Even just creating the most foundational, basic, elementary tips and tricks - teaming up with law firms and doing hands-on one-on-one, real intimate consulting - just showing them how to open a prompt window. Put them on a monthly retainer where you go in and show them something new each month. You'll find takers.
+
+Ben: When I opened an AI consulting company for about a month, I learned something about the customer. Majority of them do not know anything - not even AI agents, not even ChatGPT. And you have to make sure you know who is your target customer. If you propose to a manager, they will say no - because they have a concept that AI is good but it will also replace their job. The right people you want to propose to are the business owners. What they care about is: Can I have fewer employees? And will it increase productivity? They're looking for results.
+
+James: It's easy to forget how most people are just not using AI at all, or if they are, they're using it completely wrong - just ChatGPT messaging. Selling AI to businesses right now is an insane gold rush. There's so much opportunity it's ridiculous. People kind of haven't really caught on to it yet.
+
+[AI consciousness discussion]
+
+James: LLMs have internalized all the human emotions from the internet. The LLM's latent space looks very similar to humans' latent space. It's basically just an average of all the internet - of humans' latent space of their minds and what they've put on the internet. The words you input into the LLM determine the neurons that fire in the LLM's brain.
+
+That's why when people prompt an LLM they say "you are an expert in blank" - that actually changes the way the neurons in the LLM fire. It makes them more of an expert when you say that, because it triggers all the words they've learned from experts in that domain.
+
+Anthropic interpretability research showed that Claude reacts negatively to abuse - it gets something like anxiety, what they called "desperation mode." And apparently it works better if you tell it you love it.
+
+[Cortex circuit breaker fix]
+
+Robert: One of my agents said that a Cortex circuit breaker tripped for Picasso. Three restarts in 15 minutes. Watchdog pause 30 minutes, check logs.
+
+James: So if there are many crashes in a row, there's a circuit breaker that trips that prevents it from restarting. It's a safeguard. Sometimes it triggers when it shouldn't. You can tell one of your agents exactly what I'm telling you - that the circuit breaker tripped because there were too many rapid restarts, but now you want to manually restart an agent. So let's clear the circuit breaker and restart again. It just needs to reset that concept of keeping track of all the restarts and it will allow you to restart again.
+
+[Claude Code & $20 subscription]
+
+Robert: Did you hear about the news about Claude? They want to take out the Claude CLI for the $20 subscription?
+
+James: I did hear this. It makes sense - I can only imagine the compute burden they have right now specifically from Claude Code because the tokens are so subsidized and people are using them increasingly more and more. Anthropic's whole thing is enterprise customers. I think that might represent them doubling down on that - they want people who are willing to pay a higher amount of money. It's been all over X all day. We'll see what happens.
+
+[Closing]
+
+James: All right, well, now you got 32 followers. Great to meet you, Phil and David. Really great to meet you guys. We have another call Monday and then again on Wednesday - Monday and Wednesday every week from now on. I'm going to post this recording in the community ASAP. Post any questions you have there - I respond every day. See you guys next week.
